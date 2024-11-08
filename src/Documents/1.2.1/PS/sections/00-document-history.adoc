@@ -1,0 +1,24 @@
+
+[.preface]
+== Document History
+
+Changes to this Specification are coordinated by IHO NIPWG. New editions will be made available via the IHO web site. Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).
+
+[%unnumbered]
+[[tab-document-history]]
+.Document History
+[cols="a,a,a,a",options="headers"]
+|===
+|Version Number |Date |Approved By |Purpose
+
+|1.0.0
+|April 2012
+|TSMAD
+|Approved edition of S-102
+
+|2.0.0
+|March 2017
+|S-102PT
+|Updated clause 4.0 and 12.0. +
+Populated clause 9.0 and Annex B.
+|===

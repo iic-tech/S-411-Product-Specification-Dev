@@ -1,0 +1,68 @@
+
+[[sec-data-product-identification]]
+== Data Product Identification
+
+*Title*:: Marine Protected Areas
+
+*Alternate Title*:: None
+
+*Abstract*:: A Marine Protected Area (MPA) is a protected area whose boundaries
+             include an area of the ocean. They include areas of the intertidal or
+             sub-tidal terrain, together with their overlying water and associated
+             flora, fauna, historical and cultural features, which have been reserved
+             by law or other effective means to protect part or all of, the enclosed
+             environment. For example, MPAs may be established to protect fish
+             species, rare habitat area, or entire ecosystems.
+
+             MPAs can range from, simple declarations to protect a resource, to
+             areas that are extensively regulated. The degree to which
+             environmental regulations affect shipping varies according to whether
+             MPAs are located in territorial waters, exclusive economic zones, or
+             high seas. These limits are regulated by the law of the sea. Most
+             MPAs are located in the territorial waters of coastal states, where
+             enforcement can be ensured. MPAs can also however be established
+             in a state's exclusive economic zone and even within international
+             waters. For example in 1999, Italy, France and Monaco jointly
+             established a cetacean sanctuary in the Ligurian Sea named the
+             Pelagos Sanctuary for Mediterranean Marine Mammals. This sanctuary
+             includes both national and international waters.
+
+*Topic Category*::
++
+--
+Main topics for the product, as according to <<iso-19115-1>> MD_TopicCategoryCode:
+
+006 -- elevation
+
+014 -- oceans
+
+012 -- inlandWaters
+--
+
+*Geographic Description*:: Areas specific to marine navigation.
+
+*Spatial Resolution*:: ...
+
+*Purpose*:: ...n.
+
+*Language*:: English (Mandatory), other (Optional)
+
+*Classification*::
++
+--
+[[classtart]]Data can be classified as one of the following:[[classend]]
+
+. Unclassified;
+. Restricted;
+. Confidential;
+. Secret;
+. Top Secret;
+. Sensitive but unclassified;
+. For official use only;
+. Protected;
+. Limited distribution
+--
+
+*Spatial Representation Type*:: Type of spatial representation for the product, as defined by the <<iso-19115-1>> MD_SpatialRepresentationTypeCode: XXX - XXX.
+
+*Point of Contact*:: Producing Agency
