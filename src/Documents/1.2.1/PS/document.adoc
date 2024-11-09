@@ -1,13 +1,13 @@
 = Marine Protected Areas Product Specification
 :series: S
-:docnumber: 122
+:docnumber: 411
 :doctype: standard
-:edition: 1.2.1
+:edition: 1.1.0
 :language: en
 :published-date: 2024-12-01
 :copyright-year: 2024
 :committee: HSSC
-:workgroup: NIPWG
+:workgroup: S100WG
 :toclevels: 3
 :mn-document-class: iho
 :mn-output-extensions: html,doc,pdf
