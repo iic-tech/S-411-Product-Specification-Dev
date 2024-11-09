@@ -10,8 +10,8 @@ The Coordinate Reference System information contained in <<tab-s102-coordinate-r
 [[horizontal-crs]]
 === Horizontal Coordinate Reference System
 
-[[tab-s102-coordinate-reference-systems-epsg-codes]]
-.S-102 Coordinate Reference Systems (EPSG Codes)
+[[tab-411-coordinate-reference-systems-epsg-codes]]
+.S-4111 Coordinate Reference Systems (EPSG Codes)
 [cols="2"]
 |===
 h|EPSG Code h|Coordinate Reference System
