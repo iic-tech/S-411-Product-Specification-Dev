@@ -1,30 +1,9 @@
 :sectnums:
 [[sec-overview]]
 == Overview
-This document has been produced by the IHO Nautical Information Provision Working Group
-(NIPWG) in response to a requirement to produce a data product that can be used as a Nautical
-Publication Information Overlay (NPIO) within an Electronic Chart Display and Information
-Systems (ECDIS). It is based on the IHO S-100 framework specification and the ISO 19100 series
-of standards. It is a vector product specification that is primarily intended for encoding the extent
-and nature of Marine Protected Areas, for navigational purposes.
 
-The United Nations Convention on the Law of the Sea (UNCLOS) identifies certain categories of
-Marine Protected Areas which may require higher standards of environmental protection. Article
-194(5) places an obligation on parties to take measures necessary to protect and preserve rare
-or fragile ecosystems. Part IX of UNCLOS identifies enclosed or semi-enclosed areas, such as a
-gulf, bay, basin or sea between two or more countries, as places where countries shall endeavor
-to coordinate the management of environmental protection activities. In respect of Particularly
-Sensitive Sea Areas (PSSA), Article 211(6)(a) UNCLOS makes provision for a State to submit to
-the “competent international organization” (IMO for shipping), special mandatory measures
-concerning the protection from vessel sourced pollution.
-
-UNCLOS thus creates an overall structure for the protection and preservation of the marine
-environment and places a general obligation on States to implement global conventions
-addressing particular forms of pollution protection and regional agreements tailored to the
-requirements of discrete sea areas.
 
 === Scope
-This document describes an S-100 compliant product specification for a bathymetric surface product. Incorporating aspects of the navigation surface concept <<NavigationSurface,[Smith et al, 2002]>>, an S-102 bathymetric surface product is a digital elevation model which represents the seafloor in a regular grid structure. It can be used alone or as an important element/source for future S-100 conformant ECDIS navigation. The product specification is based on the IHO S-100 framework specification and the ISO 19100 series of standards. It comprises the content model (spatial structure and metadata), encoding structure, portrayal and exchange file format for a bathymetric surface product.
 
 [bibliography]
 === References
