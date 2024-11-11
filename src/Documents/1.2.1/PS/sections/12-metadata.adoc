@@ -2,18 +2,10 @@
 [[sec-metadata]]
 == Metadata
 
-//Since S-102 now describes a “navigation product” intended for ECDIS use: (a) ISO metadata files are not needed - ECDIS doesn’t have to read them; and (b) any “extra” metadata (metadata not defined in Part 17) should, at least in this edition, *not* be added to the exchange catalogue. If such extra metadata *has* to be provided, it should be as HDF5 attributes in the root group. (RM Comment 23Jan2023)
-
-//With the removal of ISO metadata files, the metadata attributes in the old Sections 12.2 (Discovery metadata) and 12.3 (Structure metadata) are not encoded anywhere and these clauses have been deleted. The attributes depthCorrectionType and verticalUncertaintyType are also not encoded anywhere in the “navigation” version of S-102. (RM Comment 20 Mar 2023)
-
 === Introduction
 The Metadata elements used in the Bathymetric Surface product are derived from S-100 and from <<iso-19115-1>> and <<iso-19115-2>>. Optionally additional metadata may be derived from <<iso-ts-19130>> and <<iso-ts-19130-2>> especially metadata relating to the sonar equipment which may have been used to acquire the bathymetric data.
 
-S-102 metadata is encoded in two places:
-
-* Metadata used for the discovery, identification, and use of S-102 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.
-
-* Metadata required by the S-100 HDF5 encoding (<<iho-s100,part=10c>>) and product-specific metadata defined by this product specification are encoded at various levels in the HDF5 group hierarchy, as specified by <<iho-s100,part=10c>> or <<subsec-product-structure>>.
+Metadata used for the discovery, identification, and use of S-102 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.
 
 [[subsec-exchange-set-metadata]]
 === Exchange Set metadata
