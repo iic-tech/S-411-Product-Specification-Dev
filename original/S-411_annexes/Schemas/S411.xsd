@@ -1,0 +1,3103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:ice="http://www.jcomm.info/ice"
+            xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://www.jcomm.info/ice"
+    elementFormDefault="qualified">
+    <!--<xsd:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="S100_gmlProfile/S100_gmlProfile.xsd"/>-->
+    <xsd:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="S411_Geometry.xsd"></xsd:import>
+
+    <!-- Elements -->
+    <xsd:element name="IceDataSet" type="ice:iceDataSetType"></xsd:element>
+
+
+    <!-- Ice Feature Types (Objects) -->
+
+
+    <xsd:complexType name="iceDataSetType">
+        <xsd:annotation>
+            <xsd:documentation>Data Set type for ice data</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="IceFeatureMember" type="ice:iceFeatureMemberType" maxOccurs="unbounded" minOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="iceFeatureMemberType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Feature Member Type for Ice Features (IHO S-411)</xsd:documentation>
+        </xsd:annotation>
+        <xsd:choice>
+            <!-- Area Elements -->
+            <xsd:element name="seaice" type="ice:seaiceType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="lacice" type="ice:laciceType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="brgare" type="ice:brgareType" maxOccurs="1" minOccurs="1"/>
+            <!-- LineString Elements -->
+            <xsd:element name="icelne" type="ice:icelneType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="brglne" type="ice:brglneType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="opnlne" type="ice:opnlneType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="lkilne" type="ice:lkilneType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="i_ridg" type="ice:i_ridgType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="i_lead" type="ice:i_leadType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="i_fral" type="ice:i_fralType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="i_crac" type="ice:i_cracType" maxOccurs="1" minOccurs="1"/>
+            <!-- Point Elements -->
+            <xsd:element name="icecom" type="ice:icecomType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icelea" type="ice:iceleaType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icebrg" type="ice:icebrgType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="flobrg" type="ice:flobrgType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icethk" type="ice:icethkType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="iceshr" type="ice:iceshrType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icediv" type="ice:icedivType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icerdg" type="ice:icerdgType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icekel" type="ice:icekelType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icedft" type="ice:icedftType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icefra" type="ice:icefraType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="icerft" type="ice:icerftType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="jmdbrr" type="ice:jmdbrrType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="stgmlt" type="ice:stgmltType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="snwcvr" type="ice:snwcvrType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="strptc" type="ice:strptcType" maxOccurs="1" minOccurs="1"/>
+            <xsd:element name="i_grhm" type="ice:i_grhmType" maxOccurs="1" minOccurs="1"/>
+        </xsd:choice>
+    </xsd:complexType>
+
+
+    <!-- 
+        Abstract base ice feature type for defining of global attributes and elements for all feature types
+        in this case is gml:id defined which is required for all ice features.
+      
+        All other ice feature types are extensions of this base type 
+    -->
+
+    <xsd:complexType name="iceFeatureType" abstract="true">
+        <xsd:annotation>
+            <xsd:documentation>
+                Abstract base ice feature type for defining of global attributes and elements for all feature types
+                in this case is gml:id defined which is required for all ice features.
+                All other ice feature types are extensions of this base type.
+            </xsd:documentation>
+        </xsd:annotation>
+       <!-- <xsd:choice>
+            <xsd:element ref="gml:Point"/>
+            <xsd:element ref="gml:Polygon"/>
+            <xsd:element ref="gml:LineString"/>
+        </xsd:choice>-->
+        <xsd:attribute ref="gml:id" use="required"/>    
+    </xsd:complexType>
+
+
+    <xsd:complexType name="seaiceType">
+        <xsd:annotation>
+            <xsd:documentation>Sea Ice</xsd:documentation>
+            <xsd:documentation>Definition: Sea Ice is an area at sea that is covered, in whole or in
+                part, with ice.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="iceact" type="ice:iceactType" minOccurs="0"/>
+                    <xsd:element name="iceapc" type="ice:iceapcType" minOccurs="0"/>
+                    <xsd:element name="icesod" type="ice:icesodType" minOccurs="0"/>
+                    <xsd:element name="iceflz" type="ice:iceflzType" minOccurs="0"/>
+                    <xsd:element name="icespc" type="ice:icespcType" minOccurs="0"/>
+                    <xsd:element name="icelvl" type="ice:icelvlType" minOccurs="0"/>
+                    <xsd:element name="icecst" type="ice:icecstType" minOccurs="0"/>
+                    <xsd:element name="icefty" type="ice:iceftyType" minOccurs="0"/>
+                    <xsd:element name="icedsp" type="xsd:float" minOccurs="0"/>
+                    <xsd:element name="iceddr" type="ice:iceddrType" minOccurs="0"/>
+                    <xsd:element name="icercn" type="ice:icercnType" minOccurs="0"/>
+                    <xsd:element name="icerfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icermh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerxh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerdv" type="ice:icerdvType" minOccurs="0"/>
+                    <xsd:element name="icekcn" type="ice:icekcnType" minOccurs="0"/>
+                    <xsd:element name="icekfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icekmd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icekxd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icefcn" type="ice:icefcnType" minOccurs="0"/>
+                    <xsd:element name="icetck" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icemax" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icemin" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icetty" type="ice:icettyType" minOccurs="0"/>
+                    <xsd:element name="icemlt" type="ice:icemltType" minOccurs="0"/>
+                    <xsd:element name="icescn" type="ice:icescnType" minOccurs="0"/>
+                    <xsd:element name="icesct" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icedos" type="ice:icedosType" minOccurs="0"/>
+                    <xsd:element name="icelst" type="ice:icelstType" minOccurs="0"/>
+                    <xsd:element name="icelfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icelor" type="ice:icelorType" minOccurs="0"/>
+                    <xsd:element name="icelwd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_sfa" type="ice:ia_sfaType" minOccurs="0"/>
+                    <xsd:element name="ia_sfb" type="ice:ia_sfbType" minOccurs="0"/>
+                    <xsd:element name="ia_sfc" type="ice:ia_sfcType" minOccurs="0"/>
+                    <xsd:element name="ia_ffa" type="ice:ia_ffaType" minOccurs="0"/>
+                    <xsd:element name="ia_ffb" type="ice:ia_ffbType" minOccurs="0"/>
+                    <xsd:element name="ia_ffc" type="ice:ia_ffcType" minOccurs="0"/>
+                    <xsd:element name="ia_sng" type="ice:ia_sngType" minOccurs="0"/>
+                    <xsd:element name="ia_mlt" type="ice:ia_mltType" minOccurs="0"/>
+                    <xsd:element name="ia_plg" type="ice:ia_plgType" minOccurs="0"/>
+                    <xsd:element name="ia_hlg" type="ice:ia_hlgType" minOccurs="0"/>
+                    <xsd:element name="ia_dug" type="ice:ia_dugType" minOccurs="0"/>
+                    <xsd:element ref="gml:Polygon" minOccurs="1"></xsd:element>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="laciceType">
+        <xsd:annotation>
+            <xsd:documentation>Lake Ice</xsd:documentation>
+            <xsd:documentation>Definition: Lake Ice is an area on a lake that is covered, in whole
+                or in part, with ice.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="iceact" type="ice:iceactType" minOccurs="0"/>
+                    <xsd:element name="iceapc" type="ice:iceapcType" minOccurs="0"/>
+                    <xsd:element name="icelso" type="ice:icelsoType" minOccurs="0"/>
+                    <xsd:element name="iceflz" type="ice:iceflzType" minOccurs="0"/>
+                    <xsd:element name="icespc" type="ice:icespcType" minOccurs="0"/>
+                    <xsd:element name="icelvl" type="ice:icelvlType" minOccurs="0"/>
+                    <xsd:element name="icecst" type="ice:icecstType" minOccurs="0"/>
+                    <xsd:element name="icefty" type="ice:iceftyType" minOccurs="0"/>
+                    <xsd:element name="icedsp" type="xsd:float" minOccurs="0"/>
+                    <xsd:element name="iceddr" type="ice:iceddrType" minOccurs="0"/>
+                    <xsd:element name="icercn" type="ice:icercnType" minOccurs="0"/>
+                    <xsd:element name="icerfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icermh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerxh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerdv" type="ice:icerdvType" minOccurs="0"/>
+                    <xsd:element name="icekcn" type="ice:icekcnType" minOccurs="0"/>
+                    <xsd:element name="icekfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icekmd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icekxd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icefcn" type="ice:icefcnType" minOccurs="0"/>
+                    <xsd:element name="icetck" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icemax" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icemin" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icetty" type="ice:icettyType" minOccurs="0"/>
+                    <xsd:element name="icemlt" type="ice:icemltType" minOccurs="0"/>
+                    <xsd:element name="icescn" type="ice:icescnType" minOccurs="0"/>
+                    <xsd:element name="icesct" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icedos" type="ice:icedosType" minOccurs="0"/>
+                    <xsd:element name="icelst" type="ice:icelstType" minOccurs="0"/>
+                    <xsd:element name="icelfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icelor" type="ice:icelorType" minOccurs="0"/>
+                    <xsd:element name="icelwd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:Polygon"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="brgareType">
+        <xsd:annotation>
+            <xsd:documentation/>
+            <xsd:documentation/>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icebnm" type="xsd:int" minOccurs="0"/>
+                    <xsd:element name="icebsz" type="ice:icebszType" minOccurs="0"/>
+                    <xsd:element name="ia_bcn" type="ice:ia_bcnType" minOccurs="0"/>
+                    <xsd:element name="ia_bfm" type="ice:ia_bfmType" minOccurs="0"/>
+                    <xsd:element name="ia_buh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:Polygon"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icelneType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Edge</xsd:documentation>
+            <xsd:documentation>Definition: The demarcation at any given time between the open sea
+                and sea ice of any kind and in any concentration, whether fast or
+                drifting.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="brglneType">
+        <xsd:annotation>
+            <xsd:documentation>Iceberg Limit</xsd:documentation>
+            <xsd:documentation>Definition: Limit of all known Icebergs</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="opnlneType">
+        <xsd:annotation>
+            <xsd:documentation>Limit of Open Water</xsd:documentation>
+            <xsd:documentation>Definition: The demarcation at any given time between sea ice and
+                freely navigable water, in which sea ice is present in concentrations less than
+                1/10.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="lkilneType">
+        <xsd:annotation>
+            <xsd:documentation>Limit of All Known Ice</xsd:documentation>
+            <xsd:documentation>Definition: The limit of all known ice, including both sea ice of any
+                kind and icebergs.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="i_ridgType">
+        <xsd:annotation>
+            <xsd:documentation/>
+            <xsd:documentation/>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icerdv" type="ice:icerdvType" minOccurs="0"/>
+                    <xsd:element name="icermh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerxh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="i_leadType">
+        <xsd:annotation>
+            <xsd:documentation>Line of Ice Lead</xsd:documentation>
+            <xsd:documentation>Definition: Line of Ice Lead identifies any passage-way(s) through
+                ice which is (are) navigable by surface vessels.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icesod" type="ice:icesodType" minOccurs="0"/>
+                    <xsd:element name="ia_obn" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icedvw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dmw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dxw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="i_fralType">
+        <xsd:annotation>
+            <xsd:documentation>Line of Ice Fracture</xsd:documentation>
+            <xsd:documentation>Definition: Any break or rupture through the ice cover, or through
+                the single floe, resulting from deformation processes. Length may vary from a few
+                meters to a few kilometers.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icesod" type="ice:icesodType" minOccurs="0"/>
+                    <xsd:element name="ia_obn" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icedvw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dmw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dxw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="i_cracType">
+        <xsd:annotation>
+            <xsd:documentation>Line of Ice Crack</xsd:documentation>
+            <xsd:documentation>Definition: Line of Ice Crack identifies any ice breakup, but no
+                passage-way(s) for surface vessels.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icesod" type="ice:icesodType" minOccurs="0"/>
+                    <xsd:element name="ia_obn" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icedvw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dmw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dxw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:LineString"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+
+    <xsd:complexType name="icecomType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Compacting</xsd:documentation>
+            <xsd:documentation>Definition: Pieces of ice are said to be compacting when they are
+                subjected to a converging motion, which increases ice concentration and/or produces
+                stresses which may result in ice deformation.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icecst" type="ice:icecstType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="iceleaType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Lead</xsd:documentation>
+            <xsd:documentation>Definition: Ice Lead identifies any fracture(s) or passage-way(s)
+                through ice which is (are) navigable by surface vessels.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="iceloc" type="ice:icelocType" minOccurs="0"/>
+                    <xsd:element name="icelst" type="ice:icelstType" minOccurs="0"/>
+                    <xsd:element name="icelwd" type="xsd:nonNegativeInteger"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icebrgType">
+        <xsd:annotation>
+            <xsd:documentation>Iceberg</xsd:documentation>
+            <xsd:documentation>Definition: An Iceberg is a massive piece of ice, greatly varying in
+                shape and showing more than 5 meters above the sea surface which has broken away
+                from a glacier, and which may be afloat or grounded. This Object Class also includes
+                smaller forms of glacial ice, known as “Bergy Bits” and “Growlers”, which are
+                defined by their size Attribute. ICEBRG can indicate the location of a single
+                iceberg or, if the attribute IA_OBN is specified and is greater than 1, multiple
+                icebergs in the vicinity of a point.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icebsz" type="ice:icebszType" minOccurs="0"/>
+                    <xsd:element name="icedsp" type="xsd:float" minOccurs="0"/>
+                    <xsd:element name="iceddr" type="ice:iceddrType" minOccurs="0"/>
+                    <xsd:element name="ia_obn" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_bfm" type="ice:ia_bfmType" minOccurs="0"/>
+                    <xsd:element name="ia_buh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="flobrgType">
+        <xsd:annotation>
+            <xsd:documentation>Floeberg</xsd:documentation>
+            <xsd:documentation>Definition: A Floeberg is a massive piece of sea ice composed of a
+                hummock or a group of hummocks, frozen together and separated from any ice
+                surroundings. They typically protrude up to 5 meters above the sea
+                surface.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icedsp" type="xsd:float" minOccurs="0"/>
+                    <xsd:element name="iceddr" type="ice:iceddrType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icethkType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Thickness</xsd:documentation>
+            <xsd:documentation>Definition: Ice Thickness provides a measure or estimate of ice
+                thickness.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icetck" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icemax" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icemin" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icetty" type="ice:icettyType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="iceshrType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Shear</xsd:documentation>
+            <xsd:documentation>Definition: An area of drift ice is subject to shear when the ice
+                motion varies significantly in the direction normal to the motion, subjecting the
+                ice to rotational forces</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icedivType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Divergence</xsd:documentation>
+            <xsd:documentation>Definition: Ice fields or floes in an area are subject to diverging
+                or dispersive motion, thus reducing ice concentration and/or relieving stresses in
+                the ice.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icerdgType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Ridge/Hummock</xsd:documentation>
+            <xsd:documentation>Definition: An Ice Ridge is a line or wall of broken ice forced up by
+                pressure. A Hummock is a hillock of broken ice which has been forced upward by
+                pressure.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icercn" type="ice:icercnType" minOccurs="0"/>
+                    <xsd:element name="icerfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icermh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerxh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icerdv" type="ice:icerdvType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icekelType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Keel/Bummock</xsd:documentation>
+            <xsd:documentation>Definition: From a submariner’s point of view, a Keel is a downward
+                projecting ridge on the underside of the ice canopy - the counterpart of a Ridge. A
+                Bummock is the counterpart of a hummock on the underside of the ice
+                canopy.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icekcn" type="ice:icekcnType" minOccurs="0"/>
+                    <xsd:element name="icekfq" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icekmd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icekxd" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icedftType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Drift</xsd:documentation>
+            <xsd:documentation>Definition: Motion of an ice field or floe as a result of forces such
+                as wind and currents.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icedsp" type="xsd:float" minOccurs="0"/>
+                    <xsd:element name="iceddr" type="ice:iceddrType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icefraType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Fracture</xsd:documentation>
+            <xsd:documentation>Definition: Any break or rupture through the ice pack, or a single
+                floe, resulting from deformation processes. Length may vary from a few metres to
+                many kilometres.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icefty" type="ice:iceftyType" minOccurs="0"/>
+                    <xsd:element name="iceloc" type="ice:icelocType" minOccurs="0"/>
+                    <xsd:element name="ia_obn" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icesod" type="ice:icesodType" minOccurs="0"/>
+                    <xsd:element name="icedvw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dmw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="ia_dxw" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="icerftType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Rafting</xsd:documentation>
+            <xsd:documentation>Definition: Pressure processes whereby one piece of ice overrides
+                another.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icefcn" type="ice:icefcnType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="jmdbrrType">
+        <xsd:annotation>
+            <xsd:documentation>Jammed Brash Barrier</xsd:documentation>
+            <xsd:documentation>Definition: A strip or narrow belt of new, young or brash ice
+                (usually 100-500 metres wide) formed at the edge of either drift or fast
+                ice.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="stgmltType">
+        <xsd:annotation>
+            <xsd:documentation>Stage of Melt</xsd:documentation>
+            <xsd:documentation>Definition: A description of the stage of melt of the ice; i.e.
+                whether it has formed puddles on the surface and whether these have
+                frozen.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icemlt" type="ice:icemltType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="snwcvrType">
+        <xsd:annotation>
+            <xsd:documentation>Snow Cover</xsd:documentation>
+            <xsd:documentation>Definition: A description of the amount of snow covering the
+                ice.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icescn" type="ice:icescnType" minOccurs="0"/>
+                    <xsd:element name="icesct" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element name="icedos" type="ice:icedosType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="strptcType">
+        <xsd:annotation>
+            <xsd:documentation>Strips and Patches</xsd:documentation>
+            <xsd:documentation>Definition: A strip is a long narrow area of floating ice, about 1
+                kilometre or less in width, usually composed of small fragments detached from the
+                main mass of ice, and run together under the influence of wind, swell or current. If
+                the area of ice becomes more rounded in shape, it is referred to as a
+                patch.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="icespc" type="ice:icespcType" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <xsd:complexType name="i_grhmType">
+        <xsd:annotation>
+            <xsd:documentation/>
+            <xsd:documentation/>
+        </xsd:annotation>
+        <xsd:complexContent>
+            <xsd:extension base="ice:iceFeatureType">
+                <xsd:sequence>
+                    <xsd:element name="ia_buh" type="xsd:nonNegativeInteger" minOccurs="0"/>
+                    <xsd:element ref="gml:Point"/>
+                </xsd:sequence>
+            </xsd:extension>
+        </xsd:complexContent>
+    </xsd:complexType>
+
+    <!-- Ice Attributes Simple Types-->
+    <xsd:simpleType name="iceactType">
+        <xsd:annotation>
+            <xsd:documentation> ICEACT specifies the total concentration of ice in an area. It
+                represents the ratio expressed in tenths describing the total area of the water
+                surface covered by ice as a fraction of the whole area. </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Free</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Open Water (&lt;1/10 ice)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Bergy Water</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 to 2/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="13">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 to 3/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 to 3/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="24">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 to 4/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 to 4/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="35">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 to 5/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 to 5/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="46">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 to 6/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 to 6/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="57">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 to 7/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 to 7/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="68">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 to 8/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 to 8/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="79">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 to 9/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="81">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 to 10/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 to 9/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 to 10/10 or 9+/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>10/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="iceapcType">
+        <xsd:annotation>
+            <xsd:documentation> ICEAPC specifies the partial concentrations of ice in an area. (‘Ca,
+                Cb and Cc’). </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Free</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Open Water (&lt;1/10 ice)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Bergy Water</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 to 2/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="13">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 to 3/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 to 3/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="24">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 to 4/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 to 4/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="35">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 to 5/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 to 5/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="46">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 to 6/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 to 6/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="57">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 to 7/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 to 7/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="68">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 to 8/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 to 8/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="79">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 to 9/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="81">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 to 10/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 to 9/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 to 10/10 or 9+/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>10/10 ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icesodType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Stage of Development describes the ages and thicknesses of the
+                ice (‘So, Sa, Sb, Sc and Sd’).</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Free</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>Brash Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>No stage of development</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="81">
+                <xsd:annotation>
+                    <xsd:documentation>New Ice (&lt;10 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="82">
+                <xsd:annotation>
+                    <xsd:documentation>Nilas Ice Rind (&lt;10 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="83">
+                <xsd:annotation>
+                    <xsd:documentation>Young Ice (10 to &lt;30 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="84">
+                <xsd:annotation>
+                    <xsd:documentation>Grey Ice (10 to &lt;15 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="85">
+                <xsd:annotation>
+                    <xsd:documentation>Grey – White Ice (15 to &lt;30 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="86">
+                <xsd:annotation>
+                    <xsd:documentation>First Year Ice (30 to 200 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="87">
+                <xsd:annotation>
+                    <xsd:documentation>Thin First Year Ice (30 to &lt;70 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="88">
+                <xsd:annotation>
+                    <xsd:documentation>Thin First Year Ice Stage 1 (30 to &lt;50
+                        cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>Thin First Year Ice Stage 2 (50 to &lt;70
+                        cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <!--<xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>Code not currently assigned</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>-->
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>Medium First Year Ice (70 to 120 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <!--<xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>Code not currently assigned</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>-->
+            <xsd:enumeration value="93">
+                <xsd:annotation>
+                    <xsd:documentation>Thick First Year Ice (&gt;120 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="94">
+                <xsd:annotation>
+                    <xsd:documentation>Residual Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="95">
+                <xsd:annotation>
+                    <xsd:documentation>Old Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="96">
+                <xsd:annotation>
+                    <xsd:documentation>Second Year Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="97">
+                <xsd:annotation>
+                    <xsd:documentation>Multi-Year Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>Glacier Ice (Icebergs)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icelsoType">
+        <xsd:annotation>
+            <xsd:documentation>Lake Ice Stages of Development describe the ages and thicknesses of
+                lake ice. (‘So, Sa, Sb, Sc and Sd’)</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>New Lake Ice (&lt;5cms)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Thin Lake Ice (5-&lt;15cms)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Medium Lake Ice (15-&lt;30cms)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Thick Lake Ice (30-70cms)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Very Thick Lake Ice (&gt;70cms)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>Brash Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="iceflzType">
+        <xsd:annotation>
+            <xsd:documentation>Floe Sizes describe the predominate forms of ice floe sizes (Fa, Fb
+                and Fc) corresponding to the ice Stages of Development Sa, Sb and Sc
+                respectively.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Pancake Ice (30 cm to 3m across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Shuga/Small Ice Cake; Brash Ice (&lt;2m
+                        across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Cake (&lt;20m across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Small Floe (20 to &lt;100m across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Medium Floe (100 to 500m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Big Floe (500 to &lt;2000m across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Vast Floe (2000 to10000m across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Giant Floe (&gt;10000m across)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>Fast Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Growlers, Floebergs or Floebits</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="11">
+                <xsd:annotation>
+                    <xsd:documentation>Icebergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icemltType">
+        <xsd:annotation>
+            <xsd:documentation>The Stage of Melt describes the stages of the melting ice. PUDDLE -
+                An accumulation of water on ice, mainly due to the melting of snow, but in some more
+                advanced stages also the melting of ice. THAW HOLE - Vertical holes formed in ice
+                when surface puddles melt through to the underlying water. DRIED ICE - Ice surface
+                from which water has disappeared after the formation of cracks and thaw holes.
+                During the process of drying the surface whitens. ROTTEN ICE - Ice which has become
+                honey-combed and is in an advanced state of disintegration. FLOODED ICE - Ice which
+                has been flooded and is heavily loaded by water or water and wet snow. FROZEN PUDDLE
+                - A puddle which has frozen over.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Few Puddles</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Many Puddles</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Flooded Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Few Thaw Holes</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Many Thaw Holes</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Dried Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Rotten Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Few Frozen Puddles</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>All Puddles Frozen</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>No Melt</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icespcType">
+        <xsd:annotation>
+            <xsd:documentation>A strip is a long narrow area of floating ice, about 1 kilometre or
+                less in width, usually composed of small fragments detached from the main mass of
+                ice, and run together under the influence of wind, swell or current. If the area of
+                ice becomes more rounded in shape, it is referred to as a patch. ICESPC indicates
+                the concentration in tenths within the area of Strips and
+                Patches.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="11">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 1/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 2/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="13">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 3/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="14">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 4/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="15">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 5/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="16">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 6/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="17">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 7/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="18">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 8/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="19">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 9/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>Strips and Patches (concentrations 10/10)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icelvlType">
+        <xsd:annotation>
+            <xsd:documentation>ICELVL is an indication as to whether or not the ice has been
+                affected by deformation</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Level (undeformed)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Deformed</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icecstType">
+        <xsd:annotation>
+            <xsd:documentation>ICECST is an indication of strength of the compacting of the
+                ice.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Little compacting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Slight compacting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>Slight to moderate compacting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>Moderate compacting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>Moderate to strong compacting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>Strong compacting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>Ice divergence</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined / Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="iceftyType">
+        <xsd:annotation>
+            <xsd:documentation>ICEFTY indicates the type of fracture, based upon
+                width.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Crack (0 to 1m wide)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Very Small Fracture (&gt;1m to 50m wide)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Small Fracture (&gt;50m to 200m wide)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Medium Fracture (&gt;200m to 500m wide)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Large Fracture (&gt;500m wide)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icelstType">
+        <xsd:annotation>
+            <xsd:documentation>The Ice Lead Status indicates the surface nature of the
+                lead.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Open Lead</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Frozen Lead</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icelorType">
+        <xsd:annotation>
+            <xsd:documentation>ICELOR indicates the predominant orientation of leads and
+                fractures.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>No Leads or Fractures</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>NE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>E</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>SE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>S</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>SW</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>W</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>NW</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>N</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Variable</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icelocType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Location Information</xsd:documentation>
+            <xsd:documentation>Definition: ICELOC indicates whether the break is at a specific
+                location, or whether there is a presence in the area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Specific Location</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Presence in Area</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icebszType">
+        <xsd:annotation>
+            <xsd:documentation>Iceberg Size</xsd:documentation>
+            <xsd:documentation>Definition: The "Iceberg Size" categorizes the size of an
+                iceberg.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Growler (&lt;1m asl)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Bergy Bit (1-&lt;5m asl; 5-&lt;15m
+                        length)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Small Iceberg (5-15m asl; 15-60m length)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Medium Iceberg (16-45m asl; 61-120m
+                        length)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Large Iceberg (46-75m asl; 121-200m
+                        length)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Very Large Iceberg (&gt;75m asl; &gt;200m
+                        length)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Island Fragment</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Island (in the Northern Hemisphere) or Very Large Tabular
+                        Berg (in the Southern Ocean)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>Radar Target</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="iceddrType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Drift Direction</xsd:documentation>
+            <xsd:documentation>Definition: ICEDDR indicates the direction in which an ice mass is
+                drifting.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>No Ice Motion</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to NE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to E</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to SE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to S</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to SW</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to W</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to NW</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Drift to N</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Variable</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icettyType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Thickness Type</xsd:documentation>
+            <xsd:documentation>Definition: ICETTY indicated whether the thickness of the ice was
+                measured or estimated.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Measured</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Estimated</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="icescnType">
+        <xsd:annotation>
+            <xsd:documentation>Snow Cover Concentration</xsd:documentation>
+            <xsd:documentation>Definition: ICESCN indicates the concentration (aerial coverage) of
+                snow in tenths.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="11">
+                <xsd:annotation>
+                    <xsd:documentation>&lt;1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>No Snow Cover</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icedosType">
+        <xsd:annotation>
+            <xsd:documentation>Direction of Sastrugi</xsd:documentation>
+            <xsd:documentation>Definition: ICEDOS indicates the bearing of a sastrugi. Sastrugi are
+                sharp, irregular ridges formed on a snow surface by wind erosion and deposition. On
+                mobile floating ice the ridges are parallel to the direction of the wind at the time
+                they were formed.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>No Sastrugi</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>NE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>E</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>SE</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>S</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>SW</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>W</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>NW</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>N</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Variable</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icercnType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Ridge Concentration</xsd:documentation>
+            <xsd:documentation>Definition: ICERCN describes the concentration of hummocked ice in an
+                ice area. Up to three values may be given in the list to correspond to the partial
+                concentrations in ICEAPC.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>0/10 – 1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 – 2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 – 3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 – 4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 – 5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 – 6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 – 7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 – 8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 – 9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 – 10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Ridging</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icerdvType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Ridge Classification</xsd:documentation>
+            <xsd:documentation>Definition: ICERDV describes the predominant type of ice ridge(s)
+                present.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>New Ridge</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Weathered Ridge</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Very Weathered Ridge</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Aged Ridge</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Consolidated Ridge</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Ridge</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Ridged Ice Zone</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Ridge Barrier</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icekcnType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Keel Concentration</xsd:documentation>
+            <xsd:documentation>Definition: ICEKCN describes the concentration of ice keels beneath
+                an ice area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>0/10 – 1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 – 2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 – 3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 – 4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 – 5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 – 6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 – 7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 – 8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 – 9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 – 10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Keels</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icefcnType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Rafting Concentration</xsd:documentation>
+            <xsd:documentation>Definition: ICEFCN describes the concentration of ice rafting in an
+                ice area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>0/10 – 1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 – 2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 – 3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 – 4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 – 5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 – 6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 – 7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 – 8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 – 9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 – 10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Rafting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ffType">
+        <xsd:annotation>
+            <xsd:documentation>Floe Size for combined complex attributes IA_SFA, IA_SFB, IA_SFC,
+                IA_FFA, IA_FFB, IA_FFC</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Pancake Ice (30 cm – 3 m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Shuga/Small Ice Cake; Brash Ice (&lt;2 m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Ice Cake (&lt;20 m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Small Floe (20 – 100 m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Medium Floe (100-500 m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Big Floe (500 – 2000 m)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Vast Floe (2 – 10 km)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Giant Floe (&gt;10 km)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="09">
+                <xsd:annotation>
+                    <xsd:documentation>Fast Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ssType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Stage of Development for combined complex attributes IA_SFA,
+                IA_SFB, IA_SFC, IA_FFA, IA_FFB, IA_FFC</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>No stage of development</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="81">
+                <xsd:annotation>
+                    <xsd:documentation>New Ice (&lt;5 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="82">
+                <xsd:annotation>
+                    <xsd:documentation>Nilas Ice (&lt;10 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="83">
+                <xsd:annotation>
+                    <xsd:documentation>Young Ice (10 to &lt;30 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="84">
+                <xsd:annotation>
+                    <xsd:documentation>Grey Ice (10 to &lt;15 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="85">
+                <xsd:annotation>
+                    <xsd:documentation>Grey – White Ice (15 to &lt;30 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="86">
+                <xsd:annotation>
+                    <xsd:documentation>First Year Ice (30 to 200 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="87">
+                <xsd:annotation>
+                    <xsd:documentation>Thin First Year Ice (30 to &lt;70 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="88">
+                <xsd:annotation>
+                    <xsd:documentation>Thin First Year Ice Stage 1 (30 to &lt;50
+                        cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>Thin First Year Ice Stage 2 (50 to &lt;70
+                        cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <!--<xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>Code not currently assigned</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>-->
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>Medium First Year Ice (70 to 120 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <!--<xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>Code not currently assigned</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>-->
+            <xsd:enumeration value="93">
+                <xsd:annotation>
+                    <xsd:documentation>Thick First Year Ice (&gt;120 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="94">
+                <xsd:annotation>
+                    <xsd:documentation>Residual Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="95">
+                <xsd:annotation>
+                    <xsd:documentation>Old Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="96">
+                <xsd:annotation>
+                    <xsd:documentation>Second Year Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="97">
+                <xsd:annotation>
+                    <xsd:documentation>Multi-Year Ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="ia_sfaType">
+        <xsd:annotation>
+            <xsd:documentation>Combination Ice Stage of Development and Floe Size for the 1st
+                partial concentration</xsd:documentation>
+            <xsd:documentation>Definition: IA_SFA describes combination(s) of Ice Stage of
+                Development and Floe Size for the first partial concentration in an ice area. Up to
+                three (stage of development / form of ice) combinations are allowed to describe the
+                ice in the first partial concentration group.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="ff" type="ice:ffType"/>
+            <xsd:element name="ss" type="ice:ssType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ia_sfbType">
+        <xsd:annotation>
+            <xsd:documentation>Combination Ice Stage of Development and Floe Size for the 2nd
+                partial concentration</xsd:documentation>
+            <xsd:documentation>Definition: IA_SFB describes combination(s) of Ice Stage of
+                Development and Floe Size for the second partial concentration in an ice area. Up to
+                three (stage of development / form of ice) combinations are allowed to describe the
+                ice in the second partial concentration group.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="ff" type="ice:ffType"/>
+            <xsd:element name="ss" type="ice:ssType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ia_sfcType">
+        <xsd:annotation>
+            <xsd:documentation>Combination Ice Stage of Development and Floe Size for the 3rd
+                partial concentration</xsd:documentation>
+            <xsd:documentation>Definition: IA_SFC describes combination(s) of Ice Stage of
+                Development and Floe Size for the first partial concentration in an ice area. Up to
+                three (stage of development / form of ice) combinations are allowed to describe the
+                ice in the third partial concentration group.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="ff" type="ice:ffType"/>
+            <xsd:element name="ss" type="ice:ssType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ia_ffaType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Breccia for the first partial concentration</xsd:documentation>
+            <xsd:documentation>Definition: Ice breccia is pieces of ice of different ages frozen
+                together. IA _FFA describes the combination(s) of Ice Stage of Development and Floe
+                Size for the first partial concentration in an ice area. Up to three (stage of
+                development / form of ice) combinations plus the age of the younger ice
+                consolidating the main pieces are allowed to describe the ice in the first partial
+                concentration group.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="ff" type="ice:ffType"/>
+            <xsd:element name="ss" type="ice:ssType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ia_ffbType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Breccia for the second partial concentration</xsd:documentation>
+            <xsd:documentation>Definition: Ice breccia is pieces of ice of different ages frozen
+                together. IA _FFB describes the combination(s) of Ice Stage of Development and Floe
+                Size for the second partial concentration in an ice area. Up to three (stage of
+                development / form of ice) combinations plus the age of the younger ice
+                consolidating the main pieces are allowed to describe the ice in the second partial
+                concentration group.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="ff" type="ice:ffType"/>
+            <xsd:element name="ss" type="ice:ssType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ia_ffcType">
+        <xsd:annotation>
+            <xsd:documentation>Ice Breccia for the third partial concentration</xsd:documentation>
+            <xsd:documentation>Definition: Ice breccia is pieces of ice of different ages frozen
+                together. IA _FFA describes the combination(s) of Ice Stage of Development and Floe
+                Size for the third partial concentration in an ice area. Up to three (stage of
+                development / form of ice) combinations plus the age of the younger ice
+                consolidating the main pieces are allowed to describe the ice in the third partial
+                concentration group.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="ff" type="ice:ffType"/>
+            <xsd:element name="ss" type="ice:ssType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:simpleType name="ia_sngType">
+        <xsd:annotation>
+            <xsd:documentation>Snow cover</xsd:documentation>
+            <xsd:documentation>Definition: IA_SNG describes the degree of snow cover in an ice
+                area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Little snow cover</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Thin snow cover (&lt;5 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>&lt;20 cm</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>Medium snow cover (5-20 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>&gt;5 cm</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>Thick snow cover (&gt;20 cm)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No snow cover</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ia_mltType">
+        <xsd:annotation>
+            <xsd:documentation>Stage of Melting</xsd:documentation>
+            <xsd:documentation>Definition: IA_MLT describes the stage of melting according to the
+                5-point Russian national scale</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>0/5 – 1/5 or 0/3 – 1/3</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/5 or 1/3</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/5 – 2/5 or 1/3 – 2/3</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/5 or 2/3</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/5 – 3/5 or 2/3 – 3/3</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/5 or 3/3</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/5 – 4/5</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/5</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/5 – 5/5</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/5</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Melting</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ia_plgType">
+        <xsd:annotation>
+            <xsd:documentation>Contamination</xsd:documentation>
+            <xsd:documentation>Definition: IA_PLG describes the degree of contamination (aerial
+                coverage) in thirds based on the Russian national 3-point scale.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>No or insignificant Contamination</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>&lt;1/3 of area</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>&lt;2/3 of area</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>1/3 – 2/3 of area</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>&gt;1/3 area</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>&gt;2/3 area</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Contamination</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined / Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ia_hlgType">
+        <xsd:annotation>
+            <xsd:documentation>Hills Concentration</xsd:documentation>
+            <xsd:documentation>Definition: IA_HLG describes the degree of hilling in an ice area
+                (usually multi-year ice).</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Few hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Slight concentration of hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>Slight to moderate concentration of hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>Moderate concentration of hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>Moderate to heavy concentration of hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>Heavy concentration of hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No hills</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ia_dugType">
+        <xsd:annotation>
+            <xsd:documentation>Fractures Concentration</xsd:documentation>
+            <xsd:documentation>Definition: IA_DUG describes the degree of disunity in an ice
+                area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>Frequency of Cracks and Leads seldom in 10 km on
+                        Route</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>Frequency of Cracks and Leads in 5 – 10 km on
+                        Route</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>Frequency of Cracks and Leads in 3 – 5 km on
+                        Route</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>Frequency of Cracks and Leads in 2 – 3 km on
+                        Route</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>Frequency of Cracks and Leads often in 2 km on
+                        Route</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>Small and Medium Floes – 1/10-3/10; Big Floes – 7/10-10/10
+                        Conc.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>Small and Medium Floes – 4/10-6/10; Big Floes – 4/10-6/10
+                        Conc.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>Small and Medium Floes – 7/10-10/10; Big Floes – 1/10-3/10
+                        Conc.</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>Small and Medium Floes Only</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>Small Floes Only</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Fractures</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ia_bcnType">
+        <xsd:annotation>
+            <xsd:documentation>Iceberg Concentration</xsd:documentation>
+            <xsd:documentation>Definition: IA_BCN specifies the total concentration of icebergs in
+                an area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>&gt;45 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>&gt;15 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>15 - 44 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>10 - 44 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>10 - 14 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>7 - 14 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>7 - 10 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>5 - 10 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5 - 6 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>3 - 6 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>3 - 4 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>1 - 4 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>1 - 2 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>0.5 - 2.0 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>0.5 - 1.0 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>&lt;1.0 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>&lt;0.5 nm between bergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Icebergs</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="ia_bfmType">
+        <xsd:annotation>
+            <xsd:documentation>Prevailing Iceberg Form</xsd:documentation>
+            <xsd:documentation>Definition: IA_BFM specifies the prevailing form of icebergs in an
+                area.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>Domed</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="02">
+                <xsd:annotation>
+                    <xsd:documentation>Tabular</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="03">
+                <xsd:annotation>
+                    <xsd:documentation>Sloping</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="04">
+                <xsd:annotation>
+                    <xsd:documentation>Pinnacled</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="05">
+                <xsd:annotation>
+                    <xsd:documentation>Dry-dock</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="06">
+                <xsd:annotation>
+                    <xsd:documentation>Glacier (irregular)</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="07">
+                <xsd:annotation>
+                    <xsd:documentation>Blocky</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="08">
+                <xsd:annotation>
+                    <xsd:documentation>Weathered</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="icebrsType">
+        <xsd:annotation>
+            <xsd:documentation>Brash Ice</xsd:documentation>
+            <xsd:documentation>Definition: ICEBRS specifies the concentrations of very thick brash
+                (“AV”), thick brash (“AK”), medium brash (“AM”) and thin brash ice (“AT”). Very
+                Thick Brash Ice &gt;4 m Thick Brash Ice &gt;2 - 4 m Medium Brash Ice 1 – 2 m Thin
+                Brash Ice &lt;1 m</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+            <xsd:enumeration value="01">
+                <xsd:annotation>
+                    <xsd:documentation>0/10 – 1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="10">
+                <xsd:annotation>
+                    <xsd:documentation>1/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="12">
+                <xsd:annotation>
+                    <xsd:documentation>1/10 – 2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="20">
+                <xsd:annotation>
+                    <xsd:documentation>2/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="23">
+                <xsd:annotation>
+                    <xsd:documentation>2/10 – 3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="30">
+                <xsd:annotation>
+                    <xsd:documentation>3/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="34">
+                <xsd:annotation>
+                    <xsd:documentation>3/10 – 4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="40">
+                <xsd:annotation>
+                    <xsd:documentation>4/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="45">
+                <xsd:annotation>
+                    <xsd:documentation>4/10 – 5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="50">
+                <xsd:annotation>
+                    <xsd:documentation>5/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="56">
+                <xsd:annotation>
+                    <xsd:documentation>5/10 – 6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="60">
+                <xsd:annotation>
+                    <xsd:documentation>6/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="67">
+                <xsd:annotation>
+                    <xsd:documentation>6/10 – 7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="70">
+                <xsd:annotation>
+                    <xsd:documentation>7/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="78">
+                <xsd:annotation>
+                    <xsd:documentation>7/10 – 8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="80">
+                <xsd:annotation>
+                    <xsd:documentation>8/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="89">
+                <xsd:annotation>
+                    <xsd:documentation>8/10 – 9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="90">
+                <xsd:annotation>
+                    <xsd:documentation>9/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="91">
+                <xsd:annotation>
+                    <xsd:documentation>9/10 – 10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="92">
+                <xsd:annotation>
+                    <xsd:documentation>10/10</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="98">
+                <xsd:annotation>
+                    <xsd:documentation>No Brash ice</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+            <xsd:enumeration value="99">
+                <xsd:annotation>
+                    <xsd:documentation>Undetermined/Unknown</xsd:documentation>
+                </xsd:annotation>
+            </xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

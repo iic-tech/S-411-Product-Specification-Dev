@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.iho.int/S100EC" xmlns:ec="http://www.iho.int/S100EC" 
+                                                        xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                                                        xmlns:gco="http://www.isotc211.org/2005/gco"
+                                                        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                                                        elementFormDefault="qualified">
+    <!--<xsd:import namespace="http://www.isotc211.org/2005/gco" schemaLocation="http://www.isotc211.org/2005/gco/gco.xsd"/>
+    <xsd:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://www.isotc211.org/2005/gmd/gmd.xsd"/>-->
+    <xsd:import namespace="http://www.isotc211.org/2005/gco" schemaLocation="iso/gco/gco.xsd"/>
+    <xsd:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="iso/gmd/gmd.xsd"/>
+
+    <xsd:element name="S100_ExchangeCatalogue" type="ec:S100_ExchangeCatalogueType"/>
+    
+    <xsd:complexType name="S100_ExchangeCatalogueType">
+        <xsd:sequence>
+            <xsd:element name="identifier" type="ec:S100_CatalogueIdentifierType"/>
+            <xsd:element name="contact" type="gmd:CI_ResponsibleParty_PropertyType"/>
+            <xsd:element name="productSpecification" type="ec:S100_ProductSpecificationType"/>
+            <!-- add discovery metadata elements -->
+            <xsd:element name="S100_DatasetDiscoveryMetadata" type="ec:S100_DatasetDiscoveryMetadataType" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="S100_SupportFileDiscoveryMetadata" type="ec:S100_SupportFileDiscoveryMetadata" minOccurs="0" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="S100_DatasetDiscoveryMetadataType">
+        <xsd:sequence>
+            <xsd:element name="fileName" type="xsd:string"/>
+            <xsd:element name="filePath" type="xsd:string"/>
+            <xsd:element name="description" type="xsd:string"/>
+            <xsd:element name="purpose" type="xsd:string"/>
+            <xsd:element name="specificUsage" type="xsd:string"/>
+            <xsd:element name="editionNumber" type="xsd:string"/>
+            <xsd:element name="updateNumber" type="xsd:string"/>
+            <xsd:element name="updateApplicationDate" type="gco:Date_PropertyType" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="issueDate" type="gco:Date_PropertyType"/>
+            <xsd:element name="productSpecification" type="ec:S100_ProductSpecificationType"/>
+            <xsd:element name="producingAgency" type="gmd:CI_ResponsibleParty_PropertyType"/>
+            <xsd:element name="displayScale" type="xsd:int"/>
+            <xsd:element name="horizontalDatum" type="xsd:string"/>
+            <xsd:element name="verticalDatum" type="xsd:string"/>
+            <xsd:element name="dataType" type="ec:S100_DataFormatType"/>
+            <xsd:element name="otherDataTypeDescription" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="dataTypeVersion" type="xsd:string"/>
+            <xsd:element name="boundingBox" type="gmd:EX_GeographicBoundingBox_PropertyType"/>
+            <xsd:element name="boundingPolygon" type="gmd:EX_BoundingPolygon_PropertyType"/>
+            <xsd:element name="comment" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="cyclicRedundancyCheckSum" type="xsd:nonNegativeInteger"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="S100_SupportFileDiscoveryMetadata">
+        <xsd:sequence>
+            <xsd:element name="fileName" type="xsd:string"/>
+            <xsd:element name="filePath" type="xsd:string"/>
+            <xsd:element name="purpose" type="ec:S100_SupportFilePurposeType"/>
+            <xsd:element name="editionNumber" type="xsd:string"/>
+            <xsd:element name="issueDate" type="gco:Date_PropertyType"/>
+            <xsd:element name="productSpecification" type="ec:S100_ProductSpecificationType"/>
+            <xsd:element name="dataType" type="ec:S100_SupportFileFormatType"/>
+            <xsd:element name="otherDataTypeDescription" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="dataTypeVersion" type="xsd:string"/>
+            <xsd:element name="comment" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="srsName" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="encoding" type="gmd:MD_CharacterSetCode_PropertyType" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="cyclicRedundancyCheckSum" type="xsd:nonNegativeInteger"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="S100_ProductSpecificationType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="version" type="xsd:string"/>
+            <xsd:element name="date" type="gco:Date_PropertyType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="S100_CatalogueIdentifierType">
+        <xsd:sequence>
+            <xsd:element name="identifier" type="xsd:string"/>
+            <xsd:element name="editionNumber" type="xsd:string"/>
+            <xsd:element name="date" type="gco:Date_PropertyType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="S100_CatalogueType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"/>
+            <xsd:element name="scope" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+            <xsd:element name="fieldOfApplication" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element name="versionNumber" type="xsd:string"/>
+            <xsd:element name="versionDate" type="gco:Date_PropertyType"/>
+            <xsd:element name="language" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="locale" type="gmd:PT_Locale_PropertyType" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="characterSet" type="gmd:MD_CharacterSetCode_PropertyType" minOccurs="0" maxOccurs="1"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:simpleType name="S100_SupportFilePurposeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="new"/>
+            <xsd:enumeration value="replacement"/>
+            <xsd:enumeration value="deletion"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="S100_DataFormatType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="ISO 8211 ASCII"/>
+            <xsd:enumeration value="ISO 8211 BINARY"/>
+            <xsd:enumeration value="GML"/>
+            <xsd:enumeration value="other"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="S100_SupportFileFormatType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="TXT"/>
+            <xsd:enumeration value="JPEG2000"/>
+            <xsd:enumeration value="HTML"/>
+            <xsd:enumeration value="XML"/>
+            <xsd:enumeration value="XSLT"/>
+            <xsd:enumeration value="GeoTIFF"/>
+            <xsd:enumeration value="TIFF / TIF + TFW"/>
+            <xsd:enumeration value="TIF+TFW"/>
+            <xsd:enumeration value="JPG / JPEG"/>
+            <xsd:enumeration value="JPG / JPEG + JGW"/>
+            <xsd:enumeration value="PNG"/>
+            <xsd:enumeration value="PNG+PGW"/>
+            <xsd:enumeration value="GIF"/>
+            <xsd:enumeration value="GIF+GFW"/>
+            <xsd:enumeration value="other"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

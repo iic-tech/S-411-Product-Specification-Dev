@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           targetNamespace="http://www.opengis.net/gml/3.2" 
+           elementFormDefault="qualified">
+    <!--<xsd:include schemaLocation="S100_gmlProfile/S100_gmlProfile.xsd"></xsd:include>-->
+    
+    <!--Geometry Types-->
+   
+    <!--<xsd:redefine schemaLocation="S100_gmlProfile/S100_gmlProfile.xsd">
+        <xsd:attributeGroup name="SRSReferenceGroup">
+            <xsd:attribute name="srsName" type="xsd:anyURI"/>
+            <xsd:attribute name="srsDimension" type="xsd:positiveInteger" default="2" use="optional"/>
+        </xsd:attributeGroup>
+    </xsd:redefine>-->
+    
+    
+    <xsd:redefine schemaLocation="S100_gmlProfile.xsd">
+        <xsd:complexType name="LinearRingType">
+            <xsd:complexContent>
+                <xsd:restriction base="gml:LinearRingType">
+                    <xsd:sequence>
+                        <xsd:element ref="gml:posList"/>
+                    </xsd:sequence>
+                </xsd:restriction>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:redefine>
+    
+    <xsd:redefine schemaLocation="S100_gmlProfile.xsd">
+        <xsd:complexType name="AbstractRingPropertyType">
+            <xsd:complexContent>
+                <xsd:restriction base="gml:AbstractRingPropertyType">
+                    <xsd:sequence>
+                        <xsd:element name="LinearRing" type="gml:LinearRingType"/>
+                    </xsd:sequence>
+                </xsd:restriction>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:redefine>
+    
+    <xsd:redefine schemaLocation="S100_gmlProfile.xsd">
+        <xsd:complexType name="PolygonType">
+            <xsd:complexContent>
+                <xsd:restriction base="gml:PolygonType">
+                    <xsd:sequence>
+                        <xsd:element name="exterior" type="gml:AbstractRingPropertyType"></xsd:element>
+                        <xsd:element name="interior" type="gml:AbstractRingPropertyType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+                    </xsd:sequence>
+                </xsd:restriction>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:redefine>
+</xsd:schema>

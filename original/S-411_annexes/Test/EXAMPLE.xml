@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<?xml-stylesheet type="text/xsl" href="Resources/Portrayal/Rules/main.xsl"?>-->
+<ice:IceDataSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xmlns:ice="http://www.jcomm.info/ice" 
+				xmlns:gml="http://www.opengis.net/gml/3.2"
+				xsi:schemaLocation="../Schemas/S411.xsd">
+	<ice:IceFeatureMember>
+		<ice:seaice gml:id="seaice.1">
+			<ice:iceact>1</ice:iceact>
+			<ice:iceapc>1</ice:iceapc>
+			<ice:icesod>1</ice:icesod>
+			<ice:iceflz>1</ice:iceflz>
+			<ice:icespc>11</ice:icespc>
+			<ice:icelvl>1</ice:icelvl>
+			<ice:icecst>1</ice:icecst>
+			<ice:icefty>1</ice:icefty>
+			<ice:icedsp>0.0</ice:icedsp>
+			<ice:iceddr>1</ice:iceddr>
+			<ice:icercn>1</ice:icercn>
+			<ice:icerfq>1</ice:icerfq>
+			<ice:icermh>1</ice:icermh>
+			<ice:icerxh>1</ice:icerxh>
+			<ice:icerdv>1</ice:icerdv>
+			<ice:icekcn>1</ice:icekcn>
+			<ice:icekfq>1</ice:icekfq>
+			<ice:icekmd>1</ice:icekmd>
+			<ice:icekxd>1</ice:icekxd>
+			<ice:icefcn>1</ice:icefcn>
+			<ice:icetck>1</ice:icetck>
+			<ice:icemax>1</ice:icemax>
+			<ice:icemin>0</ice:icemin>
+			<ice:icetty>1</ice:icetty>
+			<ice:icemlt>1</ice:icemlt>
+			<ice:icescn>1</ice:icescn>
+			<ice:icesct>1</ice:icesct>
+			<ice:icedos>1</ice:icedos>
+			<ice:icelst>1</ice:icelst>
+			<ice:icelfq>1</ice:icelfq>
+			<ice:icelor>1</ice:icelor>
+			<ice:icelwd>1</ice:icelwd>
+			<ice:ia_sfa>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfa>
+			<ice:ia_sfb>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfb>
+			<ice:ia_sfc>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfc>
+			<ice:ia_ffa>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffa>
+			<ice:ia_ffb>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffb>
+			<ice:ia_ffc>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffc>
+			<ice:ia_sng>1</ice:ia_sng>
+			<ice:ia_mlt>1</ice:ia_mlt>
+			<ice:ia_plg>1</ice:ia_plg>
+			<ice:ia_hlg>1</ice:ia_hlg>
+			<ice:ia_dug>10</ice:ia_dug>
+			<gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="seaice.1g">
+				<gml:exterior>
+					<gml:LinearRing>
+						<gml:posList>22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546 62.391</gml:posList>
+					</gml:LinearRing>
+				</gml:exterior>
+				<gml:interior>
+					<gml:LinearRing>
+						<gml:posList>23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227 61.811</gml:posList>
+					</gml:LinearRing>
+				</gml:interior>
+			</gml:Polygon>
+		</ice:seaice>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:seaice gml:id="seaice.2">
+			<ice:iceact>10</ice:iceact>
+			<ice:iceapc>1</ice:iceapc>
+			<ice:icesod>82</ice:icesod>
+			<ice:iceflz>1</ice:iceflz>
+			<ice:icespc>11</ice:icespc>
+			<ice:icelvl>1</ice:icelvl>
+			<ice:icecst>1</ice:icecst>
+			<ice:icefty>1</ice:icefty>
+			<ice:icedsp>0.0</ice:icedsp>
+			<ice:iceddr>1</ice:iceddr>
+			<ice:icercn>1</ice:icercn>
+			<ice:icerfq>1</ice:icerfq>
+			<ice:icermh>1</ice:icermh>
+			<ice:icerxh>1</ice:icerxh>
+			<ice:icerdv>1</ice:icerdv>
+			<ice:icekcn>1</ice:icekcn>
+			<ice:icekfq>1</ice:icekfq>
+			<ice:icekmd>1</ice:icekmd>
+			<ice:icekxd>1</ice:icekxd>
+			<ice:icefcn>1</ice:icefcn>
+			<ice:icetck>1</ice:icetck>
+			<ice:icemax>1</ice:icemax>
+			<ice:icemin>0</ice:icemin>
+			<ice:icetty>1</ice:icetty>
+			<ice:icemlt>1</ice:icemlt>
+			<ice:icescn>1</ice:icescn>
+			<ice:icesct>1</ice:icesct>
+			<ice:icedos>1</ice:icedos>
+			<ice:icelst>1</ice:icelst>
+			<ice:icelfq>1</ice:icelfq>
+			<ice:icelor>1</ice:icelor>
+			<ice:icelwd>1</ice:icelwd>
+			<ice:ia_sfa>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfa>
+			<ice:ia_sfb>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfb>
+			<ice:ia_sfc>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfc>
+			<ice:ia_ffa>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffa>
+			<ice:ia_ffb>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffb>
+			<ice:ia_ffc>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffc>
+			<ice:ia_sng>1</ice:ia_sng>
+			<ice:ia_mlt>1</ice:ia_mlt>
+			<ice:ia_plg>1</ice:ia_plg>
+			<ice:ia_hlg>1</ice:ia_hlg>
+			<ice:ia_dug>10</ice:ia_dug>
+			<gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="seaice.2g">
+				<gml:exterior>
+					<gml:LinearRing>
+						<gml:posList>22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546
+							62.391</gml:posList>
+					</gml:LinearRing>
+				</gml:exterior>
+				<gml:interior>
+					<gml:LinearRing>
+						<gml:posList>23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227
+							61.811</gml:posList>
+					</gml:LinearRing>
+				</gml:interior>
+			</gml:Polygon>
+		</ice:seaice>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:seaice gml:id="seaice.3">
+			<ice:iceact>12</ice:iceact>
+			<ice:iceapc>1</ice:iceapc>
+			<ice:icesod>99</ice:icesod>
+			<ice:iceflz>1</ice:iceflz>
+			<ice:icespc>11</ice:icespc>
+			<ice:icelvl>1</ice:icelvl>
+			<ice:icecst>1</ice:icecst>
+			<ice:icefty>1</ice:icefty>
+			<ice:icedsp>0.0</ice:icedsp>
+			<ice:iceddr>1</ice:iceddr>
+			<ice:icercn>1</ice:icercn>
+			<ice:icerfq>1</ice:icerfq>
+			<ice:icermh>1</ice:icermh>
+			<ice:icerxh>1</ice:icerxh>
+			<ice:icerdv>1</ice:icerdv>
+			<ice:icekcn>1</ice:icekcn>
+			<ice:icekfq>1</ice:icekfq>
+			<ice:icekmd>1</ice:icekmd>
+			<ice:icekxd>1</ice:icekxd>
+			<ice:icefcn>1</ice:icefcn>
+			<ice:icetck>1</ice:icetck>
+			<ice:icemax>1</ice:icemax>
+			<ice:icemin>0</ice:icemin>
+			<ice:icetty>1</ice:icetty>
+			<ice:icemlt>1</ice:icemlt>
+			<ice:icescn>1</ice:icescn>
+			<ice:icesct>1</ice:icesct>
+			<ice:icedos>1</ice:icedos>
+			<ice:icelst>1</ice:icelst>
+			<ice:icelfq>1</ice:icelfq>
+			<ice:icelor>1</ice:icelor>
+			<ice:icelwd>1</ice:icelwd>
+			<ice:ia_sfa>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfa>
+			<ice:ia_sfb>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfb>
+			<ice:ia_sfc>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_sfc>
+			<ice:ia_ffa>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffa>
+			<ice:ia_ffb>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffb>
+			<ice:ia_ffc>
+				<ice:ff>1</ice:ff>
+				<ice:ss>80</ice:ss>
+			</ice:ia_ffc>
+			<ice:ia_sng>1</ice:ia_sng>
+			<ice:ia_mlt>1</ice:ia_mlt>
+			<ice:ia_plg>1</ice:ia_plg>
+			<ice:ia_hlg>1</ice:ia_hlg>
+			<ice:ia_dug>10</ice:ia_dug>
+			<gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="seaice.3g">
+				<gml:exterior>
+					<gml:LinearRing>
+						<gml:posList>22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546
+							62.391</gml:posList>
+					</gml:LinearRing>
+				</gml:exterior>
+				<gml:interior>
+					<gml:LinearRing>
+						<gml:posList>23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227
+							61.811</gml:posList>
+					</gml:LinearRing>
+				</gml:interior>
+			</gml:Polygon>
+		</ice:seaice>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:lacice gml:id="lacice.1">
+			<ice:iceact>1</ice:iceact>
+			<ice:iceapc>1</ice:iceapc>
+			<ice:icelso>1</ice:icelso>
+			<ice:iceflz>1</ice:iceflz>
+			<ice:icespc>11</ice:icespc>
+			<ice:icelvl>1</ice:icelvl>
+			<ice:icecst>1</ice:icecst>
+			<ice:icefty>1</ice:icefty>
+			<ice:icedsp>0.0</ice:icedsp>
+			<ice:iceddr>1</ice:iceddr>
+			<ice:icercn>1</ice:icercn>
+			<ice:icerfq>1</ice:icerfq>
+			<ice:icermh>1</ice:icermh>
+			<ice:icerxh>1</ice:icerxh>
+			<ice:icerdv>1</ice:icerdv>
+			<ice:icekcn>1</ice:icekcn>
+			<ice:icekfq>1</ice:icekfq>
+			<ice:icekmd>1</ice:icekmd>
+			<ice:icekxd>1</ice:icekxd>
+			<ice:icefcn>1</ice:icefcn>
+			<ice:icetck>1</ice:icetck>
+			<ice:icemax>1</ice:icemax>
+			<ice:icemin>0</ice:icemin>
+			<ice:icetty>1</ice:icetty>
+			<ice:icemlt>1</ice:icemlt>
+			<ice:icescn>1</ice:icescn>
+			<ice:icesct>1</ice:icesct>
+			<ice:icedos>1</ice:icedos>
+			<ice:icelst>1</ice:icelst>
+			<ice:icelfq>1</ice:icelfq>
+			<ice:icelor>1</ice:icelor>
+			<ice:icelwd>1</ice:icelwd>
+			<gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="lacice.1g">
+				<gml:exterior>
+					<gml:LinearRing>
+						<gml:posList>22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546
+							62.391</gml:posList>
+					</gml:LinearRing>
+				</gml:exterior>
+				<gml:interior>
+					<gml:LinearRing>
+						<gml:posList>23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227
+							61.811</gml:posList>
+					</gml:LinearRing>
+				</gml:interior>
+			</gml:Polygon>
+		</ice:lacice>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:brgare gml:id="brgare.1">
+			<ice:icebnm>1</ice:icebnm>
+			<ice:icebsz>1</ice:icebsz>
+			<ice:ia_bcn>10</ice:ia_bcn>
+			<ice:ia_bfm>1</ice:ia_bfm>
+			<ice:ia_buh>1</ice:ia_buh>
+			<gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="brgare.1g">
+				<gml:exterior>
+					<gml:LinearRing>
+						<gml:posList>22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546
+							62.391</gml:posList>
+					</gml:LinearRing>
+				</gml:exterior>
+				<gml:interior>
+					<gml:LinearRing>
+						<gml:posList>23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227
+							61.811</gml:posList>
+					</gml:LinearRing>
+				</gml:interior>
+			</gml:Polygon>
+		</ice:brgare>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icelne gml:id="icelne.1">
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icelne.1g">
+				<gml:posList>1.0 3.0 5.0 3.0 10.0 3.0 15.0 3.0 20.0 3.0 25.0 3.0 30.0 3.0 37.0
+					3.0</gml:posList>
+			</gml:LineString>
+		</ice:icelne>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:brglne gml:id="brglne.1">
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="brglne.1g">
+				<gml:posList>1.0 5.0 5.0 5.0 10.0 5.0 15.0 5.0 20.0 5.0 25.0 5.0 30.0 5.0 37.0
+					5.0</gml:posList>
+			</gml:LineString>
+		</ice:brglne>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:opnlne gml:id="opnlne.1">
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="opnlne.1g">
+				<gml:posList>1.0 7.0 5.0 7.0 10.0 7.0 15.0 7.0 20.0 7.0 25.0 7.0 30.0 7.0 37.0
+					7.0</gml:posList>
+			</gml:LineString>
+		</ice:opnlne>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:lkilne gml:id="lkilne.1">
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="lkilne.1g">
+				<gml:posList>1.0 9.0 5.0 9.0 10.0 9.0 15.0 9.0 20.0 9.0 25.0 9.0 30.0 9.0 37.0
+					9.0</gml:posList>
+			</gml:LineString>
+		</ice:lkilne>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:i_ridg gml:id="i_ridg.1">
+			<ice:icerdv>01</ice:icerdv>
+			<ice:icermh>21</ice:icermh>
+			<ice:icerxh>25</ice:icerxh>
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="i_ridg.1g">
+				<gml:posList>1.0 11.0 5.0 11.0 10.0 11.0 15.0 11.0 20.0 11.0 25.0 11.0 30.0 11.0
+					37.0 11.0</gml:posList>
+			</gml:LineString>
+		</ice:i_ridg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:i_lead gml:id="i_lead.1">
+			<ice:icesod>81</ice:icesod>
+			<ice:ia_obn>10</ice:ia_obn>
+			<ice:icedvw>7</ice:icedvw>
+			<ice:ia_dmw>5</ice:ia_dmw>
+			<ice:ia_dxw>9</ice:ia_dxw>
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="ilead.1g">
+				<gml:posList>1.0 13.0 5.0 13.0 10.0 13.0 15.0 13.0 20.0 13.0 25.0 13.0 30.0 13.0
+					37.0 13.0</gml:posList>
+			</gml:LineString>
+		</ice:i_lead>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:i_fral gml:id="i_fral.1">
+			<ice:icesod>81</ice:icesod>
+			<ice:ia_obn>10</ice:ia_obn>
+			<ice:icedvw>7</ice:icedvw>
+			<ice:ia_dmw>5</ice:ia_dmw>
+			<ice:ia_dxw>9</ice:ia_dxw>
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="i_fral.1g">
+				<gml:posList>1.0 15.0 5.0 15.0 10.0 15.0 15.0 15.0 20.0 15.0 25.0 15.0 30.0 15.0
+					37.0 15.0</gml:posList>
+			</gml:LineString>
+		</ice:i_fral>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:i_crac gml:id="i_crac.1">
+			<ice:icesod>81</ice:icesod>
+			<ice:ia_obn>10</ice:ia_obn>
+			<ice:icedvw>7</ice:icedvw>
+			<ice:ia_dmw>5</ice:ia_dmw>
+			<ice:ia_dxw>9</ice:ia_dxw>
+			<gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="i_crac.1g">
+				<gml:posList>1.0 17.0 5.0 17.0 10.0 17.0 15.0 17.0 20.0 17.0 25.0 17.0 30.0 17.0 37.0 17.0</gml:posList>
+			</gml:LineString>
+		</ice:i_crac>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icecom gml:id="icecom.1">
+			<ice:icecst>12</ice:icecst>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icecom.1g">
+				<gml:pos>1.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icecom>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icelea gml:id="icelea.1">
+			<ice:iceloc>02</ice:iceloc>
+			<ice:icelst>01</ice:icelst>
+			<ice:icelwd>21</ice:icelwd>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icelea.1g">
+				<gml:pos>2.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icelea>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.1">
+			<ice:icebsz>1</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.1g">
+				<gml:pos>3.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.2">
+			<ice:icebsz>02</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.2g">
+				<gml:pos>4.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.3">
+			<ice:icebsz>03</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.3g">
+				<gml:pos>5.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.4">
+			<ice:icebsz>04</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.4g">
+				<gml:pos>6.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.5">
+			<ice:icebsz>05</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.5g">
+				<gml:pos>7.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.6">
+			<ice:icebsz>06</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.6g">
+				<gml:pos>8.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.7">
+			<ice:icebsz>07</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.7g">
+				<gml:pos>9.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.8">
+			<ice:icebsz>08</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.8g">
+				<gml:pos>10.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.9">
+			<ice:icebsz>09</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.9g">
+				<gml:pos>11.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icebrg gml:id="icebrg.10">
+			<ice:icebsz>99</ice:icebsz>
+			<ice:icedsp>5.0</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<ice:ia_obn>5</ice:ia_obn>
+			<ice:ia_bfm>03</ice:ia_bfm>
+			<ice:ia_buh>10</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icebrg.10g">
+				<gml:pos>12.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icebrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:flobrg gml:id="flobrg.1">
+			<ice:icedsp>4</ice:icedsp>
+			<ice:iceddr>06</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="flobrg.1g">
+				<gml:pos>13.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:flobrg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icethk gml:id="icethk.1">
+			<ice:icetck>25</ice:icetck>
+			<ice:icemax>30</ice:icemax>
+			<ice:icemin>20</ice:icemin>
+			<ice:icetty>01</ice:icetty>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icethk.1g">
+				<gml:pos>14.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icethk>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icethk gml:id="icethk.2">
+			<ice:icetck>25</ice:icetck>
+			<ice:icemax>30</ice:icemax>
+			<ice:icemin>20</ice:icemin>
+			<ice:icetty>02</ice:icetty>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icethk.2g">
+				<gml:pos>15.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icethk>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icethk gml:id="icethk.3">
+			<ice:icetck>25</ice:icetck>
+			<ice:icemax>30</ice:icemax>
+			<ice:icemin>20</ice:icemin>
+			<ice:icetty>99</ice:icetty>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icethk.3g">
+				<gml:pos>16.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icethk>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:iceshr gml:id="iceshr.1">
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="iceshr.1g">
+				<gml:pos>17.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:iceshr>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icediv gml:id="icediv.1">
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icediv.1g">
+				<gml:pos>18.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icediv>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icerdg gml:id="icerdg.1">
+			<ice:icercn>30</ice:icercn>
+			<ice:icerfq>10</ice:icerfq>
+			<ice:icermh>25</ice:icermh>
+			<ice:icerxh>30</ice:icerxh>
+			<ice:icerdv>02</ice:icerdv>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icerdg.1g">
+				<gml:pos>19.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icerdg>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icekel gml:id="icekel.1">
+			<ice:icekcn>45</ice:icekcn>
+			<ice:icekfq>10</ice:icekfq>
+			<ice:icekmd>20</ice:icekmd>
+			<ice:icekxd>25</ice:icekxd>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icekel.1g">
+				<gml:pos>20.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icekel>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.1">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>01</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.1g">
+				<gml:pos>21.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.2">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>02</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.2g">
+				<gml:pos>22.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.3">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>03</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.3g">
+				<gml:pos>23.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.4">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>04</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.4g">
+				<gml:pos>24.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.5">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>05</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.5g">
+				<gml:pos>25.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.6">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>06</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.6g">
+				<gml:pos>26.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.7">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>07</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.7g">
+				<gml:pos>27.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.8">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>08</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.8g">
+				<gml:pos>28.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.9">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>09</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.9g">
+				<gml:pos>29.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.10">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>10</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.10g">
+				<gml:pos>30.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icedft gml:id="icedft.11">
+			<ice:icedsp>5</ice:icedsp>
+			<ice:iceddr>99</ice:iceddr>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icedft.11g">
+				<gml:pos>31.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icedft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icefra gml:id="icefra.1">
+			<ice:icefty>02</ice:icefty>
+			<ice:iceloc>01</ice:iceloc>
+			<ice:ia_obn>3</ice:ia_obn>
+			<ice:icesod>80</ice:icesod>
+			<ice:icedvw>10</ice:icedvw>
+			<ice:ia_dmw>5</ice:ia_dmw>
+			<ice:ia_dxw>15</ice:ia_dxw>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icefra.1g">
+				<gml:pos>32.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icefra>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:icerft gml:id="icerft.1">
+			<ice:icefcn>34</ice:icefcn>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="icerft.1g">
+				<gml:pos>33.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:icerft>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:jmdbrr gml:id="jmdbrr.1">
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="jmdbrr.1g">
+				<gml:pos>34.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:jmdbrr>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:stgmlt gml:id="stgmlt.1">
+			<ice:icemlt>03</ice:icemlt>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="stgmlt.1g">
+				<gml:pos>35.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:stgmlt>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:snwcvr gml:id="snwcvr.1">
+			<ice:icescn>05</ice:icescn>
+			<ice:icesct>10</ice:icesct>
+			<ice:icedos>03</ice:icedos>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="snwcvr.1g">
+				<gml:pos>36.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:snwcvr>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:strptc gml:id="strptc.1">
+			<ice:icespc>12</ice:icespc>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="strptc.1g">
+				<gml:pos>37.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:strptc>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:i_grhm gml:id="i_grhm.1">
+			<ice:ia_buh>5</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="i_grhm.1g">
+				<gml:pos>38.0 0.0</gml:pos>
+			</gml:Point>
+		</ice:i_grhm>
+	</ice:IceFeatureMember>
+	<ice:IceFeatureMember>
+		<ice:i_grhm gml:id="i_grhm.2">
+			<ice:ia_buh>5</ice:ia_buh>
+			<gml:Point srsName="http://www.opengis.net/gml/srs/epsg.xml#4326" gml:id="i_grhm.2g">
+				<gml:pos>10.0 10.0</gml:pos>
+			</gml:Point>
+		</ice:i_grhm>
+	</ice:IceFeatureMember>
+</ice:IceDataSet>

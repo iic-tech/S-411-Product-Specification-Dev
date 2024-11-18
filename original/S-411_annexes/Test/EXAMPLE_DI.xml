@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<displayList>
+    <areaInstruction>
+        <featureReference reference="brgare.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbolFill>
+            <areaCRS>Global</areaCRS>
+            <symbol>
+                <symbolReference>../../Symbols/brgare.svg</symbolReference>
+                <rotation>0.0</rotation>
+                <rotationCRS>PortrayalCRS</rotationCRS>
+                <scaleFactor>1.0</scaleFactor>
+            </symbol>
+            <v1>
+                <x>10.0</x>
+                <y>10.0</y>
+            </v1>
+            <v2>
+                <x>0.0</x>
+                <y>0.0</y>
+            </v2>
+        </symbolFill>
+    </areaInstruction>
+    <lineInstruction>
+        <featureReference reference="icelne.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <simpleLineStyle>
+            <capStyle>Butt</capStyle>
+            <joinStyle>Miter</joinStyle>
+            <offset>0.0</offset>
+            <pen width="1.0">
+                <color>
+                    <token>0 0 0</token>
+                    <transparency>0.0</transparency>
+                </color>
+            </pen>
+        </simpleLineStyle>
+    </lineInstruction>
+    <lineInstruction>
+        <featureReference reference="opnlne.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <simpleLineStyle>
+            <capStyle>Butt</capStyle>
+            <joinStyle>Miter</joinStyle>
+            <offset>0.0</offset>
+            <pen width="1.0">
+                <color>
+                    <token>255 0 0</token>
+                    <transparency>0.0</transparency>
+                </color>
+            </pen>
+        </simpleLineStyle>
+    </lineInstruction>
+    <lineInstruction>
+        <featureReference reference="lkilne.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <simpleLineStyle>
+            <capStyle>Butt</capStyle>
+            <joinStyle>Miter</joinStyle>
+            <offset>0.0</offset>
+            <pen width="1.0">
+                <color>
+                    <token>0 255 0</token>
+                    <transparency>0.0</transparency>
+                </color>
+            </pen>
+        </simpleLineStyle>
+    </lineInstruction>
+    <pointInstruction>
+        <featureReference reference="icecom.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icecom.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icelea.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icelea.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_growler.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.2"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_bergy_bit.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.3"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_small.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.4"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_medium.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.5"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_large.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.6"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_very_large.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.7"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_ice_island_fragment.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.8"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_ice_island.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.9"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_radar_target.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icebrg.10"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icebrg_unknown.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="flobrg.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/flobrg.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icethk.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icethk_measured.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <textInstruction>
+        <featureReference reference="icethk.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <displayPriority>1</displayPriority>
+        <textPoint horizontalAlignment="Center" verticalAlignment="Center">
+            <element>
+                <text>25</text>
+                <bodySize>3.0</bodySize>
+                <verticalOffset>0.0</verticalOffset>
+                <flags>
+                    <flag/>
+                </flags>
+                <foreground>
+                    <token>0 0 0</token>
+                    <trasparency>0.0</trasparency>
+                </foreground>
+                <background>
+                    <token/>
+                    <transparency/>
+                </background>
+                <font>
+                    <serifs>false</serifs>
+                    <weight>Medium</weight>
+                    <slant>Upright</slant>
+                    <proportion>Proportional</proportion>
+                </font>
+            </element>
+            <offset>
+                <x>0.0</x>
+                <y>0.0</y>
+            </offset>
+            <rotation>0.0</rotation>
+        </textPoint>
+    </textInstruction>
+    <pointInstruction>
+        <featureReference reference="icethk.2"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icethk_estimated.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <textInstruction>
+        <featureReference reference="icethk.2"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <displayPriority>1</displayPriority>
+        <textPoint horizontalAlignment="Center" verticalAlignment="Center">
+            <element>
+                <text>25</text>
+                <bodySize>3.0</bodySize>
+                <verticalOffset>0.0</verticalOffset>
+                <flags>
+                    <flag/>
+                </flags>
+                <foreground>
+                    <token>0 0 0</token>
+                    <trasparency>0.0</trasparency>
+                </foreground>
+                <background>
+                    <token/>
+                    <transparency/>
+                </background>
+                <font>
+                    <serifs>false</serifs>
+                    <weight>Medium</weight>
+                    <slant>Upright</slant>
+                    <proportion>Proportional</proportion>
+                </font>
+            </element>
+            <offset>
+                <x>0.0</x>
+                <y>0.0</y>
+            </offset>
+            <rotation>0.0</rotation>
+        </textPoint>
+    </textInstruction>
+    <pointInstruction>
+        <featureReference reference="icethk.3"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icethk_unknown.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <textInstruction>
+        <featureReference reference="icethk.3"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <displayPriority>1</displayPriority>
+        <textPoint horizontalAlignment="Center" verticalAlignment="Center">
+            <element>
+                <text>25</text>
+                <bodySize>3.0</bodySize>
+                <verticalOffset>0.0</verticalOffset>
+                <flags>
+                    <flag/>
+                </flags>
+                <foreground>
+                    <token>0 0 0</token>
+                    <trasparency>0.0</trasparency>
+                </foreground>
+                <background>
+                    <token/>
+                    <transparency/>
+                </background>
+                <font>
+                    <serifs>false</serifs>
+                    <weight>Medium</weight>
+                    <slant>Upright</slant>
+                    <proportion>Proportional</proportion>
+                </font>
+            </element>
+            <offset>
+                <x>0.0</x>
+                <y>0.0</y>
+            </offset>
+            <rotation>0.0</rotation>
+        </textPoint>
+    </textInstruction>
+    <pointInstruction>
+        <featureReference reference="iceshr.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/iceshr.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icediv.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icediv.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icerdg.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icerdg.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icekel.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icekel.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_no_ice_motion.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.2"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_NE.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.3"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_E.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.4"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_SE.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.5"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_S.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.6"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_SW.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.7"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_W.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.8"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_NW.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.9"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_N.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.10"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_variable.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icedft.11"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icedft_unknown.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icefra.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icefra.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="icerft.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/icerft.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="jmdbrr.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/jmdbrr.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="strptc.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/strptc.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="i_grhm.1"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/i_grhm.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+    <pointInstruction>
+        <featureReference reference="i_grhm.2"/>
+        <viewingGroup>IceStandardViewingGroup</viewingGroup>
+        <displayPlane>IceStandardDisplayPlane</displayPlane>
+        <drawingPriority>1</drawingPriority>
+        <symbol>
+            <symbolReference>../../Symbols/i_grhm.svg</symbolReference>
+            <rotation>0.0</rotation>
+            <scaleFactor>1.0</scaleFactor>
+        </symbol>
+    </pointInstruction>
+</displayList>

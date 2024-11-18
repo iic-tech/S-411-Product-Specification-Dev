@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ec:S100_ExchangeCatalogue xmlns:ec="http://www.iho.int/S100EC" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.iho.int/S100EC file:/H:/oxygen_projects/S411_170114/S411/Schemas/S100EC.xsd">
+    <ec:identifier>
+    	
+        <ec:identifier>S411_BSH_Ek-20140128x</ec:identifier>
+        <ec:editionNumber>1.0.0</ec:editionNumber>
+        
+        <ec:date>
+        	<gco:Date>20140128</gco:Date>
+        </ec:date>
+    </ec:identifier>
+    <ec:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Jürgen Holfort</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Federal Maritime and Hydrographic Agency, Germany (BSH)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>+49 (0) 381 4563-782</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString>+49 (0) 381 4563-949</gco:CharacterString>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>Neptunallee 5</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Rostock</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>18057</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ice@bsh.de</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </ec:contact>
+    <ec:productSpecification>
+        <ec:name>Ice Information Product Specification (JCOMM S-411)</ec:name>
+        <ec:version>1.0.0</ec:version>
+        <ec:date>
+        	<gco:Date>20140325</gco:Date>
+        </ec:date>
+    </ec:productSpecification>
+    <ec:S100_DatasetDiscoveryMetadata>
+        <ec:fileName>S411_BSH_Ek-20140128x.gml</ec:fileName>
+        <ec:filePath>/data/S411_BSH_Ek-20140128x.gml</ec:filePath>
+        <ec:description>S-411 Ice Data Set</ec:description>
+        <ec:purpose>Navigation in ice covered regions</ec:purpose>
+        <ec:specificUsage>Navigation in ice</ec:specificUsage>
+        <ec:editionNumber>1.0.0</ec:editionNumber>
+        <ec:updateNumber>not applicable</ec:updateNumber>
+        <ec:issueDate />
+        <ec:productSpecification>
+            <ec:name>Ice Information Product Specification (JCOMM S-411)</ec:name>
+            <ec:version>1.0.0</ec:version>
+            <ec:date>
+            	<gco:Date>20140325</gco:Date>
+            </ec:date>
+        </ec:productSpecification>
+        <ec:producingAgency>
+        	<gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Jürgen Holfort</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Federal Maritime and Hydrographic Agency, Germany (BSH)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>+49 (0) 381 4563-782</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString>+49 (0) 381 4563-949</gco:CharacterString>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>Neptunallee 5</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Rostock</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>18057</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>ice@bsh.de</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+            </gmd:role>
+            </gmd:CI_ResponsibleParty>
+        </ec:producingAgency>
+        <ec:displayScale>0</ec:displayScale>
+        <ec:horizontalDatum>WGS84</ec:horizontalDatum>
+        <ec:verticalDatum>not applicable</ec:verticalDatum>
+        <ec:dataType>GML</ec:dataType>
+        <ec:dataTypeVersion>3.2.1</ec:dataTypeVersion>
+        <ec:boundingBox></ec:boundingBox>
+        <ec:boundingPolygon>
+        	<gmd:EX_BoundingPolygon>
+                <gmd:polygon>
+                    <gml:Polygon gml:id="S411_BSH_Ek-20140128xg" srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+                       <gml:exterior>
+                           <gml:LinearRing>
+                               <gml:posList>28.6566894228 65.5245521119 28.6566894228 53.7289992905 14.6690598124 53.7289992905 14.6690598124 65.5245521119 28.6566894228 65.5245521119</gml:posList>
+                           </gml:LinearRing>
+                       </gml:exterior> 
+                    </gml:Polygon>
+                </gmd:polygon>
+            </gmd:EX_BoundingPolygon>
+        </ec:boundingPolygon>
+        <ec:cyclicRedundancyCheckSum>1619153053</ec:cyclicRedundancyCheckSum>
+    </ec:S100_DatasetDiscoveryMetadata>
+</ec:S100_ExchangeCatalogue>
