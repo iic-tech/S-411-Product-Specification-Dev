@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <S100_FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.iho.int/S100FC/5.2 ../../../xgml/33-S100-2024/schemas/S100/5.2.0/S100FC/20231214/S100FC.xsd"
+ xsi:schemaLocation="http://www.iho.int/S100FC/5.2 ../../../../../../xgml/33-S100-2024/schemas/S100/5.2.0/S100FC/20231214/S100FC.xsd"
  xmlns="http://www.iho.int/S100FC/5.2" xmlns:ns2="http://www.iho.int/S100CI/5.0"
  xmlns:ns4="http://www.iho.int/S100CD/5.0" xmlns:ns3="http://www.iho.int/S100Base/5.0">
     <name>JCOMM S-411 Sea Ice Feature Catalogue</name>
@@ -1108,9 +1108,9 @@
             <valueType>integer</valueType>
         </S100_FC_SimpleAttribute>
         <S100_FC_SimpleAttribute>
-            <name>Mimimum Ice Tickness</name>
+            <name>Mimimum Ice Thickness</name>
             <definition>ICEMIN specifies the minimum thickness of the ice.</definition>
-            <code>mimimumIceTickness</code>
+            <code>mimimumIceThickness</code>
             <alias>ICEMIN</alias>
             <valueType>integer</valueType>
         </S100_FC_SimpleAttribute>
@@ -2390,7 +2390,7 @@
         <S100_FC_SimpleAttribute>
             <name>Stage of Development SS</name>
             <definition>Stage of develpment (ss) for ia_sfa, ia_sfb, ia_sfc, ia_ffa, ia_ffb, ia_ffc complex attributes</definition>
-            <code>stageofDevelopmentSS</code>
+            <code>stageOfDevelopmentSS</code>
             <alias>SS</alias>
             <valueType>enumeration</valueType>
             <listedValues>
@@ -2502,14 +2502,14 @@
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="FF"/>
+                <attribute ref="floeSizeFF"/>
             </subAttributeBinding>
             <subAttributeBinding>
                 <multiplicity>
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="SS"/>
+                <attribute ref="stageOfDevelopmentSS"/>
             </subAttributeBinding>
         </S100_FC_ComplexAttribute>
         <S100_FC_ComplexAttribute>
@@ -2521,14 +2521,14 @@
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="FF"/>
+                <attribute ref="floeSizeFF"/>
             </subAttributeBinding>
             <subAttributeBinding>
                 <multiplicity>
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="SS"/>
+                <attribute ref="stageOfDevelopmentSS"/>
             </subAttributeBinding>
         </S100_FC_ComplexAttribute>
         <S100_FC_ComplexAttribute>
@@ -2540,14 +2540,14 @@
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="FF"/>
+                <attribute ref="floeSizeFF"/>
             </subAttributeBinding>
             <subAttributeBinding>
                 <multiplicity>
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="SS"/>
+                <attribute ref="stageOfDevelopmentSS"/>
             </subAttributeBinding>
         </S100_FC_ComplexAttribute>
         <S100_FC_ComplexAttribute>
@@ -2559,14 +2559,14 @@
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="FF"/>
+                <attribute ref="floeSizeFF"/>
             </subAttributeBinding>
             <subAttributeBinding>
                 <multiplicity>
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="SS"/>
+                <attribute ref="stageOfDevelopmentSS"/>
             </subAttributeBinding>
         </S100_FC_ComplexAttribute>
         <S100_FC_ComplexAttribute>
@@ -2578,14 +2578,14 @@
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="FF"/>
+                <attribute ref="floeSizeFF"/>
             </subAttributeBinding>
             <subAttributeBinding>
                 <multiplicity>
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="SS"/>
+                <attribute ref="stageOfDevelopmentSS"/>
             </subAttributeBinding>
         </S100_FC_ComplexAttribute>
         <S100_FC_ComplexAttribute>
@@ -2597,14 +2597,14 @@
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="FF"/>
+                <attribute ref="floeSizeFF"/>
             </subAttributeBinding>
             <subAttributeBinding>
                 <multiplicity>
                     <ns3:lower>1</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="SS"/>
+                <attribute ref="stageOfDevelopmentSS"/>
             </subAttributeBinding>
         </S100_FC_ComplexAttribute>
     </S100_FC_ComplexAttributes>
@@ -2745,7 +2745,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="mimimumIceTickness"/>
+                <attribute ref="mimimumIceThickness"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
@@ -3222,21 +3222,21 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="averageWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="averageWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="minimumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="minimumWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="maximumWidthofIceLead"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>curve</permittedPrimitives>
@@ -3265,21 +3265,21 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="averageWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="averageWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="minimumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="minimumWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="maximumWidthofIceLead"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>curve</permittedPrimitives>
@@ -3308,21 +3308,21 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="averageWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="averageWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="minimumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="minimumWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="maximumWidthofIceLead"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>curve</permittedPrimitives>
@@ -3366,7 +3366,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="iceLead(orFractureorCrack)Width"/>
+                <attribute ref="iceLeadWidth"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>point</permittedPrimitives>
@@ -3416,7 +3416,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumHeightofAboveWaterPart(iceberg/groundedhummock)"/>
+                <attribute ref="maximumHeightofAboveWaterPart"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>point</permittedPrimitives>
@@ -3467,7 +3467,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="mimimumIceTickness"/>
+                <attribute ref="mimimumIceThickness"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
@@ -3634,21 +3634,21 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>5</ns3:upper>
                 </multiplicity>
-                <attribute ref="averageWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="averageWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="minimumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="minimumWidthofIceLead"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumWidthofIceLead(orFractureorCrack)"/>
+                <attribute ref="maximumWidthofIceLead"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>point</permittedPrimitives>
