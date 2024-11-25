@@ -2808,7 +2808,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="iceLead(orFractureorCrack)Width"/>
+                <attribute ref="iceLeadWidth"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
@@ -3026,7 +3026,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="mimimumIceTickness"/>
+                <attribute ref="mimimumIceThickness"/>
             </attributeBinding>
             <attributeBinding>
                 <multiplicity>
@@ -3089,7 +3089,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="iceLead(orFractureorCrack)Width"/>
+                <attribute ref="iceLeadWidth"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>surface</permittedPrimitives>
@@ -3132,7 +3132,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumHeightofAboveWaterPart(iceberg/groundedhummock)"/>
+                <attribute ref="maximumHeightofAboveWaterPart"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>surface</permittedPrimitives>
@@ -3745,7 +3745,7 @@
                     <ns3:lower>0</ns3:lower>
                     <ns3:upper>1</ns3:upper>
                 </multiplicity>
-                <attribute ref="maximumHeightofAboveWaterPart(iceberg/groundedhummock)"/>
+                <attribute ref="maximumHeightofAboveWaterPart"/>
             </attributeBinding>
             <featureUseType>geographic</featureUseType>
             <permittedPrimitives>point</permittedPrimitives>

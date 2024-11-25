@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>S-411Model</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> S-411Model </h1>
+			<!-- <img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="EA3.htm">S-411 Feature Types</a> / <a href="EA1.htm">S-411Model</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../images/175.png" alt="Diagram"/> <a href="EA1.htm">S-411Model</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA4.htm">averageWidthOfIceLead</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA6.htm">combinationIceStageOfDevelopmentAndFloeSize</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA11.htm">Floeberg</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA15.htm">frequencyOfLeadsOrFractures</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA16.htm">GroundedHummock</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA18.htm">Ice</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA19.htm">iceAverageThickness</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA20.htm">Iceberg</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA21.htm">IcebergArea</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA23.htm">IcebergLimit</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA25.htm">iceBrecciaforTheFirstPartialconcentration</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA26.htm">IceCompacting</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA27.htm">IceDivergence</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA28.htm">IceDrift</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA30.htm">iceDriftSpeed</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA31.htm">IceEdge</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA32.htm">IceFracture</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA35.htm">iceKeelFrequency</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA36.htm">iceKeelMaximumDepth</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA37.htm">iceKeelMeanDepth</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA38.htm">IceKeelOrBummock</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA39.htm">IceLead</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA41.htm">iceLeadWidth</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA43.htm">IceRafting</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA47.htm">iceRidgeFrequency</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA48.htm">iceRidgeMaximumHeight</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA49.htm">iceRidgeMeanHeight</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA50.htm">IceRidgeOrHummock</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA51.htm">IceShear</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA53.htm">IceThickness</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA55.htm">JammedBrashBarrier</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA56.htm">jp1</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA57.htm">LakeIce</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA60.htm">LimitOfAllKnownIce</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA61.htm">LimitOfOpenWater</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA62.htm">LineOfIceCrac</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA63.htm">LineOfIceFracture</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA64.htm">LineOfIceLead</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA65.htm">LineOfIceRidge</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA66.htm">maximumHeightOfAboveWaterPart</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA67.htm">maximumIceThickness</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA68.htm">maximumWidthOfIceLead</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA70.htm">minimumIceThickness</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA71.htm">minimumWidthOfIceLead</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA72.htm">numberOfIcebergsInArea</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA73.htm">numberOfIceParts</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA77.htm">SeaIce</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA78.htm">SimpleAttributes</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA80.htm">SnowCover</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA82.htm">snowDepth</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA84.htm">StageOfMelt</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA86.htm">StripsAndPatches</a></li>
+<li><img src="../images/5.png" alt="Class"/> <a href="EA87.htm">totalConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA5.htm">brashIce</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA7.htm">compactingStrength</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA8.htm">concentrationOfStripsAndPatches</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA9.htm">contamination</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA10.htm">directionOfSastrugi</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA12.htm">floeSize(FF)</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA13.htm">floeSizes</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA14.htm">fracturesConcentratation</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA17.htm">hillsConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA22.htm">icebergConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA24.htm">icebergSize</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA29.htm">iceDriftDirection</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA33.htm">iceFractureType</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA34.htm">iceKeelConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA40.htm">iceLeadStatus</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA42.htm">iceLocationInformation</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA44.htm">iceRaftingConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA45.htm">iceRidgeClassification</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA46.htm">iceRidgeConcentratio</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA52.htm">iceStageOfDevelopment</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA54.htm">iceThicknessType</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA58.htm">lakeIceStageOfDevelopment</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA59.htm">levelIce</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA69.htm">meltSize</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA74.htm">orientationOfLeadsOrFractures</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA75.htm">partialConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA76.htm">prevailingIcebergForm</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA79.htm">snowCover</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA81.htm">snowCoverConcentration</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA83.htm">stageOfDevelopment(SS)</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA85.htm">stageOfMelting</a></li>
+<li><img src="../images/247.png" alt="Enumeration"/> <a href="EA88.htm">totalConcentration</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA2.png" usemap="#EA2" border="0" />
+
+<MAP NAME="EA2">
+<area shape="rect" coords="2004,624,2216,761" href="EA77.htm" target="_self">
+<area shape="rect" coords="1604,1413,1720,1482" href="EA16.htm" target="_self">
+<area shape="rect" coords="1604,1333,1694,1403" href="EA86.htm" target="_self">
+<area shape="rect" coords="1601,1246,1691,1316" href="EA80.htm" target="_self">
+<area shape="rect" coords="1601,1158,1691,1228" href="EA84.htm" target="_self">
+<area shape="rect" coords="1601,1069,1691,1139" href="EA55.htm" target="_self">
+<area shape="rect" coords="1592,982,1682,1052" href="EA43.htm" target="_self">
+<area shape="rect" coords="1582,893,1672,963" href="EA32.htm" target="_self">
+<area shape="rect" coords="1582,809,1672,879" href="EA28.htm" target="_self">
+<area shape="rect" coords="1576,723,1717,793" href="EA38.htm" target="_self">
+<area shape="rect" coords="1572,638,1714,708" href="EA50.htm" target="_self">
+<area shape="rect" coords="1565,551,1655,621" href="EA27.htm" target="_self">
+<area shape="rect" coords="1565,469,1655,539" href="EA51.htm" target="_self">
+<area shape="rect" coords="1565,384,1655,454" href="EA53.htm" target="_self">
+<area shape="rect" coords="1565,304,1655,374" href="EA11.htm" target="_self">
+<area shape="rect" coords="1565,219,1655,289" href="EA20.htm" target="_self">
+<area shape="rect" coords="1558,133,1648,203" href="EA39.htm" target="_self">
+<area shape="rect" coords="1558,40,1655,110" href="EA26.htm" target="_self">
+<area shape="rect" coords="1847,653,1937,723" href="EA62.htm" target="_self">
+<area shape="rect" coords="1840,567,1948,637" href="EA63.htm" target="_self">
+<area shape="rect" coords="1835,481,1948,551" href="EA64.htm" target="_self">
+<area shape="rect" coords="1835,387,1940,457" href="EA65.htm" target="_self">
+<area shape="rect" coords="1840,270,1962,340" href="EA60.htm" target="_self">
+<area shape="rect" coords="1840,189,1930,259" href="EA61.htm" target="_self">
+<area shape="rect" coords="1840,97,1930,167" href="EA23.htm" target="_self">
+<area shape="rect" coords="2392,188,2610,299" href="EA21.htm" target="_self">
+<area shape="rect" coords="2272,349,2362,419" href="EA57.htm" target="_self">
+<area shape="rect" coords="2004,183,2216,580" href="EA18.htm" target="_self">
+<area shape="rect" coords="385,391,687,461" href="EA25.htm" target="_self">
+<area shape="rect" coords="81,391,359,461" href="EA6.htm" target="_self">
+<area shape="rect" coords="1389,612,1508,672" href="EA83.htm" target="_self">
+<area shape="rect" coords="1246,612,1336,672" href="EA12.htm" target="_self">
+<area shape="rect" coords="1090,708,1180,768" href="EA5.htm" target="_self">
+<area shape="rect" coords="1395,157,1527,227" href="EA71.htm" target="_self">
+<area shape="rect" coords="1240,249,1395,319" href="EA68.htm" target="_self">
+<area shape="rect" coords="1188,157,1340,227" href="EA4.htm" target="_self">
+<area shape="rect" coords="1206,63,1322,133" href="EA73.htm" target="_self">
+<area shape="rect" coords="1004,249,1195,319" href="EA66.htm" target="_self">
+<area shape="rect" coords="1074,600,1195,660" href="EA76.htm" target="_self">
+<area shape="rect" coords="1389,511,1497,571" href="EA22.htm" target="_self">
+<area shape="rect" coords="1223,507,1342,567" href="EA14.htm" target="_self">
+<area shape="rect" coords="1093,511,1183,571" href="EA17.htm" target="_self">
+<area shape="rect" coords="975,809,1065,869" href="EA9.htm" target="_self">
+<area shape="rect" coords="841,809,942,869" href="EA85.htm" target="_self">
+<area shape="rect" coords="957,708,1047,768" href="EA79.htm" target="_self">
+<area shape="rect" coords="661,809,805,869" href="EA44.htm" target="_self">
+<area shape="rect" coords="826,249,970,319" href="EA36.htm" target="_self">
+<area shape="rect" coords="641,249,763,319" href="EA37.htm" target="_self">
+<area shape="rect" coords="482,249,591,319" href="EA35.htm" target="_self">
+<area shape="rect" coords="501,809,613,869" href="EA34.htm" target="_self">
+<area shape="rect" coords="300,249,421,319" href="EA48.htm" target="_self">
+<area shape="rect" coords="1033,157,1138,227" href="EA47.htm" target="_self">
+<area shape="rect" coords="1028,63,1149,133" href="EA49.htm" target="_self">
+<area shape="rect" coords="335,809,467,869" href="EA45.htm" target="_self">
+<area shape="rect" coords="179,809,289,869" href="EA46.htm" target="_self">
+<area shape="rect" coords="916,600,1019,660" href="EA10.htm" target="_self">
+<area shape="rect" coords="1835,10,1925,80" href="EA31.htm" target="_self">
+<area shape="rect" coords="910,511,1042,571" href="EA81.htm" target="_self">
+<area shape="rect" coords="896,157,986,227" href="EA82.htm" target="_self">
+<area shape="rect" coords="40,809,143,869" href="EA54.htm" target="_self">
+<area shape="rect" coords="690,157,835,227" href="EA70.htm" target="_self">
+<area shape="rect" coords="513,157,644,227" href="EA67.htm" target="_self">
+<area shape="rect" coords="294,157,440,227" href="EA19.htm" target="_self">
+<area shape="rect" coords="862,63,965,133" href="EA30.htm" target="_self">
+<area shape="rect" coords="793,708,907,768" href="EA29.htm" target="_self">
+<area shape="rect" coords="653,708,756,768" href="EA24.htm" target="_self">
+<area shape="rect" coords="467,708,613,768" href="EA42.htm" target="_self">
+<area shape="rect" coords="736,63,826,133" href="EA41.htm" target="_self">
+<area shape="rect" coords="189,708,421,768" href="EA74.htm" target="_self">
+<area shape="rect" coords="526,63,706,133" href="EA15.htm" target="_self">
+<area shape="rect" coords="31,708,143,768" href="EA40.htm" target="_self">
+<area shape="rect" coords="766,600,872,660" href="EA33.htm" target="_self">
+<area shape="rect" coords="587,600,721,660" href="EA7.htm" target="_self">
+<area shape="rect" coords="455,600,545,660" href="EA59.htm" target="_self">
+<area shape="rect" coords="189,600,400,660" href="EA8.htm" target="_self">
+<area shape="rect" coords="35,600,138,660" href="EA69.htm" target="_self">
+<area shape="rect" coords="731,511,821,571" href="EA13.htm" target="_self">
+<area shape="rect" coords="538,511,694,658" href="EA58.htm" target="_self">
+<area shape="rect" coords="364,511,500,571" href="EA52.htm" target="_self">
+<area shape="rect" coords="199,511,325,571" href="EA75.htm" target="_self">
+<area shape="rect" coords="294,63,497,133" href="EA72.htm" target="_self">
+<area shape="rect" coords="31,511,156,571" href="EA88.htm" target="_self">
+<area shape="rect" coords="10,63,234,186" href="EA78.htm" target="_self">
+<area shape="rect" coords="10,204,100,274" href="EA56.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">S-411Model : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">19/11/2024 12:57:17</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">25/11/2024 10:58:52</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">kusal</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{46F308D5-C0A0-4f47-A44C-0CBDCFB1B0B1}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
