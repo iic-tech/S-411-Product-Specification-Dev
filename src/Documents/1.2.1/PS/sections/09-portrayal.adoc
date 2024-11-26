@@ -2,6 +2,48 @@
 [[sec-portrayal]]
 == Portrayal
 
-=== Introduction
+=== Rules
+Diagramm to be inserted.
 
-=== Portrayal Catalogue
+main.xsl includes all the rules for single feature types. It manages the selection of the right rule, depending on current feature type in dataset and parameters in 
+ iceDisplayParameters.xml
+
+iceDisplayParameters.xml contains parameters important for display of ice features:
+
+String iceclass
+
+Boolean encoverlay
+
+String Display Mode
+
+Depending on the iceclass parameter the right seaice or lacice rule can be selected. The default is *_class_III.xsl
+
+The encoverlay parameter helps to calculate the priority for display of single ice feature types. If encoverlay is true, the priority will be calculated, depending on priority of land area feature in ENC. The area objects of ice features should be displayed under the land area polygons, because they are usually drawn over the land.
+
+=== Symbols
+
+==== Polygon Features
+
+===== IceNavigationalDisplayMode (Traffic Light Principle, depends on Ice Class)
+
+Figure to be inserted here.
+
+===== IceScientificIceactDisplayMode
+
+Figure to be inserted here.
+
+===== IceNavigationalDisplayMode
+
+Figure to be inserted here.
+
+==== Line Features
+
+Figure to be inserted here.
+
+==== Point Features
+
+Figure to be inserted here.
+
+==== Draw order
+
+Table to be inserted here.
