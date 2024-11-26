@@ -2,48 +2,24 @@
 [[sec-data-product-identification]]
 == Data Product Identification
 
-*Title*:: Marine Protected Areas
+*Title*:: Ice Information
 
-*Alternate Title*:: None
+*Abstract*:: Ice Information for navigation in ice covered regions
 
-*Abstract*::
+*Topic Category*:: Transportation, climatology, meteorology, atmosphere
 
-*Topic Category*::
-+
---
-Main topics for the product, as according to <<iso-19115-1>> MD_TopicCategoryCode:
+*Geographic Description*:: Ice covered regions
 
-006 -- elevation
+*Spatial Resolution*:: ---
 
-014 -- oceans
-
-012 -- inlandWaters
---
-
-*Geographic Description*:: Areas specific to marine navigation.
-
-*Spatial Resolution*:: ...
-
-*Purpose*:: ...n.
+*Purpose*:: Navigation in ice covered regions
 
 *Language*:: English (Mandatory), other (Optional)
 
-*Classification*::
-+
---
-[[classtart]]Data can be classified as one of the following:[[classend]]
+*Classification*:: Unclassified
 
-. Unclassified;
-. Restricted;
-. Confidential;
-. Secret;
-. Top Secret;
-. Sensitive but unclassified;
-. For official use only;
-. Protected;
-. Limited distribution
---
-
-*Spatial Representation Type*:: Type of spatial representation for the product, as defined by the <<iso-19115-1>> MD_SpatialRepresentationTypeCode: XXX - XXX.
+*Spatial Representation Type*:: Vector
 
 *Point of Contact*:: Producing Agency
+
+*Use Limitation*:: ---
