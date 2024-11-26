@@ -1,13 +1,14 @@
 :sectnums:
 [[sec-overview]]
 == Overview
-This document has been produced by the BSH as part of JCOMM/ETSI in response to a requirement to produce an ice data product that can be used within Electronic Chart Display and Information Systems.
-The Ice Information product specification is based on the IHO S-100 framework specification,
-Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.
 
 === Scope
 
+This document has been produced by the BSH as part of JCOMM/ETSI in response to a requirement to produce an ice data product that can be used within Electronic Chart Display and Information Systems.
+The Ice Information product specification is based on the IHO S-100 framework specification,
+Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.
 [bibliography]
+
 === References
 
 * [[[iho-s100,IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024]]]
@@ -35,9 +36,7 @@ Within this document:
 
 ===== Accuracy
 
-Closeness of agreement between a test result and the accepted reference values.
-
-NOTE: A test result can be from an observation or measurement.
+No reference to Accuracy in S-411 1.1.0.
 
 ===== Coordinate
 
@@ -104,67 +103,51 @@ NOTE: A geometric object consists of a geometric primitive, a collection of geom
 
 ===== Grid
 
-Network composed of two or more sets of curves in which the members of each set intersect the members of the other sets in a systematic way.
-
-NOTE: The curves partition a space into grid cells.
+No reference to Grid in S-411 1.1.0.
 
 ===== Grid Point
 
-Point located at the intersection of two or more curves in a *grid*.
+No reference to Grid Point in S-411 1.1.0.
 
 ===== Lidar
 
-An optical remote sensing technique that uses a laser pulse to determine distance.
-
-NOTE: Lidar may be used to determine depth in shallow water areas.
+No reference to Lidar in S-411 1.1.0.
 
 ===== Navigation Surface
 
-A *coverage* representing the bathymetry and associated uncertainty with the methods by which those objects can be manipulated, combined, and used for a number of tasks, certified for safety of navigation.
+No reference to Navigation Surface in S-411 1.1.0.
 
 ===== Range <coverage>
 
-Set of values associated by a *function* with the elements of the *spatiotemporal domain* of a *coverage*.
+No reference to Range in S-411 1.1.0.
 
 ===== Record
 
-Finite, named collection of related items (objects or values).
-
-NOTE: Logically, a record is a set of pairs <name, item >.
+No reference to Record in S-411 1.1.0.
 
 ===== Rectified Grid
 
-*Grid* for which there is a linear relationship between the *grid coordinates* and the *coordinates* of an external *coordinate reference system*.
-
-NOTE: If the coordinate reference system is related to the earth by a datum, the grid is a georectified grid.
+No reference to Rectified Grid in S-411 1.1.0.
 
 ===== Referenceable Grid
 
-*Grid* associated with a transformation that can be used to convert *grid coordinate* values to values of coordinates referenced to an *external coordinate reference system*.
+No reference to Referenceable Grid in S-411 1.1.0.
 
 ===== Sonar
 
-A technique that uses sound propagation through water to determine distance, primarily *depth* measurement.
+No reference to Sonar in S-411 1.1.0.
 
 ===== Spatiotemporal Domain <coverage>
 
-*Domain* composed of *geometric objects* described in terms of spatial and/or temporal *coordinates*.
-
-NOTE: The spatiotemporal domain of a continuous coverage consists of a set of direct positions defined in relation to a collection of geometric objects.
+No reference to Spatiotemporal Domain in S-411 1.1.0.
 
 ===== Surface
 
-Connected 2-dimensional geometric primitive, representing the continuous image of a region of a plane.
-
-NOTE: The boundary of a surface is the set of oriented, closed curves that delineate the limits of the surface.
+No reference to Surface in S-411 1.1.0.
 
 ===== Uncertainty
 
-The interval (about a given value) that will contain the true value of the measurement at a specific confidence level.
-
-NOTE: Errors exist and are the differences between the measured value and the true value. Since the true value is never known it follows that the error itself cannot be known. Uncertainty is a statistical assessment of the likely magnitude of this error. The numbers must be qualified by units.
-
-[[itd]]In this document an S-102 uncertainty is always considered to be 1-dimensional and at the 2-sigma or 95% confidence level.[[conlev]]
+No reference to Uncertainty in S-411 1.1.0.
 
 ===== Vector
 
@@ -186,32 +169,15 @@ ISO:: International Organization for Standardization
 JCOMM:: Joint Technical Commission for Oceanography and Marine Meteorology
 XML:: eXtensible Markup Language
 
-=== General S-102 data product description
+=== General S-411 data product description
 
 *Title*:: Ice Information Product Specification.
 
-*Abstract*:: A Marine Protected Area (MPA) is a protected area whose boundaries
-             include an area of the ocean. They include areas of the intertidal or
-             sub-tidal terrain, together with their overlying water and associated
-             flora, fauna, historical and cultural features, which have been reserved
-             by law or other effective means to protect part or all of, the enclosed
-             environment. For example, MPAs may be established to protect fish
-             species, rare habitat area, or entire ecosystems.
-             MPAs can range from, simple declarations to protect a resource, to
-             areas that are extensively regulated. The degree to which
-             environmental regulations affect shipping varies according to whether
-             MPAs are located in territorial waters, exclusive economic zones, or
-             high seas. These limits are regulated by the law of the sea. Most
-             MPAs are located in the territorial waters of coastal states, where
-             enforcement can be ensured. MPAs can also however be established
-             in a state's exclusive economic zone and even within international
-             waters. For example in 1999, Italy, France and Monaco jointly
-             established a cetacean sanctuary in the Ligurian Sea named the
-             Pelagos Sanctuary for Mediterranean Marine Ma
+*Abstract*:: To be written by GCOMM
 
 *Acronym*:: S-411
 
-*Content*:: Datasets conforming to this specification will contain all relevant MPA
+*Content*:: Datasets conforming to this specification will contain all relevant Ice
 information for the area of coverage. Additionally there will be relevant
 metadata data quality, production authority, data sources and
 publication date.The DCEG provides guidance on how data product content must be captured. <<annex-data-classification-and-encoding-guide>>, in addition to [[acstart]]<<tsf>>[[acend]], will provide implementation guidance for developers.
@@ -223,9 +189,7 @@ publication date.The DCEG provides guidance on how data product content must be 
 *North Bounding Latitude*: 90° +
 *South Bounding Latitude*: -90°
 
-*Purpose*:: Describing marine protected area information in the maritime domain
-            for utilization in ECDIS, and to allow the producer to exchange marine
-            protected area information with interested stakeholders.
+*Purpose*:: Describing marine protNavigation in ice covered regions
 
 // ported from S-122 product specification.
 
@@ -237,7 +201,7 @@ This information uniquely identifies this Product Specification and provides inf
 *S-122 Version*:: 1.2.1
 *Date*:: xx 2025
 
-*Language*:: English
+*Language*:: English (optional additional)
 *Classification*:: Unclassified
 *Contact*::
 +
