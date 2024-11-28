@@ -5,21 +5,24 @@
 === Scope
 
 This document has been produced by the BSH as part of JCOMM/ETSI in response to a requirement to produce an ice data product that can be used within Electronic Chart Display and Information Systems.
-The Ice Information product specification is based on the IHO S-100 framework specification,
-Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.
+
+The Ice Information product specification is based on the IHO S-100 framework specification, Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.
+
 [bibliography]
 
 === References
 
-* [[[iho-s100,IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024]]]
+GML - OpenGIS® Geography Markup Language (GML) Encoding Standard (Version 3.2.1)
 
-* [[[iso-19115-1,ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1]]]
+IHO S-100 - IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024
 
-* [[[iso-19115-2,ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data]]]
+ISO-19115-1 - ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1
 
-* [[[iso-19115-3,ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts]]]
+ISO-19115-2 - ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data
 
-* [[[iso-19139-1,ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules]]]
+ISO-19115-3 - ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts
+
+ISO-19139-1 - ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules
 
 === Terms, definitions and abbreviations
 
@@ -33,6 +36,8 @@ Within this document:
 
 
 ==== Terms and definitions
+
+_There are no definitions in current version of S-411. Do I delete the ones here after?_
 
 ===== Accuracy
 
@@ -159,15 +164,23 @@ NOTE: A directed line segment represents a vector if the length and direction of
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
 
-CRS:: Coordinate Reference System
-ECDIS:: Electronic Chart Display and Information System
-EPSG:: European Petroleum Survey Group
-ETSI:: Expert Team on Sea Ice
-GML:: Geography Markup Language
-IHO:: International Hydrographic Organization
-ISO:: International Organization for Standardization
-JCOMM:: Joint Technical Commission for Oceanography and Marine Meteorology
-XML:: eXtensible Markup Language
+CRS Coordinate Reference System
+
+ECDIS Electronic Chart Display and Information System
+
+EPSG European Petroleum Survey Group
+
+ETSI Expert Team on Sea Ice
+
+GML Geography Markup Language
+
+IHO International Hydrographic Organization
+
+ISO International Organization for Standardization
+
+JCOMM Joint Technical Commission for Oceanography and Marine Meteorology
+
+XML eXtensible Markup Language
 
 === General S-411 data product description
 
