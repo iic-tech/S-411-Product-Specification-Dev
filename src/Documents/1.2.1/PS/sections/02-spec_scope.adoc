@@ -5,7 +5,10 @@ This product specification defines only one general scope which applies to all i
 *Scope Identification*:: JCOMM S-411 dataset
 *Hierarchical Lelvel*:: MD_ScopeCode -005
 *Hierarchical Level Name*:: Dataset
-*Extent*:: EX_GeographicExtent -Global coverage of maritime areas.
+
+*Extent*
+
+EX_GeographicExtent -Global coverage of maritime areas.
 
 EX_TemporalExtent -Not defined for this product specification.
 
