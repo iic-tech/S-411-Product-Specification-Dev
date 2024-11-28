@@ -2,7 +2,11 @@
 [.preface]
 == Document History
 
-Changes to this Specification are coordinated by IHO NIPWG. New editions will be made available via the IHO web site. Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).
+Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site. 
+
+Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).
+
+_I suggest deleting the previous sentence_
 
 [%unnumbered]
 [[tab-document-history]]
@@ -12,15 +16,18 @@ Changes to this Specification are coordinated by IHO NIPWG. New editions will be
 |Version Number |Date |Approved By |Purpose
 
 |1.0.0
-|April 2014?
-|S100WG?
-|Approved edition of S-411
+|2 February 2014
+|Alexander Benke
+|Initial edition of S-411
 
 |1.1.0
-|Nov 2024
-|S100WG
-|Basic document structure in place +
-tidied up some of the S-102 elements
+|15 June 2014
+|Jürgen Holfort
+|Clarifications in the based on ETSI Meeting 2014 and new color for 10/10.
 
+|1.2.0
+|xx January 2025
+|
+|
 
 |===
