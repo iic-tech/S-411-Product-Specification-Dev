@@ -8,9 +8,12 @@ The application schema of ice information product contains 28 feature types with
 === Application Schema
 Picture below shows very simplified structure of ice data structure
 
+_Figure 1 (UML diagram) to be inserted here_
 
 General GML (XML) representation:
-XML code to be inserted here.
+
+_XML code to be inserted here_
+
 ==== Application Schema implementation classes
 
 ===== Implementation classes description
@@ -22,6 +25,13 @@ XML code to be inserted here.
 The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
 
 ==== Feature types
+
+_IceDataSetType_ is a type of root Element of an ice information data set.
+
+_4.3.2.2.1 UML diagram to be inserted here_
+
+Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member
+contains one Ice Feature (seaice, lacice, iceberg, etc.).
 
 ===== Geographic
 
@@ -36,19 +46,17 @@ The feature Catalogue for Ice Information contains only geographic features. The
 ===== Complex attributes
 
 === Dataset types
-IceDataSetType is a type of root Element of an ice information data set.
-UML diagram to be inserted here.
-
-Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member
-contains one Ice Feature (seaice, lacice, iceberg, etc.).
 
 ==== Introduction
+
+At the moment is only one type of dataset supported. This is GML(XML) encoded ice feature
+collections
 
 === Geometry
 Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional
 objects (points, line strings, and polygons).
 
-Figure 3  to be inserted here.
+_Figure 3  to be inserted here._
 
 There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
 
