@@ -565,33 +565,59 @@
 
 <semantic__p id="semantic___4e7aee45-d775-f5e7-4653-bdee0238db67">There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:</semantic__p>
 
-<semantic__p id="semantic___1fe56ba4-35a2-f06e-8a5d-e16be6e5adc2">&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;</semantic__p>
+<semantic__sourcecode id="semantic___05911274-9df8-6c14-355d-f510d73995af">&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;</semantic__sourcecode>
 
-<semantic__p id="semantic___4df07c5e-0c8a-2a79-a39c-74890bd51037">For standard GML it would be also possible to use following (DO NOT USE THIS):</semantic__p>
 
-<semantic__p id="semantic___f8b3aad2-e9a9-60d3-0ac6-b7ebce2b680c">&#x3c;gml:posList&#x3e;</semantic__p>
+<semantic__p id="semantic___67975ad5-2809-f6be-1ea1-6c9e9abb80ff">For standard GML it would be also possible to use following (DO NOT USE THIS):</semantic__p>
 
-<semantic__p id="semantic___b56a19bb-bb7b-379d-c765-85b030a19a61">&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;</semantic__p>
+<semantic__sourcecode id="semantic___18f44080-4e66-743c-e885-173614d14276">&#x3c;gml:posList&#x3e;
 
-<semantic__p id="semantic___2f02f4d2-d2d7-54db-8aad-0cbb1ca2ceb7">&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;</semantic__p>
+&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
 
-<semantic__p id="semantic___9dd53566-d99a-7a70-7639-462cfef13802">&#x3c;/gml:posList&#x3e;</semantic__p>
+&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
 
-<semantic__p id="semantic___18bda9a6-2c66-c3dd-d7f2-ef8d649b4e05">Which means much more chars in the file and growing of file size.</semantic__p>
+&#x3c;/gml:posList&#x3e;</semantic__sourcecode>
 
-<semantic__p id="semantic___a13d4727-d13f-439e-c705-a9ba93795e69">All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:</semantic__p>
 
-<semantic__p id="semantic___ab1073ea-1c17-86f1-4346-3622bff659ae">Point encoding example:</semantic__p>
+<semantic__p id="semantic___ce057f65-88f1-b20f-b3f5-2acd99647c65">Which means much more chars in the file and growing of file size.</semantic__p>
 
-<semantic__p id="semantic___ff41fb08-500a-4cec-f685-58e607eedb79"><gml:semantic__Point/><gml:semantic__pos>147.291 -42.851</gml:semantic__pos> </semantic__p>
+<semantic__p id="semantic___40aad242-0050-b5fb-44d0-1fbaf41e190d">All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:</semantic__p>
 
-<semantic__p id="semantic___7f6e3d39-b393-9a17-c145-36acba4e835d">Line String encoding example:</semantic__p>
+<semantic__p id="semantic___3f243854-68a2-1b67-2cb7-c470d2aebf6f">Point encoding example:</semantic__p>
 
-<semantic__p id="semantic___57e9e6e7-ce6f-e2ba-d0bc-059bcee33a64"><gml:semantic__LineString> <gml:semantic__posList>-73.991 40.736 -73.991 40.736</gml:semantic__posList> </gml:semantic__LineString></semantic__p>
+<semantic__sourcecode id="semantic___98bdeb71-9fbe-7a40-ae4f-fbdc5fc99284">&#x3c;gml:Point
+&#x3c;gml:pos&#x3e;147.291 -42.851&#x3c;/gml:pos&#x3e;
+&#x3c;/gml:Point&#x3e;</semantic__sourcecode>
 
-<semantic__p id="semantic___ebd866df-d393-044e-e897-ebc2fcacbbc1">Polygon encoding example:</semantic__p>
 
-<semantic__p id="semantic___a785cae3-9653-261a-ee93-bac431cf3266"><gml:semantic__Polygon> <gml:semantic__exterior> <gml:semantic__LinearRing> <gml:semantic__posList> 22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546 62.391 </gml:semantic__posList> </gml:semantic__LinearRing> </gml:semantic__exterior> <gml:semantic__interior> <gml:semantic__LinearRing> <gml:semantic__posList> 23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227 61.811 </gml:semantic__posList> </gml:semantic__LinearRing> </gml:semantic__interior> </gml:semantic__Polygon></semantic__p>
+<semantic__p id="semantic___cfa3660c-47de-7c25-b385-71733b54b016">Line String encoding example:</semantic__p>
+
+<semantic__sourcecode id="semantic___dcb2994e-934a-195f-a7bb-88bfa546fbc6">&#x3c;gml:LineString&#x3e;
+&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;
+&#x3c;/gml:LineString&#x3e;</semantic__sourcecode>
+
+
+<semantic__p id="semantic___e4a1960c-cd3d-e2b5-0fde-fe42e1f0b99c">Polygon encoding example:</semantic__p>
+
+<semantic__sourcecode id="semantic___57efb9ee-133d-a935-f066-ec97a4cddd23">&#x3c;gml:Polygon&#x3e;
+&#x3c;gml:exterior&#x3e;
+&#x3c;gml:LinearRing&#x3e;
+&#x3c;gml:posList&#x3e;
+22.546 62.391 25.033 62.404 24.995 60.182 22.483
+60.169 22.546 62.391
+&#x3c;/gml:posList&#x3e;
+&#x3c;/gml:LinearRing&#x3e;
+&#x3c;/gml:exterior&#x3e;
+&#x3c;gml:interior&#x3e;
+&#x3c;gml:LinearRing&#x3e;
+&#x3c;gml:posList&#x3e;
+23.227 61.811 23.467 61.306 24.023 61.621 24.035
+61.621 23.227 61.811
+&#x3c;/gml:posList&#x3e;
+&#x3c;/gml:LinearRing&#x3e;
+&#x3c;/gml:interior&#x3e;
+&#x3c;/gml:Polygon&#x3e;</semantic__sourcecode>
+
 </semantic__clause>
 </semantic__clause>
 
@@ -1807,7 +1833,7 @@ sourcecode .nt {
 
 <p id="_297be5c1-e945-9004-5f4d-ea41f8ce8ab9">Published by the<br/> International Hydrographic Organization <br/> 4b quai Antoine 1 <sup>er</sup><br/> Principauté de Monaco <br/> Tel: (377) 93.10.81.00 <br/> Fax: (377) 93.10.81.40 <br/> info@iho.int <br/> \www.iho.int<br/></p>
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_fe90ce00-d832-4396-b63a-c6a171279e09" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_bb4ba557-7511-434f-b4c7-12d99b496d01" displayorder="1"><title depth="1">Contents</title></clause>
 <clause id="_document_history" obligation="informative" displayorder="2">
 <title depth="1">Document History</title>
 <p id="_1cce92cf-c1fc-ccfd-9632-7da5d2593423">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p>
@@ -2318,33 +2344,59 @@ sourcecode .nt {
 
 <p id="_4e7aee45-d775-f5e7-4653-bdee0238db67">There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:</p>
 
-<p id="_1fe56ba4-35a2-f06e-8a5d-e16be6e5adc2">&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;</p>
+<sourcecode id="_05911274-9df8-6c14-355d-f510d73995af"><name>Figure 4-1</name>&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;</sourcecode>
 
-<p id="_4df07c5e-0c8a-2a79-a39c-74890bd51037">For standard GML it would be also possible to use following (DO NOT USE THIS):</p>
 
-<p id="_f8b3aad2-e9a9-60d3-0ac6-b7ebce2b680c">&#x3c;gml:posList&#x3e;</p>
+<p id="_67975ad5-2809-f6be-1ea1-6c9e9abb80ff">For standard GML it would be also possible to use following (DO NOT USE THIS):</p>
 
-<p id="_b56a19bb-bb7b-379d-c765-85b030a19a61">&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;</p>
+<sourcecode id="_18f44080-4e66-743c-e885-173614d14276"><name>Figure 4-2</name>&#x3c;gml:posList&#x3e;
 
-<p id="_2f02f4d2-d2d7-54db-8aad-0cbb1ca2ceb7">&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;</p>
+&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
 
-<p id="_9dd53566-d99a-7a70-7639-462cfef13802">&#x3c;/gml:posList&#x3e;</p>
+&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
 
-<p id="_18bda9a6-2c66-c3dd-d7f2-ef8d649b4e05">Which means much more chars in the file and growing of file size.</p>
+&#x3c;/gml:posList&#x3e;</sourcecode>
 
-<p id="_a13d4727-d13f-439e-c705-a9ba93795e69">All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:</p>
 
-<p id="_ab1073ea-1c17-86f1-4346-3622bff659ae">Point encoding example:</p>
+<p id="_ce057f65-88f1-b20f-b3f5-2acd99647c65">Which means much more chars in the file and growing of file size.</p>
 
-<p id="_ff41fb08-500a-4cec-f685-58e607eedb79"><gml:Point/><gml:pos>147.291 -42.851</gml:pos> </p>
+<p id="_40aad242-0050-b5fb-44d0-1fbaf41e190d">All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:</p>
 
-<p id="_7f6e3d39-b393-9a17-c145-36acba4e835d">Line String encoding example:</p>
+<p id="_3f243854-68a2-1b67-2cb7-c470d2aebf6f">Point encoding example:</p>
 
-<p id="_57e9e6e7-ce6f-e2ba-d0bc-059bcee33a64"><gml:LineString> <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList> </gml:LineString></p>
+<sourcecode id="_98bdeb71-9fbe-7a40-ae4f-fbdc5fc99284"><name>Figure 4-3</name>&#x3c;gml:Point
+&#x3c;gml:pos&#x3e;147.291 -42.851&#x3c;/gml:pos&#x3e;
+&#x3c;/gml:Point&#x3e;</sourcecode>
 
-<p id="_ebd866df-d393-044e-e897-ebc2fcacbbc1">Polygon encoding example:</p>
 
-<p id="_a785cae3-9653-261a-ee93-bac431cf3266"><gml:Polygon> <gml:exterior> <gml:LinearRing> <gml:posList> 22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546 62.391 </gml:posList> </gml:LinearRing> </gml:exterior> <gml:interior> <gml:LinearRing> <gml:posList> 23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227 61.811 </gml:posList> </gml:LinearRing> </gml:interior> </gml:Polygon></p>
+<p id="_cfa3660c-47de-7c25-b385-71733b54b016">Line String encoding example:</p>
+
+<sourcecode id="_dcb2994e-934a-195f-a7bb-88bfa546fbc6"><name>Figure 4-4</name>&#x3c;gml:LineString&#x3e;
+&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;
+&#x3c;/gml:LineString&#x3e;</sourcecode>
+
+
+<p id="_e4a1960c-cd3d-e2b5-0fde-fe42e1f0b99c">Polygon encoding example:</p>
+
+<sourcecode id="_57efb9ee-133d-a935-f066-ec97a4cddd23"><name>Figure 4-5</name>&#x3c;gml:Polygon&#x3e;
+&#x3c;gml:exterior&#x3e;
+&#x3c;gml:LinearRing&#x3e;
+&#x3c;gml:posList&#x3e;
+22.546 62.391 25.033 62.404 24.995 60.182 22.483
+60.169 22.546 62.391
+&#x3c;/gml:posList&#x3e;
+&#x3c;/gml:LinearRing&#x3e;
+&#x3c;/gml:exterior&#x3e;
+&#x3c;gml:interior&#x3e;
+&#x3c;gml:LinearRing&#x3e;
+&#x3c;gml:posList&#x3e;
+23.227 61.811 23.467 61.306 24.023 61.621 24.035
+61.621 23.227 61.811
+&#x3c;/gml:posList&#x3e;
+&#x3c;/gml:LinearRing&#x3e;
+&#x3c;/gml:interior&#x3e;
+&#x3c;/gml:Polygon&#x3e;</sourcecode>
+
 </clause>
 </clause>
 
@@ -2632,15 +2684,15 @@ sourcecode .nt {
 <title depth="2">11.3<tab/>Exchange Set</title>
 <p id="_d72ab973-77ba-b6eb-8d35-a870e9bdd9dc">The structure of an S-411 Exchange Set must be according to the structure described below, which is based on <xref target="iho-s100">part=17,clause=4.2</xref>.</p>
 
-<ol id="_994593c3-4536-1896-1fd0-a7256833b8b4" type="arabic"><li id="_603df678-c348-4f2d-8f82-4e786c9839f8" label="1"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
+<ol id="_994593c3-4536-1896-1fd0-a7256833b8b4" type="arabic"><li id="_00c2b6fe-e230-4fe3-a736-58d77e959635" label="1"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
 </li>
-<li id="_4f1885f0-a168-471c-9f6f-2ba4645bfdf9" label="2"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
+<li id="_8721526d-13c4-4b4b-a151-b2eec77fd054" label="2"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
 </li>
-<li id="_87c50ee3-01f2-4807-b95e-b464683e4d84" label="3"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
+<li id="_43e16bbb-f74b-4098-98cc-e39d3d5b33a9" label="3"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
 </li>
-<li id="_ee5a75c3-3f2d-457c-90d7-ded75de45730" label="4"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
+<li id="_73551951-582a-4b71-91fd-53a6a05c715b" label="4"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
 </li>
-<li id="_a45ff57a-d05c-4a7d-840e-a267925f1af7" label="5"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
+<li id="_74d98699-0d3d-4607-9cd9-ea3a8d6428c5" label="5"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
 </li>
 </ol>
 </clause>
