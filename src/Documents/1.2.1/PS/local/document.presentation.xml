@@ -1833,7 +1833,7 @@ sourcecode .nt {
 
 <p id="_297be5c1-e945-9004-5f4d-ea41f8ce8ab9">Published by the<br/> International Hydrographic Organization <br/> 4b quai Antoine 1 <sup>er</sup><br/> Principauté de Monaco <br/> Tel: (377) 93.10.81.00 <br/> Fax: (377) 93.10.81.40 <br/> info@iho.int <br/> \www.iho.int<br/></p>
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_bb4ba557-7511-434f-b4c7-12d99b496d01" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_fa2a9ba6-6c4d-4412-a581-de734c538e91" displayorder="1"><title depth="1">Contents</title></clause>
 <clause id="_document_history" obligation="informative" displayorder="2">
 <title depth="1">Document History</title>
 <p id="_1cce92cf-c1fc-ccfd-9632-7da5d2593423">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p>
@@ -2684,15 +2684,15 @@ sourcecode .nt {
 <title depth="2">11.3<tab/>Exchange Set</title>
 <p id="_d72ab973-77ba-b6eb-8d35-a870e9bdd9dc">The structure of an S-411 Exchange Set must be according to the structure described below, which is based on <xref target="iho-s100">part=17,clause=4.2</xref>.</p>
 
-<ol id="_994593c3-4536-1896-1fd0-a7256833b8b4" type="arabic"><li id="_00c2b6fe-e230-4fe3-a736-58d77e959635" label="1"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
+<ol id="_994593c3-4536-1896-1fd0-a7256833b8b4" type="arabic"><li id="_04ab9959-88c7-4f7a-8b43-9eac0a827385" label="1"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
 </li>
-<li id="_8721526d-13c4-4b4b-a151-b2eec77fd054" label="2"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
+<li id="_6a1b92de-f89c-4482-b169-da07580f11df" label="2"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
 </li>
-<li id="_43e16bbb-f74b-4098-98cc-e39d3d5b33a9" label="3"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
+<li id="_94db3c0c-4ab2-4528-8969-08bb5aad538c" label="3"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
 </li>
-<li id="_73551951-582a-4b71-91fd-53a6a05c715b" label="4"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
+<li id="_8d2d21cb-483c-4d56-a2d8-d7677f16d794" label="4"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
 </li>
-<li id="_74d98699-0d3d-4607-9cd9-ea3a8d6428c5" label="5"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
+<li id="_58114948-02c0-49ff-b9d8-21fceca1f13f" label="5"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
 </li>
 </ol>
 </clause>
