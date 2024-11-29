@@ -1,4 +1,4 @@
-= Marine Protected Areas Product Specification
+= Ice Information Product Specification
 :series: S
 :docnumber: 411
 :doctype: standard
