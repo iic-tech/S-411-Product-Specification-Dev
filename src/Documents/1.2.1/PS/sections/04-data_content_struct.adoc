@@ -60,10 +60,14 @@ _Figure 3  to be inserted here._
 
 There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
 
+[source]
+----
 <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
+----
 
 For standard GML it would be also possible to use following (DO NOT USE THIS):
-
+[source]
+----
 <gml:posList>
 
 <pos>-73.991 40.736</pos>
@@ -71,25 +75,29 @@ For standard GML it would be also possible to use following (DO NOT USE THIS):
 <pos>-73.991 40.736</pos>
 
 </gml:posList>
-
+----
 Which means much more chars in the file and growing of file size.
 
 All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:
 
 Point encoding example:
 
+[source]
+----
 <gml:Point
 <gml:pos>147.291 -42.851</gml:pos>
 </gml:Point>
-
+----
 Line String encoding example:
-
+[source]
+----
 <gml:LineString>
 <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
 </gml:LineString>
-
+----
 Polygon encoding example:
-
+[source]
+----
 <gml:Polygon>
 <gml:exterior>
 <gml:LinearRing>
@@ -108,4 +116,4 @@ Polygon encoding example:
 </gml:LinearRing>
 </gml:interior>
 </gml:Polygon>
-
+----
