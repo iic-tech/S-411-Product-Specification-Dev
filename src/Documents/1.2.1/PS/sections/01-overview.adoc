@@ -8,7 +8,7 @@ This document has been produced by the BSH as part of JCOMM/ETSI in response to 
 
 The Ice Information product specification is based on the IHO S-100 framework specification, Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.
 
-[bibliography]
+[[bibliography]]
 
 === References
 
@@ -39,87 +39,46 @@ Within this document:
 
 ==== Terms and definitions
 
-===== Accuracy
-
-_No reference to Accuracy in S-411 1.1.0._
-
-===== Coordinate
+*Coordinate*
 
 One of a sequence of _n_ numbers designating the position of a point in N-dimensional space.
 
 NOTE: The numbers must be qualified by units and CRS.
 
-===== Coordinate Reference System
+*Coordinate Reference System*
 
 *Coordinate* system which is related to the real world by a datum.
 
-===== Coverage
-
-_No reference to Coverage in S-411 1.1.0._
-
-===== Coverage Geometry
-
-_No reference to Coverage Geometry in S-411 1.1.0._
-
-===== Direct Position
-
-Position described by a single set of *coordinates* within a *coordinate reference system*.
-
-===== Domain
-
-Well-defined set.
-
-NOTE: Domains are used to define the domain set and range set of attributes, operators, and functions.
-
-===== Depth
+*Depth*
 
 The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
 _This definition may need to be adapted by JCOMM ETSI_
 
 NOTE: The numbers must be qualified by units and datum. 
 
-===== Feature
+*Feature*
 
 Abstraction of real-world phenomena.
 
 NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
 
-===== Feature Attribute
+*Feature Attribute*
 
 Characteristic of a *feature*.
 
 NOTE: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
 
-===== Function
-
-Rule that associates each element from a *domain* (source, or domain of the function) to a unique element in another domain (target, co-domain, or *range*).
-
-NOTE: The range is defined by another domain.
-
-===== Geometric Object
+*eometric Object*
 
 Spatial object representing a set of *direct positions*.
 
 NOTE: A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.
 
-===== Range <coverage>
-
-_No reference to Range in S-411 1.1.0._
-
-===== Record
-
-_No reference to Record in S-411 1.1.0._
-
-===== Spatiotemporal Domain <coverage>
-
-_No reference to Spatiotemporal Domain in S-411 1.1.0._
-
-===== Vector
+*Vector*
 
 Quantity having direction as well as magnitude.
 
 NOTE: A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.
-
 
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
