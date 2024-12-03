@@ -12,17 +12,19 @@ The Ice Information product specification is based on the IHO S-100 framework sp
 
 === References
 
-GML - OpenGIS® Geography Markup Language (GML) Encoding Standard (Version 3.2.1)
+==== Normative
 
-IHO S-100 - IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024
+GML OpenGIS®:: Geography Markup Language (GML) Encoding Standard (Version 3.2.1)
 
-ISO-19115-1 - ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1
+IHO S-100:: IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024
 
-ISO-19115-2 - ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data
+ISO-19115-1:: ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1
 
-ISO-19115-3 - ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts
+ISO-19115-2:: ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data
 
-ISO-19139-1 - ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules
+ISO-19115-3:: ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts
+
+ISO-19139-1:: ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules
 
 === Terms, definitions and abbreviations
 
@@ -37,11 +39,9 @@ Within this document:
 
 ==== Terms and definitions
 
-_There are no definitions in current version of S-411. Do I delete the ones here after?_
-
 ===== Accuracy
 
-No reference to Accuracy in S-411 1.1.0.
+_No reference to Accuracy in S-411 1.1.0._
 
 ===== Coordinate
 
@@ -55,16 +55,11 @@ NOTE: The numbers must be qualified by units and CRS.
 
 ===== Coverage
 
-*Feature* that acts as a function to return values from its range for any direct position within its spatial, temporal, or *spatiotemporal domain*.
-
-NOTE: In other words, a coverage is a feature that has multiple values for each attribute type, where each direct position within the geometric representation of the feature has a single value for each attribute type.
-
-[example]
-Examples include a digital image, polygon overlay, or digital elevation matrix
+_No reference to Coverage in S-411 1.1.0._
 
 ===== Coverage Geometry
 
-Configuration of the *domain* of a *coverage* described in terms of *coordinates*.
+_No reference to Coverage Geometry in S-411 1.1.0._
 
 ===== Direct Position
 
@@ -79,6 +74,7 @@ NOTE: Domains are used to define the domain set and range set of attributes, ope
 ===== Depth
 
 The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
+_This definition may need to be adapted by JCOMM ETSI_
 
 NOTE: The numbers must be qualified by units and datum. 
 
@@ -106,53 +102,17 @@ Spatial object representing a set of *direct positions*.
 
 NOTE: A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.
 
-===== Grid
-
-No reference to Grid in S-411 1.1.0.
-
-===== Grid Point
-
-No reference to Grid Point in S-411 1.1.0.
-
-===== Lidar
-
-No reference to Lidar in S-411 1.1.0.
-
-===== Navigation Surface
-
-No reference to Navigation Surface in S-411 1.1.0.
-
 ===== Range <coverage>
 
-No reference to Range in S-411 1.1.0.
+_No reference to Range in S-411 1.1.0._
 
 ===== Record
 
-No reference to Record in S-411 1.1.0.
-
-===== Rectified Grid
-
-No reference to Rectified Grid in S-411 1.1.0.
-
-===== Referenceable Grid
-
-No reference to Referenceable Grid in S-411 1.1.0.
-
-===== Sonar
-
-No reference to Sonar in S-411 1.1.0.
+_No reference to Record in S-411 1.1.0._
 
 ===== Spatiotemporal Domain <coverage>
 
-No reference to Spatiotemporal Domain in S-411 1.1.0.
-
-===== Surface
-
-No reference to Surface in S-411 1.1.0.
-
-===== Uncertainty
-
-No reference to Uncertainty in S-411 1.1.0.
+_No reference to Spatiotemporal Domain in S-411 1.1.0._
 
 ===== Vector
 
@@ -164,7 +124,7 @@ NOTE: A directed line segment represents a vector if the length and direction of
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
 
-CRS Coordinate Reference System
+*CRS*:: Coordinate Reference System
 
 ECDIS Electronic Chart Display and Information System
 
