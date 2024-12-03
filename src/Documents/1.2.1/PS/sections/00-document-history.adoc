@@ -4,13 +4,6 @@
 
 Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site. 
 
-Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).
-
-_I suggest deleting the previous sentence_
-
-[%unnumbered]
-[[tab-document-history]]
-.Document History
 [cols="a,a,a,a",options="headers"]
 |===
 |Version Number |Date |Approved By |Purpose
@@ -23,7 +16,7 @@ _I suggest deleting the previous sentence_
 |1.1.0
 |15 June 2014
 |Jürgen Holfort
-|Clarifications in the based on ETSI Meeting 2014 and new color for 10/10.
+|Clarifications based on ETSI Meeting 2014 and new color for 10/10.
 
 |1.2.0
 |xx January 2025
