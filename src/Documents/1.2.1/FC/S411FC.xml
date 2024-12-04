@@ -3152,7 +3152,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Limit of Open Water</S100FC:name>
             <S100FC:definition>The demarcation at any given time between sea ice and freely navigable water, in which sea ice is present in concentrations less than 1/10.</S100FC:definition>
-            <S100FC:code>LimitofOpenWater</S100FC:code>
+            <S100FC:code>LimitOfOpenWater</S100FC:code>
             <S100FC:alias>OPNLNE</S100FC:alias>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -3160,7 +3160,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Limit of All Known Ice</S100FC:name>
             <S100FC:definition>The limit of all known ice, including both sea ice of any kind and icebergs.</S100FC:definition>
-            <S100FC:code>LimitofAllKnownIce</S100FC:code>
+            <S100FC:code>LimitOfAllKnownIce</S100FC:code>
             <S100FC:alias>LKILNE</S100FC:alias>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
@@ -3168,7 +3168,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Line of Ice Ridge</S100FC:name>
             <S100FC:definition>Line of Ice Ridge is a line or wall of broken ice forced up by pressure processes.</S100FC:definition>
-            <S100FC:code>LineofIceRidge</S100FC:code>
+            <S100FC:code>LineOfIceRidge</S100FC:code>
             <S100FC:alias>I_RIDG</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3197,7 +3197,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Line of Ice Lead</S100FC:name>
             <S100FC:definition>Line of Ice Lead identifies any passage-way(s) through ice which is (are) navigable by surface vessels.</S100FC:definition>
-            <S100FC:code>LineofIceLead</S100FC:code>
+            <S100FC:code>LineOfIceLead</S100FC:code>
             <S100FC:alias>I_LEAD</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3240,7 +3240,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Line of Ice Fracture</S100FC:name>
             <S100FC:definition>Any break or rupture through the ice cover, or through the single floe, resulting from deformation processes. Length may vary from a few meters to a few kilometers.</S100FC:definition>
-            <S100FC:code>LineofIceFracture</S100FC:code>
+            <S100FC:code>LineOfIceFracture</S100FC:code>
             <S100FC:alias>I_FRAL</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3283,7 +3283,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Line of Ice Crac</S100FC:name>
             <S100FC:definition>Line of Ice Crack identifies any ice breakup, but no passage-way(s) for surface vessels.</S100FC:definition>
-            <S100FC:code>LineofIceCrac</S100FC:code>
+            <S100FC:code>LineOfIceCrack</S100FC:code>
             <S100FC:alias>I_CRAC</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3494,7 +3494,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Ice Ridge/Hummock</S100FC:name>
             <S100FC:definition>An Ice Ridge is a line or wall of broken ice forced up by pressure. A Hummock is a hillock of broken ice which has been forced upward by pressure.</S100FC:definition>
-            <S100FC:code>IceRidgeOrHummock</S100FC:code>
+            <S100FC:code>IceRidgeHummock</S100FC:code>
             <S100FC:alias>ICERDG</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3537,7 +3537,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Ice Keel/Bummock</S100FC:name>
             <S100FC:definition>From a submariner’s point of view, a Keel is a downward projecting ridge on the underside of the ice canopy - the counterpart of a Ridge. A Bummock is the counterpart of a hummock on the underside of the ice canopy.</S100FC:definition>
-            <S100FC:code>IceKeelOrBummock</S100FC:code>
+            <S100FC:code>IceKeelBummock</S100FC:code>
             <S100FC:alias>ICEKEL</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3675,7 +3675,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Stage of Melt</S100FC:name>
             <S100FC:definition>A description of the stage of melt of the ice; i.e. whether it has formed puddles on the surface and whether these have frozen.</S100FC:definition>
-            <S100FC:code>StageofMelt</S100FC:code>
+            <S100FC:code>StageOfMelt</S100FC:code>
             <S100FC:alias>STGMLT</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
@@ -3719,7 +3719,7 @@
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Strips and Patches</S100FC:name>
             <S100FC:definition>A strip is a long narrow area of floating ice, about 1 kilometre or less in width, usually composed of small fragments detached from the main mass of ice, and run together under the influence of wind, swell or current. If the area of ice becomes more rounded in shape, it is referred to as a patch.</S100FC:definition>
-            <S100FC:code>StripsandPatches</S100FC:code>
+            <S100FC:code>StripsAndPatches</S100FC:code>
             <S100FC:alias>STRPTC</S100FC:alias>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
