@@ -2,6 +2,9 @@
 [[sec-data-product-identification]]
 == Data Product Identification
 
+A dataset that conforms to this Product Specification may be identified by its discovery metadata as
+defined in clause 12.
+
 *Title*:: Ice Information
 
 *Abstract*:: Ice Information for navigation in ice covered regions
