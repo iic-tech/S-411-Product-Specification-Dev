@@ -14,17 +14,21 @@ The Ice Information product specification is based on the IHO S-100 framework sp
 
 ==== Normative
 
-GML OpenGIS®:: Geography Markup Language (GML) Encoding Standard (Version 3.2.1)
+GML OpenGIS®  Geography Markup Language (GML) Encoding Standard (Version 3.2.1)
 
-IHO S-100:: IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024
+IHO S-100  IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024
 
-ISO-19115-1:: ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1
+ISO-19115-1  ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1
 
-ISO-19115-2:: ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data
+ISO-19115-2  ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data
 
-ISO-19115-3:: ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts
+ISO-19115-3  ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts
 
-ISO-19139-1:: ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules
+ISO-19139-1  ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules
+
+==== Informative
+
+#TBD#
 
 === Terms, definitions and abbreviations
 
@@ -47,12 +51,13 @@ NOTE: The numbers must be qualified by units and CRS.
 
 *Coordinate Reference System*
 
-*Coordinate* system which is related to the real world by a datum.
+Coordinate system which is related to the real world by a datum.
 
 *Depth*
 
 The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
-_This definition may need to be adapted by JCOMM ETSI_
+
+#_This definition may need to be adapted by JCOMM ETSI_#
 
 NOTE: The numbers must be qualified by units and datum. 
 
@@ -68,7 +73,7 @@ Characteristic of a *feature*.
 
 NOTE: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
 
-*eometric Object*
+*Geometric Object*
 
 Spatial object representing a set of *direct positions*.
 
@@ -83,7 +88,7 @@ NOTE: A directed line segment represents a vector if the length and direction of
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
 
-*CRS*:: Coordinate Reference System
+CRS  Coordinate Reference System
 
 ECDIS Electronic Chart Display and Information System
 
