@@ -8,27 +8,28 @@ The application schema of ice information product contains 28 feature types with
 === Application Schema
 Picture below shows very simplified structure of ice data structure
 
-_Figure 1 (UML diagram) to be inserted here_
+#_Figure 1 (UML diagram) to be inserted here_#
 
 General GML (XML) representation:
 
-_XML code to be inserted here_
-
-==== Application Schema implementation classes
-
-===== Implementation classes description
-
+#_XML code to be inserted here_#
 
 === Feature Catalogue
 
 ==== Introduction
 The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
 
+==== Application Schema implementation classes
+
+===== Implementation classes description
+
+#_4.3.2.1 UML diagram to be inserted here_#
+
+#_I would suggest moving the table to the DCEG (and adpat to the DCEG format)_#
+
 ==== Feature types
 
 _IceDataSetType_ is a type of root Element of an ice information data set.
-
-_4.3.2.2.1 UML diagram to be inserted here_
 
 Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member
 contains one Ice Feature (seaice, lacice, iceberg, etc.).
@@ -56,7 +57,7 @@ collections
 Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional
 objects (points, line strings, and polygons).
 
-_Figure 3  to be inserted here._
+#_Figure 3  to be inserted here._#
 
 There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
 
@@ -68,13 +69,7 @@ There are three types of geometry: Point, Line String and Polygon. Multi-geometr
 For standard GML it would be also possible to use following (DO NOT USE THIS):
 [source]
 ----
-<gml:posList>
-
-<pos>-73.991 40.736</pos>
-
-<pos>-73.991 40.736</pos>
-
-</gml:posList>
+#_gml code to be inserted here._#
 ----
 Which means much more chars in the file and growing of file size.
 
@@ -84,36 +79,21 @@ Point encoding example:
 
 [source]
 ----
-<gml:Point
-<gml:pos>147.291 -42.851</gml:pos>
-</gml:Point>
+
+#_gml code to be inserted here._#
+
 ----
 Line String encoding example:
 [source]
 ----
-<gml:LineString>
-<gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
-</gml:LineString>
+
+#_gml code to be inserted here._#
+
 ----
 Polygon encoding example:
 [source]
 ----
-<gml:Polygon>
-<gml:exterior>
-<gml:LinearRing>
-<gml:posList>
-22.546 62.391 25.033 62.404 24.995 60.182 22.483
-60.169 22.546 62.391
-</gml:posList>
-</gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-<gml:LinearRing>
-<gml:posList>
-23.227 61.811 23.467 61.306 24.023 61.621 24.035
-61.621 23.227 61.811
-</gml:posList>
-</gml:LinearRing>
-</gml:interior>
-</gml:Polygon>
+
+#_gml code to be inserted here._#
+
 ----
