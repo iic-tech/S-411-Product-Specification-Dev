@@ -1367,16 +1367,30 @@ pre.sourcecode .nt {
 
 </div>
 </header></div><br /><div class="prefatory-section"><nav>
-  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_2520c6ea-1082-464e-b707-b77a928cf158"></a><a class="header" href="#_2520c6ea-1082-464e-b707-b77a928cf158">Contents</a></h1><ul><li class="h1"><a href="#_document_history">      
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_cdac70ae-998f-44d4-8556-0b78532c73ee"></a><a class="header" href="#_cdac70ae-998f-44d4-8556-0b78532c73ee">Contents</a></h1><ul><li class="h1"><a href="#_document_history">      
   
   Document History
 </a></li>
-<li class="h1"><a href="#_8f623523-8cbb-43cb-911e-2c7b325163e7">      1  Overview</a></li>
+<li class="h1"><a href="#sec-overview">      
+  
+  1  Overview
+</a></li>
 <li class="h2"><a href="#_scope">      
   
   1.1  Scope
 </a></li>
-<li class="h2"><a href="#_0b9a5997-b46e-4b62-b133-986015fccd10">      1.2  References</a></li>
+<li class="h2"><a href="#bibliography">      
+  
+  1.2  References
+</a></li>
+<li class="h3"><a href="#_normative">      
+  
+  1.2.1  Normative
+</a></li>
+<li class="h3"><a href="#_informative">      
+  
+  1.2.2  Informative
+</a></li>
 <li class="h2"><a href="#_terms_definitions_and_abbreviations">      
   
   1.3  Terms, definitions and abbreviations
@@ -1445,10 +1459,6 @@ pre.sourcecode .nt {
   
   4.2  Application Schema
 </a></li>
-<li class="h3"><a href="#_application_schema_implementation_classes">      
-  
-  4.2.1  Application Schema implementation classes
-</a></li>
 <li class="h2"><a href="#_feature_catalogue">      
   
   4.3  Feature Catalogue
@@ -1457,13 +1467,13 @@ pre.sourcecode .nt {
   
   4.3.1  Introduction
 </a></li>
+<li class="h3"><a href="#_application_schema_implementation_classes">      
+  
+  4.3.2  Application Schema implementation classes
+</a></li>
 <li class="h3"><a href="#_feature_types">      
   
-  4.3.2  Feature types
-</a></li>
-<li class="h3"><a href="#_feature_relationship">      
-  
-  4.3.3  Feature relationship
+  4.3.3  Feature types
 </a></li>
 <li class="h3"><a href="#_attributes">      
   
@@ -1605,9 +1615,33 @@ pre.sourcecode .nt {
   
   10.1  Introduction
 </a></li>
-<li class="h2"><a href="#subsec-product-structure">      
+<li class="h2"><a href="#_encoding_rules">      
   
-  10.2  Product structure
+  10.2  Encoding Rules
+</a></li>
+<li class="h3"><a href="#_longitude_latitude">      
+  
+  10.2.1  Longitude / Latitude
+</a></li>
+<li class="h3"><a href="#_elements_and_attributes">      
+  
+  10.2.2  Elements and attributes
+</a></li>
+<li class="h2"><a href="#_encoding_examples">      
+  
+  10.3  Encoding Examples
+</a></li>
+<li class="h3"><a href="#_polygon_feature">      
+  
+  10.3.1  Polygon Feature
+</a></li>
+<li class="h3"><a href="#_linestring_feature">      
+  
+  10.3.2  LineString Feature
+</a></li>
+<li class="h3"><a href="#_point_feature">      
+  
+  10.3.3  Point Feature
 </a></li>
 <li class="h1"><a href="#sec-data-product-delivery">      
   
@@ -1783,288 +1817,190 @@ pre.sourcecode .nt {
 
 
 
-</div><br /><br /><div id="_document_history" class="Section3"><h1 class="IntroTitle" id="_534733ec-d65a-4cc7-9509-e7da213d9eb7"><a class="anchor" href="#_document_history"></a><a class="header" href="#_document_history">Document History</a></h1><p id="_1cce92cf-c1fc-ccfd-9632-7da5d2593423">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p><p id="_b8c48f76-cacc-4661-6097-9023dd4830b1">Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).</p><p id="_9b12139a-1390-3b1c-2920-5dd08c3d84f3"><i>I suggest deleting the previous sentence</i></p><p class="TableTitle" style="text-align:center;">Table — Document History</p><table id="tab-document-history" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Version Number</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Date</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Approved By</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Purpose</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_fc5ec639-8df9-9440-e025-d6fca0481da4">1.0.0</p>
+</div><br /><br /><div id="_document_history" class="Section3"><h1 class="IntroTitle" id="_b30caacb-ecd6-45fc-bfa7-981a7427aebb"><a class="anchor" href="#_document_history"></a><a class="header" href="#_document_history">Document History</a></h1><p id="_345292b8-60e3-bfbd-add1-ad7c16880e2d">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p><p class="TableTitle" style="text-align:center;">Table 1</p><table id="_96049e50-1295-8d03-40d8-a9bd5bd657e8" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><thead><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Version Number</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Date</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Approved By</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.5pt;" scope="col">Purpose</th></tr></thead><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_fc5ec639-8df9-9440-e025-d6fca0481da4">1.0.0</p>
 </td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_42f2f841-ea1a-4fba-a83a-43c4a8f15d91">2 February 2014</p>
 </td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_d91b942c-0634-cc67-c286-1f2445e6c861">Alexander Benke</p>
 </td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_9d7be6c0-d51a-c246-53e0-7fc3e16a81f3">Initial edition of S-411</p>
 </td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_6f49fc89-58e7-1bb7-c4cf-cab9243bf32c">1.1.0</p>
 </td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_f209e83d-1b2d-2bcf-8e7c-2e27d937d222">15 June 2014</p>
 </td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_c374c753-04e1-a1f5-45c7-a2548940bc7f">Jürgen Holfort</p>
-</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_cb108f6e-0e03-dbf8-3cd7-076eb91cc0aa">Clarifications in the based on ETSI Meeting 2014 and new color for 10/10.</p>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_ceec7489-cb56-1f59-9956-b6a7a85c08d5">Clarifications based on ETSI Meeting 2014 and new color for 10/10.</p>
 </td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><p id="_6a32bbe5-6cfa-ebf7-6b9a-038e6e68dc71">1.2.0</p>
 </td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><p id="_b1a86868-e0a5-ccbc-0e79-eddbc6512792">xx January 2025</p>
-</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"></td></tr></tbody></table></div><div><h1 id="_8f623523-8cbb-43cb-911e-2c7b325163e7">1  Overview</h1><div id="_scope"><h2 id="_8e544faa-6b8f-4327-bd7c-a46794c1ea7d"><a class="anchor" href="#_scope"></a><a class="header" href="#_scope">1.1  Scope</a></h2>
+</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"></td></tr></tbody></table></div><div id="sec-overview"><h1 id="_2e7cfec3-76bc-4845-a4a3-aa143cf02e67"><a class="anchor" href="#sec-overview"></a><a class="header" href="#sec-overview">1  Overview</a></h1><div id="_scope"><h2 id="_f14669e2-b79e-4744-bbb5-ad857e5928fc"><a class="anchor" href="#_scope"></a><a class="header" href="#_scope">1.1  Scope</a></h2>
 
 <p id="_6277f368-d127-1e29-a146-b2bcd75d2912">This document has been produced by the BSH as part of JCOMM/ETSI in response to a requirement to produce an ice data product that can be used within Electronic Chart Display and Information Systems.</p>
 
 <p id="_550c38e8-30ba-e06f-8607-74a55143e822">The Ice Information product specification is based on the IHO S-100 framework specification, Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.</p>
-</div><div><h2 class="Section3" id="_0b9a5997-b46e-4b62-b133-986015fccd10">1.2  References</h2>
+</div><div id="bibliography"><h2 id="_d80710b8-6b5d-4c13-874b-36265208be87"><a class="anchor" href="#bibliography"></a><a class="header" href="#bibliography">1.2  References</a></h2>
 
-<p id="_a38d337b-cee1-eb10-a9ea-a60b926852de">GML — OpenGIS® Geography Markup Language (GML) Encoding Standard (Version 3.2.1)</p>
+<div id="_normative"><h3 id="_03851b30-4b35-4c00-bb12-56097a60efa3"><a class="anchor" href="#_normative"></a><a class="header" href="#_normative">1.2.1  Normative</a></h3>
 
-<p id="_9e002d26-2d4e-fcfd-7f85-812a863ba6a8">IHO S-100 — IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024</p>
+<p id="_53ecee44-81ba-87c7-77e8-46dda103614d">GML OpenGIS®  Geography Markup Language (GML) Encoding Standard (Version 3.2.1)</p>
 
-<p id="_9f50200d-b935-1020-0417-c900195662ad">ISO-19115-1 — ISO 19115-1:2014/Amd 1:2018, Geographic information — Metadata — Part 1: Fundamentals — Amendment 1</p>
+<p id="_ea68005c-f35b-1ae0-1f0f-7060dbb12410">IHO S-100  IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024</p>
 
-<p id="_0275413b-0b2b-3fbc-6095-a38eefc5e8a6">ISO-19115-2 — ISO 19115-2:2009/Amd 1:2018, Geographic information — Metadata — Part 2: Extensions for imagery and gridded data</p>
+<p id="_5e98426d-d371-7a1c-03be-8a64ae2ac78f">ISO-19115-1  ISO 19115-1:2014/Amd 1:2018, Geographic information — Metadata — Part 1: Fundamentals — Amendment 1</p>
 
-<p id="_c5d0eb89-2c89-d63e-4f01-8ba4c110b68c">ISO-19115-3 — ISO 19115-3:2016, Geographic information — Metadata — Part 3: XML Schema implementation for fundamental concepts</p>
+<p id="_5c87066a-936a-8f41-f5ed-d52f8c149e57">ISO-19115-2  ISO 19115-2:2009/Amd 1:2018, Geographic information — Metadata — Part 2: Extensions for imagery and gridded data</p>
 
-<p id="_2e9cc761-1736-9856-e310-5e41a5f411c0">ISO-19139-1 — ISO 19139-1:2019, Geographic information — XML schema implementation — Part 1: Encoding rules</p>
-</div><div id="_terms_definitions_and_abbreviations"><h2 id="_dec3e208-24bc-4d56-95d1-942ede44b33c"><a class="anchor" href="#_terms_definitions_and_abbreviations"></a><a class="header" href="#_terms_definitions_and_abbreviations">1.3  Terms, definitions and abbreviations</a></h2>
+<p id="_8b1a8e18-5546-3584-88bb-ff7e677916c8">ISO-19115-3  ISO 19115-3:2016, Geographic information — Metadata — Part 3: XML Schema implementation for fundamental concepts</p>
 
-<div id="_use_of_language"><h3 id="_cc70e8cb-a707-46b6-8378-25edf0f8bd0a"><a class="anchor" href="#_use_of_language"></a><a class="header" href="#_use_of_language">1.3.1  Use of language</a></h3>
+<p id="_52720e6c-74e8-f85a-85df-f94a7e676c4e">ISO-19139-1  ISO 19139-1:2019, Geographic information — XML schema implementation — Part 1: Encoding rules</p>
+</div>
 
-<p id="_9c1f5bf4-adad-3e94-c24c-437145b8f599">Within this document:</p>
+<div id="_informative"><h3 id="_88feb84a-a76a-48fb-843d-96ca7cced621"><a class="anchor" href="#_informative"></a><a class="header" href="#_informative">1.2.2  Informative</a></h3>
 
-<div class="ul_wrap"><ul id="_047a50a5-8386-fe61-1699-f10807923fea"><li><p id="_b9bda274-8486-386f-2ec8-d4e5484eaf8e">“Must” indicates a mandatory requirement.</p>
+<p id="_6f78f836-89fa-d09d-4c00-0e07504baa9e">TBD</p>
+</div>
+</div><div id="_terms_definitions_and_abbreviations"><h2 id="_df0cef51-d193-46cd-b21f-7c238c3c7ad3"><a class="anchor" href="#_terms_definitions_and_abbreviations"></a><a class="header" href="#_terms_definitions_and_abbreviations">1.3  Terms, definitions and abbreviations</a></h2>
+
+<div id="_use_of_language"><h3 id="_4edd1668-c864-4945-9d1a-0ca7ce4a73c9"><a class="anchor" href="#_use_of_language"></a><a class="header" href="#_use_of_language">1.3.1  Use of language</a></h3>
+
+<p id="_58471bfe-bb75-ed17-138a-783f276ace0e">Within this document:</p>
+
+<div class="ul_wrap"><ul id="_c8da63fa-c83b-e096-850c-b9cc83e94f09"><li><p id="_919f35b1-5b13-6c38-88fc-4f3ba5113b39">“Must” indicates a mandatory requirement.</p>
 </li>
-<li><p id="_e9f9c1d5-05f5-ef2f-92c4-225ced3eda82">“Should” indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.</p>
+<li><p id="_9dc5f3a1-f0ae-81a5-f169-ccc8a7ea9536">“Should” indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.</p>
 </li>
-<li><p id="_d2a80d99-f2e5-dfaf-3dfa-919c4f7f8240">“May” means “allowed to” or “could possibly” and is not mandatory.</p>
+<li><p id="_c1b89760-cc8d-f2fc-ce3c-e69554dfdda6">“May” means “allowed to” or “could possibly” and is not mandatory.</p>
 </li>
 </ul></div>
 </div>
 
-<div id="_terms_and_definitions"><h3 id="_7c2ac534-55e1-409f-803a-6dd8157de531"><a class="anchor" href="#_terms_and_definitions"></a><a class="header" href="#_terms_and_definitions">1.3.2  Terms and definitions</a></h3>
+<div id="_terms_and_definitions"><h3 id="_a502ca25-d7df-4c2b-8564-3ff6660b2a16"><a class="anchor" href="#_terms_and_definitions"></a><a class="header" href="#_terms_and_definitions">1.3.2  Terms and definitions</a></h3>
 
-<p id="_04ead5a4-3006-3abe-263b-d8a077562dfb"><i>There are no definitions in current version of S-411. Do I delete the ones here after?</i></p>
+<p id="_ed7a96c2-ee61-960c-0ca7-12f4aec86049"><b>Coordinate</b></p>
 
-<div id="_accuracy"><h4><a class="anchor" href="#_accuracy"></a><a class="header" href="#_accuracy">1.3.2.1  Accuracy</a></h4>
-
-<p id="_27d8ef17-ef95-1448-cd9f-8144543b4ae7">No reference to Accuracy in S-411 1.1.0.</p>
-</div>
-
-<div id="_coordinate"><h4><a class="anchor" href="#_coordinate"></a><a class="header" href="#_coordinate">1.3.2.2  Coordinate</a></h4>
-
-<p id="_e69f72c8-43fe-96f4-20cd-d35aac4a5660">One of a sequence of <i>n</i> numbers designating the position of a point in N-dimensional space.<div id="_b19c5ebd-444c-50d6-8269-b0599cf14af9" class="Note"><p><span class="note_label">NOTE</span>  The numbers must be qualified by units and CRS.</p></div></p>
-
-
-</div>
-
-<div id="_coordinate_reference_system"><h4><a class="anchor" href="#_coordinate_reference_system"></a><a class="header" href="#_coordinate_reference_system">1.3.2.3  Coordinate Reference System</a></h4>
-
-<p id="_fd734ed5-7e06-04a5-151a-0f35e07a2c2f"><b>Coordinate</b> system which is related to the real world by a datum.</p>
-</div>
-
-<div id="_coverage"><h4><a class="anchor" href="#_coverage"></a><a class="header" href="#_coverage">1.3.2.4  Coverage</a></h4>
-
-<p id="_a573e672-c687-8f25-4a2c-60cc74ab6f76"><b>Feature</b> that acts as a function to return values from its range for any direct position within its spatial, temporal, or <b>spatiotemporal domain</b>.<div id="_112dc25a-ab5e-eb53-6e85-f75afa3293fd" class="Note"><p><span class="note_label">NOTE</span>  In other words, a coverage is a feature that has multiple values for each attribute type, where each direct position within the geometric representation of the feature has a single value for each attribute type.</p></div></p>
+<p id="_d59725d2-74b3-c8ab-9f5b-d0f158315013">One of a sequence of <i>n</i> numbers designating the position of a point in N-dimensional space.<div id="_ee51793f-3729-00a0-d229-94609fc332a2" class="Note"><p><span class="note_label">NOTE  1</span>  The numbers must be qualified by units and CRS.</p></div></p>
 
 
 
-<div id="_3365eb8f-fdf7-2e7f-8512-017e8fc644ad" class="example"><p class="example-title">EXAMPLE</p><p id="_d504c2e4-287e-3f19-3320-6961bacd2b92">Examples include a digital image, polygon overlay, or digital elevation matrix</p>
-</div>
-</div>
+<p id="_48467e31-47c8-6e55-d212-564c124efac6"><b>Coordinate Reference System</b></p>
 
-<div id="_coverage_geometry"><h4><a class="anchor" href="#_coverage_geometry"></a><a class="header" href="#_coverage_geometry">1.3.2.5  Coverage Geometry</a></h4>
+<p id="_073133f2-75c3-91fa-a6cb-240205384a3d">Coordinate system which is related to the real world by a datum.</p>
 
-<p id="_150dc8d9-1d9d-23f3-a7e2-217075bf5984">Configuration of the <b>domain</b> of a <b>coverage</b> described in terms of <b>coordinates</b>.</p>
-</div>
+<p id="_c6f1d19a-b6e2-e9b4-6689-9629c3aa1645"><b>Depth</b></p>
 
-<div id="_direct_position"><h4><a class="anchor" href="#_direct_position"></a><a class="header" href="#_direct_position">1.3.2.6  Direct Position</a></h4>
+<p id="_2c3310fc-e97d-8e81-f3a1-70d5fed433ea">The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of “Depth Charted”.</p>
 
-<p id="_d8cf297f-2355-0487-5df4-8a4780b98ceb">Position described by a single set of <b>coordinates</b> within a <b>coordinate reference system</b>.</p>
-</div>
+<p id="_7abbc83f-9eb3-8420-e3ef-0da66e4577b2"><i>This definition may need to be adapted by JCOMM ETSI</i><div id="_b133072f-f5b2-89e4-b939-b6cba086ee3b" class="Note"><p><span class="note_label">NOTE  2</span>  The numbers must be qualified by units and datum.</p></div></p>
 
-<div id="_domain"><h4><a class="anchor" href="#_domain"></a><a class="header" href="#_domain">1.3.2.7  Domain</a></h4>
 
-<p id="_cc08d91a-81b2-0136-2453-72e1a7225d51">Well-defined set.<div id="_c8bc51a5-2b19-3646-b27b-c2643f9fb8a8" class="Note"><p><span class="note_label">NOTE</span>  Domains are used to define the domain set and range set of attributes, operators, and functions.</p></div></p>
+
+<p id="_774c39bb-4c41-7193-f929-319bac98598b"><b>Feature</b></p>
+
+<p id="_00cee504-83b1-00c2-005c-2f6a42fcafe6">Abstraction of real-world phenomena.<div id="_aa52b53b-7ad1-4cbb-3869-4293ebf24e69" class="Note"><p><span class="note_label">NOTE  3</span>  A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.</p></div></p>
+
+
+
+<p id="_95993116-13a1-70db-ee2d-e518a3453fb5"><b>Feature Attribute</b></p>
+
+<p id="_6dddcea3-141f-dbe4-def6-06ef6f5fa05a">Characteristic of a <b>feature</b>.<div id="_8974038b-39fe-2209-fda2-069c1fea4444" class="Note"><p><span class="note_label">NOTE  4</span>  A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.</p></div></p>
+
+
+
+<p id="_c78bc716-d95e-1623-14f8-f2ce10da593f"><b>Geometric Object</b></p>
+
+<p id="_7c44a602-ae04-3d91-7aa8-6b06a9f97db6">Spatial object representing a set of <b>direct positions</b>.<div id="_2788e10e-3517-97e2-9a7b-d685d3b62ca3" class="Note"><p><span class="note_label">NOTE  5</span>  A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.</p></div></p>
+
+
+
+<p id="_265613a4-1e02-f591-13a5-214bae2db041"><b>Vector</b></p>
+
+<p id="_a6ac8c96-d64d-1261-3624-b1acaa348096">Quantity having direction as well as magnitude.<div id="_f0063b39-bf7f-69f4-3779-b0ec5062a12f" class="Note"><p><span class="note_label">NOTE  6</span>  A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.</p></div></p>
 
 
 </div>
 
-<div id="_depth"><h4><a class="anchor" href="#_depth"></a><a class="header" href="#_depth">1.3.2.8  Depth</a></h4>
+<div id="_abbreviations"><h3 id="_1ff3248c-056a-4927-a7e9-73d8026986d7"><a class="anchor" href="#_abbreviations"></a><a class="header" href="#_abbreviations">1.3.3  Abbreviations</a></h3>
 
-<p id="_8e13b7b8-890a-f7e8-d79c-94d7fe803cfe">The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of “Depth Charted”.<div id="_b238702a-acea-8025-38ab-ad16acaa20ed" class="Note"><p><span class="note_label">NOTE</span>  The numbers must be qualified by units and datum.</p></div></p>
+<p id="_99e7fa5b-285a-541c-219d-a459fdc7451a">This Product Specification adopts the following convention for presentation purposes:</p>
 
+<p id="_3df7809d-281b-f41f-d670-6c3bd5180dbe">CRS  Coordinate Reference System</p>
 
-</div>
+<p id="_cc2a5072-ac4e-c531-8bfa-24fd674d2517">ECDIS Electronic Chart Display and Information System</p>
 
-<div id="_feature"><h4><a class="anchor" href="#_feature"></a><a class="header" href="#_feature">1.3.2.9  Feature</a></h4>
+<p id="_565c55fc-9318-79fe-bf7c-24d80e2de861">EPSG European Petroleum Survey Group</p>
 
-<p id="_09fa1b96-8c6a-dfe5-63e2-9457376600b9">Abstraction of real-world phenomena.<div id="_57efb485-3240-4e13-eea4-87bdbbf68584" class="Note"><p><span class="note_label">NOTE</span>  A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.</p></div></p>
+<p id="_aefbb339-6416-3678-8e18-46ef905084fc">ETSI Expert Team on Sea Ice</p>
 
+<p id="_770706dd-f7e0-f4be-16a8-ed8189ebdded">GML Geography Markup Language</p>
 
-</div>
+<p id="_4467f0be-3ce7-d28f-a95b-77ca58f4d4a3">IHO International Hydrographic Organization</p>
 
-<div id="_feature_attribute"><h4><a class="anchor" href="#_feature_attribute"></a><a class="header" href="#_feature_attribute">1.3.2.10  Feature Attribute</a></h4>
+<p id="_aa5dfbc8-7c8d-7f77-01c8-b13d22e148e8">ISO International Organization for Standardization</p>
 
-<p id="_41fb8cda-150b-5e25-cbfc-80ebedf4105c">Characteristic of a <b>feature</b>.<div id="_75c4f9d7-950d-b503-7f18-61662845c2a8" class="Note"><p><span class="note_label">NOTE</span>  A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.</p></div></p>
+<p id="_37a7edbe-197e-5995-8553-c1f8642d3e97">JCOMM Joint Technical Commission for Oceanography and Marine Meteorology</p>
 
+<p id="_35e07174-8cd4-2c28-3f0d-3ea79ccfd7fb">XML eXtensible Markup Language</p>
+</div></div><div id="_general_data_product_description"><h2 id="_0919c701-cf8e-4f66-aad9-5c8112470ae0"><a class="anchor" href="#_general_data_product_description"></a><a class="header" href="#_general_data_product_description">1.4  General data product description</a></h2>
 
-</div>
-
-<div id="_function"><h4><a class="anchor" href="#_function"></a><a class="header" href="#_function">1.3.2.11  Function</a></h4>
-
-<p id="_e940f7b1-b0d3-43f9-7b54-b1c197f423f6">Rule that associates each element from a <b>domain</b> (source, or domain of the function) to a unique element in another domain (target, co-domain, or <b>range</b>).<div id="_3d2b1f31-b353-6dec-7611-7d66536e80b6" class="Note"><p><span class="note_label">NOTE</span>  The range is defined by another domain.</p></div></p>
-
-
-</div>
-
-<div id="_geometric_object"><h4><a class="anchor" href="#_geometric_object"></a><a class="header" href="#_geometric_object">1.3.2.12  Geometric Object</a></h4>
-
-<p id="_a41566c1-2cde-3a4c-1cd5-31d2061a0839">Spatial object representing a set of <b>direct positions</b>.<div id="_3c837d37-56a3-e483-7fbb-db15d33bd786" class="Note"><p><span class="note_label">NOTE</span>  A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.</p></div></p>
-
-
-</div>
-
-<div id="_grid"><h4><a class="anchor" href="#_grid"></a><a class="header" href="#_grid">1.3.2.13  Grid</a></h4>
-
-<p id="_26fd81db-13e6-f14f-2fd8-6fa186d0e018">No reference to Grid in S-411 1.1.0.</p>
-</div>
-
-<div id="_grid_point"><h4><a class="anchor" href="#_grid_point"></a><a class="header" href="#_grid_point">1.3.2.14  Grid Point</a></h4>
-
-<p id="_673549aa-84eb-0042-4d0d-6989e4e1da74">No reference to Grid Point in S-411 1.1.0.</p>
-</div>
-
-<div id="_lidar"><h4><a class="anchor" href="#_lidar"></a><a class="header" href="#_lidar">1.3.2.15  Lidar</a></h4>
-
-<p id="_cb012e5e-a4f6-3a29-b6ed-80073e5f2c67">No reference to Lidar in S-411 1.1.0.</p>
-</div>
-
-<div id="_navigation_surface"><h4><a class="anchor" href="#_navigation_surface"></a><a class="header" href="#_navigation_surface">1.3.2.16  Navigation Surface</a></h4>
-
-<p id="_76d50f52-5935-9c22-cefe-306a69b3db71">No reference to Navigation Surface in S-411 1.1.0.</p>
-</div>
-
-<div id="_range_coverage"><h4><a class="anchor" href="#_range_coverage"></a><a class="header" href="#_range_coverage">1.3.2.17  Range &#x3c;coverage&#x3e;</a></h4>
-
-<p id="_d18e8cad-1cf4-eff0-0394-52e76a4a4c2a">No reference to Range in S-411 1.1.0.</p>
-</div>
-
-<div id="_record"><h4><a class="anchor" href="#_record"></a><a class="header" href="#_record">1.3.2.18  Record</a></h4>
-
-<p id="_5ebf5e2f-2b48-5cea-2545-95d85b75e8ee">No reference to Record in S-411 1.1.0.</p>
-</div>
-
-<div id="_rectified_grid"><h4><a class="anchor" href="#_rectified_grid"></a><a class="header" href="#_rectified_grid">1.3.2.19  Rectified Grid</a></h4>
-
-<p id="_230a0096-c478-ec6a-8304-fe6d0a399570">No reference to Rectified Grid in S-411 1.1.0.</p>
-</div>
-
-<div id="_referenceable_grid"><h4><a class="anchor" href="#_referenceable_grid"></a><a class="header" href="#_referenceable_grid">1.3.2.20  Referenceable Grid</a></h4>
-
-<p id="_a5b279c4-a996-b003-e41d-1a48d90ba456">No reference to Referenceable Grid in S-411 1.1.0.</p>
-</div>
-
-<div id="_sonar"><h4><a class="anchor" href="#_sonar"></a><a class="header" href="#_sonar">1.3.2.21  Sonar</a></h4>
-
-<p id="_7044cc2f-cceb-0d13-0d55-10348ab06f43">No reference to Sonar in S-411 1.1.0.</p>
-</div>
-
-<div id="_spatiotemporal_domain_coverage"><h4><a class="anchor" href="#_spatiotemporal_domain_coverage"></a><a class="header" href="#_spatiotemporal_domain_coverage">1.3.2.22  Spatiotemporal Domain &#x3c;coverage&#x3e;</a></h4>
-
-<p id="_07a6cf6e-fff1-fcf9-8ee3-1f7c1595f3ea">No reference to Spatiotemporal Domain in S-411 1.1.0.</p>
-</div>
-
-<div id="_surface"><h4><a class="anchor" href="#_surface"></a><a class="header" href="#_surface">1.3.2.23  Surface</a></h4>
-
-<p id="_07b2d10f-600e-c1c6-34ad-4e775345aac3">No reference to Surface in S-411 1.1.0.</p>
-</div>
-
-<div id="_uncertainty"><h4><a class="anchor" href="#_uncertainty"></a><a class="header" href="#_uncertainty">1.3.2.24  Uncertainty</a></h4>
-
-<p id="_61fddd2f-fbf5-0c2c-f5fa-ad52ae5d66f2">No reference to Uncertainty in S-411 1.1.0.</p>
-</div>
-
-<div id="_vector"><h4><a class="anchor" href="#_vector"></a><a class="header" href="#_vector">1.3.2.25  Vector</a></h4>
-
-<p id="_bc3a04de-4167-b28e-c739-cef10b0e816a">Quantity having direction as well as magnitude.<div id="_4cf7d520-ce41-7e24-641e-e86623c8ac03" class="Note"><p><span class="note_label">NOTE</span>  A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.</p></div></p>
-
-
-</div>
-</div>
-
-<div id="_abbreviations"><h3 id="_69293d0d-9a79-4465-b5a1-88f8c896d7c3"><a class="anchor" href="#_abbreviations"></a><a class="header" href="#_abbreviations">1.3.3  Abbreviations</a></h3>
-
-<p id="_fdd16581-c87f-6c19-e63d-8405453e0b7d">This Product Specification adopts the following convention for presentation purposes:</p>
-
-<p id="_4372bc4b-f7ac-ee9c-ea52-967333f80c71">CRS Coordinate Reference System</p>
-
-<p id="_f66b587b-61d9-6550-32db-96f80dcc523f">ECDIS Electronic Chart Display and Information System</p>
-
-<p id="_b54ba930-f9e5-21d1-71f0-21ee12dfec0e">EPSG European Petroleum Survey Group</p>
-
-<p id="_00b3dba1-4394-4fbc-308b-2921f340be5e">ETSI Expert Team on Sea Ice</p>
-
-<p id="_91ebf94f-cf80-fab1-1975-495a6064b9a1">GML Geography Markup Language</p>
-
-<p id="_7deb9f1d-812f-8610-0981-cb2ce92f47f6">IHO International Hydrographic Organization</p>
-
-<p id="_724fd7b9-4740-662e-10a6-e3f7641d820e">ISO International Organization for Standardization</p>
-
-<p id="_105e3de9-d057-cd6f-a18d-af4c41823f58">JCOMM Joint Technical Commission for Oceanography and Marine Meteorology</p>
-
-<p id="_eb073e8c-3fe1-f8f1-cf41-5df858ff81da">XML eXtensible Markup Language</p>
-</div></div><div id="_general_data_product_description"><h2 id="_56e17f4c-7322-413c-898b-7ad1eb097da4"><a class="anchor" href="#_general_data_product_description"></a><a class="header" href="#_general_data_product_description">1.4  General data product description</a></h2>
-
-<div class="figdl"><dl id="_17a0c40c-5ece-23b6-e446-ddf9f8d4bb7d"><dt><b>Title</b></dt><dd><p id="_6245de0c-5c3d-a4e3-fbf8-9284817cafea">Ice Information Product Specification.</p>
-</dd><dt><b>Abstract</b></dt><dd><p id="_f438cc40-1a4d-cf48-00a4-01a7afe82dc6">Ice Information for ship navigation</p>
-</dd><dt><b>Acronym</b></dt><dd><p id="_506dcf4a-5385-3e6a-a17b-a4b191c1bd9e">S-411</p>
-</dd><dt><b>Content</b></dt><dd><p id="_9ca23e4d-d4d9-8e24-1de6-21e3660348cb">Ice features as vector data</p>
-</dd><dt><b>Spatial Extent</b></dt><dd><p id="_1b220f8f-ef7a-17ab-a76f-0d224b4704f0"><b>East Bounding Longitude</b>: 180°<br /> <b>West Bounding Longitude</b>: -180°<br /> <b>North Bounding Latitude</b>: 90°<br /> <b>South Bounding Latitude</b>: -90°</p>
-</dd><dt><b>Purpose</b></dt><dd><p id="_f3f0d846-106b-336d-8302-f1f20199917f">Navigation in ice covered regions</p>
+<div class="figdl"><dl id="_84c24289-db0d-4b77-8307-ca0442328cdb"><dt><b>Title</b></dt><dd><p id="_3b2c0632-4e58-e065-7f3b-14d2826eb37e">Ice Information Product Specification.</p>
+</dd><dt><b>Abstract</b></dt><dd><p id="_c6e6d99e-bc04-a63b-425e-e99075687c3c">Ice Information for ship navigation</p>
+</dd><dt><b>Acronym</b></dt><dd><p id="_8c7b354b-4d0a-44b6-9eef-25c8ab4068e3">S-411</p>
+</dd><dt><b>Content</b></dt><dd><p id="_928d4900-1f81-79b0-064c-b5a0e86934e2">Ice features as vector data</p>
+</dd><dt><b>Spatial Extent</b></dt><dd><p id="_b8b46077-5bd9-b605-946c-cbf52ba6d96a"><b>East Bounding Longitude</b>: 180°<br /> <b>West Bounding Longitude</b>: -180°<br /> <b>North Bounding Latitude</b>: 90°<br /> <b>South Bounding Latitude</b>: -90°</p>
+</dd><dt><b>Purpose</b></dt><dd><p id="_5c399e6c-9ecc-a779-3cdd-b88116faaf95">Navigation in ice covered regions</p>
 </dd></dl></div>
-</div><div id="_product_specification_metadata"><h2 id="_0c168498-6a91-409f-9472-3768571beba4"><a class="anchor" href="#_product_specification_metadata"></a><a class="header" href="#_product_specification_metadata">1.5  Product Specification metadata</a></h2>
+</div><div id="_product_specification_metadata"><h2 id="_3da6c6a5-f831-4777-9592-2dab052937e6"><a class="anchor" href="#_product_specification_metadata"></a><a class="header" href="#_product_specification_metadata">1.5  Product Specification metadata</a></h2>
 
-<div class="figdl"><dl id="_7c159b0c-f238-8ab5-27c3-608c927935bc"><dt><b>Title</b></dt><dd><p id="_b79d5d39-6882-804f-d81e-2cf149c34db6">Ice Information Product Specification</p>
-</dd><dt><b>S-100 Version</b></dt><dd><p id="_06050bd5-bab0-7408-2462-d047f041738c">1.0.0</p>
-</dd><dt><b>S-411 Version</b></dt><dd><p id="_cad90c5a-31ee-8324-0011-73f05d9b781a">1.1.0</p>
-</dd><dt><b>Date</b></dt><dd><p id="_d28f332a-2bb6-c114-8af6-ebf03bca1575">15 June 2014</p>
-</dd><dt><b>Language</b></dt><dd><p id="_58844345-ca2b-088e-6cb7-8e781ff21fe1">English (optional additional)</p>
-</dd><dt><b>Classification</b></dt><dd><p id="_3edfa020-17f8-cdcf-1a68-ebe34ce1e1fd">Unclassified</p>
-</dd><dt><b>Contact</b></dt><dd><p id="_7b8bfa4c-99eb-36b4-6680-28a304e2971c">Jürgen Holfort (<a href="mailto:ice@bsh.de">ice@bsh.de</a>)</p>
-</dd><dt><b>Identifier</b></dt><dd><p id="_76e85311-d835-8d19-99f0-7e629b2ba950">JCOMM S-411</p>
-</dd><dt><b>Maintenance</b></dt><dd><p id="_8269090b-0fda-67fe-207e-fd43d2373b9b">Changes to this product specification are coordinated by ETSI.</p>
-<p id="_1952f5dc-a297-f0c2-c543-f58af4ecc6f8">International Hydrographic Organization<br /> 4 Quai Antoine 1er <br /> B.P. 445 <br /> MC 98011 MONACO CEDEX <br /> Telephone: +377 93 10 81 00 <br /> Fax: +377 93 10 81 40 <br /> Email: <a href="mailto:info@iho.int">info@iho.int</a><br /></p>
-</dd><dt><b>URL</b></dt><dd><p id="_eb18f7ca-b3a0-a13a-7eaf-0c74ba098be0"><a href="http://www.iho.int/">www.iho.int</a></p>
-</dd><dt><b>Identifier</b></dt><dd><p id="_32a1d694-1495-5ddb-824d-990d72bc08fa">S-411</p>
-</dd><dt><b>Maintenance</b></dt><dd><p id="_21969b66-6787-34b5-cddb-b3d5d4af33f5">Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.</p>
+<div class="figdl"><dl id="_06fd25a6-7e91-63ab-45d4-bb61510c6fef"><dt><b>Title</b></dt><dd><p id="_0c3ad216-c0d9-55b3-46aa-44e9b15657fd">Ice Information Product Specification</p>
+</dd><dt><b>S-100 Version</b></dt><dd><p id="_9ceba199-7e5d-a549-f56e-bb3027f501a2">1.0.0</p>
+</dd><dt><b>S-411 Version</b></dt><dd><p id="_aee8360e-46fa-b16f-f7fe-71c098ba24cb">1.1.0</p>
+</dd><dt><b>Date</b></dt><dd><p id="_6420a0af-a7b7-bac0-71f1-efb5e57cc338">15 June 2014</p>
+</dd><dt><b>Language</b></dt><dd><p id="_3662c64b-2738-3623-8beb-bc43494ee021">English (optional additional)</p>
+</dd><dt><b>Classification</b></dt><dd><p id="_d3096d02-073d-18a3-8124-33b5d71254ea">Unclassified</p>
+</dd><dt><b>Contact</b></dt><dd><p id="_3c307441-3dfa-21b0-1359-46bf31c17061">Jürgen Holfort (<a href="mailto:ice@bsh.de">ice@bsh.de</a>)</p>
+</dd><dt><b>Identifier</b></dt><dd><p id="_049d67c4-ff7b-2888-f649-b7334084a7de">JCOMM S-411</p>
+</dd><dt><b>Maintenance</b></dt><dd><p id="_07ab3f62-4fd1-dcc5-ab30-4a3f60c7c86c">Changes to this product specification are coordinated by ETSI.</p>
+<p id="_9e28f916-56b0-d694-879e-1d006a7b19dd">International Hydrographic Organization<br /> 4 Quai Antoine 1er <br /> B.P. 445 <br /> MC 98011 MONACO CEDEX <br /> Telephone: +377 93 10 81 00 <br /> Fax: +377 93 10 81 40 <br /> Email: <a href="mailto:info@iho.int">info@iho.int</a><br /></p>
+</dd><dt><b>URL</b></dt><dd><p id="_1a3da6dc-9d9b-fcd8-72a9-e8c2834f6ff2"><a href="http://www.iho.int/">www.iho.int</a></p>
+</dd><dt><b>Identifier</b></dt><dd><p id="_7e76c6b9-a798-809f-f643-d14ad2e56e24">S-411</p>
+</dd><dt><b>Maintenance</b></dt><dd><p id="_d3c840cd-2ca4-832e-2bed-53ed9a64f067">Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.</p>
 </dd></dl></div>
-</div><div id="_iho_product_specification_maintenance"><h2 id="_8239ec7c-5b9a-40e1-a9a7-a1b93cc301f3"><a class="anchor" href="#_iho_product_specification_maintenance"></a><a class="header" href="#_iho_product_specification_maintenance">1.6  IHO Product Specification Maintenance</a></h2>
+</div><div id="_iho_product_specification_maintenance"><h2 id="_53e4324c-ce5b-4221-a1f8-9b55a2202ba2"><a class="anchor" href="#_iho_product_specification_maintenance"></a><a class="header" href="#_iho_product_specification_maintenance">1.6  IHO Product Specification Maintenance</a></h2>
 
-<div id="_introduction"><h3 id="_18e6d088-cf80-4b78-9593-7e5c97cfdfad"><a class="anchor" href="#_introduction"></a><a class="header" href="#_introduction">1.6.1  Introduction</a></h3>
+<div id="_introduction"><h3 id="_3122ba7e-734f-4866-b73c-ecccae427616"><a class="anchor" href="#_introduction"></a><a class="header" href="#_introduction">1.6.1  Introduction</a></h3>
 
-<p id="_2b24f1fd-1889-d829-a657-b64b267e6ef7">Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.</p>
+<p id="_d0111f0a-c29d-9aca-1939-ea2c4d720d0e">Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.</p>
 </div>
 
-<div id="_new_edition"><h3 id="_b8669da3-f876-4d0f-87be-69366fa9bccb"><a class="anchor" href="#_new_edition"></a><a class="header" href="#_new_edition">1.6.2  New Edition</a></h3>
+<div id="_new_edition"><h3 id="_daa3bf64-e1f5-4219-8119-6615933201af"><a class="anchor" href="#_new_edition"></a><a class="header" href="#_new_edition">1.6.2  New Edition</a></h3>
 
-<p id="_08613083-951f-f3fd-c417-84cafa4ca151"><i>New Editions</i> of S-411 introduce significant changes. <i>New Editions</i> enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. <i>New Editions</i> are likely to have a significant impact on either existing users or future users of S-122. All cumulative <i>revisions</i> and <i>clarifications</i> must be included with the release of approved New Editions.</p>
+<p id="_fc8d2d95-1a8c-ad7b-8d70-f670d2421ced"><i>New Editions</i> of S-411 introduce significant changes. <i>New Editions</i> enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. <i>New Editions</i> are likely to have a significant impact on either existing users or future users of S-122. All cumulative <i>revisions</i> and <i>clarifications</i> must be included with the release of approved New Editions.</p>
 </div>
 
-<div id="_revision"><h3 id="_fefbbe96-aeb7-4dcf-8836-f564f2c8b899"><a class="anchor" href="#_revision"></a><a class="header" href="#_revision">1.6.3  Revision</a></h3>
+<div id="_revision"><h3 id="_535dce5b-0539-4859-b6d5-436e60a35044"><a class="anchor" href="#_revision"></a><a class="header" href="#_revision">1.6.3  Revision</a></h3>
 
-<p id="_35fc6d68-fd79-ee15-9179-0ea53cb6ecca"><i>Revisions</i> are defined as substantive semantic changes to S-411. Typically, <i>revisions</i> will change S-411 to correct factual errors; introduce necessary changes that have become evident as a result of practical experience or changing circumstances. A <i>revision</i> must not be classified as a clarification. Revisions could have an impact on either existing users or future users of S-411. All cumulative <i>clarifications</i> must be included with the release of approved <i>revisions</i>.</p>
+<p id="_10e1e2ec-771a-87e9-4850-e29b0b9a6957"><i>Revisions</i> are defined as substantive semantic changes to S-411. Typically, <i>revisions</i> will change S-411 to correct factual errors; introduce necessary changes that have become evident as a result of practical experience or changing circumstances. A <i>revision</i> must not be classified as a clarification. Revisions could have an impact on either existing users or future users of S-411. All cumulative <i>clarifications</i> must be included with the release of approved <i>revisions</i>.</p>
 
-<p id="_956a28d7-11cf-9af2-fed7-5b59baa965a1">Changes in a revision are minor and ensure backward compatibility with the previous versions within the same Edition. Newer revisions, for example, introduce new features and attributes. Within the same Edition, a dataset of one version could always be processed with a later version of the Feature and Portrayal Catalogues.</p>
+<p id="_99d41abb-3aad-a462-2afc-8ffbceda19c8">Changes in a revision are minor and ensure backward compatibility with the previous versions within the same Edition. Newer revisions, for example, introduce new features and attributes. Within the same Edition, a dataset of one version could always be processed with a later version of the Feature and Portrayal Catalogues.</p>
 
-<p id="_ec650b0d-ab9a-1579-2648-5861b90cfac9">In most cases a new feature or portrayal catalogue will result in a <i>revision</i> of S-411.</p>
+<p id="_9d101390-5c14-0b68-6efe-3b54254cc7f2">In most cases a new feature or portrayal catalogue will result in a <i>revision</i> of S-411.</p>
 </div>
 
-<div id="_clarification"><h3 id="_f6b93b4d-d1e0-4797-a6ce-63c3c7ad76ff"><a class="anchor" href="#_clarification"></a><a class="header" href="#_clarification">1.6.4  Clarification</a></h3>
+<div id="_clarification"><h3 id="_da55712e-fcc3-4bc7-9ab9-089a98eac9b2"><a class="anchor" href="#_clarification"></a><a class="header" href="#_clarification">1.6.4  Clarification</a></h3>
 
-<p id="_4e09c601-ab1e-3e9e-b61d-5d37817f39ea"><i>Clarifications</i> are non-substantive changes to S-122. Typically, <i>clarifications</i>: remove ambiguity; correct grammatical and spelling errors; amend or update cross references; insert improved graphics in spelling, punctuation and grammar. A <i>clarification</i> must not cause any substantive semantic change to S-411.</p>
+<p id="_feb2fea4-8458-a740-760a-b6b3532759fe"><i>Clarifications</i> are non-substantive changes to S-122. Typically, <i>clarifications</i>: remove ambiguity; correct grammatical and spelling errors; amend or update cross references; insert improved graphics in spelling, punctuation and grammar. A <i>clarification</i> must not cause any substantive semantic change to S-411.</p>
 
-<p id="_cb9af992-2603-32af-8efd-8670ba6a02c5">Changes in a <i>clarification</i> are minor and ensure backward compatibility with the previous versions within the same Edition. Within the same Edition, a dataset of one clarification version could always be processed with a later version of the Feature and Portrayal Catalogues, and a Portrayal Catalogue can always rely on earlier versions of the Feature Catalogue.</p>
+<p id="_fe7af22e-82ee-3128-a171-aa931946c6d8">Changes in a <i>clarification</i> are minor and ensure backward compatibility with the previous versions within the same Edition. Within the same Edition, a dataset of one clarification version could always be processed with a later version of the Feature and Portrayal Catalogues, and a Portrayal Catalogue can always rely on earlier versions of the Feature Catalogue.</p>
 </div>
 
-<div id="_version_numbers"><h3 id="_8e5f1908-a969-41a3-9268-8f489f811149"><a class="anchor" href="#_version_numbers"></a><a class="header" href="#_version_numbers">1.6.5  Version Numbers</a></h3>
+<div id="_version_numbers"><h3 id="_1e31f7e1-a7e6-4a54-84ac-6f6d2f5d4f20"><a class="anchor" href="#_version_numbers"></a><a class="header" href="#_version_numbers">1.6.5  Version Numbers</a></h3>
 
-<p id="_300661e9-6d4a-630e-b51c-67be86705348">The associated version control numbering to identify changes (n) to S-411 must be as follows:</p>
+<p id="_5d6b50a2-d716-ae14-ae7e-f79137da2db1">The associated version control numbering to identify changes (n) to S-411 must be as follows:</p>
 
-<p id="_73111395-7192-b84b-58ef-a6631b17b882">New Editions denoted as <b>n</b>.0.0</p>
+<p id="_754ca71a-d439-217a-adbc-d5d90623ebad">New Editions denoted as <b>n</b>.0.0</p>
 
-<p id="_da9789f3-fa02-3004-264b-6ac03234cd3e">Revisions denoted as n.<b>n</b>.0</p>
+<p id="_470af8da-975c-b25c-66dc-5cc8be0e21a5">Revisions denoted as n.<b>n</b>.0</p>
 
-<p id="_07379fa9-1e1a-956d-ce92-a158cca140b6">Clarifications denoted as n.n.<b>n</b></p>
+<p id="_70127321-9994-6947-ddb1-def2c81e5cd4">Clarifications denoted as n.n.<b>n</b></p>
 </div>
-</div></div><div id="sec-specification-scope"><h1 id="_91d386f1-8380-44f0-8342-6b2b4a1695f3"><a class="anchor" href="#sec-specification-scope"></a><a class="header" href="#sec-specification-scope">2  Specification Scope</a></h1><p id="_7898c4b2-b9ca-ff25-e0b5-b8fcaa42f1b4">This product specification defines only one general scope which applies to all its sections.</p><div class="figdl"><dl id="_638b287a-9ac6-e5a5-3d88-bda1b48b4f21"><dt><b>Scope Identification</b></dt><dd><p id="_c6d4b190-ee26-bae7-d962-0f4e7b7e601f">JCOMM S-411 dataset</p>
+</div></div><div id="sec-specification-scope"><h1 id="_679c2392-44df-4b75-8285-e5355d474171"><a class="anchor" href="#sec-specification-scope"></a><a class="header" href="#sec-specification-scope">2  Specification Scope</a></h1><p id="_7898c4b2-b9ca-ff25-e0b5-b8fcaa42f1b4">This product specification defines only one general scope which applies to all its sections.</p><div class="figdl"><dl id="_638b287a-9ac6-e5a5-3d88-bda1b48b4f21"><dt><b>Scope Identification</b></dt><dd><p id="_c6d4b190-ee26-bae7-d962-0f4e7b7e601f">JCOMM S-411 dataset</p>
 </dd><dt><b>Hierarchical Lelvel</b></dt><dd><p id="_018399ec-0f7e-c672-494a-d25759efb981">MD_ScopeCode -005</p>
 </dd><dt><b>Hierarchical Level Name</b></dt><dd><p id="_3700bf12-b0c4-ac12-7b00-31037534687a">Dataset</p>
-</dd></dl></div><p id="_45a993d9-03f9-1dac-f709-7466d72ae411"><b>Extent</b></p><p id="_e74bde0c-bd59-93dc-e1fb-cadf625529a2">EX_GeographicExtent -Global coverage of maritime areas.</p><p id="_4c57d9a8-9e90-7f21-c290-ee240e7669a9">EX_TemporalExtent -Not defined for this product specification.</p><p id="_d808ce5d-0227-f95d-ce22-9459c7340afe">EX_VerticalExtent-Not defined for this product specification.</p></div><div id="sec-data-product-identification"><h1 id="_78f46cb7-42aa-4319-94e9-ecd65ebae9c8"><a class="anchor" href="#sec-data-product-identification"></a><a class="header" href="#sec-data-product-identification">3  Data Product Identification</a></h1><div class="figdl"><dl id="_2044c849-05f5-2c6a-d6d7-257ce901a5eb"><dt><b>Title</b></dt><dd><p id="_ee1e31b5-d044-c9ed-bc52-fbca1a169b84">Ice Information</p>
+</dd></dl></div><p id="_45a993d9-03f9-1dac-f709-7466d72ae411"><b>Extent</b></p><p id="_e74bde0c-bd59-93dc-e1fb-cadf625529a2">EX_GeographicExtent -Global coverage of maritime areas.</p><p id="_4c57d9a8-9e90-7f21-c290-ee240e7669a9">EX_TemporalExtent -Not defined for this product specification.</p><p id="_d808ce5d-0227-f95d-ce22-9459c7340afe">EX_VerticalExtent-Not defined for this product specification.</p></div><div id="sec-data-product-identification"><h1 id="_f8b2411b-e0f4-473a-815a-4bc1cb82dcd5"><a class="anchor" href="#sec-data-product-identification"></a><a class="header" href="#sec-data-product-identification">3  Data Product Identification</a></h1><p id="_357b0a17-c282-c4d0-8653-55e7ba958ac7">A dataset that conforms to this Product Specification may be identified by its discovery metadata as defined in clause 12.</p><div class="figdl"><dl id="_2044c849-05f5-2c6a-d6d7-257ce901a5eb"><dt><b>Title</b></dt><dd><p id="_ee1e31b5-d044-c9ed-bc52-fbca1a169b84">Ice Information</p>
 </dd><dt><b>Abstract</b></dt><dd><p id="_77e72082-c722-4316-c5b0-4935fa5c74c5">Ice Information for navigation in ice covered regions</p>
 </dd><dt><b>Topic Category</b></dt><dd><p id="_5afd3110-35bf-4dd9-fcdf-32726dd8441c">Transportation, climatology, meteorology, atmosphere</p>
 </dd><dt><b>Geographic Description</b></dt><dd><p id="_7ac76ef5-a250-965a-bc74-d005dac17101">Ice covered regions</p>
@@ -2075,70 +2011,79 @@ pre.sourcecode .nt {
 </dd><dt><b>Spatial Representation Type</b></dt><dd><p id="_c192e2ae-06ff-6a97-d23d-97275eefafcf">Vector</p>
 </dd><dt><b>Point of Contact</b></dt><dd><p id="_5d992a1a-f4b4-5b3c-2bfa-cc6377c086ae">Producing Agency</p>
 </dd><dt><b>Use Limitation</b></dt><dd><p id="_01a42cc9-0995-31c2-3e12-e103dbaa2e02">—-</p>
-</dd></dl></div></div><div id="sec-data-content-and-structure"><h1 id="_85ee7e08-b5a3-49ad-89b8-87674020fc04"><a class="anchor" href="#sec-data-content-and-structure"></a><a class="header" href="#sec-data-content-and-structure">4  Data Content and Structure</a></h1><div id="_introduction_2"><h2 id="_5ba3221a-5e58-4bfe-8216-ec2682728d56"><a class="anchor" href="#_introduction_2"></a><a class="header" href="#_introduction_2">4.1  Introduction</a></h2>
+</dd></dl></div></div><div id="sec-data-content-and-structure"><h1 id="_7fcb033c-9528-4a7c-a385-73dabb294599"><a class="anchor" href="#sec-data-content-and-structure"></a><a class="header" href="#sec-data-content-and-structure">4  Data Content and Structure</a></h1><div id="_introduction_2"><h2 id="_d5f4b96e-8a0a-4312-ab73-125a43e82dad"><a class="anchor" href="#_introduction_2"></a><a class="header" href="#_introduction_2">4.1  Introduction</a></h2>
 
 <p id="_41954fd8-0aea-c74f-73b6-9940c5f019e9">The application schema of ice information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.1) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe full schema in suitable form in this specification. The full schema can be found as XML Schema File in Annex B – Data Product format (encoding).</p>
-</div><div id="_application_schema"><h2 id="_ff5c9ffe-873b-48cd-9b3f-1a8886ee7f4d"><a class="anchor" href="#_application_schema"></a><a class="header" href="#_application_schema">4.2  Application Schema</a></h2>
+</div><div id="_application_schema"><h2 id="_33ddc1a8-1e52-471c-ab98-ad71ba7f862d"><a class="anchor" href="#_application_schema"></a><a class="header" href="#_application_schema">4.2  Application Schema</a></h2>
 
-<p id="_a6846d67-760f-8e94-385e-83e51bcdece1">Picture below shows very simplified structure of ice data structure</p>
+<p id="_58cbf3d4-c62a-f584-1552-4099aaaabba9">S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.</p>
 
-<p id="_5868f1ae-202a-bfea-29d6-7421d8af561c"><i>Figure 1 (UML diagram) to be inserted here</i></p>
+<p id="_8af281ad-97b3-cc49-05d4-8b3d243dfb51">Picture below shows very simplified structure of ice data structure</p>
 
-<p id="_0af83a21-6ff1-e4a4-e989-0c63926aa6e4">General GML (XML) representation:</p>
+<p id="_56434c17-bb50-5279-ecb6-397065845c3f"><i>Figure 1 (UML diagram) to be inserted here</i></p>
 
-<p id="_63d34616-b297-8da3-2360-73ee8d7a930a"><i>XML code to be inserted here</i></p>
+<p id="_5721d923-33e8-61e9-f9af-a8dafd58a726">General GML (XML) representation:</p>
 
-<div id="_application_schema_implementation_classes"><h3 id="_0512baa6-1410-4780-beb7-c707857f280b"><a class="anchor" href="#_application_schema_implementation_classes"></a><a class="header" href="#_application_schema_implementation_classes">4.2.1  Application Schema implementation classes</a></h3>
+<p id="_ad706eca-cd8b-bc1f-db42-6c68c8a1393d"><i>XML code to be inserted here</i></p>
+</div><div id="_feature_catalogue"><h2 id="_97427568-165a-439d-ba48-59655b2cffa8"><a class="anchor" href="#_feature_catalogue"></a><a class="header" href="#_feature_catalogue">4.3  Feature Catalogue</a></h2>
 
-<div id="_implementation_classes_description"><h4><a class="anchor" href="#_implementation_classes_description"></a><a class="header" href="#_implementation_classes_description">4.2.1.1  Implementation classes description</a></h4>
+<div id="_introduction_3"><h3 id="_8af83e3b-e452-42e6-86ed-2f6197e9ed1d"><a class="anchor" href="#_introduction_3"></a><a class="header" href="#_introduction_3">4.3.1  Introduction</a></h3>
 
-</div>
-</div>
-</div><div id="_feature_catalogue"><h2 id="_3bd12bbc-472e-4740-af80-030945a8e8d1"><a class="anchor" href="#_feature_catalogue"></a><a class="header" href="#_feature_catalogue">4.3  Feature Catalogue</a></h2>
+<p id="_f0396775-3950-7302-d95b-a9173deb4d9e">The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product.</p>
 
-<div id="_introduction_3"><h3 id="_8c2e7c8b-cbae-4c2f-9f00-662a9f93bae1"><a class="anchor" href="#_introduction_3"></a><a class="header" href="#_introduction_3">4.3.1  Introduction</a></h3>
+<p id="_d1f61185-ed70-fc15-f5e6-51580ab05657">The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.</p>
 
-<p id="_13c12566-5235-3608-a41a-9cedcc06628a">The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.</p>
-</div>
-
-<div id="_feature_types"><h3 id="_86bd889f-c77c-4052-932b-a70690301480"><a class="anchor" href="#_feature_types"></a><a class="header" href="#_feature_types">4.3.2  Feature types</a></h3>
-
-<p id="_7dedad96-fdcc-28c0-eab0-91a73cb6faa4"><i>IceDataSetType</i> is a type of root Element of an ice information data set.</p>
-
-<p id="_6fa89679-4768-3d8d-376f-8e838f3d1a69"><i>4.3.2.2.1 UML diagram to be inserted here</i></p>
-
-<p id="_cd3720e2-6dba-4936-3f3e-7d8f9804d73c">Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).</p>
-
-<div id="_geographic"><h4><a class="anchor" href="#_geographic"></a><a class="header" href="#_geographic">4.3.2.1  Geographic</a></h4>
-
+<p id="_b8f466fc-2e14-134e-6804-5d7c0afae0c2">The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.</p>
 </div>
 
-<div id="_meta"><h4><a class="anchor" href="#_meta"></a><a class="header" href="#_meta">4.3.2.2  Meta</a></h4>
+<div id="_application_schema_implementation_classes"><h3 id="_d0d5b0d5-c415-4992-993e-b421b916e509"><a class="anchor" href="#_application_schema_implementation_classes"></a><a class="header" href="#_application_schema_implementation_classes">4.3.2  Application Schema implementation classes</a></h3>
 
+<div id="_implementation_classes_description"><h4><a class="anchor" href="#_implementation_classes_description"></a><a class="header" href="#_implementation_classes_description">4.3.2.1  Implementation classes description</a></h4>
+
+<p id="_5d92ade0-8856-5793-5066-2f2c646dfb9f"><i>4.3.2.1 UML diagram to be inserted here</i></p>
+
+<p id="_9cd9bb04-c47e-4445-2a9c-10df7c12b94d"><i>I would suggest moving the table to the DCEG (and adpat to the DCEG format)</i></p>
 </div>
 </div>
 
-<div id="_feature_relationship"><h3 id="_a0aca147-fa45-4d57-ba30-14b4408f7735"><a class="anchor" href="#_feature_relationship"></a><a class="header" href="#_feature_relationship">4.3.3  Feature relationship</a></h3>
+<div id="_feature_types"><h3 id="_01617865-d1b5-470f-b465-1e2cbc836458"><a class="anchor" href="#_feature_types"></a><a class="header" href="#_feature_types">4.3.3  Feature types</a></h3>
 
+<div id="_icedatasettype"><h4><a class="anchor" href="#_icedatasettype"></a><a class="header" href="#_icedatasettype">4.3.3.1  IceDataSetType</a></h4>
+
+<p id="_e70e8f6d-a4f5-d417-8c81-d289609ae215"><i>IceDataSetType</i> is a type of root Element of an ice information data set.</p>
+
+<p id="_4f211ec9-ac9a-20b4-05b6-889a3913070e"><i>UML diagramm to be inserted here</i></p>
+
+<p id="_e7d5c8f4-328d-4f91-6958-265907c10f35">Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).</p>
 </div>
 
-<div id="_attributes"><h3 id="_87b9d0ff-783f-41c2-b9b8-b869ee0d0c89"><a class="anchor" href="#_attributes"></a><a class="header" href="#_attributes">4.3.4  Attributes</a></h3>
+<div id="_geographic"><h4><a class="anchor" href="#_geographic"></a><a class="header" href="#_geographic">4.3.3.2  Geographic</a></h4>
+
+<p id="_ac011df8-f054-c802-d794-f1c03b8ec673">Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes. Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.</p>
+</div>
+</div>
+
+<div id="_attributes"><h3 id="_ba0d3b31-8491-4201-bada-514daa7e39f5"><a class="anchor" href="#_attributes"></a><a class="header" href="#_attributes">4.3.4  Attributes</a></h3>
+
+<p id="_ee6e7ab9-de31-b679-6442-98294296fc1d">S-411 defines attributes as either simple or complex.</p>
 
 <div id="_simple_attributes"><h4><a class="anchor" href="#_simple_attributes"></a><a class="header" href="#_simple_attributes">4.3.4.1  Simple attributes</a></h4>
 
+<p id="_79918bc5-c453-b065-de16-d10719f10f87">S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.</p>
 </div>
 
 <div id="_complex_attributes"><h4><a class="anchor" href="#_complex_attributes"></a><a class="header" href="#_complex_attributes">4.3.4.2  Complex attributes</a></h4>
 
+<p id="_a47546bf-26e7-3b57-c9bf-d60c1d9f0eae">Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.</p>
 </div>
 </div>
-</div><div id="_dataset_types"><h2 id="_09881a9f-7b5e-4e9d-9ed9-aaf3da8fcbc3"><a class="anchor" href="#_dataset_types"></a><a class="header" href="#_dataset_types">4.4  Dataset types</a></h2>
+</div><div id="_dataset_types"><h2 id="_d730a719-3b66-46a9-a140-ff6aa5a8e94c"><a class="anchor" href="#_dataset_types"></a><a class="header" href="#_dataset_types">4.4  Dataset types</a></h2>
 
-<div id="_introduction_4"><h3 id="_001a470e-ebe4-4b0f-af19-933b6ca30560"><a class="anchor" href="#_introduction_4"></a><a class="header" href="#_introduction_4">4.4.1  Introduction</a></h3>
+<div id="_introduction_4"><h3 id="_be9dc47b-4e0b-4312-8c4c-6cc53f6d8df8"><a class="anchor" href="#_introduction_4"></a><a class="header" href="#_introduction_4">4.4.1  Introduction</a></h3>
 
-<p id="_1cf61e31-6e45-efe2-5857-51270058bd11">At the moment is only one type of dataset supported. This is GML(XML) encoded ice feature collections</p>
+<p id="_c473898f-e539-9464-2413-ff8a826987f3">At the moment there is only one type of dataset supported. This is GML(XML) encoded ice feature collections.</p>
 </div>
-</div><div id="_geometry"><h2 id="_03c805ee-16b0-4e51-9fb3-324f505fede6"><a class="anchor" href="#_geometry"></a><a class="header" href="#_geometry">4.5  Geometry</a></h2>
+</div><div id="_geometry"><h2 id="_d7b16442-9a8e-4d74-b975-4027355792ed"><a class="anchor" href="#_geometry"></a><a class="header" href="#_geometry">4.5  Geometry</a></h2>
 
 <p id="_8131b6fe-0554-0e2d-8ecc-fdb3c70b4c07">Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional objects (points, line strings, and polygons).</p>
 
@@ -2151,7 +2096,7 @@ pre.sourcecode .nt {
 
 <p id="_67975ad5-2809-f6be-1ea1-6c9e9abb80ff">For standard GML it would be also possible to use following (DO NOT USE THIS):</p>
 
-<pre id="_18f44080-4e66-743c-e885-173614d14276" class="sourcecode">&#x3c;gml:posList&#x3e;<br /><br />&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;<br /><br />&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;<br /><br />&#x3c;/gml:posList&#x3e;</pre><p class="SourceTitle" style="text-align:center;">Figure 4-2</p>
+<pre id="_f36f4a8b-7648-3455-5468-fb5ff5c9860d" class="sourcecode">#_gml code to be inserted here._#</pre><p class="SourceTitle" style="text-align:center;">Figure 4-2</p>
 
 
 <p id="_ce057f65-88f1-b20f-b3f5-2acd99647c65">Which means much more chars in the file and growing of file size.</p>
@@ -2160,22 +2105,22 @@ pre.sourcecode .nt {
 
 <p id="_3f243854-68a2-1b67-2cb7-c470d2aebf6f">Point encoding example:</p>
 
-<pre id="_98bdeb71-9fbe-7a40-ae4f-fbdc5fc99284" class="sourcecode">&#x3c;gml:Point<br />&#x3c;gml:pos&#x3e;147.291 -42.851&#x3c;/gml:pos&#x3e;<br />&#x3c;/gml:Point&#x3e;</pre><p class="SourceTitle" style="text-align:center;">Figure 4-3</p>
+<pre id="_645e0deb-ff3a-0f19-fe19-8c632583d0c1" class="sourcecode">#_gml code to be inserted here._#</pre><p class="SourceTitle" style="text-align:center;">Figure 4-3</p>
 
 
 <p id="_cfa3660c-47de-7c25-b385-71733b54b016">Line String encoding example:</p>
 
-<pre id="_dcb2994e-934a-195f-a7bb-88bfa546fbc6" class="sourcecode">&#x3c;gml:LineString&#x3e;<br />&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;<br />&#x3c;/gml:LineString&#x3e;</pre><p class="SourceTitle" style="text-align:center;">Figure 4-4</p>
+<pre id="_89087d25-b128-c8dc-8e12-1f4dad4b70f1" class="sourcecode">#_gml code to be inserted here._#</pre><p class="SourceTitle" style="text-align:center;">Figure 4-4</p>
 
 
 <p id="_e4a1960c-cd3d-e2b5-0fde-fe42e1f0b99c">Polygon encoding example:</p>
 
-<pre id="_57efb9ee-133d-a935-f066-ec97a4cddd23" class="sourcecode">&#x3c;gml:Polygon&#x3e;<br />&#x3c;gml:exterior&#x3e;<br />&#x3c;gml:LinearRing&#x3e;<br />&#x3c;gml:posList&#x3e;<br />22.546 62.391 25.033 62.404 24.995 60.182 22.483<br />60.169 22.546 62.391<br />&#x3c;/gml:posList&#x3e;<br />&#x3c;/gml:LinearRing&#x3e;<br />&#x3c;/gml:exterior&#x3e;<br />&#x3c;gml:interior&#x3e;<br />&#x3c;gml:LinearRing&#x3e;<br />&#x3c;gml:posList&#x3e;<br />23.227 61.811 23.467 61.306 24.023 61.621 24.035<br />61.621 23.227 61.811<br />&#x3c;/gml:posList&#x3e;<br />&#x3c;/gml:LinearRing&#x3e;<br />&#x3c;/gml:interior&#x3e;<br />&#x3c;/gml:Polygon&#x3e;</pre><p class="SourceTitle" style="text-align:center;">Figure 4-5</p>
+<pre id="_b6ad377c-123c-e19d-8d34-982cfeef4ce1" class="sourcecode">#_gml code to be inserted here._#</pre><p class="SourceTitle" style="text-align:center;">Figure 4-5</p>
 
-</div></div><div id="sec-coordinate-reference-systems-crs"><h1 id="_584df5d9-ae39-48a1-bd1f-4d5047fdccdb"><a class="anchor" href="#sec-coordinate-reference-systems-crs"></a><a class="header" href="#sec-coordinate-reference-systems-crs">5  Coordinate Reference Systems (CRS)</a></h1><div id="_introduction_5"><h2 id="_da436197-9a68-4a35-847f-87c19ae74892"><a class="anchor" href="#_introduction_5"></a><a class="header" href="#_introduction_5">5.1  Introduction</a></h2>
+</div></div><div id="sec-coordinate-reference-systems-crs"><h1 id="_904aae94-7068-4204-b767-a104e547a333"><a class="anchor" href="#sec-coordinate-reference-systems-crs"></a><a class="header" href="#sec-coordinate-reference-systems-crs">5  Coordinate Reference Systems (CRS)</a></h1><div id="_introduction_5"><h2 id="_f2a97ae5-060f-4a46-a649-15786a48b05d"><a class="anchor" href="#_introduction_5"></a><a class="header" href="#_introduction_5">5.1  Introduction</a></h2>
 
 <p id="_8960f9d2-cc5a-e3c5-dcf8-253c2d021370">For exchange of ice data WGS84 (EPSG: 4326) must be used</p>
-</div><div id="horizontal-crs"><h2 id="_0ebcaa65-8196-458c-b6ff-fa2f6986d512"><a class="anchor" href="#horizontal-crs"></a><a class="header" href="#horizontal-crs">5.2  Horizontal Coordinate Reference System</a></h2>
+</div><div id="horizontal-crs"><h2 id="_aeb29d58-3034-4984-b479-ef463bcaca3c"><a class="anchor" href="#horizontal-crs"></a><a class="header" href="#horizontal-crs">5.2  Horizontal Coordinate Reference System</a></h2>
 
 <p class="TableTitle" style="text-align:center;">Table 5-1 — S-4111 Coordinate Reference Systems (EPSG Codes)</p><table id="tab-411-coordinate-reference-systems-epsg-codes" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">EPSG Code</th><th style="font-weight:bold;text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;" scope="row">Coordinate Reference System</th></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">4326</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">WGS84</td></tr><tr><td colspan="2" style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">The full reference to EPSG can be found at <a href="https://epsg.org/">https://epsg.org</a>.</td></tr></tbody></table>
 
@@ -2187,26 +2132,26 @@ pre.sourcecode .nt {
 </dd><dt><b>Responsible party</b></dt><dd><p id="_e289b06d-1668-c9b3-8853-42e1ad7295ba">Technical Commission for Oceanography and Marine Meteorology (JCOMM)</p>
 </dd><dt><b>URL</b></dt><dd><p id="_af347421-57cf-af77-c212-fcb7773a9988"><a href="https://wmo.int//">https://wmo.int//</a></p>
 </dd></dl></div>
-</div><div id="_vertical_coordinate_reference_system"><h2 id="_dbe3f906-d5c6-441a-a1ab-1b73f5009129"><a class="anchor" href="#_vertical_coordinate_reference_system"></a><a class="header" href="#_vertical_coordinate_reference_system">5.3  Vertical Coordinate Reference System</a></h2>
+</div><div id="_vertical_coordinate_reference_system"><h2 id="_f329c1aa-cc0a-459c-9de3-648f40b204b0"><a class="anchor" href="#_vertical_coordinate_reference_system"></a><a class="header" href="#_vertical_coordinate_reference_system">5.3  Vertical Coordinate Reference System</a></h2>
 
 <p id="_deef368e-7772-5042-fb6f-4ba9bcb9da40">Although in this product there are no direct vertical coordinates the values of the depth attributes are indirectly such coordinates. Therefore, it is important to specify the vertical CRS to which these values conform. The vertical CRS is an earth gravity-based, one-axis coordinate system. The Orientation of the axis is defined by the vertical coordinate system attribute (<i>verticalCS</i>) in the root group (see <a href="#tab-root-group-attributes">[tab-root-group-attributes]</a>).</p>
 
 <p id="_6b7e791d-68b0-e96b-a9ea-97b04396153f">The vertical datum must be taken from the code-list specified by the IHO Geospatial Information (GI) Registry for the attribute named <i>Vertical Datum</i>. It will be defined in the root group as an HDF5 attribute (see <a href="#tab-root-group-attributes">[tab-root-group-attributes]</a>).</p>
-</div><div id="_temporal_reference_system"><h2 id="_d8ff8672-176e-4224-8b9b-61f371a19407"><a class="anchor" href="#_temporal_reference_system"></a><a class="header" href="#_temporal_reference_system">5.4  Temporal reference system</a></h2>
+</div><div id="_temporal_reference_system"><h2 id="_48aee6a8-2bb6-4295-8de5-a6672f132e1e"><a class="anchor" href="#_temporal_reference_system"></a><a class="header" href="#_temporal_reference_system">5.4  Temporal reference system</a></h2>
 
 <p id="_86dcd175-7dbb-7a02-8940-39b8f504659a">The temporal reference system is the Gregorian calendar for date and UTC for time. Time is measured by reference to Calendar dates and Clock time in accordance with <a href="#iso-8601">clause=5.4.4</a>. A date-time variable will have the following 16-character format: <i>yyyymmddThhmmssZ</i>.</p>
-</div></div><div id="sec-data-quality"><h1 id="_6cf0d6e1-b254-48a6-b68e-d3c4a89115aa"><a class="anchor" href="#sec-data-quality"></a><a class="header" href="#sec-data-quality">6  Data Quality</a></h1><p id="_0a19f5b8-f2d0-e484-4a7b-9b7cdf28e386">As ice charts are done for different purposes (from weekly overview to tactical charts and further to model forecasts) data quality can differ. Differences can also be found between ice charts of the same region and same nominal date resulting from different issuing agencies or also from different forecasts models. Further information can be found in the WMO publication 574.</p><div id="_completeness"><h2 id="_26aa4c62-0e4a-46b5-a1d5-c4190530fb1d"><a class="anchor" href="#_completeness"></a><a class="header" href="#_completeness">6.1  Completeness</a></h2>
+</div></div><div id="sec-data-quality"><h1 id="_a27d68a7-bb71-4ddd-9f44-ea732499932d"><a class="anchor" href="#sec-data-quality"></a><a class="header" href="#sec-data-quality">6  Data Quality</a></h1><p id="_0a19f5b8-f2d0-e484-4a7b-9b7cdf28e386">As ice charts are done for different purposes (from weekly overview to tactical charts and further to model forecasts) data quality can differ. Differences can also be found between ice charts of the same region and same nominal date resulting from different issuing agencies or also from different forecasts models. Further information can be found in the WMO publication 574.</p><div id="_completeness"><h2 id="_b8f9eb02-9126-422b-a04d-162f393fbb51"><a class="anchor" href="#_completeness"></a><a class="header" href="#_completeness">6.1  Completeness</a></h2>
 
-<div id="_commission"><h3 id="_8a1dab56-11b9-4b27-89cb-c78a58c0cf46"><a class="anchor" href="#_commission"></a><a class="header" href="#_commission">6.1.1  Commission</a></h3>
-
-</div>
-
-<div id="_omission"><h3 id="_2acaa822-b3ab-4525-8041-c6d6400175d7"><a class="anchor" href="#_omission"></a><a class="header" href="#_omission">6.1.2  Omission</a></h3>
+<div id="_commission"><h3 id="_a83249ec-d4cf-43f5-9771-541135a7cfaf"><a class="anchor" href="#_commission"></a><a class="header" href="#_commission">6.1.1  Commission</a></h3>
 
 </div>
-</div><div id="_logical_consistency"><h2 id="_7188bef3-2d5a-48db-ac63-cad8a3109786"><a class="anchor" href="#_logical_consistency"></a><a class="header" href="#_logical_consistency">6.2  Logical consistency</a></h2>
 
-<div id="_conceptual_consistency"><h3 id="_e03d19da-8e9a-4fb0-b565-e5aa41b09289"><a class="anchor" href="#_conceptual_consistency"></a><a class="header" href="#_conceptual_consistency">6.2.1  Conceptual consistency</a></h3>
+<div id="_omission"><h3 id="_ba430f4b-982f-4895-b6ab-50311fe3756a"><a class="anchor" href="#_omission"></a><a class="header" href="#_omission">6.1.2  Omission</a></h3>
+
+</div>
+</div><div id="_logical_consistency"><h2 id="_c1cdd0f1-ecdc-42a9-9a7d-088a3551d3c1"><a class="anchor" href="#_logical_consistency"></a><a class="header" href="#_logical_consistency">6.2  Logical consistency</a></h2>
+
+<div id="_conceptual_consistency"><h3 id="_ffd73913-c780-485c-9eba-60a5788802e4"><a class="anchor" href="#_conceptual_consistency"></a><a class="header" href="#_conceptual_consistency">6.2.1  Conceptual consistency</a></h3>
 
 <p id="_16d75e9c-e89e-7d84-234c-314b822c03bd">Conceptual Consistency is applicable for S-411 and follows the guidelines from <a href="#iho-s100">part=1</a>.</p>
 
@@ -2215,7 +2160,7 @@ pre.sourcecode .nt {
 <p id="_88c35c2e-cc7a-b343-5ae7-2a447402254c">If the dataset conforms to the S-100 General Feature Model, the dataset PASSES this test.</p>
 </div>
 
-<div id="_domain_consistency"><h3 id="_65f381bf-ebff-41b0-b5f8-c47f0c6224d5"><a class="anchor" href="#_domain_consistency"></a><a class="header" href="#_domain_consistency">6.2.2  Domain consistency</a></h3>
+<div id="_domain_consistency"><h3 id="_deffd04f-9f69-421a-91f1-5e8e6a72c107"><a class="anchor" href="#_domain_consistency"></a><a class="header" href="#_domain_consistency">6.2.2  Domain consistency</a></h3>
 
 <p id="_f681d16d-f601-dddd-dcc8-e85b7ad7ade8">Domain consistency is applicable for S-411 and follows the guidelines from <a href="#iho-s100">part=5</a>.</p>
 
@@ -2224,7 +2169,7 @@ pre.sourcecode .nt {
 <p id="_2af3a9ca-60e2-e90f-ba43-54a274d2cee9">If the dataset conforms to the S-411 Feature Catalogue and to <a href="#annex-data-classification-and-encoding-guide">Annex A</a>, the dataset PASSES this test.</p>
 </div>
 
-<div id="_format_consistency"><h3 id="_36596e34-bb8b-4e19-b2cf-cb80816f0050"><a class="anchor" href="#_format_consistency"></a><a class="header" href="#_format_consistency">6.2.3  Format consistency</a></h3>
+<div id="_format_consistency"><h3 id="_a65356d4-02c8-43a3-91aa-bf1b18ce8282"><a class="anchor" href="#_format_consistency"></a><a class="header" href="#_format_consistency">6.2.3  Format consistency</a></h3>
 
 <p id="_59a6053d-7e88-decd-3d5c-c253e0f30a3f">Format Consistency is applicable for S-411 and follows the guidelines from <a href="#iho-s100">part=10c</a>.</p>
 
@@ -2232,27 +2177,27 @@ pre.sourcecode .nt {
 
 <p id="_3beb1357-7bbb-8f82-401b-e56928c75b1d">If the dataset conforms to <a href="#sec-data-product-format-encoding">Section 10</a>, the dataset PASSES this test.</p>
 </div>
-</div><div id="_positional_accuracy"><h2 id="_de802857-7d5c-483e-b2f5-1369fac310d5"><a class="anchor" href="#_positional_accuracy"></a><a class="header" href="#_positional_accuracy">6.3  Positional accuracy</a></h2>
+</div><div id="_positional_accuracy"><h2 id="_f2c7d835-be30-41f2-a8ea-e876c5867fda"><a class="anchor" href="#_positional_accuracy"></a><a class="header" href="#_positional_accuracy">6.3  Positional accuracy</a></h2>
 
-</div><div id="_temporal_accuracy"><h2 id="_239d3a7b-88e8-4261-93ca-7d649fd94444"><a class="anchor" href="#_temporal_accuracy"></a><a class="header" href="#_temporal_accuracy">6.4  Temporal accuracy</a></h2>
+</div><div id="_temporal_accuracy"><h2 id="_4251f8f1-44d6-45c1-9456-068aae30df46"><a class="anchor" href="#_temporal_accuracy"></a><a class="header" href="#_temporal_accuracy">6.4  Temporal accuracy</a></h2>
 
-</div><div id="_thematic_accuracy"><h2 id="_a8ab6f17-3bcf-4c0d-b811-fc8e1048f40d"><a class="anchor" href="#_thematic_accuracy"></a><a class="header" href="#_thematic_accuracy">6.5  Thematic accuracy</a></h2>
+</div><div id="_thematic_accuracy"><h2 id="_c4bedb9a-2de7-4279-8196-6fc5a82c4a08"><a class="anchor" href="#_thematic_accuracy"></a><a class="header" href="#_thematic_accuracy">6.5  Thematic accuracy</a></h2>
 
-<div id="_thematic_classification_correctness"><h3 id="_bbc4dd8e-34c4-4875-a6f0-4f86ff50f17b"><a class="anchor" href="#_thematic_classification_correctness"></a><a class="header" href="#_thematic_classification_correctness">6.5.1  Thematic classification correctness</a></h3>
-
-</div>
-
-<div id="_non_quantitative_attribute_accuracy"><h3 id="_0868219c-2f79-4860-b286-3a6ff8a2a33d"><a class="anchor" href="#_non_quantitative_attribute_accuracy"></a><a class="header" href="#_non_quantitative_attribute_accuracy">6.5.2  Non-quantitative attribute accuracy</a></h3>
+<div id="_thematic_classification_correctness"><h3 id="_0ef4f6e9-8573-4e3e-8e8c-6e74aa3c64bb"><a class="anchor" href="#_thematic_classification_correctness"></a><a class="header" href="#_thematic_classification_correctness">6.5.1  Thematic classification correctness</a></h3>
 
 </div>
 
-<div id="_quantitative_attribute_accuracy"><h3 id="_460ebdfc-3b9e-415e-8537-0603dcb0f35f"><a class="anchor" href="#_quantitative_attribute_accuracy"></a><a class="header" href="#_quantitative_attribute_accuracy">6.5.3  Quantitative attribute accuracy</a></h3>
+<div id="_non_quantitative_attribute_accuracy"><h3 id="_94c07fac-78b3-4146-84aa-c8e056e107d7"><a class="anchor" href="#_non_quantitative_attribute_accuracy"></a><a class="header" href="#_non_quantitative_attribute_accuracy">6.5.2  Non-quantitative attribute accuracy</a></h3>
 
 </div>
-</div></div><div id="_data_capture_and_classification"><h1 id="_e59eee63-5019-467c-a972-f45234fefcab"><a class="anchor" href="#_data_capture_and_classification"></a><a class="header" href="#_data_capture_and_classification">7  Data Capture and Classification</a></h1><p id="_e8ddf7c1-ead2-5fb2-e520-082bddc19790">The data will be captured normally from satellite data. The extraction and classification will be done by ice analysts. In some areas of the world (e.g. the Baltic Sea) in addition also some direct shore and ship based observations and textual ice reports from ice authorities will be used. Further information can be found in the WMO publication 574 in Appendix A.</p></div><div id="_data_maintenance"><h1 id="_a21e02fb-fd23-4b60-8aec-cb7d9a4a9988"><a class="anchor" href="#_data_maintenance"></a><a class="header" href="#_data_maintenance">8  Data Maintenance</a></h1><div id="_maintenance_and_update_frequency"><h2 id="_1335c164-726e-471e-8c1d-0b446eb59db0"><a class="anchor" href="#_maintenance_and_update_frequency"></a><a class="header" href="#_maintenance_and_update_frequency">8.1  Maintenance and Update Frequency</a></h2>
+
+<div id="_quantitative_attribute_accuracy"><h3 id="_e727c497-09f1-4cb2-af7c-d07860c42e08"><a class="anchor" href="#_quantitative_attribute_accuracy"></a><a class="header" href="#_quantitative_attribute_accuracy">6.5.3  Quantitative attribute accuracy</a></h3>
+
+</div>
+</div></div><div id="_data_capture_and_classification"><h1 id="_3f84d169-349e-4e99-a4af-b2485e946bf0"><a class="anchor" href="#_data_capture_and_classification"></a><a class="header" href="#_data_capture_and_classification">7  Data Capture and Classification</a></h1><p id="_e8ddf7c1-ead2-5fb2-e520-082bddc19790">The data will be captured normally from satellite data. The extraction and classification will be done by ice analysts. In some areas of the world (e.g. the Baltic Sea) in addition also some direct shore and ship based observations and textual ice reports from ice authorities will be used. Further information can be found in the WMO publication 574 in Appendix A.</p></div><div id="_data_maintenance"><h1 id="_5c711854-3c3e-4cce-930e-8eef0a0055df"><a class="anchor" href="#_data_maintenance"></a><a class="header" href="#_data_maintenance">8  Data Maintenance</a></h1><div id="_maintenance_and_update_frequency"><h2 id="_ed07aff0-ba30-4e25-bc01-41d10d195fb3"><a class="anchor" href="#_maintenance_and_update_frequency"></a><a class="header" href="#_maintenance_and_update_frequency">8.1  Maintenance and Update Frequency</a></h2>
 
 <p id="_e447ad4b-c8f7-9f2f-7cfd-2e133be6df71">Ice information datasets should be maintained if a new dataset of region and provider is available. There is no updating mechanism necessary, because the datasets itself will not updated. The old one have to be replaced with new one.</p>
-</div></div><div id="sec-portrayal"><h1 id="_0c2dc18f-79e2-45fd-bd5c-efe2462186ad"><a class="anchor" href="#sec-portrayal"></a><a class="header" href="#sec-portrayal">9  Portrayal</a></h1><div id="_rules"><h2 id="_8c675388-4fb9-40f5-9fbf-fe346e352de5"><a class="anchor" href="#_rules"></a><a class="header" href="#_rules">9.1  Rules</a></h2>
+</div></div><div id="sec-portrayal"><h1 id="_6f8b4f1c-274f-4325-a10d-de5299667101"><a class="anchor" href="#sec-portrayal"></a><a class="header" href="#sec-portrayal">9  Portrayal</a></h1><div id="_rules"><h2 id="_638adf5e-07fc-44f9-8148-a8458999f2fd"><a class="anchor" href="#_rules"></a><a class="header" href="#_rules">9.1  Rules</a></h2>
 
 <p id="_3b1dc291-b902-8af9-1902-75c441cb5304">Diagramm to be inserted.</p>
 
@@ -2269,9 +2214,9 @@ pre.sourcecode .nt {
 <p id="_b7fbd5ba-c78a-694a-8f6e-41b1302cb48c">Depending on the iceclass parameter the right seaice or lacice rule can be selected. The default is *_class_III.xsl</p>
 
 <p id="_51f215c8-4192-ad47-eef2-18869f55c19f">The encoverlay parameter helps to calculate the priority for display of single ice feature types. If encoverlay is true, the priority will be calculated, depending on priority of land area feature in ENC. The area objects of ice features should be displayed under the land area polygons, because they are usually drawn over the land.</p>
-</div><div id="_symbols"><h2 id="_9f9ecedb-f946-46c6-a92d-157d36b759b5"><a class="anchor" href="#_symbols"></a><a class="header" href="#_symbols">9.2  Symbols</a></h2>
+</div><div id="_symbols"><h2 id="_a89181ef-ba91-4998-bf9e-0c42d672b085"><a class="anchor" href="#_symbols"></a><a class="header" href="#_symbols">9.2  Symbols</a></h2>
 
-<div id="_polygon_features"><h3 id="_6bfb2558-9385-48c0-bbc6-70f67a34bb4a"><a class="anchor" href="#_polygon_features"></a><a class="header" href="#_polygon_features">9.2.1  Polygon Features</a></h3>
+<div id="_polygon_features"><h3 id="_d969a56b-e89e-4d33-a11f-83f1c664e50e"><a class="anchor" href="#_polygon_features"></a><a class="header" href="#_polygon_features">9.2.1  Polygon Features</a></h3>
 
 <div id="_icenavigationaldisplaymode_traffic_light_principle_depends_on_ice_class"><h4><a class="anchor" href="#_icenavigationaldisplaymode_traffic_light_principle_depends_on_ice_class"></a><a class="header" href="#_icenavigationaldisplaymode_traffic_light_principle_depends_on_ice_class">9.2.1.1  IceNavigationalDisplayMode (Traffic Light Principle, depends on Ice Class)</a></h4>
 
@@ -2285,23 +2230,58 @@ pre.sourcecode .nt {
 
 <p id="_b4d2e14a-ed1e-208f-c88e-c74866fe3d0b">Figure to be inserted here.</p>
 </div></div>
-<div id="_line_features"><h3 id="_e3fe8c88-5289-44e4-a532-58b010551d3d"><a class="anchor" href="#_line_features"></a><a class="header" href="#_line_features">9.2.2  Line Features</a></h3>
+<div id="_line_features"><h3 id="_eaaf7559-5926-4822-8adf-4b4a4e79c6c4"><a class="anchor" href="#_line_features"></a><a class="header" href="#_line_features">9.2.2  Line Features</a></h3>
 
 <p id="_8b38d63f-cc25-78ab-26e0-9c3d03e167a5">Figure to be inserted here.</p>
 </div>
-<div id="_point_features"><h3 id="_a54e8dbc-6251-4396-ba7c-7a934c7f794a"><a class="anchor" href="#_point_features"></a><a class="header" href="#_point_features">9.2.3  Point Features</a></h3>
+<div id="_point_features"><h3 id="_52135633-37a6-485b-a514-38bd1f8a6b75"><a class="anchor" href="#_point_features"></a><a class="header" href="#_point_features">9.2.3  Point Features</a></h3>
 
 <p id="_44467396-cac1-490f-396e-db675117c387">Figure to be inserted here.</p>
 </div>
-<div id="_draw_order"><h3 id="_ee71f093-3f8d-4702-92ed-55b17c86ea85"><a class="anchor" href="#_draw_order"></a><a class="header" href="#_draw_order">9.2.4  Draw order</a></h3>
+<div id="_draw_order"><h3 id="_737af4fb-2bf0-46d3-820a-6f1ee2a13604"><a class="anchor" href="#_draw_order"></a><a class="header" href="#_draw_order">9.2.4  Draw order</a></h3>
 
 <p id="_82fcb94d-bbdd-977e-c0f3-1da6ed0b7162">Table to be inserted here.</p>
-</div></div></div><div id="sec-data-product-format-encoding"><h1 id="_8ffa565c-9fde-43f0-abf6-38fad246bc18"><a class="anchor" href="#sec-data-product-format-encoding"></a><a class="header" href="#sec-data-product-format-encoding">10  Data Product Format (Encoding)</a></h1><div id="_introduction_6"><h2 id="_fa0be517-a04c-40c7-b4d6-2c5e9d00daab"><a class="anchor" href="#_introduction_6"></a><a class="header" href="#_introduction_6">10.1  Introduction</a></h2>
+</div></div></div><div id="sec-data-product-format-encoding"><h1 id="_0ac698f2-6324-47ae-b0bf-13422fdb8be8"><a class="anchor" href="#sec-data-product-format-encoding"></a><a class="header" href="#sec-data-product-format-encoding">10  Data Product Format (Encoding)</a></h1><div id="_introduction_6"><h2 id="_87ff3fe9-d9a4-4dad-9c31-c07b03795f01"><a class="anchor" href="#_introduction_6"></a><a class="header" href="#_introduction_6">10.1  Introduction</a></h2>
 
-<p id="_d5feac10-f96e-3946-2417-1cf9d890b5a4">The S-411 data set must be encoded using the Geographical Markup Language (GML).</p>
-</div><div id="subsec-product-structure"><h2 id="_45ae1803-7884-4084-a04a-576cce84a603"><a class="anchor" href="#subsec-product-structure"></a><a class="header" href="#subsec-product-structure">10.2  Product structure</a></h2>
+<p id="_7b600706-5d35-c468-2a0d-52b800db71b7">This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 was used.</p>
+</div><div id="_encoding_rules"><h2 id="_05736add-f806-4e7d-9987-a61a23b2079f"><a class="anchor" href="#_encoding_rules"></a><a class="header" href="#_encoding_rules">10.2  Encoding Rules</a></h2>
 
-</div></div><div id="sec-data-product-delivery"><h1 id="_bda0fc3e-648d-4072-964d-6446bf3cee71"><a class="anchor" href="#sec-data-product-delivery"></a><a class="header" href="#sec-data-product-delivery">11  Data Product Delivery</a></h1><div id="_introduction_7"><h2 id="_8463efeb-e176-487c-adf1-90fea2ebc1aa"><a class="anchor" href="#_introduction_7"></a><a class="header" href="#_introduction_7">11.1  Introduction</a></h2>
+<div id="_longitude_latitude"><h3 id="_ea0f13b8-9e44-4f32-a6e0-3fb451b9d2ae"><a class="anchor" href="#_longitude_latitude"></a><a class="header" href="#_longitude_latitude">10.2.1  Longitude / Latitude</a></h3>
+
+<p id="_2d78d09f-e695-4225-51ca-2ec7f0761723">Longitude and latitude must be encoded in decimal degrees, e.g.: 12.567 56.765</p>
+
+<p id="_86814d00-ce97-c97f-8978-fa9caa43bf15">Number of decimals is not limited, but it should be as less as possible for minimizing of file size, normally 3 or even 2 digits are enough</p>
+</div>
+
+<div id="_elements_and_attributes"><h3 id="_3548d38d-d6be-444c-915b-413a3e1ec6bf"><a class="anchor" href="#_elements_and_attributes"></a><a class="header" href="#_elements_and_attributes">10.2.2  Elements and attributes</a></h3>
+
+<p id="_6763fa02-8342-b7c1-40d7-32cbb737911f">Names of elements representing ice features or attributes (from IceFDC dictionary see Table 1: Summary of Types) must be encoded with lower case letters</p>
+
+<p id="_1aaa1695-67f9-5b93-a010-379522de05dd">Names of elements representing features or attributes from other dictionaries must be encoded with upper case letters</p>
+
+<p id="_7903dce9-0f64-21a7-62ff-302161f2313c">Character Set is UTF-8</p>
+
+<p id="_db7e5d8c-46a0-1c40-9e57-aea568a8f30d">Elements or attributes may be empty, but it should be eliminated for minimizing of file size</p>
+</div>
+</div><div id="_encoding_examples"><h2 id="_626f33f5-3ea7-4b88-8e79-0ea77a9aa282"><a class="anchor" href="#_encoding_examples"></a><a class="header" href="#_encoding_examples">10.3  Encoding Examples</a></h2>
+
+<p id="_13317c72-5393-c779-9102-ae43ef16720a">Below there are three examples of the encoding of various ice features using different geometric primitives, the encoding of other ice objects can be done in a similar way.</p>
+
+<div id="_polygon_feature"><h3 id="_3ea2b951-e1b3-4f11-a421-ded0c5521fcd"><a class="anchor" href="#_polygon_feature"></a><a class="header" href="#_polygon_feature">10.3.1  Polygon Feature</a></h3>
+
+<p id="_2c0f0066-87e5-23a9-7247-02ef6091d5c6"><i>GML code to be inserted</i></p>
+</div>
+
+<div id="_linestring_feature"><h3 id="_48bda8cf-8e5f-4716-8825-bde90aa46515"><a class="anchor" href="#_linestring_feature"></a><a class="header" href="#_linestring_feature">10.3.2  LineString Feature</a></h3>
+
+<p id="_4a300c35-6f46-9449-e1be-653d65f74bc9"><i>GML code to be inserted</i></p>
+</div>
+
+<div id="_point_feature"><h3 id="_c15b1de7-6dba-4bdb-9559-e5b3197d05a0"><a class="anchor" href="#_point_feature"></a><a class="header" href="#_point_feature">10.3.3  Point Feature</a></h3>
+
+<p id="_93f05e70-16ce-2916-f064-aed3612e1ce7"><i>GML code to be inserted</i></p>
+</div>
+</div></div><div id="sec-data-product-delivery"><h1 id="_143e46ff-968e-40a7-a5be-7217d75366cd"><a class="anchor" href="#sec-data-product-delivery"></a><a class="header" href="#sec-data-product-delivery">11  Data Product Delivery</a></h1><div id="_introduction_7"><h2 id="_decddd68-08c7-44ab-94cc-d1f0a563be02"><a class="anchor" href="#_introduction_7"></a><a class="header" href="#_introduction_7">11.1  Introduction</a></h2>
 
 <p id="_81bddb5c-d44f-23d8-9d1e-0bfab7ac059e">This clause describes how S-411 data will be delivered from the charting authority to the mariner.</p>
 
@@ -2336,17 +2316,17 @@ pre.sourcecode .nt {
 </li>
 </ul></div>
 </dd></dl></div>
-</div><div id="_dataset"><h2 id="_c72e38f6-b2cc-4ca6-9ba4-450bc730bead"><a class="anchor" href="#_dataset"></a><a class="header" href="#_dataset">11.2  Dataset</a></h2>
+</div><div id="_dataset"><h2 id="_3c7bc10a-8b6b-4a05-ab87-c1d6f443018e"><a class="anchor" href="#_dataset"></a><a class="header" href="#_dataset">11.2  Dataset</a></h2>
 
-<div id="_dataset_management"><h3 id="_e441c2ac-6cdd-4c83-8762-7ba0dce2a403"><a class="anchor" href="#_dataset_management"></a><a class="header" href="#_dataset_management">11.2.1  Dataset management</a></h3>
-
-</div>
-
-<div id="subsec-dataset-size"><h3 id="_6bc632dd-0667-41fe-9922-7319db883ebc"><a class="anchor" href="#subsec-dataset-size"></a><a class="header" href="#subsec-dataset-size">11.2.2  Dataset size</a></h3>
+<div id="_dataset_management"><h3 id="_e973d110-ee00-4a24-a2ef-002e0922b1cf"><a class="anchor" href="#_dataset_management"></a><a class="header" href="#_dataset_management">11.2.1  Dataset management</a></h3>
 
 </div>
 
-<div id="subsec-dataset-file-naming"><h3 id="_e2770b71-092b-4624-bc95-39cf3116af06"><a class="anchor" href="#subsec-dataset-file-naming"></a><a class="header" href="#subsec-dataset-file-naming">11.2.3  Dataset file naming</a></h3>
+<div id="subsec-dataset-size"><h3 id="_3c8f01ce-1f15-4cea-8ae4-323871c53809"><a class="anchor" href="#subsec-dataset-size"></a><a class="header" href="#subsec-dataset-size">11.2.2  Dataset size</a></h3>
+
+</div>
+
+<div id="subsec-dataset-file-naming"><h3 id="_c7975bc6-a993-41d9-905d-84e33d74d510"><a class="anchor" href="#subsec-dataset-file-naming"></a><a class="header" href="#subsec-dataset-file-naming">11.2.3  Dataset file naming</a></h3>
 
 <p id="_e9627b65-2476-0094-fccc-f62b7dcf36bb">Dataset naming must follow a standard pattern to give implementers greater predictability of incoming datasets (see <a href="#iho-s100">part=17,clause=4.3</a>). S-411 dataset naming conventions must follow these rules.</p>
 
@@ -2357,52 +2337,52 @@ pre.sourcecode .nt {
 </dd></dl></div>
 </dd></dl></div>
 </div>
-</div><div id="_exchange_set"><h2 id="_5a739806-c4bf-4b93-bc4f-a005536f2b38"><a class="anchor" href="#_exchange_set"></a><a class="header" href="#_exchange_set">11.3  Exchange Set</a></h2>
+</div><div id="_exchange_set"><h2 id="_5592d382-9cfb-41cc-90dc-cf0807748299"><a class="anchor" href="#_exchange_set"></a><a class="header" href="#_exchange_set">11.3  Exchange Set</a></h2>
 
 <p id="_d72ab973-77ba-b6eb-8d35-a870e9bdd9dc">The structure of an S-411 Exchange Set must be according to the structure described below, which is based on <a href="#iho-s100">part=17,clause=4.2</a>.</p>
 
-<div class="ol_wrap"><ol type="1" id="_994593c3-4536-1896-1fd0-a7256833b8b4"><li id="_2b4ec549-8c81-4664-b74e-e83cbb60b6ff"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
+<div class="ol_wrap"><ol type="1" id="_994593c3-4536-1896-1fd0-a7256833b8b4"><li id="_c4c474e3-baa6-49b1-b17d-e272eed1ee4e"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
 </li>
-<li id="_11d8cece-5d59-4387-bebc-ea43221bf023"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
+<li id="_bff6056a-03ae-40f3-9b78-0af9afa4bd1b"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
 </li>
-<li id="_79816843-6856-4d56-b04d-a7d9ae4ecc74"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
+<li id="_1aa2191c-3e3b-45d1-89e2-60edb2c40fe6"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
 </li>
-<li id="_0e7ae0b0-7b6f-40a0-8612-1fb09438bbc8"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
+<li id="_e64dbf4e-9721-4ebe-905c-4ee5a61cb2c3"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
 </li>
-<li id="_eba18adc-9a3d-46f7-9f06-7aa1d4c49039"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
+<li id="_09cf197e-e6db-4f36-843d-16afb58a4ecb"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
 </li>
 </ol></div>
-</div><div id="_exchange_catalogue"><h2 id="_c2071388-5c29-42d5-8731-407fcc444506"><a class="anchor" href="#_exchange_catalogue"></a><a class="header" href="#_exchange_catalogue">11.4  Exchange Catalogue</a></h2>
+</div><div id="_exchange_catalogue"><h2 id="_2a733f95-fefe-44ae-9f37-5fbac565fd97"><a class="anchor" href="#_exchange_catalogue"></a><a class="header" href="#_exchange_catalogue">11.4  Exchange Catalogue</a></h2>
 
 <p id="_120a0cb8-5ed2-a28b-4856-cb16c737af53">The Exchange Catalogue acts as the table of contents for the Exchange Set. The Catalogue file of the Exchange Set must be named CATALOG.XML. No other file in the Exchange Set may be named CATALOG.XML. The contents of the Exchange Catalogue are described in <a href="#sec-metadata">Section 12</a>.</p>
-</div><div id="_data_integrity_and_encryption"><h2 id="_a8c2f75b-8e84-4d8a-b915-a8faec25e16f"><a class="anchor" href="#_data_integrity_and_encryption"></a><a class="header" href="#_data_integrity_and_encryption">11.5  Data integrity and encryption</a></h2>
+</div><div id="_data_integrity_and_encryption"><h2 id="_cfd393d9-37f1-4483-949b-cb01a2c4a982"><a class="anchor" href="#_data_integrity_and_encryption"></a><a class="header" href="#_data_integrity_and_encryption">11.5  Data integrity and encryption</a></h2>
 
 <p id="_74e32b28-a24d-f2d7-2546-b040bf1280d3"><a href="#iho-s100">part=15</a> defines the algorithms for compressing, encrypting and digitally signing datasets based on the S-100 Data Model. The individual Product Specifications provide details about which of the elements are being used and on which files in the dataset.</p>
 
-<div id="_use_of_compression"><h3 id="_0de7007d-ca3a-463f-8fb7-4c4f62d20b13"><a class="anchor" href="#_use_of_compression"></a><a class="header" href="#_use_of_compression">11.5.1  Use of compression</a></h3>
+<div id="_use_of_compression"><h3 id="_b3dff578-f206-4f2a-b46a-000a2bbcc3d1"><a class="anchor" href="#_use_of_compression"></a><a class="header" href="#_use_of_compression">11.5.1  Use of compression</a></h3>
 
 <p id="_d31ee365-52d7-acb8-ccbc-7fd6dc4e9a23">The data producer decides if compression will be used on the S-411 product files (HDF5). It is expected that a hydrographic office will make a policy decision and that all the S-411 datasets from the producer will be either compressed or uncompressed.</p>
 
 <p id="_098fd5bf-52d9-7552-1f13-42f1a3f80744">It is recommended to compress all the dataset files, for example HDF5 files. The ZIP compression method defined in <a href="#iho-s100">part=15,clause=5.2</a> must be applied to the product files.</p>
 </div>
 
-<div id="_use_of_data_protection"><h3 id="_869455ed-81af-4fbd-9131-74eafe549e4a"><a class="anchor" href="#_use_of_data_protection"></a><a class="header" href="#_use_of_data_protection">11.5.2  Use of data protection</a></h3>
+<div id="_use_of_data_protection"><h3 id="_f64b4a23-71b1-4685-95d9-7844a0f06f53"><a class="anchor" href="#_use_of_data_protection"></a><a class="header" href="#_use_of_data_protection">11.5.2  Use of data protection</a></h3>
 
 <p id="_00198b73-557f-60c5-0a42-7ca341ede148">It is recommended to encrypt all the dataset files, for example HDF5. The encryption method defined in <a href="#iho-s100">part=15</a> must be applied.</p>
 </div>
 
-<div id="_use_of_digital_signatures"><h3 id="_8e332cb8-dce1-4484-9464-9a6ba5ea66c5"><a class="anchor" href="#_use_of_digital_signatures"></a><a class="header" href="#_use_of_digital_signatures">11.5.3  Use of digital signatures</a></h3>
+<div id="_use_of_digital_signatures"><h3 id="_3019d825-426d-48a2-843d-0e578d072dea"><a class="anchor" href="#_use_of_digital_signatures"></a><a class="header" href="#_use_of_digital_signatures">11.5.3  Use of digital signatures</a></h3>
 
 <p id="_04437a94-d775-061f-b7a6-49db790474d9">Digital signatures shall be used on all files included in a S-411 compliant Exchange Set to meet the requirements of IMO resolution MSC.428(98) to reduce cyber security risks among users, especially when used in navigations systems at sea. The recommended signature method is defined in <a href="#iho-s100">part=15</a>.</p>
 
 <p id="_ec7f8e9d-437f-7060-ab02-f3139cf41561">The digital signature information is encoded in the corresponding discovery block in the exchange catalogue for each file included in the Exchange Set.</p>
 </div>
-</div></div><div id="sec-metadata"><h1 id="_cda9ab69-b9f7-428a-82cc-61aac70a6b8b"><a class="anchor" href="#sec-metadata"></a><a class="header" href="#sec-metadata">12  Metadata</a></h1><div id="_introduction_8"><h2 id="_0be32864-950a-4bb6-9ebd-f48859d08329"><a class="anchor" href="#_introduction_8"></a><a class="header" href="#_introduction_8">12.1  Introduction</a></h2>
+</div></div><div id="sec-metadata"><h1 id="_eda6f6c8-0e49-4aa4-8124-7ffd9bfd8db2"><a class="anchor" href="#sec-metadata"></a><a class="header" href="#sec-metadata">12  Metadata</a></h1><div id="_introduction_8"><h2 id="_0e0a7fea-f253-4dc7-aa74-4b06284f803c"><a class="anchor" href="#_introduction_8"></a><a class="header" href="#_introduction_8">12.1  Introduction</a></h2>
 
 <p id="_dc257841-4bb7-5ad8-f3ce-7318870b39f3">The Metadata elements used in the Bathymetric Surface product are derived from S-100 and from <a href="#iso-19115-1">[iso-19115-1]</a> and <a href="#iso-19115-2">[iso-19115-2]</a>. Optionally additional metadata may be derived from <a href="#iso-ts-19130">[iso-ts-19130]</a> and <a href="#iso-ts-19130-2">[iso-ts-19130-2]</a> especially metadata relating to the sonar equipment which may have been used to acquire the bathymetric data.</p>
 
 <p id="_22e85a17-cb34-a5c4-3c69-70df77120932">Metadata used for the discovery, identification, and use of S-411 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.</p>
-</div><div id="subsec-exchange-set-metadata"><h2 id="_de488e9f-f029-40f3-91d3-095afe490153"><a class="anchor" href="#subsec-exchange-set-metadata"></a><a class="header" href="#subsec-exchange-set-metadata">12.2  Exchange Set metadata</a></h2>
+</div><div id="subsec-exchange-set-metadata"><h2 id="_ef17afc2-c278-45e3-b39c-26b65735f62e"><a class="anchor" href="#subsec-exchange-set-metadata"></a><a class="header" href="#subsec-exchange-set-metadata">12.2  Exchange Set metadata</a></h2>
 
 <p id="_156ec49d-0f1b-dc26-4a2f-5c2cbe35d868">For information exchange, there are several categories of metadata required: metadata about the overall Exchange Catalogue, metadata about each of the datasets contained in the Catalogue.</p>
 
@@ -2433,28 +2413,28 @@ pre.sourcecode .nt {
 <p id="_195102eb-f765-4aa1-854d-6dc03f3f0a85">The XML schemas for S-411 exchange catalogues will be available from the IHO Geospatial Information (GI) Registry and/or the S-100 GitHub site (<a href="https://github.com/IHO-S100WG">https://github.com/IHO-S100WG</a>).</p>
 
 <p id="_c155721b-035c-3dd4-db6b-9907574eeac5">The S-411 exchange catalogue uses the S-100 exchange catalogue schemas which are available from the S-100 schema server at <a href="https://schemas.s100dev.net">https://schemas.s100dev.net</a> (downloadable archives are also available on the site for offline use). Implementation of the S-411-specific constraints described in following clauses below is left to developer decision as it can be done in various ways depending on implementation frameworks and the requirements of production or application software.</p>
-</div><div id="_language"><h2 id="_c51cfd86-5feb-47ef-a08f-bc18bf19da65"><a class="anchor" href="#_language"></a><a class="header" href="#_language">12.3  Language</a></h2>
+</div><div id="_language"><h2 id="_21eb8d01-a135-4015-8a4d-508f6a1c5836"><a class="anchor" href="#_language"></a><a class="header" href="#_language">12.3  Language</a></h2>
 
 <p id="_4916c5ea-8302-e68a-4742-269bca742c4d">The exchange language must be English.</p>
 
 <p id="_886aa16b-d9f8-0a3d-4840-af6e49667bf5">Character strings must be encoded using the character set defined in <a href="#iso-10646-1">[iso-10646-1]</a>, in Unicode Transformation Format-8 (UTF-8). A BOM (byte order mark) must not be used.</p>
 
-<br /></div><div id="subsec-s100_exchangecatalogue"><h2 id="_2a93c3d5-0283-4afb-b649-fca5c4fae03a"><a class="anchor" href="#subsec-s100_exchangecatalogue"></a><a class="header" href="#subsec-s100_exchangecatalogue">12.4  S100_ExchangeCatalogue</a></h2>
+<br /></div><div id="subsec-s100_exchangecatalogue"><h2 id="_59f7bd13-3b13-4650-bdc0-9ae6a0c65b2f"><a class="anchor" href="#subsec-s100_exchangecatalogue"></a><a class="header" href="#subsec-s100_exchangecatalogue">12.4  S100_ExchangeCatalogue</a></h2>
 
 <p id="_2dbdd2c3-ff43-4d9c-5d3d-4239b298ac0b">Each Exchange Set has a single S100_ExchangeCatalogue which contains meta information for the data in the Exchange Set.</p>
 
 <p id="_c061bef7-a444-b69a-17bb-7859be82a6b4">S-411 uses S100_ExchangeCatalogue without modification.</p>
 
-<div id="_s100_exchangecatalogueidentifier"><h3 id="_a299ecb2-e8a5-47e8-a722-823e496d217d"><a class="anchor" href="#_s100_exchangecatalogueidentifier"></a><a class="header" href="#_s100_exchangecatalogueidentifier">12.4.1  S100_ExchangeCatalogueIdentifier</a></h3>
+<div id="_s100_exchangecatalogueidentifier"><h3 id="_f57c6ec4-561e-42d5-856c-d6cb227603ee"><a class="anchor" href="#_s100_exchangecatalogueidentifier"></a><a class="header" href="#_s100_exchangecatalogueidentifier">12.4.1  S100_ExchangeCatalogueIdentifier</a></h3>
 
 <p id="_c3dc9b87-5cff-6b30-01b8-db26b6a7980b">S-411 uses S100_ExchangeCatalogueIdentifier without modification.</p>
 </div>
 
-<div id="_s100_cataloguepointofcontact"><h3 id="_9ef783c1-9b12-44d5-b55e-ba74aff95eff"><a class="anchor" href="#_s100_cataloguepointofcontact"></a><a class="header" href="#_s100_cataloguepointofcontact">12.4.2  S100_CataloguePointOfContact</a></h3>
+<div id="_s100_cataloguepointofcontact"><h3 id="_0655e64e-fe35-4df2-9fa6-db25dc5af535"><a class="anchor" href="#_s100_cataloguepointofcontact"></a><a class="header" href="#_s100_cataloguepointofcontact">12.4.2  S100_CataloguePointOfContact</a></h3>
 
 <p id="_917df51f-c667-d48b-28ff-f5f363684325">S-411 uses S100_CataloguePointOfContact without modification.</p>
 </div>
-</div><div id="_s100_datasetdiscoverymetadata"><h2 id="_a67f153d-891d-412c-a4e4-23bee09036dd"><a class="anchor" href="#_s100_datasetdiscoverymetadata"></a><a class="header" href="#_s100_datasetdiscoverymetadata">12.5  S100_DatasetDiscoveryMetadata</a></h2>
+</div><div id="_s100_datasetdiscoverymetadata"><h2 id="_b49c4a9e-3296-4d79-bebc-bb9d7da24b00"><a class="anchor" href="#_s100_datasetdiscoverymetadata"></a><a class="header" href="#_s100_datasetdiscoverymetadata">12.5  S100_DatasetDiscoveryMetadata</a></h2>
 
 <p id="_faaa1f93-88a2-cb5e-87ce-a977531108da">Dataset discovery metadata in S-411 restricts certain attributes and roles as described in <a href="#tab-s100-datasetDiscoveryMetadata-params">Table 12-1</a>. Optional S-100 attributes which are mandatory in S-411 are indicated in the Remarks column.</p>
 
@@ -2579,12 +2559,12 @@ pre.sourcecode .nt {
 </td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><p id="_5ce39b8c-1ff8-9e0c-6c88-525f5d713462">If Product Specification is intended for creation of navigational products, this attribute should be mandatory.<br /> <b>Mandatory in S-411</b></p>
 </td></tr></tbody></table>
 
-<div id="_s100_navigationpurpose"><h3 id="_da4a8e8f-30fc-412a-a3b6-89dd02b34783"><a class="anchor" href="#_s100_navigationpurpose"></a><a class="header" href="#_s100_navigationpurpose">12.5.1  S100_NavigationPurpose</a></h3>
+<div id="_s100_navigationpurpose"><h3 id="_0c152f94-6b8c-497d-a54d-c0315076fc0d"><a class="anchor" href="#_s100_navigationpurpose"></a><a class="header" href="#_s100_navigationpurpose">12.5.1  S100_NavigationPurpose</a></h3>
 
 <p id="_01795ca4-f90c-04e7-57bb-258a2f9c70b0">S-411 uses S100_NavigationPurpose without modification.</p>
 </div>
 
-<div id="_s100_datacoverage"><h3 id="_23c37cba-7b74-4ae4-aec9-70b1d54895d4"><a class="anchor" href="#_s100_datacoverage"></a><a class="header" href="#_s100_datacoverage">12.5.2  S100_DataCoverage</a></h3>
+<div id="_s100_datacoverage"><h3 id="_a2a010e1-fda6-4d3f-bdf8-c20e4d70cfbc"><a class="anchor" href="#_s100_datacoverage"></a><a class="header" href="#_s100_datacoverage">12.5.2  S100_DataCoverage</a></h3>
 
 <p id="_4e9a1778-3b69-3fc9-8954-76d16c7e18f1">S-411 uses S100_DataCoverage without modification, but with additional remarks and changes to the multiplicity.</p>
 
@@ -2627,7 +2607,7 @@ pre.sourcecode .nt {
 
 </div>
 
-<div id="_s100_purpose"><h3 id="_51527c05-1171-4baf-ae03-00d6866625a4"><a class="anchor" href="#_s100_purpose"></a><a class="header" href="#_s100_purpose">12.5.3  S100_Purpose</a></h3>
+<div id="_s100_purpose"><h3 id="_d8d11a3f-443a-43c3-9d60-193994ad1bfe"><a class="anchor" href="#_s100_purpose"></a><a class="header" href="#_s100_purpose">12.5.3  S100_Purpose</a></h3>
 
 <p id="_68f824fe-bfdf-9a92-9f75-38e2bcc43b37">S-411 uses S100_Purpose without modification, but with a restriction on the allowed values.</p>
 
@@ -2654,7 +2634,7 @@ pre.sourcecode .nt {
 </td></tr></tbody></table>
 </div>
 
-<div id="_s100_encodingformat"><h3 id="_19739313-49ba-4014-89a3-8ae9ff3641a6"><a class="anchor" href="#_s100_encodingformat"></a><a class="header" href="#_s100_encodingformat">12.5.4  S100_EncodingFormat</a></h3>
+<div id="_s100_encodingformat"><h3 id="_d0195354-ad29-4505-a96c-90756498a6c4"><a class="anchor" href="#_s100_encodingformat"></a><a class="header" href="#_s100_encodingformat">12.5.4  S100_EncodingFormat</a></h3>
 
 <p id="_c1a54171-23c0-5c10-1e5b-b07ae8ee5e21">S-411 uses S100_EncodingFormat with a restriction on the allowed values to permit only the S-100 GML format for S-411 datasets.</p>
 
@@ -2671,7 +2651,7 @@ pre.sourcecode .nt {
 </td></tr></tbody></table>
 </div>
 
-<div id="_s100_productspecification"><h3 id="_b466d17d-cabf-4ed1-aa58-b474b9763300"><a class="anchor" href="#_s100_productspecification"></a><a class="header" href="#_s100_productspecification">12.5.5  S100_ProductSpecification</a></h3>
+<div id="_s100_productspecification"><h3 id="_98c281fc-5102-4059-8e99-0661e2a164e8"><a class="anchor" href="#_s100_productspecification"></a><a class="header" href="#_s100_productspecification">12.5.5  S100_ProductSpecification</a></h3>
 
 <p id="_a17a9468-3de8-f5e7-b425-66ec324d006d">S-411 uses S100_ProductSpecification without modification, but with additional remarks and changes to the multiplicity.</p>
 
@@ -2720,7 +2700,7 @@ pre.sourcecode .nt {
 </td></tr></tbody></table>
 </div>
 
-<div id="subsec-s100-compliancy-category"><h3 id="_e9f4abb0-471b-4457-8219-378ba541d869"><a class="anchor" href="#subsec-s100-compliancy-category"></a><a class="header" href="#subsec-s100-compliancy-category">12.5.6  S100_CompliancyCategory</a></h3>
+<div id="subsec-s100-compliancy-category"><h3 id="_3c310830-8f8c-4c82-b54d-3756b5b1fc61"><a class="anchor" href="#subsec-s100-compliancy-category"></a><a class="header" href="#subsec-s100-compliancy-category">12.5.6  S100_CompliancyCategory</a></h3>
 
 <p id="_7ad67937-7161-3efd-bcbd-c6b5b557322b">S-411 exchange sets conforming to this edition of S-411 and using a CRS from the EPSG registry may be encoded as category 3 or 4 when the <i>compliancyCategory</i> metadata attribute is populated. Because S-98 interoperability assumes <i>category4</i> datasets, <i>category4</i> may be used for test purposes, though the absence of test datasets and of a published IHO interoperability catalogue mean this edition of S-411 does not yet qualify for <i>category4</i>. <b>Given the uncertainty about interoperability testing requirements and availability of test datasets, the S-100 WG chair and S-411 PT chair should be consulted for up-to-date guidance.</b></p>
 
@@ -2742,30 +2722,30 @@ pre.sourcecode .nt {
 </td></tr></tbody></table>
 </div>
 
-<div id="_s100_protectionscheme"><h3 id="_d8336d27-785b-4c0a-87e3-0f961f5b4984"><a class="anchor" href="#_s100_protectionscheme"></a><a class="header" href="#_s100_protectionscheme">12.5.7  S100_ProtectionScheme</a></h3>
+<div id="_s100_protectionscheme"><h3 id="_cccf7cc5-b25c-4491-bc7b-2ea4920576e1"><a class="anchor" href="#_s100_protectionscheme"></a><a class="header" href="#_s100_protectionscheme">12.5.7  S100_ProtectionScheme</a></h3>
 
 <p id="_d4a80dee-1b01-b86d-4a46-1d6a49ed8a16">S-411 uses S100_ProtectionScheme without modification.</p>
 </div>
-</div><div id="_md_maintenanceinformation"><h2 id="_a3a253e0-5872-4e12-957e-9c2c4ee4162c"><a class="anchor" href="#_md_maintenanceinformation"></a><a class="header" href="#_md_maintenanceinformation">12.6  MD_MaintenanceInformation</a></h2>
+</div><div id="_md_maintenanceinformation"><h2 id="_0bc78a1b-e118-495b-8acb-da800b9cd152"><a class="anchor" href="#_md_maintenanceinformation"></a><a class="header" href="#_md_maintenanceinformation">12.6  MD_MaintenanceInformation</a></h2>
 
 <p id="_a0ee146a-c344-bcba-f2ea-601a06ddc7d6">S-411 uses MD_MaintenanceInformation without modification.</p>
-</div><div id="_md_maintenancefrequencycode"><h2 id="_64e3e299-fbc4-4af7-9abe-0cffb0067c01"><a class="anchor" href="#_md_maintenancefrequencycode"></a><a class="header" href="#_md_maintenancefrequencycode">12.7  MD_MaintenanceFrequencyCode</a></h2>
+</div><div id="_md_maintenancefrequencycode"><h2 id="_fe53f1fc-5710-49f6-b85e-601e6cf9278c"><a class="anchor" href="#_md_maintenancefrequencycode"></a><a class="header" href="#_md_maintenancefrequencycode">12.7  MD_MaintenanceFrequencyCode</a></h2>
 
 <p id="_0b94f89b-5316-8c6c-e032-a317c506f0d1">S-411 uses MD_MaintenanceFrequencyCode without modification.</p>
-</div><div id="_s100_cataloguediscoverymetadata"><h2 id="_84e97e4e-28f0-4424-b39b-bf043ea3632e"><a class="anchor" href="#_s100_cataloguediscoverymetadata"></a><a class="header" href="#_s100_cataloguediscoverymetadata">12.8  S100_CatalogueDiscoveryMetadata</a></h2>
+</div><div id="_s100_cataloguediscoverymetadata"><h2 id="_9f72c294-210a-4cc5-bb06-dae7af34d53a"><a class="anchor" href="#_s100_cataloguediscoverymetadata"></a><a class="header" href="#_s100_cataloguediscoverymetadata">12.8  S100_CatalogueDiscoveryMetadata</a></h2>
 
 <p id="_d75d2d15-e0bc-672b-4472-d40f4f7140c9">S-411 uses S100_CatalogueDiscoveryMetadata without modification.</p>
 
-<div id="_s100_cataloguescope"><h3 id="_efe4d277-021f-4d2b-a95b-57f57c17d6b9"><a class="anchor" href="#_s100_cataloguescope"></a><a class="header" href="#_s100_cataloguescope">12.8.1  S100_CatalogueScope</a></h3>
+<div id="_s100_cataloguescope"><h3 id="_720c0e66-c92c-4a7b-a7e9-26ac1e40ceac"><a class="anchor" href="#_s100_cataloguescope"></a><a class="header" href="#_s100_cataloguescope">12.8.1  S100_CatalogueScope</a></h3>
 
 <p id="_1d61818d-511b-0462-2ca6-9188dd348a31">S-411 uses S100_CatalogueScope without modification.</p>
 </div>
 
-<div id="sec-pt-locale"><h3 id="_fe422836-2797-4ebc-8708-2b68430078f4"><a class="anchor" href="#sec-pt-locale"></a><a class="header" href="#sec-pt-locale">12.8.2  PT_Locale</a></h3>
+<div id="sec-pt-locale"><h3 id="_aa9103d0-a423-4049-842e-5f028bbac6e8"><a class="anchor" href="#sec-pt-locale"></a><a class="header" href="#sec-pt-locale">12.8.2  PT_Locale</a></h3>
 
 <p id="_fdf04b2d-3596-19c4-f6c6-62cb26b07056">S-411 uses PT_Locale without modification. The class PT_Locale is defined in  <a href="#iso-19115-1">[iso-19115-1]</a>. LanguageCode, CountryCode, and MD_CharacterSetCode are ISO codelists which are defined in a codelists file which is part of the S-100 Edition 5.2.0 schema distribution.</p>
 </div>
-</div><div id="sec-certs-digsign"><h2 id="_816edc69-3093-4f80-a7fa-7113e63a990b"><a class="anchor" href="#sec-certs-digsign"></a><a class="header" href="#sec-certs-digsign">12.9  Certificates and Digital Signatures</a></h2>
+</div><div id="sec-certs-digsign"><h2 id="_319da0fc-6f7b-4eda-b680-28abb16787bc"><a class="anchor" href="#sec-certs-digsign"></a><a class="header" href="#sec-certs-digsign">12.9  Certificates and Digital Signatures</a></h2>
 
 <p id="_108feec2-479e-3f7f-a731-2d1a9b328564">The classes S100_SE_CertificateContainerType (<a href="#iho-s100">part=15,clause=8.11.1</a>), S100_SE_DigitalSignatureReference (<a href="#iho-s100">part=15,clause=8.11.7</a>), and S100_SE_DigitalSignature are defined in <a href="#iho-s100">part=15</a> and implemented in the S-100 generic schemas.</p>
 
@@ -2775,9 +2755,9 @@ pre.sourcecode .nt {
 
 <p id="_273454d2-d3e9-8fc8-911c-ae2d68c66168">“The class S100_SE_DigitalSignature is realized as one of either S100_SE_SignatureOnData (a digital signature of a particular identified resource) or an additional digital signature defined using the class S100_SE_AdditionalSignature, each of which is either a S100_SE_SignatureOnData or S100_SE_SignatureOnSignature element as described in <a href="#iho-s100">part=15,clause=8.8</a>. <a href="#iho-s100">part=17</a> metadata thus allows for multiple digital signatures, a single mandatory S100_SE_SignatureOnData and any number of additional signatures, either of the data or other signatures.”</p>
 
-<br /></div></div><br /><div id="annex-data-classification-and-encoding-guide" class="Section3"><h1 class="Annex" id="_b8929847-0d04-4b17-be19-fb5618eee0f0"><a class="anchor" href="#annex-data-classification-and-encoding-guide"></a><a class="header" href="#annex-data-classification-and-encoding-guide"><b>Annex A</b><br /><b>Data Classification and Encoding Guide</b></a></h1><div id="_features"><h2 id="_53f66d39-8c8e-4e55-ab6b-0a47910477f1"><a class="anchor" href="#_features"></a><a class="header" href="#_features">A.1  Features</a></h2>
+<br /></div></div><br /><div id="annex-data-classification-and-encoding-guide" class="Section3"><h1 class="Annex" id="_4dd6d8fc-77cd-436f-ba12-80c905fe23c8"><a class="anchor" href="#annex-data-classification-and-encoding-guide"></a><a class="header" href="#annex-data-classification-and-encoding-guide"><b>Annex A</b><br /><b>Data Classification and Encoding Guide</b></a></h1><div id="_features"><h2 id="_e2e645b6-b8b1-4bc7-9827-48098a1d94ad"><a class="anchor" href="#_features"></a><a class="header" href="#_features">A.1  Features</a></h2>
 
-<div id="_bathymetrycoverage"><h3 id="_ba375ecc-4fed-4b23-b382-e58c2e1138c2"><a class="anchor" href="#_bathymetrycoverage"></a><a class="header" href="#_bathymetrycoverage">A.1.1  BathymetryCoverage</a></h3>
+<div id="_bathymetrycoverage"><h3 id="_a5643753-fba2-41bc-9273-98819b376074"><a class="anchor" href="#_bathymetrycoverage"></a><a class="header" href="#_bathymetrycoverage">A.1.1  BathymetryCoverage</a></h3>
 
 <p class="TableTitle" style="text-align:center;">Table A-1 — BathymetryCoverage feature parameters</p><table id="_6d674638-c0b9-dbf9-2e31-c0002e22270d" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><td colspan="4" style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_c0b88a72-eefd-c81a-e9ea-3e9c2b9573a1"><b>Term</b>: Bathymetry Coverage</p>
 </td></tr><tr><td colspan="4" style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_7b70978a-ef0b-5496-f361-7258ba644ca3"><b>IHO Definition</b>: A set of value items required to define a dataset representing a depth calculation and its associated uncertainty.</p>
@@ -2793,7 +2773,7 @@ pre.sourcecode .nt {
 </td></tr></tbody></table>
 </div>
 
-<div id="_qualityofbathymetrycoverage"><h3 id="_6cf9f4f0-8015-499a-987d-ee26ef6cb4cb"><a class="anchor" href="#_qualityofbathymetrycoverage"></a><a class="header" href="#_qualityofbathymetrycoverage">A.1.2  QualityOfBathymetryCoverage</a></h3>
+<div id="_qualityofbathymetrycoverage"><h3 id="_87c8774e-c7db-4b2b-9dd3-cf0414cbfb86"><a class="anchor" href="#_qualityofbathymetrycoverage"></a><a class="header" href="#_qualityofbathymetrycoverage">A.1.2  QualityOfBathymetryCoverage</a></h3>
 
 <p class="TableTitle" style="text-align:center;">Table A-2 — QualityOfBathymetryCoverage feature parameters</p><table id="_34408364-305d-fe91-9a77-3cc914c79f11" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><td colspan="4" style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_79f0e0e6-4e13-91af-d44b-fb85bd5a0fe5"><b>Term</b>: Quality Of Bathymetry Coverage.</p>
 </td></tr><tr><td colspan="4" style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_a6cd8b86-a446-75bd-a2a1-f1dd6cf3b4b3"><b>IHO Definition</b>: A set of references to value records that provide localised information about depth, uncertainties, and bathymetry coverage metadata.</p>
@@ -2804,9 +2784,9 @@ pre.sourcecode .nt {
 </td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><p id="_4fd9f1e8-cb6c-069b-2955-6caba261ff1d">1</p>
 </td></tr></tbody></table>
 </div>
-</div><div id="_feature_attributes"><h2 id="_3e9eecaa-ec74-4bdc-9fbd-d8fd4deaaf9c"><a class="anchor" href="#_feature_attributes"></a><a class="header" href="#_feature_attributes">A.2  Feature Attributes</a></h2>
+</div><div id="_feature_attributes"><h2 id="_ad8b982a-0212-49e5-865c-af01c251d6ef"><a class="anchor" href="#_feature_attributes"></a><a class="header" href="#_feature_attributes">A.2  Feature Attributes</a></h2>
 
-<div id="_bathymetrycoverage_2"><h3 id="_8b1b6841-9516-497a-a2ea-0571ca8536cd"><a class="anchor" href="#_bathymetrycoverage_2"></a><a class="header" href="#_bathymetrycoverage_2">A.2.1  BathymetryCoverage</a></h3>
+<div id="_bathymetrycoverage_2"><h3 id="_84589474-70e3-4252-9c87-caad864c8ca5"><a class="anchor" href="#_bathymetrycoverage_2"></a><a class="header" href="#_bathymetrycoverage_2">A.2.1  BathymetryCoverage</a></h3>
 
 <p class="TableTitle" style="text-align:center;">Table A-3 — BathymetryCoverage feature attribute parameters</p><table id="_6e9dc1cb-66d0-21b7-4e48-87c414be2317" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_ff915230-14c5-58b7-47c6-f2687f692fbf">IHO Definition: <b>depth</b>. The vertical distance from a given water level to the bottom [<a href="#iho-s32">[iho-s32]</a>].</p>
 </td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_3c07ce42-1091-c7a6-00af-fb4d6b35dcc7">Unit: metres</p>
@@ -2829,7 +2809,7 @@ pre.sourcecode .nt {
 </td></tr></tbody></table>
 </div>
 
-<div id="_qualityofbathymetrycoverage_2"><h3 id="_57dc3783-9611-4567-a473-7e8ad11b2870"><a class="anchor" href="#_qualityofbathymetrycoverage_2"></a><a class="header" href="#_qualityofbathymetrycoverage_2">A.2.2  QualityOfBathymetryCoverage</a></h3>
+<div id="_qualityofbathymetrycoverage_2"><h3 id="_062c326b-c251-4cda-a2e0-8d6c89ee8ddd"><a class="anchor" href="#_qualityofbathymetrycoverage_2"></a><a class="header" href="#_qualityofbathymetrycoverage_2">A.2.2  QualityOfBathymetryCoverage</a></h3>
 
 <p class="TableTitle" style="text-align:center;">Table A-4 — QualityOfBathymetryCoverage feature attribute parameters</p><table id="_b5ffc2dd-e47a-1531-bae8-55309140cb58" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_b1f96a02-9a6f-543b-e453-6c736ce2a9ac">IHO Definition: <b>iD</b>. Meta data record identifier for QualityOfBathymetryCoverage</p>
 </td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_2f7c38d8-bc89-771a-15d9-daa26cf390c4">Unit:</p>

@@ -57,15 +57,9 @@
 </semantic__feedback-statement>
 </semantic__boilerplate><semantic__preface><semantic__clause id="semantic___document_history" obligation="informative">
 <semantic__title>Document History</semantic__title>
-<semantic__p id="semantic___1cce92cf-c1fc-ccfd-9632-7da5d2593423">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</semantic__p>
+<semantic__p id="semantic___345292b8-60e3-bfbd-add1-ad7c16880e2d">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</semantic__p>
 
-<semantic__p id="semantic___b8c48f76-cacc-4661-6097-9023dd4830b1">Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).</semantic__p>
-
-<semantic__p id="semantic___9b12139a-1390-3b1c-2920-5dd08c3d84f3"><semantic__em>I suggest deleting the previous sentence</semantic__em></semantic__p>
-
-<semantic__table id="semantic__tab-document-history" unnumbered="true">
-<semantic__name>Document History</semantic__name>
-<semantic__thead><semantic__tr><semantic__th valign="top" align="left">Version Number</semantic__th>
+<semantic__table id="semantic___96049e50-1295-8d03-40d8-a9bd5bd657e8"><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Version Number</semantic__th>
 <semantic__th valign="top" align="left">Date</semantic__th>
 <semantic__th valign="top" align="left">Approved By</semantic__th>
 <semantic__th valign="top" align="left">Purpose</semantic__th>
@@ -84,7 +78,7 @@
 </semantic__td>
 <semantic__td valign="top" align="left"><semantic__p id="semantic___c374c753-04e1-a1f5-45c7-a2548940bc7f">Jürgen Holfort</semantic__p>
 </semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___cb108f6e-0e03-dbf8-3cd7-076eb91cc0aa">Clarifications in the based on ETSI Meeting 2014 and new color for 10/10.</semantic__p>
+<semantic__td valign="top" align="left"><semantic__p id="semantic___ceec7489-cb56-1f59-9956-b6a7a85c08d5">Clarifications based on ETSI Meeting 2014 and new color for 10/10.</semantic__p>
 </semantic__td>
 </semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___6a32bbe5-6cfa-ebf7-6b9a-038e6e68dc71">1.2.0</semantic__p>
 </semantic__td>
@@ -103,280 +97,179 @@
 <semantic__p id="semantic___550c38e8-30ba-e06f-8607-74a55143e822">The Ice Information product specification is based on the IHO S-100 framework specification, Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.</semantic__p>
 </semantic__clause>
 
-<semantic__references id="semantic___references" normative="true" obligation="informative">
+<semantic__clause id="semantic__bibliography" obligation="normative">
 <semantic__title>References</semantic__title>
-<semantic__p id="semantic___a38d337b-cee1-eb10-a9ea-a60b926852de">GML — OpenGIS® Geography Markup Language (GML) Encoding Standard (Version 3.2.1)</semantic__p>
+<semantic__clause id="semantic___normative" obligation="normative">
+<semantic__title>Normative</semantic__title>
+<semantic__p id="semantic___53ecee44-81ba-87c7-77e8-46dda103614d">GML OpenGIS®  Geography Markup Language (GML) Encoding Standard (Version 3.2.1)</semantic__p>
 
-<semantic__p id="semantic___9e002d26-2d4e-fcfd-7f85-812a863ba6a8">IHO S-100 — IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024</semantic__p>
+<semantic__p id="semantic___ea68005c-f35b-1ae0-1f0f-7060dbb12410">IHO S-100  IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024</semantic__p>
 
-<semantic__p id="semantic___9f50200d-b935-1020-0417-c900195662ad">ISO-19115-1 — ISO 19115-1:2014/Amd 1:2018, Geographic information — Metadata — Part 1: Fundamentals — Amendment 1</semantic__p>
+<semantic__p id="semantic___5e98426d-d371-7a1c-03be-8a64ae2ac78f">ISO-19115-1  ISO 19115-1:2014/Amd 1:2018, Geographic information — Metadata — Part 1: Fundamentals — Amendment 1</semantic__p>
 
-<semantic__p id="semantic___0275413b-0b2b-3fbc-6095-a38eefc5e8a6">ISO-19115-2 — ISO 19115-2:2009/Amd 1:2018, Geographic information — Metadata — Part 2: Extensions for imagery and gridded data</semantic__p>
+<semantic__p id="semantic___5c87066a-936a-8f41-f5ed-d52f8c149e57">ISO-19115-2  ISO 19115-2:2009/Amd 1:2018, Geographic information — Metadata — Part 2: Extensions for imagery and gridded data</semantic__p>
 
-<semantic__p id="semantic___c5d0eb89-2c89-d63e-4f01-8ba4c110b68c">ISO-19115-3 — ISO 19115-3:2016, Geographic information — Metadata — Part 3: XML Schema implementation for fundamental concepts</semantic__p>
+<semantic__p id="semantic___8b1a8e18-5546-3584-88bb-ff7e677916c8">ISO-19115-3  ISO 19115-3:2016, Geographic information — Metadata — Part 3: XML Schema implementation for fundamental concepts</semantic__p>
 
-<semantic__p id="semantic___2e9cc761-1736-9856-e310-5e41a5f411c0">ISO-19139-1 — ISO 19139-1:2019, Geographic information — XML schema implementation — Part 1: Encoding rules</semantic__p>
-</semantic__references>
+<semantic__p id="semantic___52720e6c-74e8-f85a-85df-f94a7e676c4e">ISO-19139-1  ISO 19139-1:2019, Geographic information — XML schema implementation — Part 1: Encoding rules</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___informative" obligation="normative">
+<semantic__title>Informative</semantic__title>
+<semantic__p id="semantic___6f78f836-89fa-d09d-4c00-0e07504baa9e">TBD</semantic__p>
+</semantic__clause>
+</semantic__clause>
 
 <semantic__clause id="semantic___terms_definitions_and_abbreviations" obligation="normative">
 <semantic__title>Terms, definitions and abbreviations</semantic__title>
 <semantic__clause id="semantic___use_of_language" obligation="normative">
 <semantic__title>Use of language</semantic__title>
-<semantic__p id="semantic___9c1f5bf4-adad-3e94-c24c-437145b8f599">Within this document:</semantic__p>
+<semantic__p id="semantic___58471bfe-bb75-ed17-138a-783f276ace0e">Within this document:</semantic__p>
 
-<semantic__ul id="semantic___047a50a5-8386-fe61-1699-f10807923fea"><semantic__li><semantic__p id="semantic___b9bda274-8486-386f-2ec8-d4e5484eaf8e">“Must” indicates a mandatory requirement.</semantic__p>
+<semantic__ul id="semantic___c8da63fa-c83b-e096-850c-b9cc83e94f09"><semantic__li><semantic__p id="semantic___919f35b1-5b13-6c38-88fc-4f3ba5113b39">“Must” indicates a mandatory requirement.</semantic__p>
 </semantic__li>
-<semantic__li><semantic__p id="semantic___e9f9c1d5-05f5-ef2f-92c4-225ced3eda82">“Should” indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.</semantic__p>
+<semantic__li><semantic__p id="semantic___9dc5f3a1-f0ae-81a5-f169-ccc8a7ea9536">“Should” indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.</semantic__p>
 </semantic__li>
-<semantic__li><semantic__p id="semantic___d2a80d99-f2e5-dfaf-3dfa-919c4f7f8240">“May” means “allowed to” or “could possibly” and is not mandatory.</semantic__p>
+<semantic__li><semantic__p id="semantic___c1b89760-cc8d-f2fc-ce3c-e69554dfdda6">“May” means “allowed to” or “could possibly” and is not mandatory.</semantic__p>
 </semantic__li>
 </semantic__ul>
 </semantic__clause>
 
 <semantic__clause id="semantic___terms_and_definitions" obligation="normative">
 <semantic__title>Terms and definitions</semantic__title>
-<semantic__p id="semantic___04ead5a4-3006-3abe-263b-d8a077562dfb"><semantic__em>There are no definitions in current version of S-411. Do I delete the ones here after?</semantic__em></semantic__p>
+<semantic__p id="semantic___ed7a96c2-ee61-960c-0ca7-12f4aec86049"><semantic__strong>Coordinate</semantic__strong></semantic__p>
 
-<semantic__clause id="semantic___accuracy" obligation="normative">
-<semantic__title>Accuracy</semantic__title>
-<semantic__p id="semantic___27d8ef17-ef95-1448-cd9f-8144543b4ae7">No reference to Accuracy in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___coordinate" obligation="normative">
-<semantic__title>Coordinate</semantic__title>
-<semantic__p id="semantic___e69f72c8-43fe-96f4-20cd-d35aac4a5660">One of a sequence of <semantic__em>n</semantic__em> numbers designating the position of a point in N-dimensional space.<semantic__note id="semantic___b19c5ebd-444c-50d6-8269-b0599cf14af9"><semantic__p id="semantic___e21bb83f-71f4-ae21-400c-7c4432496737">The numbers must be qualified by units and CRS.</semantic__p>
-</semantic__note></semantic__p>
-
-
-</semantic__clause>
-
-<semantic__clause id="semantic___coordinate_reference_system" obligation="normative">
-<semantic__title>Coordinate Reference System</semantic__title>
-<semantic__p id="semantic___fd734ed5-7e06-04a5-151a-0f35e07a2c2f"><semantic__strong>Coordinate</semantic__strong> system which is related to the real world by a datum.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___coverage" obligation="normative">
-<semantic__title>Coverage</semantic__title>
-<semantic__p id="semantic___a573e672-c687-8f25-4a2c-60cc74ab6f76"><semantic__strong>Feature</semantic__strong> that acts as a function to return values from its range for any direct position within its spatial, temporal, or <semantic__strong>spatiotemporal domain</semantic__strong>.<semantic__note id="semantic___112dc25a-ab5e-eb53-6e85-f75afa3293fd"><semantic__p id="semantic___5b203674-934a-859d-d078-7bdf98d45cee">In other words, a coverage is a feature that has multiple values for each attribute type, where each direct position within the geometric representation of the feature has a single value for each attribute type.</semantic__p>
+<semantic__p id="semantic___d59725d2-74b3-c8ab-9f5b-d0f158315013">One of a sequence of <semantic__em>n</semantic__em> numbers designating the position of a point in N-dimensional space.<semantic__note id="semantic___ee51793f-3729-00a0-d229-94609fc332a2"><semantic__p id="semantic___72f66231-18d4-04c1-435e-e804deefe314">The numbers must be qualified by units and CRS.</semantic__p>
 </semantic__note></semantic__p>
 
 
 
-<semantic__example id="semantic___3365eb8f-fdf7-2e7f-8512-017e8fc644ad"><semantic__p id="semantic___d504c2e4-287e-3f19-3320-6961bacd2b92">Examples include a digital image, polygon overlay, or digital elevation matrix</semantic__p>
-</semantic__example>
-</semantic__clause>
+<semantic__p id="semantic___48467e31-47c8-6e55-d212-564c124efac6"><semantic__strong>Coordinate Reference System</semantic__strong></semantic__p>
 
-<semantic__clause id="semantic___coverage_geometry" obligation="normative">
-<semantic__title>Coverage Geometry</semantic__title>
-<semantic__p id="semantic___150dc8d9-1d9d-23f3-a7e2-217075bf5984">Configuration of the <semantic__strong>domain</semantic__strong> of a <semantic__strong>coverage</semantic__strong> described in terms of <semantic__strong>coordinates</semantic__strong>.</semantic__p>
-</semantic__clause>
+<semantic__p id="semantic___073133f2-75c3-91fa-a6cb-240205384a3d">Coordinate system which is related to the real world by a datum.</semantic__p>
 
-<semantic__clause id="semantic___direct_position" obligation="normative">
-<semantic__title>Direct Position</semantic__title>
-<semantic__p id="semantic___d8cf297f-2355-0487-5df4-8a4780b98ceb">Position described by a single set of <semantic__strong>coordinates</semantic__strong> within a <semantic__strong>coordinate reference system</semantic__strong>.</semantic__p>
-</semantic__clause>
+<semantic__p id="semantic___c6f1d19a-b6e2-e9b4-6689-9629c3aa1645"><semantic__strong>Depth</semantic__strong></semantic__p>
 
-<semantic__clause id="semantic___domain" obligation="normative">
-<semantic__title>Domain</semantic__title>
-<semantic__p id="semantic___cc08d91a-81b2-0136-2453-72e1a7225d51">Well-defined set.<semantic__note id="semantic___c8bc51a5-2b19-3646-b27b-c2643f9fb8a8"><semantic__p id="semantic___4e8395bf-f305-8fe1-282d-051127434ea9">Domains are used to define the domain set and range set of attributes, operators, and functions.</semantic__p>
+<semantic__p id="semantic___2c3310fc-e97d-8e81-f3a1-70d5fed433ea">The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of “Depth Charted”.</semantic__p>
+
+<semantic__p id="semantic___7abbc83f-9eb3-8420-e3ef-0da66e4577b2"><semantic__em>This definition may need to be adapted by JCOMM ETSI</semantic__em><semantic__note id="semantic___b133072f-f5b2-89e4-b939-b6cba086ee3b"><semantic__p id="semantic___b670425e-b60c-f355-3205-bdb8d15e89bd">The numbers must be qualified by units and datum.</semantic__p>
 </semantic__note></semantic__p>
 
 
-</semantic__clause>
 
-<semantic__clause id="semantic___depth" obligation="normative">
-<semantic__title>Depth</semantic__title>
-<semantic__p id="semantic___8e13b7b8-890a-f7e8-d79c-94d7fe803cfe">The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of “Depth Charted”.<semantic__note id="semantic___b238702a-acea-8025-38ab-ad16acaa20ed"><semantic__p id="semantic___a1166bde-7bb4-4b76-6740-8e620c1c8a90">The numbers must be qualified by units and datum.</semantic__p>
+<semantic__p id="semantic___774c39bb-4c41-7193-f929-319bac98598b"><semantic__strong>Feature</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___00cee504-83b1-00c2-005c-2f6a42fcafe6">Abstraction of real-world phenomena.<semantic__note id="semantic___aa52b53b-7ad1-4cbb-3869-4293ebf24e69"><semantic__p id="semantic___eb15caf6-828e-2ca8-1a1a-82614c9373c9">A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.</semantic__p>
 </semantic__note></semantic__p>
 
 
-</semantic__clause>
 
-<semantic__clause id="semantic___feature" obligation="normative">
-<semantic__title>Feature</semantic__title>
-<semantic__p id="semantic___09fa1b96-8c6a-dfe5-63e2-9457376600b9">Abstraction of real-world phenomena.<semantic__note id="semantic___57efb485-3240-4e13-eea4-87bdbbf68584"><semantic__p id="semantic___42e033bd-4153-44a3-1a90-28ce931a90fb">A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.</semantic__p>
+<semantic__p id="semantic___95993116-13a1-70db-ee2d-e518a3453fb5"><semantic__strong>Feature Attribute</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___6dddcea3-141f-dbe4-def6-06ef6f5fa05a">Characteristic of a <semantic__strong>feature</semantic__strong>.<semantic__note id="semantic___8974038b-39fe-2209-fda2-069c1fea4444"><semantic__p id="semantic___4dfbe783-5e72-c965-41b9-1ee561b13a64">A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.</semantic__p>
 </semantic__note></semantic__p>
 
 
-</semantic__clause>
 
-<semantic__clause id="semantic___feature_attribute" obligation="normative">
-<semantic__title>Feature Attribute</semantic__title>
-<semantic__p id="semantic___41fb8cda-150b-5e25-cbfc-80ebedf4105c">Characteristic of a <semantic__strong>feature</semantic__strong>.<semantic__note id="semantic___75c4f9d7-950d-b503-7f18-61662845c2a8"><semantic__p id="semantic___5fa88e63-976a-18b5-749c-cf1bb1ef1a54">A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.</semantic__p>
+<semantic__p id="semantic___c78bc716-d95e-1623-14f8-f2ce10da593f"><semantic__strong>Geometric Object</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___7c44a602-ae04-3d91-7aa8-6b06a9f97db6">Spatial object representing a set of <semantic__strong>direct positions</semantic__strong>.<semantic__note id="semantic___2788e10e-3517-97e2-9a7b-d685d3b62ca3"><semantic__p id="semantic___5f697ff8-2cbf-c57e-0081-33f8d24dce40">A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.</semantic__p>
 </semantic__note></semantic__p>
 
 
-</semantic__clause>
 
-<semantic__clause id="semantic___function" obligation="normative">
-<semantic__title>Function</semantic__title>
-<semantic__p id="semantic___e940f7b1-b0d3-43f9-7b54-b1c197f423f6">Rule that associates each element from a <semantic__strong>domain</semantic__strong> (source, or domain of the function) to a unique element in another domain (target, co-domain, or <semantic__strong>range</semantic__strong>).<semantic__note id="semantic___3d2b1f31-b353-6dec-7611-7d66536e80b6"><semantic__p id="semantic___84c46f76-aee4-63ac-8cbd-a6a675374f65">The range is defined by another domain.</semantic__p>
+<semantic__p id="semantic___265613a4-1e02-f591-13a5-214bae2db041"><semantic__strong>Vector</semantic__strong></semantic__p>
+
+<semantic__p id="semantic___a6ac8c96-d64d-1261-3624-b1acaa348096">Quantity having direction as well as magnitude.<semantic__note id="semantic___f0063b39-bf7f-69f4-3779-b0ec5062a12f"><semantic__p id="semantic___01e74dca-7ef9-4d75-64c0-728293b6e810">A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.</semantic__p>
 </semantic__note></semantic__p>
 
 
-</semantic__clause>
-
-<semantic__clause id="semantic___geometric_object" obligation="normative">
-<semantic__title>Geometric Object</semantic__title>
-<semantic__p id="semantic___a41566c1-2cde-3a4c-1cd5-31d2061a0839">Spatial object representing a set of <semantic__strong>direct positions</semantic__strong>.<semantic__note id="semantic___3c837d37-56a3-e483-7fbb-db15d33bd786"><semantic__p id="semantic___9c6f3214-df15-88e0-5a4a-b9b26799b9b9">A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.</semantic__p>
-</semantic__note></semantic__p>
-
-
-</semantic__clause>
-
-<semantic__clause id="semantic___grid" obligation="normative">
-<semantic__title>Grid</semantic__title>
-<semantic__p id="semantic___26fd81db-13e6-f14f-2fd8-6fa186d0e018">No reference to Grid in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___grid_point" obligation="normative">
-<semantic__title>Grid Point</semantic__title>
-<semantic__p id="semantic___673549aa-84eb-0042-4d0d-6989e4e1da74">No reference to Grid Point in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___lidar" obligation="normative">
-<semantic__title>Lidar</semantic__title>
-<semantic__p id="semantic___cb012e5e-a4f6-3a29-b6ed-80073e5f2c67">No reference to Lidar in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___navigation_surface" obligation="normative">
-<semantic__title>Navigation Surface</semantic__title>
-<semantic__p id="semantic___76d50f52-5935-9c22-cefe-306a69b3db71">No reference to Navigation Surface in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___range_coverage" obligation="normative">
-<semantic__title>Range &#x3c;coverage&#x3e;</semantic__title>
-<semantic__p id="semantic___d18e8cad-1cf4-eff0-0394-52e76a4a4c2a">No reference to Range in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___record" obligation="normative">
-<semantic__title>Record</semantic__title>
-<semantic__p id="semantic___5ebf5e2f-2b48-5cea-2545-95d85b75e8ee">No reference to Record in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___rectified_grid" obligation="normative">
-<semantic__title>Rectified Grid</semantic__title>
-<semantic__p id="semantic___230a0096-c478-ec6a-8304-fe6d0a399570">No reference to Rectified Grid in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___referenceable_grid" obligation="normative">
-<semantic__title>Referenceable Grid</semantic__title>
-<semantic__p id="semantic___a5b279c4-a996-b003-e41d-1a48d90ba456">No reference to Referenceable Grid in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___sonar" obligation="normative">
-<semantic__title>Sonar</semantic__title>
-<semantic__p id="semantic___7044cc2f-cceb-0d13-0d55-10348ab06f43">No reference to Sonar in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___spatiotemporal_domain_coverage" obligation="normative">
-<semantic__title>Spatiotemporal Domain &#x3c;coverage&#x3e;</semantic__title>
-<semantic__p id="semantic___07a6cf6e-fff1-fcf9-8ee3-1f7c1595f3ea">No reference to Spatiotemporal Domain in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___surface" obligation="normative">
-<semantic__title>Surface</semantic__title>
-<semantic__p id="semantic___07b2d10f-600e-c1c6-34ad-4e775345aac3">No reference to Surface in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___uncertainty" obligation="normative">
-<semantic__title>Uncertainty</semantic__title>
-<semantic__p id="semantic___61fddd2f-fbf5-0c2c-f5fa-ad52ae5d66f2">No reference to Uncertainty in S-411 1.1.0.</semantic__p>
-</semantic__clause>
-
-<semantic__clause id="semantic___vector" obligation="normative">
-<semantic__title>Vector</semantic__title>
-<semantic__p id="semantic___bc3a04de-4167-b28e-c739-cef10b0e816a">Quantity having direction as well as magnitude.<semantic__note id="semantic___4cf7d520-ce41-7e24-641e-e86623c8ac03"><semantic__p id="semantic___c5d48b33-4bc0-7c6a-2e67-9c69add83c0a">A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.</semantic__p>
-</semantic__note></semantic__p>
-
-
-</semantic__clause>
 </semantic__clause>
 
 <semantic__definitions id="semantic___abbreviations" type="abbreviated_terms" obligation="normative">
 <semantic__title>Abbreviations</semantic__title>
-<semantic__p id="semantic___fdd16581-c87f-6c19-e63d-8405453e0b7d">This Product Specification adopts the following convention for presentation purposes:</semantic__p>
+<semantic__p id="semantic___99e7fa5b-285a-541c-219d-a459fdc7451a">This Product Specification adopts the following convention for presentation purposes:</semantic__p>
 
-<semantic__p id="semantic___4372bc4b-f7ac-ee9c-ea52-967333f80c71">CRS Coordinate Reference System</semantic__p>
+<semantic__p id="semantic___3df7809d-281b-f41f-d670-6c3bd5180dbe">CRS  Coordinate Reference System</semantic__p>
 
-<semantic__p id="semantic___f66b587b-61d9-6550-32db-96f80dcc523f">ECDIS Electronic Chart Display and Information System</semantic__p>
+<semantic__p id="semantic___cc2a5072-ac4e-c531-8bfa-24fd674d2517">ECDIS Electronic Chart Display and Information System</semantic__p>
 
-<semantic__p id="semantic___b54ba930-f9e5-21d1-71f0-21ee12dfec0e">EPSG European Petroleum Survey Group</semantic__p>
+<semantic__p id="semantic___565c55fc-9318-79fe-bf7c-24d80e2de861">EPSG European Petroleum Survey Group</semantic__p>
 
-<semantic__p id="semantic___00b3dba1-4394-4fbc-308b-2921f340be5e">ETSI Expert Team on Sea Ice</semantic__p>
+<semantic__p id="semantic___aefbb339-6416-3678-8e18-46ef905084fc">ETSI Expert Team on Sea Ice</semantic__p>
 
-<semantic__p id="semantic___91ebf94f-cf80-fab1-1975-495a6064b9a1">GML Geography Markup Language</semantic__p>
+<semantic__p id="semantic___770706dd-f7e0-f4be-16a8-ed8189ebdded">GML Geography Markup Language</semantic__p>
 
-<semantic__p id="semantic___7deb9f1d-812f-8610-0981-cb2ce92f47f6">IHO International Hydrographic Organization</semantic__p>
+<semantic__p id="semantic___4467f0be-3ce7-d28f-a95b-77ca58f4d4a3">IHO International Hydrographic Organization</semantic__p>
 
-<semantic__p id="semantic___724fd7b9-4740-662e-10a6-e3f7641d820e">ISO International Organization for Standardization</semantic__p>
+<semantic__p id="semantic___aa5dfbc8-7c8d-7f77-01c8-b13d22e148e8">ISO International Organization for Standardization</semantic__p>
 
-<semantic__p id="semantic___105e3de9-d057-cd6f-a18d-af4c41823f58">JCOMM Joint Technical Commission for Oceanography and Marine Meteorology</semantic__p>
+<semantic__p id="semantic___37a7edbe-197e-5995-8553-c1f8642d3e97">JCOMM Joint Technical Commission for Oceanography and Marine Meteorology</semantic__p>
 
-<semantic__p id="semantic___eb073e8c-3fe1-f8f1-cf41-5df858ff81da">XML eXtensible Markup Language</semantic__p>
+<semantic__p id="semantic___35e07174-8cd4-2c28-3f0d-3ea79ccfd7fb">XML eXtensible Markup Language</semantic__p>
 </semantic__definitions></semantic__clause>
 
 <semantic__clause id="semantic___general_data_product_description" obligation="normative">
 <semantic__title>General data product description</semantic__title>
-<semantic__dl id="semantic___17a0c40c-5ece-23b6-e446-ddf9f8d4bb7d"><semantic__dt><semantic__strong>Title</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___6245de0c-5c3d-a4e3-fbf8-9284817cafea">Ice Information Product Specification.</semantic__p>
+<semantic__dl id="semantic___84c24289-db0d-4b77-8307-ca0442328cdb"><semantic__dt><semantic__strong>Title</semantic__strong></semantic__dt>
+<semantic__dd><semantic__p id="semantic___3b2c0632-4e58-e065-7f3b-14d2826eb37e">Ice Information Product Specification.</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Abstract</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___f438cc40-1a4d-cf48-00a4-01a7afe82dc6">Ice Information for ship navigation</semantic__p>
+<semantic__dd><semantic__p id="semantic___c6e6d99e-bc04-a63b-425e-e99075687c3c">Ice Information for ship navigation</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Acronym</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___506dcf4a-5385-3e6a-a17b-a4b191c1bd9e">S-411</semantic__p>
+<semantic__dd><semantic__p id="semantic___8c7b354b-4d0a-44b6-9eef-25c8ab4068e3">S-411</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Content</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___9ca23e4d-d4d9-8e24-1de6-21e3660348cb">Ice features as vector data</semantic__p>
+<semantic__dd><semantic__p id="semantic___928d4900-1f81-79b0-064c-b5a0e86934e2">Ice features as vector data</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Spatial Extent</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___1b220f8f-ef7a-17ab-a76f-0d224b4704f0"><semantic__strong>East Bounding Longitude</semantic__strong>: 180°<semantic__br/> <semantic__strong>West Bounding Longitude</semantic__strong>: -180°<semantic__br/> <semantic__strong>North Bounding Latitude</semantic__strong>: 90°<semantic__br/> <semantic__strong>South Bounding Latitude</semantic__strong>: -90°</semantic__p>
+<semantic__dd><semantic__p id="semantic___b8b46077-5bd9-b605-946c-cbf52ba6d96a"><semantic__strong>East Bounding Longitude</semantic__strong>: 180°<semantic__br/> <semantic__strong>West Bounding Longitude</semantic__strong>: -180°<semantic__br/> <semantic__strong>North Bounding Latitude</semantic__strong>: 90°<semantic__br/> <semantic__strong>South Bounding Latitude</semantic__strong>: -90°</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Purpose</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___f3f0d846-106b-336d-8302-f1f20199917f">Navigation in ice covered regions</semantic__p>
+<semantic__dd><semantic__p id="semantic___5c399e6c-9ecc-a779-3cdd-b88116faaf95">Navigation in ice covered regions</semantic__p>
 </semantic__dd>
 </semantic__dl>
 </semantic__clause>
 
 <semantic__clause id="semantic___product_specification_metadata" obligation="normative">
 <semantic__title>Product Specification metadata</semantic__title>
-<semantic__dl id="semantic___7c159b0c-f238-8ab5-27c3-608c927935bc"><semantic__dt><semantic__strong>Title</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___b79d5d39-6882-804f-d81e-2cf149c34db6">Ice Information Product Specification</semantic__p>
+<semantic__dl id="semantic___06fd25a6-7e91-63ab-45d4-bb61510c6fef"><semantic__dt><semantic__strong>Title</semantic__strong></semantic__dt>
+<semantic__dd><semantic__p id="semantic___0c3ad216-c0d9-55b3-46aa-44e9b15657fd">Ice Information Product Specification</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>S-100 Version</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___06050bd5-bab0-7408-2462-d047f041738c">1.0.0</semantic__p>
+<semantic__dd><semantic__p id="semantic___9ceba199-7e5d-a549-f56e-bb3027f501a2">1.0.0</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>S-411 Version</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___cad90c5a-31ee-8324-0011-73f05d9b781a">1.1.0</semantic__p>
+<semantic__dd><semantic__p id="semantic___aee8360e-46fa-b16f-f7fe-71c098ba24cb">1.1.0</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Date</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___d28f332a-2bb6-c114-8af6-ebf03bca1575">15 June 2014</semantic__p>
+<semantic__dd><semantic__p id="semantic___6420a0af-a7b7-bac0-71f1-efb5e57cc338">15 June 2014</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Language</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___58844345-ca2b-088e-6cb7-8e781ff21fe1">English (optional additional)</semantic__p>
+<semantic__dd><semantic__p id="semantic___3662c64b-2738-3623-8beb-bc43494ee021">English (optional additional)</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Classification</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___3edfa020-17f8-cdcf-1a68-ebe34ce1e1fd">Unclassified</semantic__p>
+<semantic__dd><semantic__p id="semantic___d3096d02-073d-18a3-8124-33b5d71254ea">Unclassified</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Contact</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___7b8bfa4c-99eb-36b4-6680-28a304e2971c">Jürgen Holfort (<semantic__link target="mailto:ice@bsh.de"/>)</semantic__p>
+<semantic__dd><semantic__p id="semantic___3c307441-3dfa-21b0-1359-46bf31c17061">Jürgen Holfort (<semantic__link target="mailto:ice@bsh.de"/>)</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Identifier</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___76e85311-d835-8d19-99f0-7e629b2ba950">JCOMM S-411</semantic__p>
+<semantic__dd><semantic__p id="semantic___049d67c4-ff7b-2888-f649-b7334084a7de">JCOMM S-411</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Maintenance</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___8269090b-0fda-67fe-207e-fd43d2373b9b">Changes to this product specification are coordinated by ETSI.</semantic__p>
-<semantic__p id="semantic___1952f5dc-a297-f0c2-c543-f58af4ecc6f8">International Hydrographic Organization<semantic__br/> 4 Quai Antoine 1er <semantic__br/> B.P. 445 <semantic__br/> MC 98011 MONACO CEDEX <semantic__br/> Telephone: +377 93 10 81 00 <semantic__br/> Fax: +377 93 10 81 40 <semantic__br/> Email: <semantic__link target="mailto:info@iho.int"/><semantic__br/></semantic__p>
+<semantic__dd><semantic__p id="semantic___07ab3f62-4fd1-dcc5-ab30-4a3f60c7c86c">Changes to this product specification are coordinated by ETSI.</semantic__p>
+<semantic__p id="semantic___9e28f916-56b0-d694-879e-1d006a7b19dd">International Hydrographic Organization<semantic__br/> 4 Quai Antoine 1er <semantic__br/> B.P. 445 <semantic__br/> MC 98011 MONACO CEDEX <semantic__br/> Telephone: +377 93 10 81 00 <semantic__br/> Fax: +377 93 10 81 40 <semantic__br/> Email: <semantic__link target="mailto:info@iho.int"/><semantic__br/></semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>URL</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___eb18f7ca-b3a0-a13a-7eaf-0c74ba098be0"><semantic__link target="http://www.iho.int/">www.iho.int</semantic__link></semantic__p>
+<semantic__dd><semantic__p id="semantic___1a3da6dc-9d9b-fcd8-72a9-e8c2834f6ff2"><semantic__link target="http://www.iho.int/">www.iho.int</semantic__link></semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Identifier</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___32a1d694-1495-5ddb-824d-990d72bc08fa">S-411</semantic__p>
+<semantic__dd><semantic__p id="semantic___7e76c6b9-a798-809f-f643-d14ad2e56e24">S-411</semantic__p>
 </semantic__dd>
 <semantic__dt><semantic__strong>Maintenance</semantic__strong></semantic__dt>
-<semantic__dd><semantic__p id="semantic___21969b66-6787-34b5-cddb-b3d5d4af33f5">Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.</semantic__p>
+<semantic__dd><semantic__p id="semantic___d3c840cd-2ca4-832e-2bed-53ed9a64f067">Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.</semantic__p>
 </semantic__dd>
 </semantic__dl>
 </semantic__clause>
@@ -385,39 +278,39 @@
 <semantic__title>IHO Product Specification Maintenance</semantic__title>
 <semantic__clause id="semantic___introduction" obligation="normative">
 <semantic__title>Introduction</semantic__title>
-<semantic__p id="semantic___2b24f1fd-1889-d829-a657-b64b267e6ef7">Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.</semantic__p>
+<semantic__p id="semantic___d0111f0a-c29d-9aca-1939-ea2c4d720d0e">Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___new_edition" obligation="normative">
 <semantic__title>New Edition</semantic__title>
-<semantic__p id="semantic___08613083-951f-f3fd-c417-84cafa4ca151"><semantic__em>New Editions</semantic__em> of S-411 introduce significant changes. <semantic__em>New Editions</semantic__em> enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. <semantic__em>New Editions</semantic__em> are likely to have a significant impact on either existing users or future users of S-122. All cumulative <semantic__em>revisions</semantic__em> and <semantic__em>clarifications</semantic__em> must be included with the release of approved New Editions.</semantic__p>
+<semantic__p id="semantic___fc8d2d95-1a8c-ad7b-8d70-f670d2421ced"><semantic__em>New Editions</semantic__em> of S-411 introduce significant changes. <semantic__em>New Editions</semantic__em> enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. <semantic__em>New Editions</semantic__em> are likely to have a significant impact on either existing users or future users of S-122. All cumulative <semantic__em>revisions</semantic__em> and <semantic__em>clarifications</semantic__em> must be included with the release of approved New Editions.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___revision" obligation="normative">
 <semantic__title>Revision</semantic__title>
-<semantic__p id="semantic___35fc6d68-fd79-ee15-9179-0ea53cb6ecca"><semantic__em>Revisions</semantic__em> are defined as substantive semantic changes to S-411. Typically, <semantic__em>revisions</semantic__em> will change S-411 to correct factual errors; introduce necessary changes that have become evident as a result of practical experience or changing circumstances. A <semantic__em>revision</semantic__em> must not be classified as a clarification. Revisions could have an impact on either existing users or future users of S-411. All cumulative <semantic__em>clarifications</semantic__em> must be included with the release of approved <semantic__em>revisions</semantic__em>.</semantic__p>
+<semantic__p id="semantic___10e1e2ec-771a-87e9-4850-e29b0b9a6957"><semantic__em>Revisions</semantic__em> are defined as substantive semantic changes to S-411. Typically, <semantic__em>revisions</semantic__em> will change S-411 to correct factual errors; introduce necessary changes that have become evident as a result of practical experience or changing circumstances. A <semantic__em>revision</semantic__em> must not be classified as a clarification. Revisions could have an impact on either existing users or future users of S-411. All cumulative <semantic__em>clarifications</semantic__em> must be included with the release of approved <semantic__em>revisions</semantic__em>.</semantic__p>
 
-<semantic__p id="semantic___956a28d7-11cf-9af2-fed7-5b59baa965a1">Changes in a revision are minor and ensure backward compatibility with the previous versions within the same Edition. Newer revisions, for example, introduce new features and attributes. Within the same Edition, a dataset of one version could always be processed with a later version of the Feature and Portrayal Catalogues.</semantic__p>
+<semantic__p id="semantic___99d41abb-3aad-a462-2afc-8ffbceda19c8">Changes in a revision are minor and ensure backward compatibility with the previous versions within the same Edition. Newer revisions, for example, introduce new features and attributes. Within the same Edition, a dataset of one version could always be processed with a later version of the Feature and Portrayal Catalogues.</semantic__p>
 
-<semantic__p id="semantic___ec650b0d-ab9a-1579-2648-5861b90cfac9">In most cases a new feature or portrayal catalogue will result in a <semantic__em>revision</semantic__em> of S-411.</semantic__p>
+<semantic__p id="semantic___9d101390-5c14-0b68-6efe-3b54254cc7f2">In most cases a new feature or portrayal catalogue will result in a <semantic__em>revision</semantic__em> of S-411.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___clarification" obligation="normative">
 <semantic__title>Clarification</semantic__title>
-<semantic__p id="semantic___4e09c601-ab1e-3e9e-b61d-5d37817f39ea"><semantic__em>Clarifications</semantic__em> are non-substantive changes to S-122. Typically, <semantic__em>clarifications</semantic__em>: remove ambiguity; correct grammatical and spelling errors; amend or update cross references; insert improved graphics in spelling, punctuation and grammar. A <semantic__em>clarification</semantic__em> must not cause any substantive semantic change to S-411.</semantic__p>
+<semantic__p id="semantic___feb2fea4-8458-a740-760a-b6b3532759fe"><semantic__em>Clarifications</semantic__em> are non-substantive changes to S-122. Typically, <semantic__em>clarifications</semantic__em>: remove ambiguity; correct grammatical and spelling errors; amend or update cross references; insert improved graphics in spelling, punctuation and grammar. A <semantic__em>clarification</semantic__em> must not cause any substantive semantic change to S-411.</semantic__p>
 
-<semantic__p id="semantic___cb9af992-2603-32af-8efd-8670ba6a02c5">Changes in a <semantic__em>clarification</semantic__em> are minor and ensure backward compatibility with the previous versions within the same Edition. Within the same Edition, a dataset of one clarification version could always be processed with a later version of the Feature and Portrayal Catalogues, and a Portrayal Catalogue can always rely on earlier versions of the Feature Catalogue.</semantic__p>
+<semantic__p id="semantic___fe7af22e-82ee-3128-a171-aa931946c6d8">Changes in a <semantic__em>clarification</semantic__em> are minor and ensure backward compatibility with the previous versions within the same Edition. Within the same Edition, a dataset of one clarification version could always be processed with a later version of the Feature and Portrayal Catalogues, and a Portrayal Catalogue can always rely on earlier versions of the Feature Catalogue.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___version_numbers" obligation="normative">
 <semantic__title>Version Numbers</semantic__title>
-<semantic__p id="semantic___300661e9-6d4a-630e-b51c-67be86705348">The associated version control numbering to identify changes (n) to S-411 must be as follows:</semantic__p>
+<semantic__p id="semantic___5d6b50a2-d716-ae14-ae7e-f79137da2db1">The associated version control numbering to identify changes (n) to S-411 must be as follows:</semantic__p>
 
-<semantic__p id="semantic___73111395-7192-b84b-58ef-a6631b17b882">New Editions denoted as <semantic__strong>n</semantic__strong>.0.0</semantic__p>
+<semantic__p id="semantic___754ca71a-d439-217a-adbc-d5d90623ebad">New Editions denoted as <semantic__strong>n</semantic__strong>.0.0</semantic__p>
 
-<semantic__p id="semantic___da9789f3-fa02-3004-264b-6ac03234cd3e">Revisions denoted as n.<semantic__strong>n</semantic__strong>.0</semantic__p>
+<semantic__p id="semantic___470af8da-975c-b25c-66dc-5cc8be0e21a5">Revisions denoted as n.<semantic__strong>n</semantic__strong>.0</semantic__p>
 
-<semantic__p id="semantic___07379fa9-1e1a-956d-ce92-a158cca140b6">Clarifications denoted as n.n.<semantic__strong>n</semantic__strong></semantic__p>
+<semantic__p id="semantic___70127321-9994-6947-ddb1-def2c81e5cd4">Clarifications denoted as n.n.<semantic__strong>n</semantic__strong></semantic__p>
 </semantic__clause>
 </semantic__clause>
 </semantic__clause>
@@ -448,6 +341,8 @@
 
 <semantic__clause id="semantic__sec-data-product-identification" obligation="normative">
 <semantic__title>Data Product Identification</semantic__title>
+<semantic__p id="semantic___357b0a17-c282-c4d0-8653-55e7ba958ac7">A dataset that conforms to this Product Specification may be identified by its discovery metadata as defined in clause 12.</semantic__p>
+
 <semantic__dl id="semantic___2044c849-05f5-2c6a-d6d7-257ce901a5eb"><semantic__dt><semantic__strong>Title</semantic__strong></semantic__dt>
 <semantic__dd><semantic__p id="semantic___ee1e31b5-d044-c9ed-bc52-fbca1a169b84">Ice Information</semantic__p>
 </semantic__dd>
@@ -493,58 +388,67 @@
 
 <semantic__clause id="semantic___application_schema" obligation="normative">
 <semantic__title>Application Schema</semantic__title>
-<semantic__p id="semantic___a6846d67-760f-8e94-385e-83e51bcdece1">Picture below shows very simplified structure of ice data structure</semantic__p>
+<semantic__p id="semantic___58cbf3d4-c62a-f584-1552-4099aaaabba9">S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.</semantic__p>
 
-<semantic__p id="semantic___5868f1ae-202a-bfea-29d6-7421d8af561c"><semantic__em>Figure 1 (UML diagram) to be inserted here</semantic__em></semantic__p>
+<semantic__p id="semantic___8af281ad-97b3-cc49-05d4-8b3d243dfb51">Picture below shows very simplified structure of ice data structure</semantic__p>
 
-<semantic__p id="semantic___0af83a21-6ff1-e4a4-e989-0c63926aa6e4">General GML (XML) representation:</semantic__p>
+<semantic__p id="semantic___56434c17-bb50-5279-ecb6-397065845c3f"><semantic__em>Figure 1 (UML diagram) to be inserted here</semantic__em></semantic__p>
 
-<semantic__p id="semantic___63d34616-b297-8da3-2360-73ee8d7a930a"><semantic__em>XML code to be inserted here</semantic__em></semantic__p>
+<semantic__p id="semantic___5721d923-33e8-61e9-f9af-a8dafd58a726">General GML (XML) representation:</semantic__p>
 
-<semantic__clause id="semantic___application_schema_implementation_classes" obligation="normative">
-<semantic__title>Application Schema implementation classes</semantic__title>
-<semantic__clause id="semantic___implementation_classes_description" obligation="normative">
-<semantic__title>Implementation classes description</semantic__title>
-</semantic__clause>
-</semantic__clause>
+<semantic__p id="semantic___ad706eca-cd8b-bc1f-db42-6c68c8a1393d"><semantic__em>XML code to be inserted here</semantic__em></semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___feature_catalogue" obligation="normative">
 <semantic__title>Feature Catalogue</semantic__title>
 <semantic__clause id="semantic___introduction_3" obligation="normative">
 <semantic__title>Introduction</semantic__title>
-<semantic__p id="semantic___13c12566-5235-3608-a41a-9cedcc06628a">The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.</semantic__p>
+<semantic__p id="semantic___f0396775-3950-7302-d95b-a9173deb4d9e">The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product.</semantic__p>
+
+<semantic__p id="semantic___d1f61185-ed70-fc15-f5e6-51580ab05657">The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.</semantic__p>
+
+<semantic__p id="semantic___b8f466fc-2e14-134e-6804-5d7c0afae0c2">The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___application_schema_implementation_classes" obligation="normative">
+<semantic__title>Application Schema implementation classes</semantic__title>
+<semantic__clause id="semantic___implementation_classes_description" obligation="normative">
+<semantic__title>Implementation classes description</semantic__title>
+<semantic__p id="semantic___5d92ade0-8856-5793-5066-2f2c646dfb9f"><semantic__em>4.3.2.1 UML diagram to be inserted here</semantic__em></semantic__p>
+
+<semantic__p id="semantic___9cd9bb04-c47e-4445-2a9c-10df7c12b94d"><semantic__em>I would suggest moving the table to the DCEG (and adpat to the DCEG format)</semantic__em></semantic__p>
+</semantic__clause>
 </semantic__clause>
 
 <semantic__clause id="semantic___feature_types" obligation="normative">
 <semantic__title>Feature types</semantic__title>
-<semantic__p id="semantic___7dedad96-fdcc-28c0-eab0-91a73cb6faa4"><semantic__em>IceDataSetType</semantic__em> is a type of root Element of an ice information data set.</semantic__p>
+<semantic__clause id="semantic___icedatasettype" obligation="normative">
+<semantic__title>IceDataSetType</semantic__title>
+<semantic__p id="semantic___e70e8f6d-a4f5-d417-8c81-d289609ae215"><semantic__em>IceDataSetType</semantic__em> is a type of root Element of an ice information data set.</semantic__p>
 
-<semantic__p id="semantic___6fa89679-4768-3d8d-376f-8e838f3d1a69"><semantic__em>4.3.2.2.1 UML diagram to be inserted here</semantic__em></semantic__p>
+<semantic__p id="semantic___4f211ec9-ac9a-20b4-05b6-889a3913070e"><semantic__em>UML diagramm to be inserted here</semantic__em></semantic__p>
 
-<semantic__p id="semantic___cd3720e2-6dba-4936-3f3e-7d8f9804d73c">Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).</semantic__p>
+<semantic__p id="semantic___e7d5c8f4-328d-4f91-6958-265907c10f35">Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).</semantic__p>
+</semantic__clause>
 
 <semantic__clause id="semantic___geographic" obligation="normative">
 <semantic__title>Geographic</semantic__title>
+<semantic__p id="semantic___ac011df8-f054-c802-d794-f1c03b8ec673">Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes. Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.</semantic__p>
 </semantic__clause>
-
-<semantic__clause id="semantic___meta" obligation="normative">
-<semantic__title>Meta</semantic__title>
-</semantic__clause>
-</semantic__clause>
-
-<semantic__clause id="semantic___feature_relationship" obligation="normative">
-<semantic__title>Feature relationship</semantic__title>
 </semantic__clause>
 
 <semantic__clause id="semantic___attributes" obligation="normative">
 <semantic__title>Attributes</semantic__title>
+<semantic__p id="semantic___ee6e7ab9-de31-b679-6442-98294296fc1d">S-411 defines attributes as either simple or complex.</semantic__p>
+
 <semantic__clause id="semantic___simple_attributes" obligation="normative">
 <semantic__title>Simple attributes</semantic__title>
+<semantic__p id="semantic___79918bc5-c453-b065-de16-d10719f10f87">S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___complex_attributes" obligation="normative">
 <semantic__title>Complex attributes</semantic__title>
+<semantic__p id="semantic___a47546bf-26e7-3b57-c9bf-d60c1d9f0eae">Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.</semantic__p>
 </semantic__clause>
 </semantic__clause>
 </semantic__clause>
@@ -553,7 +457,7 @@
 <semantic__title>Dataset types</semantic__title>
 <semantic__clause id="semantic___introduction_4" obligation="normative">
 <semantic__title>Introduction</semantic__title>
-<semantic__p id="semantic___1cf61e31-6e45-efe2-5857-51270058bd11">At the moment is only one type of dataset supported. This is GML(XML) encoded ice feature collections</semantic__p>
+<semantic__p id="semantic___c473898f-e539-9464-2413-ff8a826987f3">At the moment there is only one type of dataset supported. This is GML(XML) encoded ice feature collections.</semantic__p>
 </semantic__clause>
 </semantic__clause>
 
@@ -570,13 +474,7 @@
 
 <semantic__p id="semantic___67975ad5-2809-f6be-1ea1-6c9e9abb80ff">For standard GML it would be also possible to use following (DO NOT USE THIS):</semantic__p>
 
-<semantic__sourcecode id="semantic___18f44080-4e66-743c-e885-173614d14276">&#x3c;gml:posList&#x3e;
-
-&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
-
-&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
-
-&#x3c;/gml:posList&#x3e;</semantic__sourcecode>
+<semantic__sourcecode id="semantic___f36f4a8b-7648-3455-5468-fb5ff5c9860d">#_gml code to be inserted here._#</semantic__sourcecode>
 
 
 <semantic__p id="semantic___ce057f65-88f1-b20f-b3f5-2acd99647c65">Which means much more chars in the file and growing of file size.</semantic__p>
@@ -585,38 +483,17 @@
 
 <semantic__p id="semantic___3f243854-68a2-1b67-2cb7-c470d2aebf6f">Point encoding example:</semantic__p>
 
-<semantic__sourcecode id="semantic___98bdeb71-9fbe-7a40-ae4f-fbdc5fc99284">&#x3c;gml:Point
-&#x3c;gml:pos&#x3e;147.291 -42.851&#x3c;/gml:pos&#x3e;
-&#x3c;/gml:Point&#x3e;</semantic__sourcecode>
+<semantic__sourcecode id="semantic___645e0deb-ff3a-0f19-fe19-8c632583d0c1">#_gml code to be inserted here._#</semantic__sourcecode>
 
 
 <semantic__p id="semantic___cfa3660c-47de-7c25-b385-71733b54b016">Line String encoding example:</semantic__p>
 
-<semantic__sourcecode id="semantic___dcb2994e-934a-195f-a7bb-88bfa546fbc6">&#x3c;gml:LineString&#x3e;
-&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;
-&#x3c;/gml:LineString&#x3e;</semantic__sourcecode>
+<semantic__sourcecode id="semantic___89087d25-b128-c8dc-8e12-1f4dad4b70f1">#_gml code to be inserted here._#</semantic__sourcecode>
 
 
 <semantic__p id="semantic___e4a1960c-cd3d-e2b5-0fde-fe42e1f0b99c">Polygon encoding example:</semantic__p>
 
-<semantic__sourcecode id="semantic___57efb9ee-133d-a935-f066-ec97a4cddd23">&#x3c;gml:Polygon&#x3e;
-&#x3c;gml:exterior&#x3e;
-&#x3c;gml:LinearRing&#x3e;
-&#x3c;gml:posList&#x3e;
-22.546 62.391 25.033 62.404 24.995 60.182 22.483
-60.169 22.546 62.391
-&#x3c;/gml:posList&#x3e;
-&#x3c;/gml:LinearRing&#x3e;
-&#x3c;/gml:exterior&#x3e;
-&#x3c;gml:interior&#x3e;
-&#x3c;gml:LinearRing&#x3e;
-&#x3c;gml:posList&#x3e;
-23.227 61.811 23.467 61.306 24.023 61.621 24.035
-61.621 23.227 61.811
-&#x3c;/gml:posList&#x3e;
-&#x3c;/gml:LinearRing&#x3e;
-&#x3c;/gml:interior&#x3e;
-&#x3c;/gml:Polygon&#x3e;</semantic__sourcecode>
+<semantic__sourcecode id="semantic___b6ad377c-123c-e19d-8d34-982cfeef4ce1">#_gml code to be inserted here._#</semantic__sourcecode>
 
 </semantic__clause>
 </semantic__clause>
@@ -813,11 +690,48 @@
 <semantic__title>Data Product Format (Encoding)</semantic__title>
 <semantic__clause id="semantic___introduction_6" obligation="normative">
 <semantic__title>Introduction</semantic__title>
-<semantic__p id="semantic___d5feac10-f96e-3946-2417-1cf9d890b5a4">The S-411 data set must be encoded using the Geographical Markup Language (GML).</semantic__p>
+<semantic__p id="semantic___7b600706-5d35-c468-2a0d-52b800db71b7">This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 was used.</semantic__p>
 </semantic__clause>
 
-<semantic__clause id="semantic__subsec-product-structure" obligation="normative">
-<semantic__title>Product structure</semantic__title>
+<semantic__clause id="semantic___encoding_rules" obligation="normative">
+<semantic__title>Encoding Rules</semantic__title>
+<semantic__clause id="semantic___longitude_latitude" obligation="normative">
+<semantic__title>Longitude / Latitude</semantic__title>
+<semantic__p id="semantic___2d78d09f-e695-4225-51ca-2ec7f0761723">Longitude and latitude must be encoded in decimal degrees, e.g.: 12.567 56.765</semantic__p>
+
+<semantic__p id="semantic___86814d00-ce97-c97f-8978-fa9caa43bf15">Number of decimals is not limited, but it should be as less as possible for minimizing of file size, normally 3 or even 2 digits are enough</semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___elements_and_attributes" obligation="normative">
+<semantic__title>Elements and attributes</semantic__title>
+<semantic__p id="semantic___6763fa02-8342-b7c1-40d7-32cbb737911f">Names of elements representing ice features or attributes (from IceFDC dictionary see Table 1: Summary of Types) must be encoded with lower case letters</semantic__p>
+
+<semantic__p id="semantic___1aaa1695-67f9-5b93-a010-379522de05dd">Names of elements representing features or attributes from other dictionaries must be encoded with upper case letters</semantic__p>
+
+<semantic__p id="semantic___7903dce9-0f64-21a7-62ff-302161f2313c">Character Set is UTF-8</semantic__p>
+
+<semantic__p id="semantic___db7e5d8c-46a0-1c40-9e57-aea568a8f30d">Elements or attributes may be empty, but it should be eliminated for minimizing of file size</semantic__p>
+</semantic__clause>
+</semantic__clause>
+
+<semantic__clause id="semantic___encoding_examples" obligation="normative">
+<semantic__title>Encoding Examples</semantic__title>
+<semantic__p id="semantic___13317c72-5393-c779-9102-ae43ef16720a">Below there are three examples of the encoding of various ice features using different geometric primitives, the encoding of other ice objects can be done in a similar way.</semantic__p>
+
+<semantic__clause id="semantic___polygon_feature" obligation="normative">
+<semantic__title>Polygon Feature</semantic__title>
+<semantic__p id="semantic___2c0f0066-87e5-23a9-7247-02ef6091d5c6"><semantic__em>GML code to be inserted</semantic__em></semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___linestring_feature" obligation="normative">
+<semantic__title>LineString Feature</semantic__title>
+<semantic__p id="semantic___4a300c35-6f46-9449-e1be-653d65f74bc9"><semantic__em>GML code to be inserted</semantic__em></semantic__p>
+</semantic__clause>
+
+<semantic__clause id="semantic___point_feature" obligation="normative">
+<semantic__title>Point Feature</semantic__title>
+<semantic__p id="semantic___93f05e70-16ce-2916-f064-aed3612e1ce7"><semantic__em>GML code to be inserted</semantic__em></semantic__p>
+</semantic__clause>
 </semantic__clause>
 </semantic__clause>
 
@@ -1833,18 +1747,12 @@ sourcecode .nt {
 
 <p id="_297be5c1-e945-9004-5f4d-ea41f8ce8ab9">Published by the<br/> International Hydrographic Organization <br/> 4b quai Antoine 1 <sup>er</sup><br/> Principauté de Monaco <br/> Tel: (377) 93.10.81.00 <br/> Fax: (377) 93.10.81.40 <br/> info@iho.int <br/> \www.iho.int<br/></p>
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_2520c6ea-1082-464e-b707-b77a928cf158" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_cdac70ae-998f-44d4-8556-0b78532c73ee" displayorder="1"><title depth="1">Contents</title></clause>
 <clause id="_document_history" obligation="informative" displayorder="2">
 <title depth="1">Document History</title>
-<p id="_1cce92cf-c1fc-ccfd-9632-7da5d2593423">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p>
+<p id="_345292b8-60e3-bfbd-add1-ad7c16880e2d">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p>
 
-<p id="_b8c48f76-cacc-4661-6097-9023dd4830b1">Maintenance of the Specification shall conform to IHO Resolution 2/2007 (as amended).</p>
-
-<p id="_9b12139a-1390-3b1c-2920-5dd08c3d84f3"><em>I suggest deleting the previous sentence</em></p>
-
-<table id="tab-document-history" unnumbered="true">
-<name>Table — Document History</name>
-<thead><tr><th valign="top" align="left">Version Number</th>
+<table id="_96049e50-1295-8d03-40d8-a9bd5bd657e8"><name>Table 1</name><thead><tr><th valign="top" align="left">Version Number</th>
 <th valign="top" align="left">Date</th>
 <th valign="top" align="left">Approved By</th>
 <th valign="top" align="left">Purpose</th>
@@ -1863,7 +1771,7 @@ sourcecode .nt {
 </td>
 <td valign="top" align="left"><p id="_c374c753-04e1-a1f5-45c7-a2548940bc7f">Jürgen Holfort</p>
 </td>
-<td valign="top" align="left"><p id="_cb108f6e-0e03-dbf8-3cd7-076eb91cc0aa">Clarifications in the based on ETSI Meeting 2014 and new color for 10/10.</p>
+<td valign="top" align="left"><p id="_ceec7489-cb56-1f59-9956-b6a7a85c08d5">Clarifications based on ETSI Meeting 2014 and new color for 10/10.</p>
 </td>
 </tr><tr><td valign="top" align="left"><p id="_6a32bbe5-6cfa-ebf7-6b9a-038e6e68dc71">1.2.0</p>
 </td>
@@ -1882,280 +1790,179 @@ sourcecode .nt {
 <p id="_550c38e8-30ba-e06f-8607-74a55143e822">The Ice Information product specification is based on the IHO S-100 framework specification, Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.</p>
 </clause>
 
-<references id="_references" normative="true" obligation="informative">
+<clause id="bibliography" obligation="normative">
 <title depth="2">1.2<tab/>References</title>
-<p id="_a38d337b-cee1-eb10-a9ea-a60b926852de">GML — OpenGIS® Geography Markup Language (GML) Encoding Standard (Version 3.2.1)</p>
+<clause id="_normative" obligation="normative">
+<title depth="3">1.2.1<tab/>Normative</title>
+<p id="_53ecee44-81ba-87c7-77e8-46dda103614d">GML OpenGIS®  Geography Markup Language (GML) Encoding Standard (Version 3.2.1)</p>
 
-<p id="_9e002d26-2d4e-fcfd-7f85-812a863ba6a8">IHO S-100 — IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024</p>
+<p id="_ea68005c-f35b-1ae0-1f0f-7060dbb12410">IHO S-100  IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024</p>
 
-<p id="_9f50200d-b935-1020-0417-c900195662ad">ISO-19115-1 — ISO 19115-1:2014/Amd 1:2018, Geographic information — Metadata — Part 1: Fundamentals — Amendment 1</p>
+<p id="_5e98426d-d371-7a1c-03be-8a64ae2ac78f">ISO-19115-1  ISO 19115-1:2014/Amd 1:2018, Geographic information — Metadata — Part 1: Fundamentals — Amendment 1</p>
 
-<p id="_0275413b-0b2b-3fbc-6095-a38eefc5e8a6">ISO-19115-2 — ISO 19115-2:2009/Amd 1:2018, Geographic information — Metadata — Part 2: Extensions for imagery and gridded data</p>
+<p id="_5c87066a-936a-8f41-f5ed-d52f8c149e57">ISO-19115-2  ISO 19115-2:2009/Amd 1:2018, Geographic information — Metadata — Part 2: Extensions for imagery and gridded data</p>
 
-<p id="_c5d0eb89-2c89-d63e-4f01-8ba4c110b68c">ISO-19115-3 — ISO 19115-3:2016, Geographic information — Metadata — Part 3: XML Schema implementation for fundamental concepts</p>
+<p id="_8b1a8e18-5546-3584-88bb-ff7e677916c8">ISO-19115-3  ISO 19115-3:2016, Geographic information — Metadata — Part 3: XML Schema implementation for fundamental concepts</p>
 
-<p id="_2e9cc761-1736-9856-e310-5e41a5f411c0">ISO-19139-1 — ISO 19139-1:2019, Geographic information — XML schema implementation — Part 1: Encoding rules</p>
-</references>
+<p id="_52720e6c-74e8-f85a-85df-f94a7e676c4e">ISO-19139-1  ISO 19139-1:2019, Geographic information — XML schema implementation — Part 1: Encoding rules</p>
+</clause>
+
+<clause id="_informative" obligation="normative">
+<title depth="3">1.2.2<tab/>Informative</title>
+<p id="_6f78f836-89fa-d09d-4c00-0e07504baa9e">TBD</p>
+</clause>
+</clause>
 
 <clause id="_terms_definitions_and_abbreviations" obligation="normative">
 <title depth="2">1.3<tab/>Terms, definitions and abbreviations</title>
 <clause id="_use_of_language" obligation="normative">
 <title depth="3">1.3.1<tab/>Use of language</title>
-<p id="_9c1f5bf4-adad-3e94-c24c-437145b8f599">Within this document:</p>
+<p id="_58471bfe-bb75-ed17-138a-783f276ace0e">Within this document:</p>
 
-<ul id="_047a50a5-8386-fe61-1699-f10807923fea"><li><p id="_b9bda274-8486-386f-2ec8-d4e5484eaf8e">“Must” indicates a mandatory requirement.</p>
+<ul id="_c8da63fa-c83b-e096-850c-b9cc83e94f09"><li><p id="_919f35b1-5b13-6c38-88fc-4f3ba5113b39">“Must” indicates a mandatory requirement.</p>
 </li>
-<li><p id="_e9f9c1d5-05f5-ef2f-92c4-225ced3eda82">“Should” indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.</p>
+<li><p id="_9dc5f3a1-f0ae-81a5-f169-ccc8a7ea9536">“Should” indicates an optional requirement, that is the recommended process to be followed, but is not mandatory.</p>
 </li>
-<li><p id="_d2a80d99-f2e5-dfaf-3dfa-919c4f7f8240">“May” means “allowed to” or “could possibly” and is not mandatory.</p>
+<li><p id="_c1b89760-cc8d-f2fc-ce3c-e69554dfdda6">“May” means “allowed to” or “could possibly” and is not mandatory.</p>
 </li>
 </ul>
 </clause>
 
 <clause id="_terms_and_definitions" obligation="normative">
 <title depth="3">1.3.2<tab/>Terms and definitions</title>
-<p id="_04ead5a4-3006-3abe-263b-d8a077562dfb"><em>There are no definitions in current version of S-411. Do I delete the ones here after?</em></p>
+<p id="_ed7a96c2-ee61-960c-0ca7-12f4aec86049"><strong>Coordinate</strong></p>
 
-<clause id="_accuracy" obligation="normative">
-<title depth="4">1.3.2.1<tab/>Accuracy</title>
-<p id="_27d8ef17-ef95-1448-cd9f-8144543b4ae7">No reference to Accuracy in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_coordinate" obligation="normative">
-<title depth="4">1.3.2.2<tab/>Coordinate</title>
-<p id="_e69f72c8-43fe-96f4-20cd-d35aac4a5660">One of a sequence of <em>n</em> numbers designating the position of a point in N-dimensional space.<note id="_b19c5ebd-444c-50d6-8269-b0599cf14af9"><name>NOTE</name><p id="_e21bb83f-71f4-ae21-400c-7c4432496737">The numbers must be qualified by units and CRS.</p>
-</note></p>
-
-
-</clause>
-
-<clause id="_coordinate_reference_system" obligation="normative">
-<title depth="4">1.3.2.3<tab/>Coordinate Reference System</title>
-<p id="_fd734ed5-7e06-04a5-151a-0f35e07a2c2f"><strong>Coordinate</strong> system which is related to the real world by a datum.</p>
-</clause>
-
-<clause id="_coverage" obligation="normative">
-<title depth="4">1.3.2.4<tab/>Coverage</title>
-<p id="_a573e672-c687-8f25-4a2c-60cc74ab6f76"><strong>Feature</strong> that acts as a function to return values from its range for any direct position within its spatial, temporal, or <strong>spatiotemporal domain</strong>.<note id="_112dc25a-ab5e-eb53-6e85-f75afa3293fd"><name>NOTE</name><p id="_5b203674-934a-859d-d078-7bdf98d45cee">In other words, a coverage is a feature that has multiple values for each attribute type, where each direct position within the geometric representation of the feature has a single value for each attribute type.</p>
+<p id="_d59725d2-74b3-c8ab-9f5b-d0f158315013">One of a sequence of <em>n</em> numbers designating the position of a point in N-dimensional space.<note id="_ee51793f-3729-00a0-d229-94609fc332a2"><name>NOTE  1</name><p id="_72f66231-18d4-04c1-435e-e804deefe314">The numbers must be qualified by units and CRS.</p>
 </note></p>
 
 
 
-<example id="_3365eb8f-fdf7-2e7f-8512-017e8fc644ad"><name>EXAMPLE</name><p id="_d504c2e4-287e-3f19-3320-6961bacd2b92">Examples include a digital image, polygon overlay, or digital elevation matrix</p>
-</example>
-</clause>
+<p id="_48467e31-47c8-6e55-d212-564c124efac6"><strong>Coordinate Reference System</strong></p>
 
-<clause id="_coverage_geometry" obligation="normative">
-<title depth="4">1.3.2.5<tab/>Coverage Geometry</title>
-<p id="_150dc8d9-1d9d-23f3-a7e2-217075bf5984">Configuration of the <strong>domain</strong> of a <strong>coverage</strong> described in terms of <strong>coordinates</strong>.</p>
-</clause>
+<p id="_073133f2-75c3-91fa-a6cb-240205384a3d">Coordinate system which is related to the real world by a datum.</p>
 
-<clause id="_direct_position" obligation="normative">
-<title depth="4">1.3.2.6<tab/>Direct Position</title>
-<p id="_d8cf297f-2355-0487-5df4-8a4780b98ceb">Position described by a single set of <strong>coordinates</strong> within a <strong>coordinate reference system</strong>.</p>
-</clause>
+<p id="_c6f1d19a-b6e2-e9b4-6689-9629c3aa1645"><strong>Depth</strong></p>
 
-<clause id="_domain" obligation="normative">
-<title depth="4">1.3.2.7<tab/>Domain</title>
-<p id="_cc08d91a-81b2-0136-2453-72e1a7225d51">Well-defined set.<note id="_c8bc51a5-2b19-3646-b27b-c2643f9fb8a8"><name>NOTE</name><p id="_4e8395bf-f305-8fe1-282d-051127434ea9">Domains are used to define the domain set and range set of attributes, operators, and functions.</p>
+<p id="_2c3310fc-e97d-8e81-f3a1-70d5fed433ea">The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of “Depth Charted”.</p>
+
+<p id="_7abbc83f-9eb3-8420-e3ef-0da66e4577b2"><em>This definition may need to be adapted by JCOMM ETSI</em><note id="_b133072f-f5b2-89e4-b939-b6cba086ee3b"><name>NOTE  2</name><p id="_b670425e-b60c-f355-3205-bdb8d15e89bd">The numbers must be qualified by units and datum.</p>
 </note></p>
 
 
-</clause>
 
-<clause id="_depth" obligation="normative">
-<title depth="4">1.3.2.8<tab/>Depth</title>
-<p id="_8e13b7b8-890a-f7e8-d79c-94d7fe803cfe">The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of “Depth Charted”.<note id="_b238702a-acea-8025-38ab-ad16acaa20ed"><name>NOTE</name><p id="_a1166bde-7bb4-4b76-6740-8e620c1c8a90">The numbers must be qualified by units and datum.</p>
+<p id="_774c39bb-4c41-7193-f929-319bac98598b"><strong>Feature</strong></p>
+
+<p id="_00cee504-83b1-00c2-005c-2f6a42fcafe6">Abstraction of real-world phenomena.<note id="_aa52b53b-7ad1-4cbb-3869-4293ebf24e69"><name>NOTE  3</name><p id="_eb15caf6-828e-2ca8-1a1a-82614c9373c9">A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.</p>
 </note></p>
 
 
-</clause>
 
-<clause id="_feature" obligation="normative">
-<title depth="4">1.3.2.9<tab/>Feature</title>
-<p id="_09fa1b96-8c6a-dfe5-63e2-9457376600b9">Abstraction of real-world phenomena.<note id="_57efb485-3240-4e13-eea4-87bdbbf68584"><name>NOTE</name><p id="_42e033bd-4153-44a3-1a90-28ce931a90fb">A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.</p>
+<p id="_95993116-13a1-70db-ee2d-e518a3453fb5"><strong>Feature Attribute</strong></p>
+
+<p id="_6dddcea3-141f-dbe4-def6-06ef6f5fa05a">Characteristic of a <strong>feature</strong>.<note id="_8974038b-39fe-2209-fda2-069c1fea4444"><name>NOTE  4</name><p id="_4dfbe783-5e72-c965-41b9-1ee561b13a64">A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.</p>
 </note></p>
 
 
-</clause>
 
-<clause id="_feature_attribute" obligation="normative">
-<title depth="4">1.3.2.10<tab/>Feature Attribute</title>
-<p id="_41fb8cda-150b-5e25-cbfc-80ebedf4105c">Characteristic of a <strong>feature</strong>.<note id="_75c4f9d7-950d-b503-7f18-61662845c2a8"><name>NOTE</name><p id="_5fa88e63-976a-18b5-749c-cf1bb1ef1a54">A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.</p>
+<p id="_c78bc716-d95e-1623-14f8-f2ce10da593f"><strong>Geometric Object</strong></p>
+
+<p id="_7c44a602-ae04-3d91-7aa8-6b06a9f97db6">Spatial object representing a set of <strong>direct positions</strong>.<note id="_2788e10e-3517-97e2-9a7b-d685d3b62ca3"><name>NOTE  5</name><p id="_5f697ff8-2cbf-c57e-0081-33f8d24dce40">A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.</p>
 </note></p>
 
 
-</clause>
 
-<clause id="_function" obligation="normative">
-<title depth="4">1.3.2.11<tab/>Function</title>
-<p id="_e940f7b1-b0d3-43f9-7b54-b1c197f423f6">Rule that associates each element from a <strong>domain</strong> (source, or domain of the function) to a unique element in another domain (target, co-domain, or <strong>range</strong>).<note id="_3d2b1f31-b353-6dec-7611-7d66536e80b6"><name>NOTE</name><p id="_84c46f76-aee4-63ac-8cbd-a6a675374f65">The range is defined by another domain.</p>
+<p id="_265613a4-1e02-f591-13a5-214bae2db041"><strong>Vector</strong></p>
+
+<p id="_a6ac8c96-d64d-1261-3624-b1acaa348096">Quantity having direction as well as magnitude.<note id="_f0063b39-bf7f-69f4-3779-b0ec5062a12f"><name>NOTE  6</name><p id="_01e74dca-7ef9-4d75-64c0-728293b6e810">A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.</p>
 </note></p>
 
 
-</clause>
-
-<clause id="_geometric_object" obligation="normative">
-<title depth="4">1.3.2.12<tab/>Geometric Object</title>
-<p id="_a41566c1-2cde-3a4c-1cd5-31d2061a0839">Spatial object representing a set of <strong>direct positions</strong>.<note id="_3c837d37-56a3-e483-7fbb-db15d33bd786"><name>NOTE</name><p id="_9c6f3214-df15-88e0-5a4a-b9b26799b9b9">A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.</p>
-</note></p>
-
-
-</clause>
-
-<clause id="_grid" obligation="normative">
-<title depth="4">1.3.2.13<tab/>Grid</title>
-<p id="_26fd81db-13e6-f14f-2fd8-6fa186d0e018">No reference to Grid in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_grid_point" obligation="normative">
-<title depth="4">1.3.2.14<tab/>Grid Point</title>
-<p id="_673549aa-84eb-0042-4d0d-6989e4e1da74">No reference to Grid Point in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_lidar" obligation="normative">
-<title depth="4">1.3.2.15<tab/>Lidar</title>
-<p id="_cb012e5e-a4f6-3a29-b6ed-80073e5f2c67">No reference to Lidar in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_navigation_surface" obligation="normative">
-<title depth="4">1.3.2.16<tab/>Navigation Surface</title>
-<p id="_76d50f52-5935-9c22-cefe-306a69b3db71">No reference to Navigation Surface in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_range_coverage" obligation="normative">
-<title depth="4">1.3.2.17<tab/>Range &#x3c;coverage&#x3e;</title>
-<p id="_d18e8cad-1cf4-eff0-0394-52e76a4a4c2a">No reference to Range in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_record" obligation="normative">
-<title depth="4">1.3.2.18<tab/>Record</title>
-<p id="_5ebf5e2f-2b48-5cea-2545-95d85b75e8ee">No reference to Record in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_rectified_grid" obligation="normative">
-<title depth="4">1.3.2.19<tab/>Rectified Grid</title>
-<p id="_230a0096-c478-ec6a-8304-fe6d0a399570">No reference to Rectified Grid in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_referenceable_grid" obligation="normative">
-<title depth="4">1.3.2.20<tab/>Referenceable Grid</title>
-<p id="_a5b279c4-a996-b003-e41d-1a48d90ba456">No reference to Referenceable Grid in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_sonar" obligation="normative">
-<title depth="4">1.3.2.21<tab/>Sonar</title>
-<p id="_7044cc2f-cceb-0d13-0d55-10348ab06f43">No reference to Sonar in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_spatiotemporal_domain_coverage" obligation="normative">
-<title depth="4">1.3.2.22<tab/>Spatiotemporal Domain &#x3c;coverage&#x3e;</title>
-<p id="_07a6cf6e-fff1-fcf9-8ee3-1f7c1595f3ea">No reference to Spatiotemporal Domain in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_surface" obligation="normative">
-<title depth="4">1.3.2.23<tab/>Surface</title>
-<p id="_07b2d10f-600e-c1c6-34ad-4e775345aac3">No reference to Surface in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_uncertainty" obligation="normative">
-<title depth="4">1.3.2.24<tab/>Uncertainty</title>
-<p id="_61fddd2f-fbf5-0c2c-f5fa-ad52ae5d66f2">No reference to Uncertainty in S-411 1.1.0.</p>
-</clause>
-
-<clause id="_vector" obligation="normative">
-<title depth="4">1.3.2.25<tab/>Vector</title>
-<p id="_bc3a04de-4167-b28e-c739-cef10b0e816a">Quantity having direction as well as magnitude.<note id="_4cf7d520-ce41-7e24-641e-e86623c8ac03"><name>NOTE</name><p id="_c5d48b33-4bc0-7c6a-2e67-9c69add83c0a">A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.</p>
-</note></p>
-
-
-</clause>
 </clause>
 
 <definitions id="_abbreviations" type="abbreviated_terms" obligation="normative">
 <title depth="3">1.3.3<tab/>Abbreviations</title>
-<p id="_fdd16581-c87f-6c19-e63d-8405453e0b7d">This Product Specification adopts the following convention for presentation purposes:</p>
+<p id="_99e7fa5b-285a-541c-219d-a459fdc7451a">This Product Specification adopts the following convention for presentation purposes:</p>
 
-<p id="_4372bc4b-f7ac-ee9c-ea52-967333f80c71">CRS Coordinate Reference System</p>
+<p id="_3df7809d-281b-f41f-d670-6c3bd5180dbe">CRS  Coordinate Reference System</p>
 
-<p id="_f66b587b-61d9-6550-32db-96f80dcc523f">ECDIS Electronic Chart Display and Information System</p>
+<p id="_cc2a5072-ac4e-c531-8bfa-24fd674d2517">ECDIS Electronic Chart Display and Information System</p>
 
-<p id="_b54ba930-f9e5-21d1-71f0-21ee12dfec0e">EPSG European Petroleum Survey Group</p>
+<p id="_565c55fc-9318-79fe-bf7c-24d80e2de861">EPSG European Petroleum Survey Group</p>
 
-<p id="_00b3dba1-4394-4fbc-308b-2921f340be5e">ETSI Expert Team on Sea Ice</p>
+<p id="_aefbb339-6416-3678-8e18-46ef905084fc">ETSI Expert Team on Sea Ice</p>
 
-<p id="_91ebf94f-cf80-fab1-1975-495a6064b9a1">GML Geography Markup Language</p>
+<p id="_770706dd-f7e0-f4be-16a8-ed8189ebdded">GML Geography Markup Language</p>
 
-<p id="_7deb9f1d-812f-8610-0981-cb2ce92f47f6">IHO International Hydrographic Organization</p>
+<p id="_4467f0be-3ce7-d28f-a95b-77ca58f4d4a3">IHO International Hydrographic Organization</p>
 
-<p id="_724fd7b9-4740-662e-10a6-e3f7641d820e">ISO International Organization for Standardization</p>
+<p id="_aa5dfbc8-7c8d-7f77-01c8-b13d22e148e8">ISO International Organization for Standardization</p>
 
-<p id="_105e3de9-d057-cd6f-a18d-af4c41823f58">JCOMM Joint Technical Commission for Oceanography and Marine Meteorology</p>
+<p id="_37a7edbe-197e-5995-8553-c1f8642d3e97">JCOMM Joint Technical Commission for Oceanography and Marine Meteorology</p>
 
-<p id="_eb073e8c-3fe1-f8f1-cf41-5df858ff81da">XML eXtensible Markup Language</p>
+<p id="_35e07174-8cd4-2c28-3f0d-3ea79ccfd7fb">XML eXtensible Markup Language</p>
 </definitions></clause>
 
 <clause id="_general_data_product_description" obligation="normative">
 <title depth="2">1.4<tab/>General data product description</title>
-<dl id="_17a0c40c-5ece-23b6-e446-ddf9f8d4bb7d"><dt><strong>Title</strong></dt>
-<dd><p id="_6245de0c-5c3d-a4e3-fbf8-9284817cafea">Ice Information Product Specification.</p>
+<dl id="_84c24289-db0d-4b77-8307-ca0442328cdb"><dt><strong>Title</strong></dt>
+<dd><p id="_3b2c0632-4e58-e065-7f3b-14d2826eb37e">Ice Information Product Specification.</p>
 </dd>
 <dt><strong>Abstract</strong></dt>
-<dd><p id="_f438cc40-1a4d-cf48-00a4-01a7afe82dc6">Ice Information for ship navigation</p>
+<dd><p id="_c6e6d99e-bc04-a63b-425e-e99075687c3c">Ice Information for ship navigation</p>
 </dd>
 <dt><strong>Acronym</strong></dt>
-<dd><p id="_506dcf4a-5385-3e6a-a17b-a4b191c1bd9e">S-411</p>
+<dd><p id="_8c7b354b-4d0a-44b6-9eef-25c8ab4068e3">S-411</p>
 </dd>
 <dt><strong>Content</strong></dt>
-<dd><p id="_9ca23e4d-d4d9-8e24-1de6-21e3660348cb">Ice features as vector data</p>
+<dd><p id="_928d4900-1f81-79b0-064c-b5a0e86934e2">Ice features as vector data</p>
 </dd>
 <dt><strong>Spatial Extent</strong></dt>
-<dd><p id="_1b220f8f-ef7a-17ab-a76f-0d224b4704f0"><strong>East Bounding Longitude</strong>: 180°<br/> <strong>West Bounding Longitude</strong>: -180°<br/> <strong>North Bounding Latitude</strong>: 90°<br/> <strong>South Bounding Latitude</strong>: -90°</p>
+<dd><p id="_b8b46077-5bd9-b605-946c-cbf52ba6d96a"><strong>East Bounding Longitude</strong>: 180°<br/> <strong>West Bounding Longitude</strong>: -180°<br/> <strong>North Bounding Latitude</strong>: 90°<br/> <strong>South Bounding Latitude</strong>: -90°</p>
 </dd>
 <dt><strong>Purpose</strong></dt>
-<dd><p id="_f3f0d846-106b-336d-8302-f1f20199917f">Navigation in ice covered regions</p>
+<dd><p id="_5c399e6c-9ecc-a779-3cdd-b88116faaf95">Navigation in ice covered regions</p>
 </dd>
 </dl>
 </clause>
 
 <clause id="_product_specification_metadata" obligation="normative">
 <title depth="2">1.5<tab/>Product Specification metadata</title>
-<dl id="_7c159b0c-f238-8ab5-27c3-608c927935bc"><dt><strong>Title</strong></dt>
-<dd><p id="_b79d5d39-6882-804f-d81e-2cf149c34db6">Ice Information Product Specification</p>
+<dl id="_06fd25a6-7e91-63ab-45d4-bb61510c6fef"><dt><strong>Title</strong></dt>
+<dd><p id="_0c3ad216-c0d9-55b3-46aa-44e9b15657fd">Ice Information Product Specification</p>
 </dd>
 <dt><strong>S-100 Version</strong></dt>
-<dd><p id="_06050bd5-bab0-7408-2462-d047f041738c">1.0.0</p>
+<dd><p id="_9ceba199-7e5d-a549-f56e-bb3027f501a2">1.0.0</p>
 </dd>
 <dt><strong>S-411 Version</strong></dt>
-<dd><p id="_cad90c5a-31ee-8324-0011-73f05d9b781a">1.1.0</p>
+<dd><p id="_aee8360e-46fa-b16f-f7fe-71c098ba24cb">1.1.0</p>
 </dd>
 <dt><strong>Date</strong></dt>
-<dd><p id="_d28f332a-2bb6-c114-8af6-ebf03bca1575">15 June 2014</p>
+<dd><p id="_6420a0af-a7b7-bac0-71f1-efb5e57cc338">15 June 2014</p>
 </dd>
 <dt><strong>Language</strong></dt>
-<dd><p id="_58844345-ca2b-088e-6cb7-8e781ff21fe1">English (optional additional)</p>
+<dd><p id="_3662c64b-2738-3623-8beb-bc43494ee021">English (optional additional)</p>
 </dd>
 <dt><strong>Classification</strong></dt>
-<dd><p id="_3edfa020-17f8-cdcf-1a68-ebe34ce1e1fd">Unclassified</p>
+<dd><p id="_d3096d02-073d-18a3-8124-33b5d71254ea">Unclassified</p>
 </dd>
 <dt><strong>Contact</strong></dt>
-<dd><p id="_7b8bfa4c-99eb-36b4-6680-28a304e2971c">Jürgen Holfort (<link target="mailto:ice@bsh.de"/>)</p>
+<dd><p id="_3c307441-3dfa-21b0-1359-46bf31c17061">Jürgen Holfort (<link target="mailto:ice@bsh.de"/>)</p>
 </dd>
 <dt><strong>Identifier</strong></dt>
-<dd><p id="_76e85311-d835-8d19-99f0-7e629b2ba950">JCOMM S-411</p>
+<dd><p id="_049d67c4-ff7b-2888-f649-b7334084a7de">JCOMM S-411</p>
 </dd>
 <dt><strong>Maintenance</strong></dt>
-<dd><p id="_8269090b-0fda-67fe-207e-fd43d2373b9b">Changes to this product specification are coordinated by ETSI.</p>
-<p id="_1952f5dc-a297-f0c2-c543-f58af4ecc6f8">International Hydrographic Organization<br/> 4 Quai Antoine 1er <br/> B.P. 445 <br/> MC 98011 MONACO CEDEX <br/> Telephone: +377 93 10 81 00 <br/> Fax: +377 93 10 81 40 <br/> Email: <link target="mailto:info@iho.int"/><br/></p>
+<dd><p id="_07ab3f62-4fd1-dcc5-ab30-4a3f60c7c86c">Changes to this product specification are coordinated by ETSI.</p>
+<p id="_9e28f916-56b0-d694-879e-1d006a7b19dd">International Hydrographic Organization<br/> 4 Quai Antoine 1er <br/> B.P. 445 <br/> MC 98011 MONACO CEDEX <br/> Telephone: +377 93 10 81 00 <br/> Fax: +377 93 10 81 40 <br/> Email: <link target="mailto:info@iho.int"/><br/></p>
 </dd>
 <dt><strong>URL</strong></dt>
-<dd><p id="_eb18f7ca-b3a0-a13a-7eaf-0c74ba098be0"><link target="http://www.iho.int/">www.iho.int</link></p>
+<dd><p id="_1a3da6dc-9d9b-fcd8-72a9-e8c2834f6ff2"><link target="http://www.iho.int/">www.iho.int</link></p>
 </dd>
 <dt><strong>Identifier</strong></dt>
-<dd><p id="_32a1d694-1495-5ddb-824d-990d72bc08fa">S-411</p>
+<dd><p id="_7e76c6b9-a798-809f-f643-d14ad2e56e24">S-411</p>
 </dd>
 <dt><strong>Maintenance</strong></dt>
-<dd><p id="_21969b66-6787-34b5-cddb-b3d5d4af33f5">Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.</p>
+<dd><p id="_d3c840cd-2ca4-832e-2bed-53ed9a64f067">Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.</p>
 </dd>
 </dl>
 </clause>
@@ -2164,39 +1971,39 @@ sourcecode .nt {
 <title depth="2">1.6<tab/>IHO Product Specification Maintenance</title>
 <clause id="_introduction" obligation="normative">
 <title depth="3">1.6.1<tab/>Introduction</title>
-<p id="_2b24f1fd-1889-d829-a657-b64b267e6ef7">Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.</p>
+<p id="_d0111f0a-c29d-9aca-1939-ea2c4d720d0e">Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.</p>
 </clause>
 
 <clause id="_new_edition" obligation="normative">
 <title depth="3">1.6.2<tab/>New Edition</title>
-<p id="_08613083-951f-f3fd-c417-84cafa4ca151"><em>New Editions</em> of S-411 introduce significant changes. <em>New Editions</em> enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. <em>New Editions</em> are likely to have a significant impact on either existing users or future users of S-122. All cumulative <em>revisions</em> and <em>clarifications</em> must be included with the release of approved New Editions.</p>
+<p id="_fc8d2d95-1a8c-ad7b-8d70-f670d2421ced"><em>New Editions</em> of S-411 introduce significant changes. <em>New Editions</em> enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. <em>New Editions</em> are likely to have a significant impact on either existing users or future users of S-122. All cumulative <em>revisions</em> and <em>clarifications</em> must be included with the release of approved New Editions.</p>
 </clause>
 
 <clause id="_revision" obligation="normative">
 <title depth="3">1.6.3<tab/>Revision</title>
-<p id="_35fc6d68-fd79-ee15-9179-0ea53cb6ecca"><em>Revisions</em> are defined as substantive semantic changes to S-411. Typically, <em>revisions</em> will change S-411 to correct factual errors; introduce necessary changes that have become evident as a result of practical experience or changing circumstances. A <em>revision</em> must not be classified as a clarification. Revisions could have an impact on either existing users or future users of S-411. All cumulative <em>clarifications</em> must be included with the release of approved <em>revisions</em>.</p>
+<p id="_10e1e2ec-771a-87e9-4850-e29b0b9a6957"><em>Revisions</em> are defined as substantive semantic changes to S-411. Typically, <em>revisions</em> will change S-411 to correct factual errors; introduce necessary changes that have become evident as a result of practical experience or changing circumstances. A <em>revision</em> must not be classified as a clarification. Revisions could have an impact on either existing users or future users of S-411. All cumulative <em>clarifications</em> must be included with the release of approved <em>revisions</em>.</p>
 
-<p id="_956a28d7-11cf-9af2-fed7-5b59baa965a1">Changes in a revision are minor and ensure backward compatibility with the previous versions within the same Edition. Newer revisions, for example, introduce new features and attributes. Within the same Edition, a dataset of one version could always be processed with a later version of the Feature and Portrayal Catalogues.</p>
+<p id="_99d41abb-3aad-a462-2afc-8ffbceda19c8">Changes in a revision are minor and ensure backward compatibility with the previous versions within the same Edition. Newer revisions, for example, introduce new features and attributes. Within the same Edition, a dataset of one version could always be processed with a later version of the Feature and Portrayal Catalogues.</p>
 
-<p id="_ec650b0d-ab9a-1579-2648-5861b90cfac9">In most cases a new feature or portrayal catalogue will result in a <em>revision</em> of S-411.</p>
+<p id="_9d101390-5c14-0b68-6efe-3b54254cc7f2">In most cases a new feature or portrayal catalogue will result in a <em>revision</em> of S-411.</p>
 </clause>
 
 <clause id="_clarification" obligation="normative">
 <title depth="3">1.6.4<tab/>Clarification</title>
-<p id="_4e09c601-ab1e-3e9e-b61d-5d37817f39ea"><em>Clarifications</em> are non-substantive changes to S-122. Typically, <em>clarifications</em>: remove ambiguity; correct grammatical and spelling errors; amend or update cross references; insert improved graphics in spelling, punctuation and grammar. A <em>clarification</em> must not cause any substantive semantic change to S-411.</p>
+<p id="_feb2fea4-8458-a740-760a-b6b3532759fe"><em>Clarifications</em> are non-substantive changes to S-122. Typically, <em>clarifications</em>: remove ambiguity; correct grammatical and spelling errors; amend or update cross references; insert improved graphics in spelling, punctuation and grammar. A <em>clarification</em> must not cause any substantive semantic change to S-411.</p>
 
-<p id="_cb9af992-2603-32af-8efd-8670ba6a02c5">Changes in a <em>clarification</em> are minor and ensure backward compatibility with the previous versions within the same Edition. Within the same Edition, a dataset of one clarification version could always be processed with a later version of the Feature and Portrayal Catalogues, and a Portrayal Catalogue can always rely on earlier versions of the Feature Catalogue.</p>
+<p id="_fe7af22e-82ee-3128-a171-aa931946c6d8">Changes in a <em>clarification</em> are minor and ensure backward compatibility with the previous versions within the same Edition. Within the same Edition, a dataset of one clarification version could always be processed with a later version of the Feature and Portrayal Catalogues, and a Portrayal Catalogue can always rely on earlier versions of the Feature Catalogue.</p>
 </clause>
 
 <clause id="_version_numbers" obligation="normative">
 <title depth="3">1.6.5<tab/>Version Numbers</title>
-<p id="_300661e9-6d4a-630e-b51c-67be86705348">The associated version control numbering to identify changes (n) to S-411 must be as follows:</p>
+<p id="_5d6b50a2-d716-ae14-ae7e-f79137da2db1">The associated version control numbering to identify changes (n) to S-411 must be as follows:</p>
 
-<p id="_73111395-7192-b84b-58ef-a6631b17b882">New Editions denoted as <strong>n</strong>.0.0</p>
+<p id="_754ca71a-d439-217a-adbc-d5d90623ebad">New Editions denoted as <strong>n</strong>.0.0</p>
 
-<p id="_da9789f3-fa02-3004-264b-6ac03234cd3e">Revisions denoted as n.<strong>n</strong>.0</p>
+<p id="_470af8da-975c-b25c-66dc-5cc8be0e21a5">Revisions denoted as n.<strong>n</strong>.0</p>
 
-<p id="_07379fa9-1e1a-956d-ce92-a158cca140b6">Clarifications denoted as n.n.<strong>n</strong></p>
+<p id="_70127321-9994-6947-ddb1-def2c81e5cd4">Clarifications denoted as n.n.<strong>n</strong></p>
 </clause>
 </clause>
 </clause>
@@ -2227,6 +2034,8 @@ sourcecode .nt {
 
 <clause id="sec-data-product-identification" obligation="normative" displayorder="5">
 <title depth="1">3<tab/>Data Product Identification</title>
+<p id="_357b0a17-c282-c4d0-8653-55e7ba958ac7">A dataset that conforms to this Product Specification may be identified by its discovery metadata as defined in clause 12.</p>
+
 <dl id="_2044c849-05f5-2c6a-d6d7-257ce901a5eb"><dt><strong>Title</strong></dt>
 <dd><p id="_ee1e31b5-d044-c9ed-bc52-fbca1a169b84">Ice Information</p>
 </dd>
@@ -2272,58 +2081,67 @@ sourcecode .nt {
 
 <clause id="_application_schema" obligation="normative">
 <title depth="2">4.2<tab/>Application Schema</title>
-<p id="_a6846d67-760f-8e94-385e-83e51bcdece1">Picture below shows very simplified structure of ice data structure</p>
+<p id="_58cbf3d4-c62a-f584-1552-4099aaaabba9">S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.</p>
 
-<p id="_5868f1ae-202a-bfea-29d6-7421d8af561c"><em>Figure 1 (UML diagram) to be inserted here</em></p>
+<p id="_8af281ad-97b3-cc49-05d4-8b3d243dfb51">Picture below shows very simplified structure of ice data structure</p>
 
-<p id="_0af83a21-6ff1-e4a4-e989-0c63926aa6e4">General GML (XML) representation:</p>
+<p id="_56434c17-bb50-5279-ecb6-397065845c3f"><em>Figure 1 (UML diagram) to be inserted here</em></p>
 
-<p id="_63d34616-b297-8da3-2360-73ee8d7a930a"><em>XML code to be inserted here</em></p>
+<p id="_5721d923-33e8-61e9-f9af-a8dafd58a726">General GML (XML) representation:</p>
 
-<clause id="_application_schema_implementation_classes" obligation="normative">
-<title depth="3">4.2.1<tab/>Application Schema implementation classes</title>
-<clause id="_implementation_classes_description" obligation="normative">
-<title depth="4">4.2.1.1<tab/>Implementation classes description</title>
-</clause>
-</clause>
+<p id="_ad706eca-cd8b-bc1f-db42-6c68c8a1393d"><em>XML code to be inserted here</em></p>
 </clause>
 
 <clause id="_feature_catalogue" obligation="normative">
 <title depth="2">4.3<tab/>Feature Catalogue</title>
 <clause id="_introduction_3" obligation="normative">
 <title depth="3">4.3.1<tab/>Introduction</title>
-<p id="_13c12566-5235-3608-a41a-9cedcc06628a">The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.</p>
+<p id="_f0396775-3950-7302-d95b-a9173deb4d9e">The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product.</p>
+
+<p id="_d1f61185-ed70-fc15-f5e6-51580ab05657">The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.</p>
+
+<p id="_b8f466fc-2e14-134e-6804-5d7c0afae0c2">The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.</p>
+</clause>
+
+<clause id="_application_schema_implementation_classes" obligation="normative">
+<title depth="3">4.3.2<tab/>Application Schema implementation classes</title>
+<clause id="_implementation_classes_description" obligation="normative">
+<title depth="4">4.3.2.1<tab/>Implementation classes description</title>
+<p id="_5d92ade0-8856-5793-5066-2f2c646dfb9f"><em>4.3.2.1 UML diagram to be inserted here</em></p>
+
+<p id="_9cd9bb04-c47e-4445-2a9c-10df7c12b94d"><em>I would suggest moving the table to the DCEG (and adpat to the DCEG format)</em></p>
+</clause>
 </clause>
 
 <clause id="_feature_types" obligation="normative">
-<title depth="3">4.3.2<tab/>Feature types</title>
-<p id="_7dedad96-fdcc-28c0-eab0-91a73cb6faa4"><em>IceDataSetType</em> is a type of root Element of an ice information data set.</p>
+<title depth="3">4.3.3<tab/>Feature types</title>
+<clause id="_icedatasettype" obligation="normative">
+<title depth="4">4.3.3.1<tab/>IceDataSetType</title>
+<p id="_e70e8f6d-a4f5-d417-8c81-d289609ae215"><em>IceDataSetType</em> is a type of root Element of an ice information data set.</p>
 
-<p id="_6fa89679-4768-3d8d-376f-8e838f3d1a69"><em>4.3.2.2.1 UML diagram to be inserted here</em></p>
+<p id="_4f211ec9-ac9a-20b4-05b6-889a3913070e"><em>UML diagramm to be inserted here</em></p>
 
-<p id="_cd3720e2-6dba-4936-3f3e-7d8f9804d73c">Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).</p>
+<p id="_e7d5c8f4-328d-4f91-6958-265907c10f35">Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).</p>
+</clause>
 
 <clause id="_geographic" obligation="normative">
-<title depth="4">4.3.2.1<tab/>Geographic</title>
+<title depth="4">4.3.3.2<tab/>Geographic</title>
+<p id="_ac011df8-f054-c802-d794-f1c03b8ec673">Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes. Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.</p>
 </clause>
-
-<clause id="_meta" obligation="normative">
-<title depth="4">4.3.2.2<tab/>Meta</title>
-</clause>
-</clause>
-
-<clause id="_feature_relationship" obligation="normative">
-<title depth="3">4.3.3<tab/>Feature relationship</title>
 </clause>
 
 <clause id="_attributes" obligation="normative">
 <title depth="3">4.3.4<tab/>Attributes</title>
+<p id="_ee6e7ab9-de31-b679-6442-98294296fc1d">S-411 defines attributes as either simple or complex.</p>
+
 <clause id="_simple_attributes" obligation="normative">
 <title depth="4">4.3.4.1<tab/>Simple attributes</title>
+<p id="_79918bc5-c453-b065-de16-d10719f10f87">S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.</p>
 </clause>
 
 <clause id="_complex_attributes" obligation="normative">
 <title depth="4">4.3.4.2<tab/>Complex attributes</title>
+<p id="_a47546bf-26e7-3b57-c9bf-d60c1d9f0eae">Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.</p>
 </clause>
 </clause>
 </clause>
@@ -2332,7 +2150,7 @@ sourcecode .nt {
 <title depth="2">4.4<tab/>Dataset types</title>
 <clause id="_introduction_4" obligation="normative">
 <title depth="3">4.4.1<tab/>Introduction</title>
-<p id="_1cf61e31-6e45-efe2-5857-51270058bd11">At the moment is only one type of dataset supported. This is GML(XML) encoded ice feature collections</p>
+<p id="_c473898f-e539-9464-2413-ff8a826987f3">At the moment there is only one type of dataset supported. This is GML(XML) encoded ice feature collections.</p>
 </clause>
 </clause>
 
@@ -2349,13 +2167,7 @@ sourcecode .nt {
 
 <p id="_67975ad5-2809-f6be-1ea1-6c9e9abb80ff">For standard GML it would be also possible to use following (DO NOT USE THIS):</p>
 
-<sourcecode id="_18f44080-4e66-743c-e885-173614d14276"><name>Figure 4-2</name>&#x3c;gml:posList&#x3e;
-
-&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
-
-&#x3c;pos&#x3e;-73.991 40.736&#x3c;/pos&#x3e;
-
-&#x3c;/gml:posList&#x3e;</sourcecode>
+<sourcecode id="_f36f4a8b-7648-3455-5468-fb5ff5c9860d"><name>Figure 4-2</name>#_gml code to be inserted here._#</sourcecode>
 
 
 <p id="_ce057f65-88f1-b20f-b3f5-2acd99647c65">Which means much more chars in the file and growing of file size.</p>
@@ -2364,38 +2176,17 @@ sourcecode .nt {
 
 <p id="_3f243854-68a2-1b67-2cb7-c470d2aebf6f">Point encoding example:</p>
 
-<sourcecode id="_98bdeb71-9fbe-7a40-ae4f-fbdc5fc99284"><name>Figure 4-3</name>&#x3c;gml:Point
-&#x3c;gml:pos&#x3e;147.291 -42.851&#x3c;/gml:pos&#x3e;
-&#x3c;/gml:Point&#x3e;</sourcecode>
+<sourcecode id="_645e0deb-ff3a-0f19-fe19-8c632583d0c1"><name>Figure 4-3</name>#_gml code to be inserted here._#</sourcecode>
 
 
 <p id="_cfa3660c-47de-7c25-b385-71733b54b016">Line String encoding example:</p>
 
-<sourcecode id="_dcb2994e-934a-195f-a7bb-88bfa546fbc6"><name>Figure 4-4</name>&#x3c;gml:LineString&#x3e;
-&#x3c;gml:posList&#x3e;-73.991 40.736 -73.991 40.736&#x3c;/gml:posList&#x3e;
-&#x3c;/gml:LineString&#x3e;</sourcecode>
+<sourcecode id="_89087d25-b128-c8dc-8e12-1f4dad4b70f1"><name>Figure 4-4</name>#_gml code to be inserted here._#</sourcecode>
 
 
 <p id="_e4a1960c-cd3d-e2b5-0fde-fe42e1f0b99c">Polygon encoding example:</p>
 
-<sourcecode id="_57efb9ee-133d-a935-f066-ec97a4cddd23"><name>Figure 4-5</name>&#x3c;gml:Polygon&#x3e;
-&#x3c;gml:exterior&#x3e;
-&#x3c;gml:LinearRing&#x3e;
-&#x3c;gml:posList&#x3e;
-22.546 62.391 25.033 62.404 24.995 60.182 22.483
-60.169 22.546 62.391
-&#x3c;/gml:posList&#x3e;
-&#x3c;/gml:LinearRing&#x3e;
-&#x3c;/gml:exterior&#x3e;
-&#x3c;gml:interior&#x3e;
-&#x3c;gml:LinearRing&#x3e;
-&#x3c;gml:posList&#x3e;
-23.227 61.811 23.467 61.306 24.023 61.621 24.035
-61.621 23.227 61.811
-&#x3c;/gml:posList&#x3e;
-&#x3c;/gml:LinearRing&#x3e;
-&#x3c;/gml:interior&#x3e;
-&#x3c;/gml:Polygon&#x3e;</sourcecode>
+<sourcecode id="_b6ad377c-123c-e19d-8d34-982cfeef4ce1"><name>Figure 4-5</name>#_gml code to be inserted here._#</sourcecode>
 
 </clause>
 </clause>
@@ -2592,11 +2383,48 @@ sourcecode .nt {
 <title depth="1">10<tab/>Data Product Format (Encoding)</title>
 <clause id="_introduction_6" obligation="normative">
 <title depth="2">10.1<tab/>Introduction</title>
-<p id="_d5feac10-f96e-3946-2417-1cf9d890b5a4">The S-411 data set must be encoded using the Geographical Markup Language (GML).</p>
+<p id="_7b600706-5d35-c468-2a0d-52b800db71b7">This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 was used.</p>
 </clause>
 
-<clause id="subsec-product-structure" obligation="normative">
-<title depth="2">10.2<tab/>Product structure</title>
+<clause id="_encoding_rules" obligation="normative">
+<title depth="2">10.2<tab/>Encoding Rules</title>
+<clause id="_longitude_latitude" obligation="normative">
+<title depth="3">10.2.1<tab/>Longitude / Latitude</title>
+<p id="_2d78d09f-e695-4225-51ca-2ec7f0761723">Longitude and latitude must be encoded in decimal degrees, e.g.: 12.567 56.765</p>
+
+<p id="_86814d00-ce97-c97f-8978-fa9caa43bf15">Number of decimals is not limited, but it should be as less as possible for minimizing of file size, normally 3 or even 2 digits are enough</p>
+</clause>
+
+<clause id="_elements_and_attributes" obligation="normative">
+<title depth="3">10.2.2<tab/>Elements and attributes</title>
+<p id="_6763fa02-8342-b7c1-40d7-32cbb737911f">Names of elements representing ice features or attributes (from IceFDC dictionary see Table 1: Summary of Types) must be encoded with lower case letters</p>
+
+<p id="_1aaa1695-67f9-5b93-a010-379522de05dd">Names of elements representing features or attributes from other dictionaries must be encoded with upper case letters</p>
+
+<p id="_7903dce9-0f64-21a7-62ff-302161f2313c">Character Set is UTF-8</p>
+
+<p id="_db7e5d8c-46a0-1c40-9e57-aea568a8f30d">Elements or attributes may be empty, but it should be eliminated for minimizing of file size</p>
+</clause>
+</clause>
+
+<clause id="_encoding_examples" obligation="normative">
+<title depth="2">10.3<tab/>Encoding Examples</title>
+<p id="_13317c72-5393-c779-9102-ae43ef16720a">Below there are three examples of the encoding of various ice features using different geometric primitives, the encoding of other ice objects can be done in a similar way.</p>
+
+<clause id="_polygon_feature" obligation="normative">
+<title depth="3">10.3.1<tab/>Polygon Feature</title>
+<p id="_2c0f0066-87e5-23a9-7247-02ef6091d5c6"><em>GML code to be inserted</em></p>
+</clause>
+
+<clause id="_linestring_feature" obligation="normative">
+<title depth="3">10.3.2<tab/>LineString Feature</title>
+<p id="_4a300c35-6f46-9449-e1be-653d65f74bc9"><em>GML code to be inserted</em></p>
+</clause>
+
+<clause id="_point_feature" obligation="normative">
+<title depth="3">10.3.3<tab/>Point Feature</title>
+<p id="_93f05e70-16ce-2916-f064-aed3612e1ce7"><em>GML code to be inserted</em></p>
+</clause>
 </clause>
 </clause>
 
@@ -2684,15 +2512,15 @@ sourcecode .nt {
 <title depth="2">11.3<tab/>Exchange Set</title>
 <p id="_d72ab973-77ba-b6eb-8d35-a870e9bdd9dc">The structure of an S-411 Exchange Set must be according to the structure described below, which is based on <xref target="iho-s100">part=17,clause=4.2</xref>.</p>
 
-<ol id="_994593c3-4536-1896-1fd0-a7256833b8b4" type="arabic"><li id="_2b4ec549-8c81-4664-b74e-e83cbb60b6ff" label="1"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
+<ol id="_994593c3-4536-1896-1fd0-a7256833b8b4" type="arabic"><li id="_c4c474e3-baa6-49b1-b17d-e272eed1ee4e" label="1"><p id="_34a1b3f5-1fa5-a08b-2a98-3be67a8d4740">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
 </li>
-<li id="_11d8cece-5d59-4387-bebc-ea43221bf023" label="2"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
+<li id="_bff6056a-03ae-40f3-9b78-0af9afa4bd1b" label="2"><p id="_eac390d1-d4f7-bc64-f801-235475f7ef10">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
 </li>
-<li id="_79816843-6856-4d56-b04d-a7d9ae4ecc74" label="3"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
+<li id="_1aa2191c-3e3b-45d1-89e2-60edb2c40fe6" label="3"><p id="_b442c32f-fc09-c764-83f9-ab749de04580">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
 </li>
-<li id="_0e7ae0b0-7b6f-40a0-8612-1fb09438bbc8" label="4"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
+<li id="_e64dbf4e-9721-4ebe-905c-4ee5a61cb2c3" label="4"><p id="_a8e5da0d-541d-8b3a-cb2e-b05635dc22d4">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
 </li>
-<li id="_eba18adc-9a3d-46f7-9f06-7aa1d4c49039" label="5"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
+<li id="_09cf197e-e6db-4f36-843d-16afb58a4ecb" label="5"><p id="_a9c2b1d8-d344-a231-85a5-82addceab9b6">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
 </li>
 </ol>
 </clause>
