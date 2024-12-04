@@ -3,21 +3,31 @@
 == Data Content and Structure
 
 === Introduction
+
 The application schema of ice information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.1) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe full schema in suitable form in this specification. The full schema can be found as XML Schema File in Annex B – Data Product format (encoding).
 
 === Application Schema
+
+#S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
+implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.#
+
 Picture below shows very simplified structure of ice data structure
 
-#_Figure 1 (UML diagram) to be inserted here_#
+_Figure 1 (UML diagram) to be inserted here_
 
 General GML (XML) representation:
 
-#_XML code to be inserted here_#
+_XML code to be inserted here_
 
 === Feature Catalogue
 
 ==== Introduction
+
+#The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product.#
+
 The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
+
+#The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.#
 
 ==== Application Schema implementation classes
 
@@ -25,39 +35,46 @@ The feature Catalogue for Ice Information contains only geographic features. The
 
 #_4.3.2.1 UML diagram to be inserted here_#
 
-#_I would suggest moving the table to the DCEG (and adpat to the DCEG format)_#
+_I would suggest moving the table to the DCEG (and adpat to the DCEG format)_
 
 ==== Feature types
 
+===== IceDataSetType
+
 _IceDataSetType_ is a type of root Element of an ice information data set.
 
-Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member
-contains one Ice Feature (seaice, lacice, iceberg, etc.).
+_UML diagramm to be inserted here_
+
+Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).
 
 ===== Geographic
 
-===== Meta
-
-==== Feature relationship
+#Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
+Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.#
 
 ==== Attributes
 
+S-411 defines attributes as either simple or complex.
+
 ===== Simple attributes
 
+#S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.#
+
 ===== Complex attributes
+
+#Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.#
 
 === Dataset types
 
 ==== Introduction
 
-At the moment is only one type of dataset supported. This is GML(XML) encoded ice feature
-collections
+At the moment there is only one type of dataset supported. This is GML(XML) encoded ice feature collections.
 
 === Geometry
-Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional
-objects (points, line strings, and polygons).
 
-#_Figure 3  to be inserted here._#
+Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional objects (points, line strings, and polygons).
+
+_Figure 3  to be inserted here._
 
 There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
 
