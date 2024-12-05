@@ -15,6 +15,10 @@ Picture below shows very simplified structure of ice data structure
 
 _Figure 1 (UML diagram) to be inserted here_
 
+[[figure-image-ice-data-product-structure]]
+.Ice data product structure
+image::../images/image-ice-data-product-structure.PNG
+
 General GML (XML) representation:
 
 _XML code to be inserted here_
