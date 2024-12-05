@@ -14,17 +14,15 @@ The Ice Information product specification is based on the IHO S-100 framework sp
 
 ==== Normative
 
-GML OpenGIS®  Geography Markup Language (GML) Encoding Standard (Version 3.2.1)
+GML OpenGIS®::  _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)
 
-IHO S-100  IHO Universal Hydrographic Data Model, Edition 5.2.0, June 2024
+S-100::  _IHO Universal Hydrographic Data Model_, Edition 5.2.0, June 2024
 
-ISO-19115-1  ISO 19115-1:2014/Amd 1:2018, Geographic information - Metadata - Part 1: Fundamentals - Amendment 1
+ISO-19115-1::  _Geographic information - Metadata - Part 1: Fundamentals_ - 2014/Amd 1: 2018
 
-ISO-19115-2  ISO 19115-2:2009/Amd 1:2018, Geographic information - Metadata - Part 2: Extensions for imagery and gridded data
+ISO-19115-3::  _Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts_ - 2016
 
-ISO-19115-3  ISO 19115-3:2016, Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts
-
-ISO-19139-1  ISO 19139-1:2019, Geographic information - XML schema implementation - Part 1: Encoding rules
+ISO-19139-1::  _Geographic information - XML schema implementation - Part 1: Encoding rules_ - 2019
 
 ==== Informative
 
@@ -45,13 +43,35 @@ Within this document:
 
 *Coordinate*
 
-One of a sequence of _n_ numbers designating the position of a point in N-dimensional space.
+One of a sequence of _n_ numbers designating the position of a *point* in N-dimensional space.
 
 NOTE: The numbers must be qualified by units and CRS.
 
 *Coordinate Reference System*
 
-Coordinate system which is related to the real world by a datum.
+*Coordinate* system which is related to the real world by a datum.
+
+*Data Quality*
+
+A set of elements describing aspects of quality, including a measure of quality, an evaluation procedure, a quality result, and a scope.
+
+*Data Type*
+
+Specification of a value domain with operations allowed on values in this domain.
+
+NOTE: Data types include primitive predefined types and user-definable types.
+
+NOTE: A data type is identified by a term, for example Integer.
+
+*Dataset*
+
+An identifiable collection of data.
+
+NOTE: A dataset may be a smaller grouping of data which, though limited by some constraint such as spatial extent or feature type, is located physically within a larger dataset. Theoretically, a dataset may be as small as a single feature contained within a larger dataset. A hardcopy map or chart may be considered a dataset.
+
+*Datum*
+
+Parameter or set of parameters that define the position of the origin, the scale, and the orientation of a *coordinate* system.
 
 *Depth*
 
@@ -61,9 +81,23 @@ The vertical distance from a given water level to the bottom. In this standard, 
 
 NOTE: The numbers must be qualified by units and datum. 
 
+*ECDIS*
+
+A navigation information system which with adequate back-up arrangements can be accepted as complying with the up-to-date chart required by regulations V/19 and V/27 of the 1974 SOLAS Convention, as amended, by displaying selected information from a System Electronic Navigational Chart (System Database) with positional information from navigation sensors to assist the Mariner in route planning and route monitoring, and if required display additional navigation-related information.
+
+*Enumeration*
+
+A fixed list of valid identifiers of named literal values. Attributes of an enumerated type may only take values from this list.
+
 *Feature*
 
 Abstraction of real-world phenomena.
+
+NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
+
+*Feature*
+
+Abstraction of real world phenomena.
 
 NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
 
@@ -73,11 +107,33 @@ Characteristic of a *feature*.
 
 NOTE: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
 
-*Geometric Object*
+*Feature Catalogue*
 
-Spatial object representing a set of *direct positions*.
+A catalogue containing definitions and descriptions of the *feature* types, *feature attributes* occurring in one or more sets of geographic data.
 
-NOTE: A geometric object consists of a geometric primitive, a collection of geometric primitives, or a geometric complex treated as a single entity. A geometric object may be the spatial characteristics of an object such as a feature or a significant part of a feature.
+*Geometric Primitive*
+
+Geometric object representing a single, connected, homogeneous element of geometry.
+
+NOTE: Geometric primitives are non-decomposed objects that present information about geometric configuration. They include points, curves and surfaces.
+
+*Multiplicity*
+
+Specification of the number of possible occurrences of a property, or the number of allowable elements that may participate in a given relationship.
+
+EXAMPLES: 1..* (one to many); 1 (exactly one); 0..1 (zero or one)
+
+*Point*
+
+0-dimensional geometric primitive, representing a position.
+
+NOTE: The boundary of a point is the empty set.
+
+*Portrayal Catalogue*
+
+Collection of defined portrayals for a feature catalogue.
+
+NOTE: Content of a portrayal catalogue includes portrayal functions, symbols, and portrayal context.
 
 *Vector*
 
@@ -88,23 +144,31 @@ NOTE: A directed line segment represents a vector if the length and direction of
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
 
-CRS  Coordinate Reference System
+BSH:: Bundesamt für Seeschifffahrt und Hydrographie (Germany)
 
-ECDIS Electronic Chart Display and Information System
+CRS::  Coordinate Reference System
 
-EPSG European Petroleum Survey Group
+ECDIS:: Electronic Chart Display and Information System
 
-ETSI Expert Team on Sea Ice
+ENC:: Electronic Navigational Chart
 
-GML Geography Markup Language
+EPSG:: European Petroleum Survey Group
 
-IHO International Hydrographic Organization
+ETSI:: Expert Team on Sea Ice
 
-ISO International Organization for Standardization
+GML:: Geography Markup Language
 
-JCOMM Joint Technical Commission for Oceanography and Marine Meteorology
+IHO:: International Hydrographic Organization
 
-XML eXtensible Markup Language
+ISO:: International Organization for Standardization
+
+JCOMM:: Joint Technical Commission for Oceanography and Marine Meteorology
+
+UTF-8:: Unicode Transformation Format-8
+
+WMO:: World Meteorological Organization
+
+XML:: eXtensible Markup Language
 
 === General data product description
 
