@@ -21,17 +21,14 @@ The discovery metadata classes have numerous attributes which enable important i
 
 [[fig-components-and-associated-metadata-for-the-s411-exchange-set]]
 .Components and associated metadata for the S-411 exchange set (<<iho-s100,part=17,figure=2>> with items not used by S-411 omitted)
-image::figure-components-and-associated-metadata-for-the-s411-exchange-set.png[]
 
 [[fig-relationship-between-exchange-catalogue-discovery-metadata-and-dataset]]
 .Relationship between exchange catalogue, discovery metadata, and dataset (<<iho-s100,part=17,figure=6>> with items not used by S-411 omitted)
-image::figure-relationship-between-exchange-catalogue-discovery-metadata-and-dataset.png[]
 
 [%landscape]
 <<<
 [[fig-s411-exchange-set-class-details]]
 .S-411 Exchange Set Class Details (<<iho-s100,part=17,figure=7>> with items not used by S-411 omitted)
-image::figure-s411-exchange-set-class-details.png[]
 
 [%portrait]
 <<<
