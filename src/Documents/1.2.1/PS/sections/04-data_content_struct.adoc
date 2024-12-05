@@ -17,7 +17,7 @@ _Figure 1 (UML diagram) to be inserted here_
 
 [[fig-ice-data-product-structure]]
 .Ice data product structure
-image::../images/image-ice-data-product-structure.PNG
+image::../images/image-ice-data-product-structure.png
 
 General GML (XML) representation:
 
