@@ -5,6 +5,11 @@
 === Introduction
 The Metadata elements used in the Bathymetric Surface product are derived from S-100 and from <<iso-19115-1>> and <<iso-19115-2>>. Optionally additional metadata may be derived from <<iso-ts-19130>> and <<iso-ts-19130-2>> especially metadata relating to the sonar equipment which may have been used to acquire the bathymetric data.
 
+test image
+[[fig-data-set-structure-s411]]
+.Data Set Structure of S-411
+image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure as described between this figure and the Coverage Structure figure]
+
 Metadata used for the discovery, identification, and use of S-411 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.
 
 [[subsec-exchange-set-metadata]]
