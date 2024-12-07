@@ -14,19 +14,15 @@ The Ice Information product specification is based on the IHO S-100 framework sp
 
 ==== Normative
 
-GML OpenGIS®::  _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)
-
-S-100::  _IHO Universal Hydrographic Data Model_, Edition 5.2.0, June 2024
-
-ISO-19115-1::  _Geographic information - Metadata - Part 1: Fundamentals_ - 2014/Amd 1: 2018
-
-ISO-19115-3::  _Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts_ - 2016
-
-ISO-19139-1::  _Geographic information - XML schema implementation - Part 1: Encoding rules_ - 2019
+GML OpenGIS®:: _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)
+S-100:: _IHO Universal Hydrographic Data Model_, Edition 5.2.0, June 2024
+ISO-19115-1:: _Geographic information - Metadata - Part 1: Fundamentals_ - 2014/Amd 1: 2018
+ISO-19115-3:: _Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts_ - 2016
+ISO-19139-1:: _Geographic information - XML schema implementation - Part 1: Encoding rules_ - 2019
 
 ==== Informative
 
-#TBD#
+_TBD by JCOMM/ETSI_
 
 === Terms, definitions and abbreviations
 
@@ -40,6 +36,8 @@ Within this document:
 
 
 ==== Terms and definitions
+
+_The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI_
 
 *Coordinate*
 
@@ -59,15 +57,15 @@ A set of elements describing aspects of quality, including a measure of quality,
 
 Specification of a value domain with operations allowed on values in this domain.
 
-NOTE: Data types include primitive predefined types and user-definable types.
+NOTE:: Data types include primitive predefined types and user-definable types.
 
-NOTE: A data type is identified by a term, for example Integer.
+NOTE:: A data type is identified by a term, for example Integer.
 
 *Dataset*
 
 An identifiable collection of data.
 
-NOTE: A dataset may be a smaller grouping of data which, though limited by some constraint such as spatial extent or feature type, is located physically within a larger dataset. Theoretically, a dataset may be as small as a single feature contained within a larger dataset. A hardcopy map or chart may be considered a dataset.
+NOTE:: A dataset may be a smaller grouping of data which, though limited by some constraint such as spatial extent or feature type, is located physically within a larger dataset. Theoretically, a dataset may be as small as a single feature contained within a larger dataset. A hardcopy map or chart may be considered a dataset.
 
 *Datum*
 
@@ -77,9 +75,9 @@ Parameter or set of parameters that define the position of the origin, the scale
 
 The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
 
-#_This definition may need to be adapted by JCOMM ETSI_#
+_This definition may need to be adapted by JCOMM-ETSI_
 
-NOTE: The numbers must be qualified by units and datum. 
+NOTE:: The numbers must be qualified by units and datum. 
 
 *ECDIS*
 
@@ -93,19 +91,19 @@ A fixed list of valid identifiers of named literal values. Attributes of an enum
 
 Abstraction of real-world phenomena.
 
-NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
+NOTE:: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
 
 *Feature*
 
 Abstraction of real world phenomena.
 
-NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
+NOTE:: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
 
 *Feature Attribute*
 
 Characteristic of a *feature*.
 
-NOTE: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
+NOTE:: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
 
 *Feature Catalogue*
 
@@ -115,7 +113,7 @@ A catalogue containing definitions and descriptions of the *feature* types, *fea
 
 Geometric object representing a single, connected, homogeneous element of geometry.
 
-NOTE: Geometric primitives are non-decomposed objects that present information about geometric configuration. They include points, curves and surfaces.
+NOTE:: Geometric primitives are non-decomposed objects that present information about geometric configuration. They include points, curves and surfaces.
 
 *Multiplicity*
 
@@ -127,47 +125,35 @@ EXAMPLES: 1..* (one to many); 1 (exactly one); 0..1 (zero or one)
 
 0-dimensional geometric primitive, representing a position.
 
-NOTE: The boundary of a point is the empty set.
+NOTE:: The boundary of a point is the empty set.
 
 *Portrayal Catalogue*
 
 Collection of defined portrayals for a feature catalogue.
 
-NOTE: Content of a portrayal catalogue includes portrayal functions, symbols, and portrayal context.
+NOTE:: Content of a portrayal catalogue includes portrayal functions, symbols, and portrayal context.
 
 *Vector*
 
-Quantity having direction as well as magnitude.
+Quantity having ion as well as magnitude.
 
-NOTE: A directed line segment represents a vector if the length and direction of the line segment are equal to the magnitude and direction of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of directed line segments.
+NOTE:: A ed line segment represents a vector if the length and ion of the line segment are equal to the magnitude and ion of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of ed line segments.
 
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
 
 BSH:: Bundesamt für Seeschifffahrt und Hydrographie (Germany)
-
 CRS::  Coordinate Reference System
-
 ECDIS:: Electronic Chart Display and Information System
-
 ENC:: Electronic Navigational Chart
-
 EPSG:: European Petroleum Survey Group
-
 ETSI:: Expert Team on Sea Ice
-
 GML:: Geography Markup Language
-
 IHO:: International Hydrographic Organization
-
 ISO:: International Organization for Standardization
-
 JCOMM:: Joint Technical Commission for Oceanography and Marine Meteorology
-
 UTF-8:: Unicode Transformation Format-8
-
 WMO:: World Meteorological Organization
-
 XML:: eXtensible Markup Language
 
 === General data product description
@@ -182,6 +168,7 @@ XML:: eXtensible Markup Language
 
 *Spatial Extent*::
 
+*Description*: Areas specific to navigation in ice covered regions. +
 *East Bounding Longitude*: 180° +
 *West Bounding Longitude*: -180° +
 *North Bounding Latitude*: 90° +
@@ -194,7 +181,7 @@ XML:: eXtensible Markup Language
 === Product Specification metadata
 
 *Title*:: Ice Information Product Specification
-*S-100 Version*:: 1.0.0
+*S-100 Version*:: 5.2.0
 *S-411 Version*:: 1.1.0
 *Date*:: 15 June 2014
 *Language*:: English (optional additional)
