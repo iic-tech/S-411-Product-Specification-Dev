@@ -8,16 +8,16 @@ The application schema of ice information product contains 28 feature types with
 
 === Application Schema
 
-#S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
-implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.#
+_The following paragraph has been added based on S-101PS. TBC by GCOMM-ETSI_
 
-Picture below shows very simplified structure of ice data structure
+S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
+implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.
 
-_Figure 1 (UML diagram) to be inserted here_
+Picture below shows very simplified structure of ice data structure.
 
 [[fig-ice-data-product-structure]]
-.Ice data product structure
-image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure as described between this figure and the Coverage Structure figure]
+.*: Ice Data Product Structure*
+image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure]
 
 General GML (XML) representation:
 
@@ -27,17 +27,21 @@ _XML code to be inserted here_
 
 ==== Introduction
 
-#The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product.#
+_Text in italic below has been added based on S-101 PS. TBC by JCOMM-ETSI._
+
+_The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product._
 
 The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
 
-#The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.#
+_The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue._
 
 ==== Application Schema implementation classes
 
 ===== Implementation classes description
 
-#_4.3.2.1 UML diagram to be inserted here_#
+[[fig-ice-app-schema-types]]
+.*: Ice Application Schema Types*
+image::../images/figure-ice-app-schema-types.png[UML diagram depicting the Application Schema Data Set Structure]
 
 _I would suggest moving the table to the DCEG (and adpat to the DCEG format)_
 
