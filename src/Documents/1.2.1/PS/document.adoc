@@ -2,12 +2,12 @@
 :series: S
 :docnumber: 411
 :doctype: standard
-:edition: 1.1.0
+:edition: 1.2.0
 :language: en
-:published-date: 2024-12-01
-:copyright-year: 2024
-:committee: HSSC
-:workgroup: S100WG
+:published-date: 2025-01-01-31
+:copyright-year: 2025
+:committee: WMO- JCOMM
+:workgroup: ETSI
 :toclevels: 3
 :mn-document-class: iho
 :mn-output-extensions: html,doc,pdf
