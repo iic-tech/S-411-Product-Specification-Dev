@@ -19,9 +19,39 @@ Picture below shows very simplified structure of ice data structure.
 .*: Ice Data Product Structure*
 image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure]
 
+
 General GML (XML) representation:
 
-_XML code to be inserted here_
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<ice:IceDataSet xmlns:ice="http://www.iho.int/ice"
+                xmlns:gml=http://www.opengis.net/gml/3.2>
+    <ice:IceFeatureMember>
+        <ice:seaice>
+            <ice:iceact> … </ice:iceact>
+            . 
+            . 
+            <gml:Polygon srsName="..">… </gml:Polygon>
+        </ice:seaice>
+</ice:IceMember>
+<ice:IceMember>
+    <ice:i_ridg>
+        <ice:icerdv> … </ice:icerdv>
+        . 
+        .
+        <gml:LineString srsName="..">… </gml:LineString>
+    </ice:i_ridg>
+</ice:IceMember>
+<ice:IceMember>
+    <ice:icebrg>
+        <ice:icebsz> … </ice:icebsz>
+        .
+        .
+        <gml:Point srsName="..">… </gml:Point>
+    </ice:icebrg>
+</ice:IceFeatureMember>
+----
 
 === Feature Catalogue
 
