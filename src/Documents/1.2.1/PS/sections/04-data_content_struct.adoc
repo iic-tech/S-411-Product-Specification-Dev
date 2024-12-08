@@ -326,39 +326,58 @@ image::../images/figure-geometric-primitives-in-Ice-information-product.png[Diag
 
 There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
 
-[source]
+[source,xml]
 ----
 <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
 ----
 
 For standard GML it would be also possible to use following (DO NOT USE THIS):
-[source]
+[source,xml]
 ----
-#_gml code to be inserted here._#
+<gml:posList>
+  <pos>-73.991 40.736</pos>
+  <pos>-73.991 40.736</pos>
+</gml:posList>
 ----
 Which means much more chars in the file and growing of file size.
 
 All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:
 
 Point encoding example:
-
-[source]
+[source,xml]
+----
+  <gml:Point
+    <gml:pos>147.291 -42.851</gml:pos>
+  </gml:Point>
 ----
 
-#_gml code to be inserted here._#
-
-----
 Line String encoding example:
-[source]
+[source,xml]
+----
+  <gml:LineString>
+    <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
+</gml:LineString>
 ----
 
-#_gml code to be inserted here._#
-
-----
 Polygon encoding example:
-[source]
+[source,xml]
 ----
-
-#_gml code to be inserted here._#
-
+<gml:Polygon>
+  <gml:exterior>
+    <gml:LinearRing>
+      <gml:posList>
+        22.546 62.391 25.033 62.404 24.995 60.182 22.483
+        60.169 22.546 62.391
+      </gml:posList>
+    </gml:LinearRing>
+</gml:exterior>
+<gml:interior>
+  <gml:LinearRing>
+    <gml:posList>
+      23.227 61.811 23.467 61.306 24.023 61.621 24.035
+      61.621 23.227 61.811
+    </gml:posList>
+  </gml:LinearRing>
+  </gml:interior>
+</gml:Polygon>
 ----
