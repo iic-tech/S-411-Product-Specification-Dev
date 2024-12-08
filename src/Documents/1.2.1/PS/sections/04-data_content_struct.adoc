@@ -123,6 +123,12 @@ image::../images/figure-brglne-type-iceberg-limit.png[UML diagram depicting the 
 .*: Opnlne Type Limit Of Open Water*
 image::../images/figure-opnlne-type-limit-of-open-water.png[UML diagram depicting the opnlne Type]
 
+===== lkilne Type (Limit of All Known Ice)
+
+[[fig-lkilne-type-limit-of-all-known-ice]]
+.*: Opnlne Type Limit of All Known Ice*
+image::../images/figure-lkilne-type-limit-of-all-known-ice.png[UML diagram depicting the lkilne Type]
+
 ===== i_ridg Type (Line of Ice Ridge)
 
 [[fig-i_ridg-type-line-of-ice-ridge]]
