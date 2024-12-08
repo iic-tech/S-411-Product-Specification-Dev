@@ -75,15 +75,179 @@ image::../images/figure-ice-app-schema-types.png[UML diagram depicting the Appli
 
 _I would suggest moving the table to the DCEG (and adpat to the DCEG format)_
 
-==== Feature types
+===== IceDataSet / Types
 
-===== IceDataSetType
+====== IceDataSetType
 
 _IceDataSetType_ is a type of root Element of an ice information data set.
 
-_UML diagramm to be inserted here_
+[[fig-ice-data-set-type]]
+.*: Ice Data Set Type*
+image::../images/figure-ice-data-set-type.png[UML diagram depicting the Ice Data Set structure]
 
 Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).
+
+===== seaiceType (Sea Ice)
+
+[[fig-sea-ice-type-sea-ice]]
+.*: Sea Ice Type Sea Ice*
+image::../images/figure-sea-ice-type-sea-ice.png[UML diagram depicting the Sea Ice Type]
+
+===== laciceType (Lake Ice)
+
+[[fig-lake-ice-type-lake-ice]]
+.*: Lake Ice Type Lake Ice*
+image::../images/figure-lake-ice-type-lake-ice.png[UML diagram depicting the Lake Ice Type]
+
+===== brgareType (Iceberg Area)
+
+[[fig-brgare-type-iceberg-area]]
+.*: Brgare Type Iceberg Area*
+image::../images/figure-brgare-type-iceberg-area.png[UML diagram depicting the brgare Type]
+
+===== icelneType (Ice Edge)
+
+[[fig-icelne-type-ice-edge]]
+.*: Icelne Type Ice Edge*
+image::../images/figure-icelne-type-ice-edge.png[UML diagram depicting the icelne Type]
+
+===== brglne Type (Iceberg Limit)
+
+[[fig-brglne-type-iceberg-limit]]
+.*: Brglne Type Iceberg Limit*
+image::../images/figure-brglne-type-iceberg-limit.png[UML diagram depicting the brglne Type]
+
+===== opnlne Type (Limit of Open Water)
+
+[[fig-opnlne-type-limit-of-open-water]]
+.*: Opnlne Type Limit Of Open Water*
+image::../images/figure-opnlne-type-limit-of-open-water.png[UML diagram depicting the opnlne Type]
+
+===== i_ridg Type (Line of Ice Ridge)
+
+[[fig-i_ridg-type-line-of-ice-ridge]]
+.*: i_ridg Type Line Of Ice Ridge*
+image::../images/figure-i_ridg-type-line-of-ice-ridge.png[UML diagram depicting the i_ridg Type]
+
+===== i_lead Type (Line of Ice Lead)
+
+[[fig-i_fral-type-line-of-ice-lead]]
+.*: i_lead Type Line Of Ice Lead*
+image::../images/figure-i_lead-type-line-of-ice-lead.png[UML diagram depicting the i_lead Type]
+
+===== i_fral Type (Line of Ice Fracture)
+
+[[fig-i_fral-type-line-of-ice-fracture]]
+.*: i_fral Type Line Of Ice Fracture*
+image::../images/figure-i_fral-type-line-of-ice-fracture.png[UML diagram depicting the i_fral Type]
+
+===== i_crac Type (Line of Ice Crack)
+
+[[fig-i_crac-type-line-of-ice-crack]]
+.*: i_crac Type Line Of Ice Crack*
+image::../images/figure-i_fral-type-line-of-ice-fracture.png[UML diagram depicting the i_crac Type]
+
+===== icecom Type (Ice Compacting)
+
+[[fig-icecom-type-ice-compacting]]
+.*: icecom Type Ice Compacting*
+image::../images/figure-icecom-type--ice-compacting.png[UML diagram depicting the icecom Type]
+
+===== icelea Type (Ice Lead)
+
+[[fig-icelea-type-ice-lead]]
+.*: icelea Type Ice Lead*
+image::../images/figure-icelea-type-ice-lead.png[UML diagram depicting the icelea Type]
+
+===== icebrg Type (Iceberg)
+
+[[fig-icebrg-type-iceberg]]
+.*: icebrg Type Iceberg*
+image::../images/figure-icebrg-type-iceberg.png[UML diagram depicting the icebrg Type]
+
+===== flobrg Type (Floeberg)
+
+[[fig-flobrg-type-floeberg]]
+.*: flobrg Type Floeberg*
+image::../images/figure-flobrg-type-floeberg.png[UML diagram depicting the flobrg Type]
+
+===== icethk Type (Ice Thickness)
+
+[[fig-icethk-type-ice-thickness]]
+.*: icethk Type Ice Thickness*
+image::../images/figure-icethk-type-ice-thickness.png[UML diagram depicting the icethk Type]
+
+===== iceshr Type (Ice Shear)
+
+[[fig-iceshr-type-ice-shear]]
+.*: iceshr Type Ice Shear*
+image::../images/figure-iceshr-type-ice-shear.png[UML diagram depicting the iceshr Type]
+
+===== icediv Type (Ice Divergence)
+
+[[fig-icediv-type-ice-divergence]]
+.*: icediv Type Ice Divergence*
+image::../images/figure-icediv-type-ice-divergence.png[UML diagram depicting the icediv Type]
+
+===== icerdg Type (Ice Ridge/Hummock)
+
+[[fig-icerdg-type-ice-ridge/hummock]]
+.*: icerdg Type Ice Ridge/Hummock*
+image::../images/figure-icerdg-type-ice-ridge.png[UML diagram depicting the icerdg Type]
+
+===== icekel Type (Ice Keel/Bummock)
+
+[[fig-icekel-type-ice-keel-bummock]]
+.*: icerdg Type Ice Keel/Bummock*
+image::../images/figure-icekel-type-ice-keel-bummock.png[UML diagram depicting the icekel Type]
+
+===== icedft Type (Ice Drift)
+
+[[fig-icedft-type-ice-drift]]
+.*: icedft Type Ice Drift*
+image::../images/figure-icedft-type-ice-drift.png[UML diagram depicting the icedft Type]
+
+===== icefra Type (Ice Fracture)
+
+[[fig-icefra-type-ice-fracture]]
+.*: icefra Type Ice Fracture*
+image::../images/figure-icefra-type-ice-fracture.png[UML diagram depicting the icefra Type]
+
+===== icerft Type (Ice Rafting)
+
+[[fig-icerft-type-ice-rafting]]
+.*: icerft Type Ice Rafting*
+image::../images/figure-icerft Type Ice Rafting.png[UML diagram depicting the icerft Type]
+
+===== jmdbrr Type (Jammed Brash Barrier)
+
+[[fig-jmdbrr-type-jammed-brash-barrier]]
+.*: jmdbrr Type Jammed Brash Barrier*
+image::../images/figure-jmdbrr-type-jammed-brash-barrier.png[UML diagram depicting the jmdbrr Type]
+
+===== stgmlt Type (Stage of Melt)
+
+[[fig-stgmlt-type-stage-of-melt]]
+.*: stgmlt Type Stage of Melt*
+image::../images/figure-stgmlt-type-stage-of-melt.png[UML diagram depicting the stgmlt Type]
+
+===== snwcvr Type (Snow Cover)
+
+[[fig-snwcvr-type-snow-cover]]
+.*: snwcvr Type Snow Cover*
+image::../images/figure-snwcvr-type-snow-cover.png[UML diagram depicting the snwcvr Type]
+
+===== strptc Type (Strips and Patches)
+
+[[fig-strptc-type-strips-and-patches]]
+.*: strptc Type Strips and Patches*
+image::../images/figure-strptc-type-strips-and-patches.png[UML diagram depicting the strptc Type]
+
+===== i_grhm Type (Grounded Hummock)
+
+[[fig-i_grhm-type-grounded-hummock]]
+.*: i_grhm Type Grounded Hummock*
+image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting the i_grhm Type]
 
 ===== Geographic
 
