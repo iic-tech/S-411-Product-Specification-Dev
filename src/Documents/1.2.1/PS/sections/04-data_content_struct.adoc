@@ -73,7 +73,25 @@ _The S-411 Feature Catalogue is available in an XML document which conforms to t
 .*: Ice Application Schema Types*
 image::../images/figure-ice-app-schema-types.png[UML diagram depicting the Application Schema Data Set Structure]
 
-_I would suggest moving the table to the DCEG (and adpat to the DCEG format)_
+_I would suggest moving the following table to the DCEG (and adpat to the DCEG format)_
+
+[cols="a,a,a,a, ",options="headers"]
+|===
+|Role Name |Name |Description |Mult. |Data Type
+
+|Class
+|IceDataSet
+|Set of ice data
+|-
+|IceDataSetType
+
+|Association
+|IceFeatureMember
+|Contains ice feature members
+|1..*
+|IceFeatureMemberType
+
+|===
 
 ===== IceDataSet / Types
 
@@ -255,10 +273,30 @@ image::../images/figure-strptc-type-strips-and-patches.png[UML diagram depicting
 .*: i_grhm Type Grounded Hummock*
 image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting the i_grhm Type]
 
+==== Feature Types Summary
+
+[cols="a,a,a, ",options="headers"]
+|===
+|Register Dictionary |Index |Alpha code |Name
+
+|IceFCD
+|Feature
+|SEAICE
+|Sea Ice
+
+|IceFCD
+|Feature
+|LACICE
+|Lake Ice
+
+|===
+
+_Table to be continued (if confirmed)_
+
 ===== Geographic
 
-#Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
-Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.#
+_Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
+Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22._
 
 ==== Attributes
 
@@ -266,11 +304,11 @@ S-411 defines attributes as either simple or complex.
 
 ===== Simple attributes
 
-#S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.#
+_S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30._
 
 ===== Complex attributes
 
-#Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.#
+_Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29._
 
 === Dataset types
 
@@ -282,7 +320,9 @@ At the moment there is only one type of dataset supported. This is GML(XML) enco
 
 Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional objects (points, line strings, and polygons).
 
-_Figure 3  to be inserted here._
+[[fig-geometric-primitives-in-ice-information-product]]
+.*: Geometric Primitives Ice Information Product*
+image::../images/figure-geometric-primitives-in-Ice-information-product.png[Diagram depicting the allowable geometries]
 
 There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
 
