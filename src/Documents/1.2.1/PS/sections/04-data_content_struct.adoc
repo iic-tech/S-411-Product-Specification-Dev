@@ -275,7 +275,7 @@ image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting t
 
 ==== Feature Types Summary
 
-[cols="a,a,a, ",options="headers"]
+[cols="a,a,a,a",options="headers"]
 |===
 |Register Dictionary |Index |Alpha code |Name
 
@@ -289,9 +289,407 @@ image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting t
 |LACICE
 |Lake Ice
 
-|===
+|IceFCD
+|Feature
+|BRGARE
+|Iceberg Area
 
-_Table to be continued (if confirmed)_
+|IceFCD
+|Feature
+|ICELNE
+|Ice Edge
+
+|IceFCD
+|Feature
+|BRGLNE
+|Iceberg Limit
+
+|IceFCD
+|Feature
+|OPNLNE
+|Limit of Open Water
+
+|IceFCD
+|Feature
+|LKILNE
+|Limit of All Known Ice
+
+|IceFCD
+|Feature
+|I_RIDG
+|Line of Ice Ridge
+
+|IceFCD
+|Feature
+|I_LEAD
+|Line of Ice Lead
+
+|IceFCD
+|Feature
+|I_FRAL
+|Line of Ice Fracture
+
+|IceFCD
+|Feature
+|I_CRAC
+|Line of Ice Crack
+
+|IceFCD
+|Feature
+|ICECOM
+|Ice Compacting
+
+|IceFCD
+|Feature
+|ICELEA
+|Ice Lead
+
+|IceFCD
+|Feature
+|ICEBRG
+|Iceberg
+
+|IceFCD
+|Feature
+|FLOBRG
+|Floeberg
+
+|IceFCD
+|Feature
+|ICETHK
+|Ice Thickness
+
+|IceFCD
+|Feature
+|ICESHR
+|Ice Shear
+
+|IceFCD
+|Feature
+|ICEDIV
+|Ice Divergence
+
+|IceFCD
+|Feature
+|ICERDG
+|Ice Ridge/Hummock
+
+|IceFCD
+|Feature
+|ICEKEL
+|Ice Keel/Bummock
+
+|IceFCD
+|Feature
+|ICEDFT
+|Ice Drift
+
+|IceFCD
+|Feature
+|ICEFRA
+|Ice Fracture
+
+|IceFCD
+|Feature
+|ICERFT
+|Ice Rafting
+
+|IceFCD
+|Feature
+|JMDBRR
+|Jammed Brash Barrier
+
+|IceFCD
+|Feature
+|STGMLT
+|Stage of Melt
+
+|IceFCD
+|Feature
+|SNWCVR
+|Snow Cover
+
+|IceFCD
+|Feature
+|STRPTC
+|Strips and Patches
+
+|IceFCD
+|Feature
+|I_GRHM
+|Grounded Hummock
+
+|IceFCD
+|Attribute
+|ICEACT
+|Total Concentration
+
+|IceFCD
+|Attribute
+|ICEAPC
+|Partial Concentration
+
+|IceFCD
+|Attribute
+|ICESOD
+|Ice Stage of Development
+
+|IceFCD
+|Attribute
+|ICELSO
+|Lake Ice Stage of Development
+
+|IceFCD
+|Attribute
+|ICEFLZ
+|Floe Sizes
+
+|IceFCD
+|Attribute
+|ICEMLT
+|Melt Stage
+
+|IceFCD
+|Attribute
+|ICESPC
+|Concentration of Strips and Patches
+
+|IceFCD
+|Attribute
+|ICEBNM
+|Number of Icebergs in Area
+
+|IceFCD
+|Attribute
+|ICELVL
+|Level Ice
+
+|IceFCD
+|Attribute
+|ICECST
+|Compacting Strength
+
+|IceFCD
+|Attribute
+|ICEFTY
+|Ice Fracture Type
+
+|IceFCD
+|Attribute
+|ICELST
+|Ice Lead Status
+
+|IceFCD
+|Attribute
+|ICELFQ
+|Frequency of Leads or Fractures
+
+|IceFCD
+|Attribute
+|ICELOR
+|Orientation of Leads or Fractures
+
+|IceFCD
+|Attribute
+|ICELWD
+|Ice Lead (or Fracture or Crack) Width
+
+|IceFCD
+|Attribute
+|ICELOC
+|Ice Location Information
+
+|IceFCD
+|Attribute
+|ICEBSZ
+|Iceberg Size
+
+|IceFCD
+|Attribute
+|ICEDDR
+|Ice Drift Direction
+
+|IceFCD
+|Feature
+|ICEDSP
+|Ice Drift Speed
+
+|IceFCD
+|Attribute
+|ICETCK
+|Ice Average Thickness
+
+|IceFCD
+|Attribute
+|ICEMAX
+|Maximum Ice Thickness
+
+|IceFCD
+|Attribute
+|ICEMIN
+|Minimum Ice Thickness
+
+|IceFCD
+|Attribute
+|ICETTY
+|Ice Thickness Type
+
+|IceFCD
+|Attribute
+|ICESCT
+|Snow Depth
+
+|IceFCD
+|Attribute
+|ICESCN
+|Snow Cover Concentration
+
+|IceFCD
+|Attribute
+|ICEDOS
+|Direction Of Sastrugi
+
+|IceFCD
+|Attribute
+|ICERCN
+|Ice Ridge Concentration
+
+|IceFCD
+|Attribute
+|ICERDV
+|Ice Ridge Classification
+
+|IceFCD
+|Attribute
+|ICERMH
+|Ice Ridge Mean Height
+
+|IceFCD
+|Attribute
+|ICERFQ
+|Ice Ridge Frequency
+
+|IceFCD
+|Attribute
+|ICERXH
+|Ice Ridge Maximum Height
+
+|IceFCD
+|Attribute
+|ICEKCN
+|Ice Keel Concentration
+
+|IceFCD
+|Attribute
+|ICEKFQ
+|Ice Keel Frequency
+
+|IceFCD
+|Attribute
+|ICEKMD
+|Ice Keel Mean Depth
+
+|IceFCD
+|Attribute
+|ICEKXD
+|Ice Keel Maximum Depth
+
+|IceFCD
+|Attribute
+|ICEFCN
+|Ice Rafting Concentration
+
+|IceFCD
+|Attribute
+|IA_SFA
+|Ice Stage of Development and Floe Size for the 1st p.c.
+
+|IceFCD
+|Attribute
+|IA_SFB
+|Ice Stage of Development and Floe Size for the 2nd p.c.
+
+|IceFCD
+|Attribute
+|IA_SFC 
+|Ice Stage of Development and Floe Size for the 3rd p.c.
+
+|IceFCD
+|Attribute
+|IA_FFA
+|Ice Breccia for the 1st partial concentration
+
+|IceFCD
+|Attribute
+|ICEFCN
+|Ice Breccia for the 2nd partial concentration
+
+|IceFCD
+|Attribute
+|IA_FFC
+|Ice Breccia for the 3rd partial concentration
+
+|IceFCD
+|Attribute
+|IA_SNG
+|Snow concentration
+
+|IceFCD
+|Attribute
+|IA_MLT
+|Stage of melting
+
+|IceFCD
+|Attribute
+|IA_PLG
+|Contamination
+
+|IceFCD
+|Attribute
+|IA_HLG
+|Hills concentration
+
+|IceFCD
+|Attribute
+|IA_DUG
+|Fractures concentration
+
+|IceFCD
+|Attribute
+|IA_BCN
+|Icebergs concentration
+
+|IceFCD
+|Attribute
+|IA_BFM
+|Prevailing iceberg form
+
+|IceFCD
+|Attribute
+|IA_BUH
+|Max. height of the above-water part (iceberg / grounded hummock)
+
+|IceFCD
+|Attribute
+|IA_OBN
+|Number of ice objects
+
+|IceFCD
+|Attribute
+|IA_DXW
+|Max. width of ice lead (or fracture or crack)
+
+|IceFCD
+|Attribute
+|IA_DMW
+|Min. width of ice lead (or fracture or crack)
+
+|IceFCD
+|Attribute
+|ICEBRS
+|Brash Ice
+
+|===
 
 ===== Geographic
 
