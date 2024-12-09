@@ -275,6 +275,7 @@ image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting t
 
 ==== Feature Types Summary
 
+. Summary of Types
 [cols="a,a,a,a",options="headers"]
 |===
 |Register Dictionary |Index |Alpha code |Name
