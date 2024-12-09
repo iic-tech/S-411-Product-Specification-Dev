@@ -1,6 +1,6 @@
 
 [[sec-data-product-format-encoding]]
-== Data Product Format (Encoding)
+== Data Product Format (encoding)
 
 === Introduction
 
@@ -10,21 +10,17 @@ This clause describes encoding rules for S-100 base ice datasets. For the encodi
 
 ==== Longitude / Latitude
 
-Longitude and latitude must be encoded in decimal degrees, e.g.: 12.567 56.765
-
-Number of decimals is not limited, but it should be as less as possible for minimizing of file
+* Longitude and latitude must be encoded in decimal degrees, e.g.: 12.567 56.765
+* Number of decimals is not limited, but it should be as less as possible for minimizing of file
 size, normally 3 or even 2 digits are enough
 
 
 ==== Elements and attributes
 
-Names of elements representing ice features or attributes (from IceFDC dictionary see Table 1: Summary of Types) must be encoded with lower case letters
-
-Names of elements representing features or attributes from other dictionaries must be encoded with upper case letters
-
-Character Set is UTF-8
-
-Elements or attributes may be empty, but it should be eliminated for minimizing of file size
+* Names of elements representing ice features or attributes (from IceFDC dictionary see Table 1: Summary of Types) must be encoded with lower case letters
+* Names of elements representing features or attributes from other dictionaries must be encoded with upper case letters
+* Character Set is UTF-8
+* Elements or attributes may be empty, but it should be eliminated for minimizing of file size
 
 === Encoding Examples
 
@@ -32,13 +28,61 @@ Below there are three examples of the encoding of various ice features using dif
 primitives, the encoding of other ice objects can be done in a similar way.
 
 ==== Polygon Feature
-
-_GML code to be inserted_
+[source,xml]
+----
+<ice:IceFeatureMember>
+    <ice:brgare gml:id="brgare.1">
+        <ice:icebnm/>
+        <ice:icebsz/>
+        <ice:ia_bcn/>
+        <ice:ia_bfm/>
+        <ice:ia_buh/>
+        <gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+            <gml:exterior>
+                <gml:LinearRing>
+                    <gml:posList>
+                                22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546 62.391
+                    </gml:posList>
+                </gml:LinearRing>
+            </gml:exterior>
+            <gml:interior>
+                <gml:LinearRing>
+                    <gml:posList>
+                                23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227 61.811
+                    </gml:posList>
+                </gml:LinearRing>
+            </gml:interior>
+        </gml:Polygon>
+    </ice:brgare>
+</ice:IceFeatureMember>
+----
 
 ==== LineString Feature
-
-_GML code to be inserted_
+[source,xml]
+----
+<ice:IceFeatureMember>
+    <ice:i_fral gml:id="i_fral.1">
+        <ice:icesod>83</ice:icesod>
+        <ice:ia_obn>50</ice:ia_obn>
+        <ice:icedvw>30</ice:icedvw>
+        <ice:ia_dmw>25</ice:ia_dmw>
+        <ice:ia_dxw>35</ice:ia_dxw>
+        <gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+            <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
+        </gml:LineString>
+    </ice:i_fral>
+</ice:IceFeatureMember>
+----
 
 ==== Point Feature
-
-_GML code to be inserted_
+[source,xml]
+----
+<ice:IceFeatureMember>
+    <ice:icecom gml:id="icecom.1">
+        <ice:icecst/>
+        <gml:Point srsDimension="2" srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+            <gml:pos>147.291 -42.851</gml:pos>
+        </gml:Point>
+    </ice:icecom>
+</ice:IceFeatureMember>
+----
