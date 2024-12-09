@@ -99,12 +99,474 @@ image::../images/figure-metedata-structure-S411.png[Diagram depicting the S-411 
 |gmd
 
 |===
+[source,xml]
+----
+<gmd:language>
+    <gmd:LanguageCode
+        codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" 
+        codeListValue="eng">English
+    </gmd:LanguageCode>
+</gmd:language>
+----
+
+===== characterSet
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|characterSet
+|characterSet of dataset
+|gmd
+
+|MD_CharacterSetCode
+|Code for characterSet
+|gmd
+
+|===
 
 LanguageCode element contains two attributes:
 
 * codeList Link to the list containing the codes for languages
 
 * codeListValue value from the list defining the used language
+
+[source,xml]
+----
+<gmd:characterSet>
+    <gmd:MD_CharacterSetCode
+        codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" 
+        codeListValue="utf8">UTF 8
+    </gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+----
+
+===== contact
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|contact
+|Contact for questions to dataset
+|gmd
+
+|CI_ResponsibleParty
+|ISO Element for contact data
+|gmd
+
+|individualName
+|Name of responsible person
+|gmd
+
+|CharacterString
+|individualName value (text)
+|gco
+
+|organisationName
+|Name of responsible organisation
+|gmd
+
+|CharacterString
+|organisationName value (text)
+|gco
+
+|contactInfo
+|Contact information
+|gmd
+
+|CI_Contact
+|ISO Element for contact information
+|gmd
+
+|phone
+|phone
+|gmd
+
+|CI_Telephone
+|
+|gmd
+
+|voice
+|
+|gmd
+
+|CharacterString
+|Voice telephone value (text)
+|gco
+
+|facsimile
+|
+|gmd
+
+|CharacterString
+|Fax number value (text)
+|gco
+
+|address
+|
+|gmd
+
+|deliveryPoint
+|
+|gmd
+
+|CharacterString
+|Postal Address (street, house number)
+|gco
+
+|city
+|
+|gmd
+
+|CharacterString
+|City name value (text)
+|gco
+
+|administrativeArea
+|
+|gmd
+
+|CharacterString
+|Administrative Area name value (text)
+|gco
+
+|postalCode
+|
+|gmd
+
+|CharacterString
+|
+|gco
+
+|electronicMailAddress
+|
+|gmd
+
+|CharacterString
+|Email value (text)
+|gco
+
+|role
+|
+|gmd
+
+|CI_RoleCode
+|
+|gmd
+
+|===
+
+CI_RoleCode element contains two attributes:
+
+* codeList: link to the list containing the codes for roles
+
+* codeListValue: value from the list defining the used roles
+
+[source,xml]
+----
+<gmd:contact>
+    <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+            <gco:CharacterString>Jürgen Holfort</gco:CharacterString>
+        </gmd:individualName>
+        <gmd:organisationName>
+            <gco:CharacterString>FMHA Germany (BSH)</gco:CharacterString>
+        </gmd:organisationName>
+        <gmd:contactInfo>
+            <gmd:CI_Contact>
+                <gmd:phone>
+                    <gmd:CI_Telephone>
+                        <gmd:voice>
+                            <gco:CharacterString>+49 (0) 381 4563-782</gco:CharacterString>
+                        </gmd:voice>
+                        <gmd:facsimile>
+                            <gco:CharacterString>+49 (0) 381 4563-949</gco:CharacterString>
+                        </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                    <gmd:CI_Address>
+                        <gmd:deliveryPoint>
+                            <gco:CharacterString>Neptunallee 5</gco:CharacterString>
+                        </gmd:deliveryPoint>
+                        <gmd:administrativeArea>
+                            <gco:CharacterString>Rostock</gco:CharacterString>
+                        </gmd:administrativeArea>
+                        <gmd:postalCode>
+                            <gco:CharacterString>18057</gco:CharacterString>
+                        </gmd:postalCode>
+                        <gmd:electronicMailAddress>
+                            <gco:CharacterString>ice@bsh.de</gco:CharacterString>
+                        </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                </gmd:address>
+            </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+            <gmd:CI_RoleCode
+                codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator">originator</gmd:CI_RoleCode>
+            </gmd:role>
+    </gmd:CI_ResponsibleParty>
+</gmd:contact>
+----
+
+===== dateStamp
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|dataStamp
+|Date Stamp
+|gmd
+
+|Date
+|Formatted String (yyyy-MM-dd)
+|gco
+
+|===
+
+The dateStamp should be used for the publication date (just day using gco:date or including the time using gco:datetime). The date and time where the ice chart is considered valid should be given in identificationinfo (see 10.1.1.6). Classic operational ice charts should have a time stamp within the temporal extent given in identificationinfo, a dateStamp preceding the temporal extent denotes a prognosis chart, a dateStamp that is more recent then the temporal extent denotes an historic reanalysis or a climatological chart.
+
+[source,xml]
+----
+<gmd:dateStamp>
+  <gco:Date>2013-02-25</gco:Date>
+</gmd:dateStamp>
+----
+
+===== identificationInfo
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|identificationInfo
+|
+|gmd
+
+|MD_DataIdentification
+|
+|
+
+|citation
+|
+|
+
+|CI_Citation
+|
+|
+
+|title
+|
+|
+
+|CharacterString
+|
+|gco
+
+|date
+|
+|
+
+|CI_Date
+|
+|
+
+|date
+|
+|gco
+
+|dateType
+|
+|
+
+|CI_DateTypeCode
+|
+|
+
+|abstract
+|
+|
+
+|CharacterString
+|
+|gco
+
+|language
+|
+|
+
+|LanguageCode
+|
+|
+
+|characterSet
+|
+|
+
+|MD_CharacterSetCode
+|
+|
+
+|topicCategory
+|
+|
+
+|MD_TopicCategoryCode
+|
+|
+
+|extent
+|
+|
+
+|EX_Extent
+|
+|
+
+|geographicElement
+|
+|
+
+|EX_GeographicBoundingBox
+|
+|
+
+|westBoundLongitude
+|
+|
+
+|Decimal
+|
+|gco
+
+|eastBoundLongitude
+|
+|
+
+|Decimal
+|
+|gco
+
+|southBoundLatitude
+|
+|
+
+|Decimal
+|
+|gco
+
+|northBoundLatitude
+|
+|gmd
+
+|Decimal
+|
+|gco
+
+|temporalElement
+|
+|gmd
+
+|EX_TemporalExtent
+|
+|gmd
+
+|extent
+|
+|gmd
+
+|TimePeriod
+|
+|gml
+
+|beginPosition
+|
+|gml
+
+|endPosition
+|
+|gml
+
+|===
+
+[source,xml]
+----
+<gmd:identificationInfo>
+  <gmd:MD_DataIdentification>
+    <gmd:citation>
+      <gmd:CI_Citation>
+        <gmd:title>
+          <gco:CharacterString>IceArea25022013.shp</gco:CharacterString>
+        </gmd:title>
+        <gmd:date>
+          <gmd:CI_Date>
+            <gmd:date>
+              <gco:Date>2013-02-25</gco:Date>
+            </gmd:date>
+          <gmd:dateType>
+            <gmd:CI_DateTypeCode
+codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+          </gmd:dateType>
+        </gmd:CI_Date>
+      </gmd:date>
+    </gmd:CI_Citation>
+  </gmd:citation>
+  <gmd:abstract>
+    <gco:CharacterString>Ice Chart for Baltic sea</gco:CharacterString>
+  </gmd:abstract>
+  <gmd:language>
+    <gmd:LanguageCode
+codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#LanguageCode" codeListValue="eng">English</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode
+codeList="http://www.isotc211.org/2005/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode"
+codeListValue="utf8">UTF 8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:topicCategory>
+    <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+  </gmd:topicCategory>
+  <gmd:extent>
+    <gmd:EX_Extent>
+      <gmd:geographicElement>
+        <gmd:EX_GeographicBoundingBox>
+          <gmd:westBoundLongitude>
+            <gco:Decimal>8.963</gco:Decimal>
+          </gmd:westBoundLongitude>
+        <gmd:eastBoundLongitude>
+          <gco:Decimal>30.353</gco:Decimal>
+        </gmd:eastBoundLongitude>
+        <gmd:southBoundLatitude>
+          <gco:Decimal>53.613</gco:Decimal>
+        </gmd:southBoundLatitude>
+        <gmd:northBoundLatitude>
+          <gco:Decimal>65.0</gco:Decimal>
+        </gmd:northBoundLatitude>
+      </gmd:EX_GeographicBoundingBox>
+    </gmd:geographicElement>
+    <gmd:temporalElement>
+          <gmd:EX_TemporalExtent>
+            <gmd:extent>
+              <gml:TimePeriod gml:id="ek1-20130225-16">
+                <gml:beginPosition>2013-02-25</gml:beginPosition>
+                <gml:endPosition>2013-02-27</gml:endPosition>
+              </gml:TimePeriod>
+            </gmd:extent>
+          </gmd:EX_TemporalExtent>
+        </gmd:temporalElement>
+      </gmd:EX_Extent>
+    </gmd:extent>
+  </gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+
+----
+
+=== Language
+
+The language used in metadata must be English. Other languages are optional and only as addition to the English version.
 
 Metadata used for the discovery, identification, and use of S-411 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.
 
@@ -140,9 +602,7 @@ The XML schemas for S-411 exchange catalogues will be available from the IHO Geo
 
 The S-411 exchange catalogue uses the S-100 exchange catalogue schemas which are available from the S-100 schema server at https://schemas.s100dev.net (downloadable archives are also available on the site for offline use). Implementation of the S-411-specific constraints described in following clauses below is left to developer decision as it can be done in various ways depending on implementation frameworks and the requirements of production or application software.
 
-=== Language
 
-The exchange language must be English.
 
 Character strings must be encoded using the character set defined in <<iso-10646-1>>, in Unicode Transformation Format-8 (UTF-8). A BOM (byte order mark) must not be used.
 
