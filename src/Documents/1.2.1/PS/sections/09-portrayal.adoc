@@ -3,22 +3,25 @@
 == Portrayal
 
 === Rules
-Diagramm to be inserted.
 
-main.xsl includes all the rules for single feature types. It manages the selection of the right rule, depending on current feature type in dataset and parameters in 
- iceDisplayParameters.xml
+[[fig-portrayal-rules]]
+.*: Portrayal Rules*
+image::../images/figure-portrayal-rules.png[UML diagram depicting the Portrayal Rules]
 
-iceDisplayParameters.xml contains parameters important for display of ice features:
 
-String iceclass
+`main.xsl` includes all the rules for single feature types. It manages the selection of the right rule, depending on current feature type in `dataset and parameters in `iceDisplayParameters.xml`.
 
-Boolean encoverlay
+`iceDisplayParameters.xml` contains parameters important for display of ice features:
 
-String Display Mode
+* String `iceclass`
 
-Depending on the iceclass parameter the right seaice or lacice rule can be selected. The default is *_class_III.xsl
+* Boolean `encoverlay`
 
-The encoverlay parameter helps to calculate the priority for display of single ice feature types. If encoverlay is true, the priority will be calculated, depending on priority of land area feature in ENC. The area objects of ice features should be displayed under the land area polygons, because they are usually drawn over the land.
+* String `Display Mode`
+
+Depending on the `iceclass` parameter the right `seaice` or `lacice` rule can be selected. The default is `*_class_III.xsl`
+
+The `encoverlay` parameter helps to calculate the priority for display of single ice feature types. If `encoverlay` is true, the priority will be calculated, depending on priority of land area feature in ENC. The area objects of ice features should be displayed under the land area polygons, because they are usually drawn over the land.
 
 === Symbols
 
@@ -26,24 +29,155 @@ The encoverlay parameter helps to calculate the priority for display of single i
 
 ===== IceNavigationalDisplayMode (Traffic Light Principle, depends on Ice Class)
 
-Figure to be inserted here.
+[[fig-ice-navigational-display-mode]]
+.*: Ice Navigational Display Mode*
+image::../images/figure-ice-navigational-display-mode.png[Table showing the Display Modes]
 
 ===== IceScientificIceactDisplayMode
 
-Figure to be inserted here.
+[[fig-ice-scientific-lceact-display-mode]]
+.*: Ice Scientific lceact Display Mode*
+image::../images/figure-ice-scientific-lceact-display-mode.png[Table showing the Ice scientific lceact Display Modes]
 
 ===== IceNavigationalDisplayMode
 
-Figure to be inserted here.
+[[fig-ice-scientific-lcesod-display-mode]]
+.*: Ice Scientific lcesod Display Mode*
+image::../images/figure-ice-scientific-lcesod-display-mode.png[Table showing the Ice scientific lcesod Display Modes]
 
 ==== Line Features
 
-Figure to be inserted here.
+[[fig-line-features-portrayal]]
+.*: Line Feautures Portrayal*
+image::../images/figure-line-features-portrayal.png[Table showing the portrayal of line features]
 
 ==== Point Features
 
-Figure to be inserted here.
+[[fig-point-features-portrayal]]
+.*: Point Feautures Portrayal*
+image::../images/figure-point-features-portrayal.png[Table showing the portrayal of point features]
 
 ==== Draw order
+The highest number will be drawn on the top.
 
-Table to be inserted here.
+[cols="a,a,a" ,options="headers"]
+|===
+|No |Name |Acronym
+
+|1
+|Sea Ice
+|seacie
+
+|1
+|Lake Ice
+|lacice
+
+|2
+|Iceberg Area
+|seacie
+
+|1
+|Sea Ice
+|icebrg
+
+|3
+|Ice Edge
+|icelne
+
+|4
+|Iceberg Limit
+|brglne
+
+|5
+|Limit of Open Water
+|opnlne
+
+|6
+|Limit of All Known Ice
+|lkilne
+
+|7
+|Line of Ice Ridge
+|i_ridg
+
+|8
+|Line of Ice Lead
+|i_lead
+
+|9
+|Line of Ice Fracture
+|i_fral
+
+|10
+|Line of Ice Crack
+|i_crac
+
+|11
+|Ice Compacting
+|icecom
+
+|12
+|ce Lead
+|icelea
+
+|13
+|Iceberg
+|icebrg
+
+|14
+|Floeberg
+|flobrg
+
+|15
+|Ice Thickness
+|icethk
+
+|16
+|Ice Shea
+|iceshr
+
+|17
+|Ice Divergence
+|icediv
+
+|18
+|Ice Ridge / Hummock
+|icerdg
+
+|19
+|Ice Keel / Bummock
+|icekel
+
+|20
+|Ice Drift
+|icedft
+
+|21
+|Ice Fracture
+|icefra
+
+|22
+|Ice Rafting
+|icerft
+
+|23
+|Jammed Brash Barrier
+|jmdbrr
+
+|24
+|Stage of Melt
+|stgmlt
+
+|25
+|Snow Cover
+|snwcvr
+
+|26
+|Strips and Patches
+|strptc
+
+|27
+|Grounded Hummock
+|i_grhm
+
+|===
