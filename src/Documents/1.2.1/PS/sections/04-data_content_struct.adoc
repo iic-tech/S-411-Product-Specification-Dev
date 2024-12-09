@@ -510,7 +510,7 @@ image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting t
 |Ice Drift Direction
 
 |IceFCD
-|Feature
+|Attribute
 |ICEDSP
 |Ice Drift Speed
 
