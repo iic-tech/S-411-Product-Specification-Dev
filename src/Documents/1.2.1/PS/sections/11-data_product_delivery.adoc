@@ -3,17 +3,66 @@
 == Data Product Delivery
 
 === Introduction
-This clause describes how S-411 data will be delivered from the charting authority to the mariner.
+Ice Information Product will be delivered as Exchange Set, containing dataset itself, metadata, etc. It is also possible that several charts are available for an area. The decision, which one to use, is within the responsibility of the navigator on the vessel.
 
-*Units of Delivery*:: Exchange Set
+=== Echange Set
+The exchange set for the Ice Information Product has following structure:
+[[fig-exchange-set-structure]]
+.*: Exchange set Structure*
+image::../images/figure-exchange-set-structure.png[UML diagram depicting the S-411 Exchange Set Structure]
 
-*Transfer Size*:: See <<subsec-dataset-size>>.
+==== Exchange Set Naming
+Name of Exchange Set has following structure:
 
-*Medium Name*:: Digital Data Delivery
+`S411_ProducerCode_DatasetNameWithoutEnding`
 
-*Other Delivery Information*::
-+
---
+Example: `S411_BSH_ek1-20130305-17`
+
+An exchange Set can be a simple data folder, but it is recommended to zip this folder for minimizing file size. In this case name of Exchange Set looks like:
+
+`S411_ProducerCode_DatasetNameWithoundEnding.zip`
+
+Example: `S411_BSH_ek1-20130305-17.zip`
+
+or if .tar.gz compressing algorithm is in use:
+
+`S411_ProducerCode_DatasetNameWithoutEnding.tar.gz`
+
+Example: `S411_BSH_ek1-20130305-17.tar.gz`
+
+=== Dataset
+
+==== Dataset Naming
+The data producer are free to choose file name for data set. The ending or postfix must be “*.gml”.
+
+Example: `ek1-20130305-17.gml`
+
+=== Support Files
+
+==== Support File Naming
+
+There are no restrictions for support file naming. But it is important to describe the files in the exchange catalogue file.
+
+===== ISO Metadata File
+
+The metadata for Dataset based on ISO 19139/19115, is also official S-100 Metadata with mandatory
+file identifier. ( See Chapter 10).
+
+===== Portrayal, Symbology
+
+The portrayal (display instructions) should be a part of system, installed on board. But as option display instructions could be a part of exchange set, that means the display instruction xml file and svg symbols can be delivered within the exchange set as support files.
+
+===== SVG Graphics
+
+===== Readme
+
+=== Exchange Catalogue
+
+==== Exchange Catalogue Naming
+Name of Exchange Catalogue is `CATALOG.ICE`
+
+_The clauses in italic below come from S-102 PS. JCOMM ETSI to confirm what has to be retained/deleted/adapted_
+
 Each dataset must be contained in a physically separate, uniquely identified file on the transfer medium.
 
 Each exchange set has a single exchange catalogue which contains the discovery metadata for each dataset.
