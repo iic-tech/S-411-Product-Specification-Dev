@@ -3,12 +3,108 @@
 == Metadata
 
 === Introduction
-The Metadata elements used in the Bathymetric Surface product are derived from S-100 and from <<iso-19115-1>> and <<iso-19115-2>>. Optionally additional metadata may be derived from <<iso-ts-19130>> and <<iso-ts-19130-2>> especially metadata relating to the sonar equipment which may have been used to acquire the bathymetric data.
+There are two kinds of metadata to prepare:
 
-test image
-[[fig-data-set-structure-s411]]
-.Data Set Structure of S-411
-image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure as described between this figure and the Coverage Structure figure]
+* ISO 19139 Metadata +
+This kind of metadata implementation can be read by broad range of software.
+
+* S100 Metadata +
+The S100 metadata are for describing the structure of Exchange Catalogue
+
+==== ISO 19139 Metadata
+
+For the description of ice data following metadata are necessary:
+
+[[fig-metedata-structure-S411]]
+.Meta Data Structure of S-411
+image::../images/figure-metedata-structure-S411.png[Diagram depicting the S-411 Metadata Structure]
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|MD_Metadata
+|root element
+|gmd
+
+|fileIdentifier
+|Id for dataset
+|gmd
+
+|language
+|Product language
+|gmd
+
+|characterSet
+|Used characterset
+|gmd
+
+|contact
+|Contact data
+|gmd
+
+|dateStamp
+|date of publishing
+|gmd
+
+|identificationInfo
+|Specific info about product
+|gmd
+
+|===
+
+[source,xml]
+----
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                    xmlns:gco="http://www.isotc211.org/2005/gco"
+                    xmlns:gml="http://www.opengis.net/gml/3.2">
+        <gmd:fileIdentifier> ... </gmd:fileIdentifier>
+        <gmd:language> ... </gmd:language>
+        <gmd:characterSet> ... </gmd:characterSet>
+        <gmd:contact> ... </gmd:contact>
+        <gmd:dateStamp> ... </gmd:dateStamp>
+        <gmd:identificationInfo> ... </gmd:identificationInfo>
+</gmd:MD_Metadata>
+----
+
+===== fileIdentifier
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|fileIdentifier
+|Id for dataset
+|gmd
+
+|CharacterString
+|String contained id value
+|gmd
+
+|===
+
+===== language
+
+[cols="a,a,a",options="header"]
+|===
+|Element Name |Description |Namespace
+
+|language
+|Language of dataset
+|gmd
+
+|LanguageCode
+|Code for language
+|gmd
+
+|===
+
+LanguageCode element contains two attributes:
+
+* codeList Link to the list containing the codes for languages
+
+* codeListValue value from the list defining the used language
 
 Metadata used for the discovery, identification, and use of S-411 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.
 
