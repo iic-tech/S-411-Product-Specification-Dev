@@ -1,8 +1,25 @@
 
 [[sec-overview]]
 == General
+The S-411 Data Classification and Encoding Guide describes how data describing the real world should be captured using the types defined in the S-411 Feature Catalogue (see S-411 Product Specification Main document clause 4.3). It provides the encoding rules and guidance required to create S-411 datasets.
+This standard is specifically concerned with those entities in the real world that are of relevance to Ice Information. This regime is considered to be geo-spatial. As a result, the model defines real-world entities as a combination of descriptive and spatial characteristics. Within the model these sets of characteristics are defined in terms of feature types. A type is defined as a stereotype of class that is used to specify a domain of instances (features) together with the operations applicable to the features. A type may have attributes and may be related to other types.
+
+The types used within S-411 are described below. Within this document feature types and attributes appear in *bold* text.
 
 === Feature types
+Feature types contain descriptive attributes and do not contain any geometry (that is, information about the shape and position of a real-world entity).
+
+Features have two aspects – feature type and feature instance. A feature type is a class and is defined in a Feature Catalogue. A feature instance is a single occurrence of the feature type and represented as an object in a dataset. A feature instance is located by a relationship to one or more spatial instances. #A feature instance may exist without referencing a spatial instance. (*not sure this applies to S-411*)#
+
+S-411 only makes use of the *Geographic (Geo) feature type* which carries the descriptive characteristics of a real-world entity.
+
+=== Geometric primitives
+The allowable geometric primitive for each feature type is defined in the Feature Catalogue. Within this document, allowable primitives are included in the tables containing a description of each feature type. Allowable geometric primitives are point, curve and surface. +
+Each spatial value must be referenced by at least one feature instance.
+Within this document, allowable primitives are included in the description of each feature type. For easy reference, Table 2-1 below summarises the allowable geometric primitives for each feature type.
+In the Table, abbreviations are as follows: point (P), curve (C) and surface (S).
+
+#Geo feature geometric primitive table to be created#
 
 == Geo Features
 
