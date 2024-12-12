@@ -721,70 +721,22 @@ _Complex attributes are aggregations of other attributes that are either simple 
 
 ==== Introduction
 
-At the moment there is only one type of dataset supported. This is GML(XML) encoded ice feature collections.
+At the moment there is only one type of dataset supported. This is GML encoded ice feature collections.
 
 === Geometry
 
 Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional objects (points, line strings, and polygons).
 
+*Insert standard Level 3a Geometry words here*
+
 [[fig-geometric-primitives-in-ice-information-product]]
-.*: Geometric Primitives Ice Information Product*
+.*: Geometric Primitives Ice Information Product [REDRAW]*
 image::../images/figure-geometric-primitives-in-Ice-information-product.png[Diagram depicting the allowable geometries]
 
-There are three types of geometry: Point, Line String and Polygon. Multi-geometries will be not supported. The standard geometries of GML where redefined for S-411. The reason for this is to reduce file sizes. It is only possible to use “posList” with blanks separated coordinate values, like:
+There are three types of geometry: Point, Curve and Polygon. Multi-geometries are not supported.
 
-[source,xml]
-----
-<gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
-----
+Standard geometries of GML are supported for S-411 including
 
-For standard GML it would be also possible to use following (DO NOT USE THIS):
-[source,xml]
-----
-<gml:posList>
-  <pos>-73.991 40.736</pos>
-  <pos>-73.991 40.736</pos>
-</gml:posList>
-----
-Which means much more chars in the file and growing of file size.
-
-All multi-geometries must be splitted into single geometries. Encoding for geometry is GML:
-
-Point encoding example:
-[source,xml]
-----
-  <gml:Point
-    <gml:pos>147.291 -42.851</gml:pos>
-  </gml:Point>
-----
-
-Line String encoding example:
-[source,xml]
-----
-  <gml:LineString>
-    <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
-</gml:LineString>
-----
-
-Polygon encoding example:
-[source,xml]
-----
-<gml:Polygon>
-  <gml:exterior>
-    <gml:LinearRing>
-      <gml:posList>
-        22.546 62.391 25.033 62.404 24.995 60.182 22.483
-        60.169 22.546 62.391
-      </gml:posList>
-    </gml:LinearRing>
-</gml:exterior>
-<gml:interior>
-  <gml:LinearRing>
-    <gml:posList>
-      23.227 61.811 23.467 61.306 24.023 61.621 24.035
-      61.621 23.227 61.811
-    </gml:posList>
-  </gml:LinearRing>
-  </gml:interior>
-</gml:Polygon>
-----
+* Polygon
+* Point
+* Curve
