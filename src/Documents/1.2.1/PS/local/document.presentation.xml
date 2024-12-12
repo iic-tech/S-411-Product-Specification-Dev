@@ -142,7 +142,7 @@
 
 <semantic__clause id="semantic___terms_and_definitions" obligation="normative">
 <semantic__title>Terms and definitions</semantic__title>
-<semantic__p id="semantic___4334f48b-9379-3d69-221d-7d0846cdc34f"><semantic__em>The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI</semantic__em></semantic__p>
+<semantic__p id="semantic___4334f48b-9379-3d69-221d-7d0846cdc34f">The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI</semantic__p>
 
 <semantic__p id="semantic___94f65d3a-71a8-6995-abf8-ed6fa7b309d4"><semantic__strong>Coordinate</semantic__strong></semantic__p>
 
@@ -792,667 +792,343 @@
 
 <semantic__clause id="semantic___feature_types_summary" obligation="normative">
 <semantic__title>Feature Types Summary</semantic__title>
-<semantic__table id="semantic___94b62d85-78a2-a956-7a1f-5944c466b762"><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Register Dictionary</semantic__th>
+<semantic__ol id="semantic___b1497836-37d6-753a-75f8-652c22a5fa14" type="arabic"><semantic__li><semantic__p id="semantic___841fd41c-40d8-bffe-57c2-f33926934df9">Summary of Types</semantic__p>
+</semantic__li>
+</semantic__ol>
+
+<semantic__table id="semantic___80bd3f3b-9239-4264-9e77-3e8622233632"><semantic__thead><semantic__tr><semantic__th valign="top" align="left">Register Dictionary</semantic__th>
 <semantic__th valign="top" align="left">Index</semantic__th>
 <semantic__th valign="top" align="left">Alpha code</semantic__th>
 <semantic__th valign="top" align="left">Name</semantic__th>
 </semantic__tr></semantic__thead>
-<semantic__tbody><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___0957a51d-1f35-71e1-535e-9f19bb9f7db5">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ed71c08f-9375-d4e3-48a7-1cd77257fa42">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0eb46a33-93a6-f076-fc30-c56252a55cbf">SEAICE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___00efbf3a-4a05-9a22-f6ce-f05d7496237c">Sea Ice</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___ffca0062-2932-68a4-0db8-f674ec85f812">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b5996ae8-a0a4-801a-7fe0-bdd43f81c8e4">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___398ea8eb-18cf-96fc-c272-7efda919bdd4">LACICE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___49b4ee75-41e6-bf1a-c15e-44d216835c7e">Lake Ice</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___23bbdb5d-7df4-a378-3d77-6655160eda1d">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f3251a56-4732-e8b7-87de-4824ecdfa80e">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9d61a8e1-c6c1-96f6-9c67-b0b937087d69">BRGARE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___22d92cd3-5be2-9a1d-f6c9-53bdd06cda41">Iceberg Area</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___f2b804ee-7e4b-0e30-b04e-7e08588c1ce5">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___34a910fb-ffcc-b19b-58a1-cf89857add57">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f8b9e666-0a33-376a-82bc-8db1073ba5ca">ICELNE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___27858784-b035-95cd-7b4b-f0a1e8b40cbe">Ice Edge</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___0bb7cb5e-67d9-874e-9e6c-3b2aa5014926">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___7ec51cbe-c53d-b70f-9e61-97096ae90b50">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b65c48b8-ce4d-e78b-3e99-be87bbd47dc5">BRGLNE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___bd17ea25-30d9-3daf-b1ae-abb015970050">Iceberg Limit</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___330b0a68-a075-485c-5bb9-77ecd27db0af">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a8f88d6b-9cb1-56c0-4913-e44712a6bf51">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2d4d9044-5080-5549-b5dc-07c386ea3ba0">OPNLNE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ddf3123f-88a0-646c-c481-7a3f2a2e98ec">Limit of Open Water</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___b3b23053-f2b1-b56e-1b9d-a9c76b96e670">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a81c5fd0-ae71-1b22-ced6-f3606c4b2dde">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___067c60c5-12c7-c68d-11a8-92f8ba0f1381">LKILNE</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a8de148f-0d8d-fddc-4384-f8d7e1952607">Limit of All Known Ice</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___acc5c80e-d989-d3ab-0038-371bdb8a6531">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___efe70890-ec30-51a8-55a2-1da648fb3614">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8e9e0353-5687-e688-4fa1-39536c52cd16">I_RIDG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8f89dcbb-9632-af53-297b-9c4d72f3a952">Line of Ice Ridge</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___290746e8-d1b5-a513-fb6b-1b0111eb670e">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___69dfc8c1-a85d-d603-5637-7094219fc97e">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___46b109b2-1a1b-05eb-1494-d91e885d7a94">I_LEAD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a6eb87aa-7ac5-8752-7053-0dbca56d2f3e">Line of Ice Lead</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___746b0661-eb03-2fd5-618c-bba1e767a22c">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___854d06b2-12e9-8e56-6e25-fe80db7c4740">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d7b6725b-f505-30dc-6748-570fbbf68713">I_FRAL</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2d486732-5c6a-d921-b640-aacda9ad649d">Line of Ice Fracture</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___ebe14490-781e-9f07-ba65-9e3e71b2a06d">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___e998a8da-c128-c2b3-aa95-682cc8c4db52">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___09c8bf5d-2ecf-05ae-c19e-fef352e31d35">I_CRAC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a8b514fc-495e-75ad-5222-391707108d4e">Line of Ice Crack</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___5fabd529-9dcd-6f3c-4cb4-cbac95e73732">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___44dc2c66-b858-1811-5860-51a2194f4e42">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___159e8061-8954-958c-278d-0c2450d89404">ICECOM</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___4edc7c94-6e94-52f6-0bd4-f459d0c126ee">Ice Compacting</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___d614bf29-c956-8625-da95-f109981d2940">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___bf5a0d7e-e48b-b7ce-8d2d-e1fac2afa096">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___08459289-ea09-baeb-0fbb-71c84fd53d23">ICELEA</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3a28b67c-8a76-f9bf-8df5-b380c5f72c9b">Ice Lead</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___24b4255f-470f-ca88-775d-9db003efc9be">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___c192f6c4-f485-3108-2335-d7863ffeb3ea">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6acf6ca7-d7e5-2ee2-0766-d6e1a79181ec">ICEBRG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___01faea15-88e9-9d0f-2758-40c0941a102b">Iceberg</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___f7725375-7a64-65fa-70db-18335e53e8a5">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6c3e3d5b-a832-5c03-fa4e-7e5e819381a7">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9a7a43ec-e84d-360e-0bfd-6301c9b405bf">FLOBRG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___37a5f6f5-e66e-8e53-e7a9-c9a2860d033c">Floeberg</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___f024290a-fa52-dd6a-1a4f-7db2b4ba5fd6">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b80751c6-2bbf-42c2-9bf1-4449e60c0f76">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1015bec2-ab3b-8437-3b54-c5c12e022d59">ICETHK</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___643cb173-36e0-4feb-1893-203e34494c02">Ice Thickness</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___747f322d-0696-e154-557e-2196c20063b4">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___993bc4a0-8c4e-8bd5-e775-c964df3d5c16">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___23b094ea-d055-7c72-877d-f18301b6951e">ICESHR</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a0a67c46-94fe-4cc6-c2e7-15c9bc1452f0">Ice Shear</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___945620ae-bf49-d106-ebf3-ea6fd9c30b3b">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___88ef80e9-b58f-c45a-8e31-9feac15f5df6">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___508bac49-5cac-7c90-6e46-f9f28f1f4e8c">ICEDIV</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b148d519-db49-9f8e-7fee-5487f4ce2ea9">Ice Divergence</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___952bc647-8e5a-66bd-4c45-dd0d5ed084e1">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8f20c8d2-0951-028c-25e9-38206c57b8eb">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b31ca717-aa05-2c13-e84e-0ae6d0783ee9">ICERDG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1ed8f1a9-6ec0-4f95-b177-337ab305931a">Ice Ridge/Hummock</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___ab9ca0f2-5292-64da-e496-afb8c8da5ea6">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3b842813-005a-7a63-31cb-33bd514e1680">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2dac27ef-5abe-9331-6543-a127577515b6">ICEKEL</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0eb5bf63-77de-e34e-13e5-4bef9a579bf8">Ice Keel/Bummock</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___9e45afdb-bc5f-5446-1e81-82619b22fa7c">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___38d933ff-f46f-622e-ae89-c5b4eafe50f3">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6b4dd70e-381f-defa-7913-55604e785f91">ICEDFT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___567ab7da-e788-ff03-9a4e-1bf7fd610aeb">Ice Drift</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___9e447205-03bb-0b69-5912-e2fa5b1f153a">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___44c1a52d-2ff1-0a83-5862-ba500d65d60b">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___bf9cde2f-5a26-3e17-43e7-097c976f03ee">ICEFRA</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a4a62c58-bcc6-848e-4cbc-30399f9b70bb">Ice Fracture</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___9f0ad2d2-690b-6189-ba64-06949049947b">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___4cbd96b8-15ad-1c58-d6b2-110cbed16f47">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___e918e986-9e69-2feb-e3c3-f9209657478d">ICERFT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___565af5fd-7cd9-f3ca-b961-fde3504bf562">Ice Rafting</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___a5e0a60b-75ea-7226-9dee-b016ef7756e9">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___95eda2b0-2805-ef22-b32f-f08499e771c9">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b4b5f0a0-6e15-81d3-b10b-f22c0adb578c">JMDBRR</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___37338b54-e3e6-f0a0-ff67-98e0c09873ff">Jammed Brash Barrier</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___486e061f-19f8-c864-7dbf-2278cb0058b4">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5512f367-1019-808c-444f-8f0cf2169c88">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8cf69d64-a6f8-475d-b1bb-f60f388eb347">STGMLT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___026790e5-2d17-6496-7073-565a07327b31">Stage of Melt</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___4be6447a-5fbb-5632-20c3-7fa65244adf3">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3e0b19e4-1922-4da5-5640-ffa36a9daf5b">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f1f6586f-3062-4712-8c69-3754915a8c0e">SNWCVR</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___120de9ce-b8ac-56fe-c533-a371821989e1">Snow Cover</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___901fc8eb-7ee1-a1f3-9416-16f19a856943">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___43311711-d9f6-e5a1-50b8-04da3441e390">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f5197ccb-4404-9211-deda-6050135085d2">STRPTC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___947000db-e35b-6343-10fd-285e5f16197d">Strips and Patches</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___5ebf236b-0f33-9ef7-cb65-d98e35d3d116">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___e9f00fa7-c9a3-952b-a9f7-5554b8ca092e">Feature</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d997ff14-5dd0-adea-ab07-f7544bc96dc7">I_GRHM</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___874678c3-8cab-4608-d83e-6fbf4cd003f9">Grounded Hummock</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___b0460563-cce0-3d82-5f77-5abb517448c7">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___7efbf27f-441e-1819-5d1b-584e4e26cbe7">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8744f12e-3f94-a525-a55e-d40b2bcad318">ICEACT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___cb9c9722-03c1-63e2-3c61-ba069a741140">Total Concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___4d7e3573-e221-b775-8881-4559a4c85232">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3b8950a7-9b01-a1d2-266d-72c5c1d04bbf">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3e2b6ad2-4f26-bad5-1cfd-0eb2b16796bc">ICEAPC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___36644aa4-d539-bd48-e2ba-a1344a6fe481">Partial Concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___76fef22b-492e-e95a-f29f-131b6760ad1f">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___7e58a057-d07a-6423-64e2-9a978bdf1c40">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0248f331-c23e-9b2c-0959-60108d6315b9">ICESOD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___249f2fc3-0fca-1e34-8e91-873ed948e5dc">Ice Stage of Development</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___d5291911-8438-cc3b-92a1-98877632ba9b">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___fd3eb611-8dbd-b192-57e6-8ff0851dcecb">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___70846255-3d25-1e6c-e144-f5a35d7d1072">ICELSO</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0207e278-7eaf-1e51-b25d-578773726846">Lake Ice Stage of Development</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___ebdb5f2a-3002-8cbe-3ada-a6513adcee28">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5209823f-23df-df34-e607-b1a3d6d30128">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b10ccfa1-f52a-9e25-8a8e-301279b11da4">ICEFLZ</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d525cfba-abe8-a351-ac21-696220a7b8d5">Floe Sizes</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___2fd57714-3c5f-bb4e-2af1-16065703b7d1">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___21bee8e5-911e-601b-af58-496c28c61357">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___20055e47-fa57-5afe-91f2-33c6cc4f1ebd">ICEMLT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___4a18112e-ea9a-a144-731b-f5409d96bb44">Melt Stage</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___569dcf75-e598-88ed-d0b3-546382590f4f">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5b1c399e-fd56-7adc-6f0e-002c070b466e">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___7c358404-637c-5f23-c7e4-068499c7a1ee">ICESPC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___83c14651-f070-09f5-9f8b-c939027dd09a">Concentration of Strips and Patches</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___47a39611-caf8-4592-26df-6256e59db2ac">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___655034ca-8723-7d62-aec3-e2c722328a2b">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___606b6824-c574-90ff-21b6-f9ff75679e0c">ICEBNM</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6d1f966b-99a2-fd03-4f6a-819f895eb98b">Number of Icebergs in Area</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___2a1899af-b5f4-5eab-fdee-67ef2f5fcfc8">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___296d52ca-f68c-588f-a03f-e9b91bc66549">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5ab848ed-59b3-fbb2-76fe-716a9fb21429">ICELVL</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f07c16af-d18c-71f0-a893-0ed427ea64e5">Level Ice</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___eb690b5d-44f1-a02c-ff1b-2c5a35a14295">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___27b1788b-435c-f272-2cc5-feadfd1cdacc">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___08fd0ad2-f85c-e71a-2caa-c368f5fe8e10">ICECST</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___82025f99-40e1-2018-cec7-c961d471f0a1">Compacting Strength</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___b8b64ec1-599d-299f-6770-bf8ce6b4bf6e">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3b385ef2-eeb6-c9a8-a820-db865279744d">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___890d8781-1ff5-fb5a-e496-5f884c39710a">ICEFTY</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___77d33938-9c99-5e03-d272-5cb7b1e4006a">Ice Fracture Type</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___dbc7e64c-a813-053a-81ad-ad6e1b612bde">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d5758a5d-92b4-7017-1d10-c53212d612ba">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___79e659af-34c6-5c0b-adeb-74bd5bcae8f9">ICELST</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___4e895171-ecf9-18a8-3711-7f15b5ca3cd1">Ice Lead Status</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___2df2472d-cfa2-08a2-4291-c7cbc26086b9">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9de9336d-2275-07fb-6c4c-c91ee3944abf">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1f0374b7-ef13-e701-0853-4f07d0e9247d">ICELFQ</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f4a904ae-d967-c512-1ee2-7be8cf3d2aba">Frequency of Leads or Fractures</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___52ab9752-4f91-11e1-20eb-2b12482c4f60">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___63d5427b-3f27-912a-b432-78ea22b1da23">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d6bd2334-8676-cd6c-c34e-0e39d4c278ca">ICELOR</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___aa8c5fda-4cd8-3577-89f1-7d164514fc9e">Orientation of Leads or Fractures</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___67d0e399-2134-2526-3f97-a912b2c8c193">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a4b47e90-5eb2-a7ef-9cff-dd8d20b372bf">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ed72103c-3858-83cc-8b7b-86361874574c">ICELWD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8f9e72a9-7de1-a9cd-855f-f20f11232085">Ice Lead (or Fracture or Crack) Width</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___ec3fcd64-6bc8-508e-3f09-b1ffdf8f57ae">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f5e786ed-38fc-4202-354f-e1fb55eaf161">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___31f83d4f-a3e5-1e04-79b9-1bacd00e03fc">ICELOC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8d10b16d-06e3-1746-f580-87fae027a5df">Ice Location Information</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___909fe116-4226-703c-157c-cca60847694f">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___4a383e20-8a1c-7eca-dffc-7ff12948bff0">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___7fa6f83d-886c-0236-e06d-184f5ef067ff">ICEBSZ</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___844db2af-541f-b304-414b-6544ff4a646f">Iceberg Size</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___55875170-f1c5-a5ff-cf8e-36446fef2e87">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___50976399-5ee1-1c5b-b197-77e41f359d68">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___00fa2396-39b0-9ba0-16cf-b9c7ee723222">ICEDDR</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___92ad171e-cfdb-a23b-ea84-ec7f20ffccd7">Ice Drift Direction</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___fe8270ee-27df-04a8-285f-8475eceb1050">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3dcebaec-7040-fcb7-666b-03880281a320">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b035139e-89c0-f229-e215-4bc949fad78c">ICEDSP</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___959d6742-5033-2a05-42da-7a9958976612">Ice Drift Speed</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___b266c57b-8107-4594-2971-ba29679adaf1">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2c5f032a-c514-8bd9-be20-b342c90869e2">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___811d364e-13f5-f162-c3e3-a1e0f4492aa8">ICETCK</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9dc49393-7093-f5db-d128-481d30525525">Ice Average Thickness</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___a7882c55-31e9-ac4c-e9b5-d347e498756e">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___560a5071-71ca-18d7-e946-dd528c8c0b0e">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5e8dbf69-2c5f-73ba-5422-a72d1e26c7e6">ICEMAX</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5c16ea09-92f0-d51a-36b2-b282509da1c0">Maximum Ice Thickness</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___6ae55c8a-837f-185d-d265-05cbd195f25c">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6f3bfc83-e9f6-2d0b-8d73-80d12c26884f">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___53172500-9a58-7a98-487e-47fdf388e112">ICEMIN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___35e3aa5d-2dfe-829e-439a-6f9b0da961b4">Minimum Ice Thickness</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___ad2e8cf8-3b32-82e5-29a1-c369b8ddbc1c">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1f2042db-b086-fdad-920e-4e0bcc70457b">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1ff91d69-e650-4bca-6fcf-21db7ed6e9da">ICETTY</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8a837a61-c356-1c50-6db1-bfb374e837b3">Ice Thickness Type</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___e472fe03-23cf-67ce-368f-9c22cfc11860">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___45d2ed6c-25f9-2e7e-4261-e6ceec2fd3fb">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0251598b-274e-4d84-0ff0-85d310b0cfd2">ICESCT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5f02dba3-02a5-01e4-fd12-dea7b867adf2">Snow Depth</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___6911318a-bb76-5762-452b-736787143ed4">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a6458429-c14e-92ce-ad0f-257cb60972e3">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d7eb5c4b-522a-ed6d-f108-b54aa5e8c84a">ICESCN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___415b8ee9-828d-2de3-2dd1-57586bebe9e9">Snow Cover Concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___66b0bafb-0905-3f83-4e38-30581cccaa80">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2a7c1209-4838-0171-b95a-2dec053b4fc4">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9d6685e2-a980-a7cd-9fb0-f98874382e3e">ICEDOS</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f28a24f0-965f-78c6-e729-775721321e53">Direction Of Sastrugi</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___a4fd2972-7dcc-4d74-cb58-e80fc71148f4">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___23a9e3e2-4716-27d4-c43e-9f3203c9f438">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___37e6660e-b112-1d2d-c86d-93099d2b8a0b">ICERCN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___08ca316e-a0bb-8807-f015-3dfc3d92e369">Ice Ridge Concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___046b14cb-57c4-1441-85b3-e4ff907abede">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___899dc340-e5fd-211f-b014-de6fe642af8d">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___373280b0-7a42-129c-cada-8178133b91df">ICERDV</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5aec5e4d-b1ea-5788-3422-9339d66dd62d">Ice Ridge Classification</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___b795c351-b339-ed88-8788-304b6b353cdf">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a0417749-33a1-13ce-4d5f-902724f0f612">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___953c500c-72aa-8325-7899-b77e33cf8494">ICERMH</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___001baa57-8586-bcae-aefe-73b7d20bd5d7">Ice Ridge Mean Height</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___0b813a03-5e23-b5d2-8f30-22f9d4af6f7d">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___634bb877-43c3-a382-8f67-19cb95c2ec04">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___be92f76c-f8e3-71e1-f3ee-a89b0f981d1d">ICERFQ</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___83888634-4625-8eff-c9aa-2474ffd83a33">Ice Ridge Frequency</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___befa7928-c98a-a144-5149-ba2e4496c5fd">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1568145b-0f8d-d3a2-3d79-65523efc4a76">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9be986a0-595a-dacf-58b6-fd6380aa9dae">ICERXH</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___596e363b-edef-ad7f-bff9-ba2961def2bd">Ice Ridge Maximum Height</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___5492a01a-1809-3370-2f50-c600776098a6">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8b3092e5-4763-4d60-4fba-b4f62d0099b8">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___4aeee7fc-dc40-bd66-b574-8d486da26bd4">ICEKCN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___c3abf51b-f404-0de5-ba9f-c9525712deb9">Ice Keel Concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___4974ec6f-d87c-5254-05ae-9a68ccdadee9">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___63d7737f-02b0-7acb-10ed-d9cbeb515e29">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___870a8d12-278a-234c-6ed2-383860bee6ca">ICEKFQ</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9f1e9429-3ef9-a88b-0ad5-b981ed318ed6">Ice Keel Frequency</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___e0c903a8-0fd8-af58-0b64-902807dec747">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___3dce5326-25a7-7b87-b17e-8883e1494e91">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___8bcd2dec-da5e-4ab2-8960-d3a093e2bd1f">ICEKMD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b8c393e8-816d-8603-a131-764307f8d992">Ice Keel Mean Depth</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___8842860d-72dd-d70c-a618-f31b76abbe53">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___71152637-ff65-28bd-ecec-fd96b3c6ba60">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___bbb4db80-cbc0-fbe6-7e34-03dfcd3184f7">ICEKXD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6bab491b-daba-0e99-fbcb-59160274cd57">Ice Keel Maximum Depth</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___546a277e-0aaa-9351-ad34-28010724407a">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___f72aa90b-73a1-1d73-fe86-e8b5ae42b121">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ec136350-52e4-5fdb-e30a-6407ef95363d">ICEFCN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___af29c02d-fdf6-fea9-1c91-372d1fe36fc7">Ice Rafting Concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___5f66b8df-5734-bce3-abb8-3a0dfc943001">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ce8ee7b9-ed54-eb69-dd4e-acdccc375c38">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___68a89b3c-aa3f-b1c8-8357-cb4a41e01163">IA_SFA</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5c2bfafc-fbe3-8757-89e5-2dde91deca19">Ice Stage of Development and Floe Size for the 1st p.c.</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___b918d895-04b0-00bd-1d83-91182b2e48ed">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1caa4f2a-aa51-c746-5d0d-86c8537ab928">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___16c406db-22bd-56df-3615-2febcfe32b66">IA_SFB</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___b2c8d82e-b65e-a85a-f2e1-7b8eab0f878e">Ice Stage of Development and Floe Size for the 2nd p.c.</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___4b33fa11-bb5d-d3f6-c49e-b2d2dd2c6df6">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___956ddae7-187c-b586-745d-9e201f86472d">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ff156216-3d7f-a048-4a03-bf4625a962fa">IA_SFC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___19a0f4f5-131c-715f-ab29-2b2ac75304ef">Ice Stage of Development and Floe Size for the 3rd p.c.</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___a58e630a-d018-0d48-9836-09e3d67bec66">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___81b03461-5738-a8ef-abad-0abb17ec66f9">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___5e2fc739-c7c7-f141-277e-8f458a6543d8">IA_FFA</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___83f9cbaf-7b23-72f3-7910-fc73de852f30">Ice Breccia for the 1st partial concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___5c4be184-cb28-1d45-9d41-8c715d44d199">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d49466d8-6664-6852-b271-32c784abfa8a">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a01b8eb0-a7f1-23c9-f3f9-fbfab13bee53">ICEFCN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___d51411d4-b446-7d4e-f956-285694da7711">Ice Breccia for the 2nd partial concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___67daec5c-17df-1b43-834a-25ac3b7122f9">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___07969075-ff8c-820f-e09b-18303a3bd9bd">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2f6441d6-4857-ce1a-241c-cb8b9a73ed8d">IA_FFC</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___acc72924-f175-02a0-83da-c2f07e4a4747">Ice Breccia for the 3rd partial concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___5123f435-a62c-f94f-4582-45c5a13e1697">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a2ce94aa-65e9-865e-2dfc-aee8d8427b50">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___160d9650-3fe8-d9b8-079c-aa69a8e720c4">IA_SNG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___6fb8bc05-14ab-58ff-a4b0-2fec195a902d">Snow concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___157c942e-971d-6f6f-7207-24b030fa9260">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0b759065-5b80-2c06-8060-d22a2b9747e3">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___2095b823-588d-3465-20dd-297ae5fd69e4">IA_MLT</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___c4eaa86a-685a-9654-88a9-17d53f8dd7bb">Stage of melting</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___f35133af-3f39-33fb-7e00-f89af38fbbd6">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___e1d503dc-a018-63aa-ed19-6f6aa13439e2">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___7f41fe43-8bd8-a752-2e28-2e59d1443cd5">IA_PLG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9d55bec2-77c9-fa41-04e1-e4726a1dae6b">Contamination</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___6cfb9b15-3f8b-6ac8-8e59-700a49302a4e">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___19af0591-371e-e745-5be7-11dcf3ee058c">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___ac3320f3-3daf-8f42-e86c-c5ee81b80f63">IA_HLG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___56a3dddd-48a2-4c89-9171-18f0f0981e1d">Hills concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___18080514-ddf3-058f-bb80-a87b61b08451">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9ccf65dc-0e8c-8fb8-90d0-dc4a5b2fe990">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___735a1b3c-dc3e-cb35-2b36-95cccc2fa85a">IA_DUG</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___00cd7741-246f-2b1b-ba59-20f6be4a8d22">Fractures concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___3b11b73b-910f-d5c9-dfaa-9005cc864132">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___745394b9-fa0e-9c82-bf66-5046c67bc0ee">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___42dbf446-7184-8118-d013-b97d89c80d6e">IA_BCN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___685c43a0-f491-6d54-fc9d-67d5d3317b8e">Icebergs concentration</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___1e217954-cff7-68f7-70bd-9925f497317e">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___e834691b-78e3-0967-05f1-dba655cb2280">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___0a419ee7-394c-853a-bdd2-3d22c95f79f7">IA_BFM</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___16324d76-e042-a046-cc54-1c1110548cdd">Prevailing iceberg form</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___0b0cc961-0566-420f-8c60-64bfea8c337c">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___1b013159-9fc0-0366-2178-a93fc386e118">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___a6263d30-3c59-88c6-4d4b-d414e252cd52">IA_BUH</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___178b9b8a-3884-77dd-d3cf-a4f0780e60f3">Max. height of the above-water part (iceberg / grounded hummock)</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___781c5fcf-3cfc-73e8-f4ca-644b0cb50dfc">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___58acb523-7b25-b5d0-49fe-637ec3a17fe3">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___fdedb920-4b88-bb24-f049-25cca1318117">IA_OBN</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___9eef4317-7982-a54e-ded4-6492a58a1514">Number of ice objects</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___4a5ebbd6-f484-2ebd-5d1b-f8c87883db16">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___c0728a5b-e0fe-c5ce-cee2-430071b3b6d6">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___c93cc4c5-ffd0-2b6b-bab3-c5e31fa37c9c">IA_DXW</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___095d5b54-a884-7b69-627e-f54dfe3e436c">Max. width of ice lead (or fracture or crack)</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___6df30db9-3fb2-1370-f55c-03c1ae598737">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___dc589377-dbd4-f150-2554-22f8e420686f">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___be6f4295-53bf-2b12-f32f-2c28628e4522">IA_DMW</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___687096d9-1c42-4786-90c5-9d0440790cd7">Min. width of ice lead (or fracture or crack)</semantic__p>
-</semantic__td>
-</semantic__tr><semantic__tr><semantic__td valign="top" align="left"><semantic__p id="semantic___a5042283-81b5-94bb-f190-142de3761436">IceFCD</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___931dc718-4d48-830f-b594-b8f3704a04d2">Attribute</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___31edb24f-a7c3-f8e5-5554-4093bb47e53a">ICEBRS</semantic__p>
-</semantic__td>
-<semantic__td valign="top" align="left"><semantic__p id="semantic___139ba797-9129-08ee-40dd-be2d3411feef">Brash Ice</semantic__p>
-</semantic__td>
+<semantic__tbody><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">SEAICE</semantic__td>
+<semantic__td valign="top" align="left">Sea Ice</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">LACICE</semantic__td>
+<semantic__td valign="top" align="left">Lake Ice</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">BRGARE</semantic__td>
+<semantic__td valign="top" align="left">Iceberg Area</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICELNE</semantic__td>
+<semantic__td valign="top" align="left">Ice Edge</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">BRGLNE</semantic__td>
+<semantic__td valign="top" align="left">Iceberg Limit</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">OPNLNE</semantic__td>
+<semantic__td valign="top" align="left">Limit of Open Water</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">LKILNE</semantic__td>
+<semantic__td valign="top" align="left">Limit of All Known Ice</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">I_RIDG</semantic__td>
+<semantic__td valign="top" align="left">Line of Ice Ridge</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">I_LEAD</semantic__td>
+<semantic__td valign="top" align="left">Line of Ice Lead</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">I_FRAL</semantic__td>
+<semantic__td valign="top" align="left">Line of Ice Fracture</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">I_CRAC</semantic__td>
+<semantic__td valign="top" align="left">Line of Ice Crack</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICECOM</semantic__td>
+<semantic__td valign="top" align="left">Ice Compacting</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICELEA</semantic__td>
+<semantic__td valign="top" align="left">Ice Lead</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICEBRG</semantic__td>
+<semantic__td valign="top" align="left">Iceberg</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">FLOBRG</semantic__td>
+<semantic__td valign="top" align="left">Floeberg</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICETHK</semantic__td>
+<semantic__td valign="top" align="left">Ice Thickness</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICESHR</semantic__td>
+<semantic__td valign="top" align="left">Ice Shear</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICEDIV</semantic__td>
+<semantic__td valign="top" align="left">Ice Divergence</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICERDG</semantic__td>
+<semantic__td valign="top" align="left">Ice Ridge/Hummock</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICEKEL</semantic__td>
+<semantic__td valign="top" align="left">Ice Keel/Bummock</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICEDFT</semantic__td>
+<semantic__td valign="top" align="left">Ice Drift</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICEFRA</semantic__td>
+<semantic__td valign="top" align="left">Ice Fracture</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">ICERFT</semantic__td>
+<semantic__td valign="top" align="left">Ice Rafting</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">JMDBRR</semantic__td>
+<semantic__td valign="top" align="left">Jammed Brash Barrier</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">STGMLT</semantic__td>
+<semantic__td valign="top" align="left">Stage of Melt</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">SNWCVR</semantic__td>
+<semantic__td valign="top" align="left">Snow Cover</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">STRPTC</semantic__td>
+<semantic__td valign="top" align="left">Strips and Patches</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Feature</semantic__td>
+<semantic__td valign="top" align="left">I_GRHM</semantic__td>
+<semantic__td valign="top" align="left">Grounded Hummock</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEACT</semantic__td>
+<semantic__td valign="top" align="left">Total Concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEAPC</semantic__td>
+<semantic__td valign="top" align="left">Partial Concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICESOD</semantic__td>
+<semantic__td valign="top" align="left">Ice Stage of Development</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELSO</semantic__td>
+<semantic__td valign="top" align="left">Lake Ice Stage of Development</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEFLZ</semantic__td>
+<semantic__td valign="top" align="left">Floe Sizes</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEMLT</semantic__td>
+<semantic__td valign="top" align="left">Melt Stage</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICESPC</semantic__td>
+<semantic__td valign="top" align="left">Concentration of Strips and Patches</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEBNM</semantic__td>
+<semantic__td valign="top" align="left">Number of Icebergs in Area</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELVL</semantic__td>
+<semantic__td valign="top" align="left">Level Ice</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICECST</semantic__td>
+<semantic__td valign="top" align="left">Compacting Strength</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEFTY</semantic__td>
+<semantic__td valign="top" align="left">Ice Fracture Type</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELST</semantic__td>
+<semantic__td valign="top" align="left">Ice Lead Status</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELFQ</semantic__td>
+<semantic__td valign="top" align="left">Frequency of Leads or Fractures</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELOR</semantic__td>
+<semantic__td valign="top" align="left">Orientation of Leads or Fractures</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELWD</semantic__td>
+<semantic__td valign="top" align="left">Ice Lead (or Fracture or Crack) Width</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICELOC</semantic__td>
+<semantic__td valign="top" align="left">Ice Location Information</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEBSZ</semantic__td>
+<semantic__td valign="top" align="left">Iceberg Size</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEDDR</semantic__td>
+<semantic__td valign="top" align="left">Ice Drift Direction</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEDSP</semantic__td>
+<semantic__td valign="top" align="left">Ice Drift Speed</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICETCK</semantic__td>
+<semantic__td valign="top" align="left">Ice Average Thickness</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEMAX</semantic__td>
+<semantic__td valign="top" align="left">Maximum Ice Thickness</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEMIN</semantic__td>
+<semantic__td valign="top" align="left">Minimum Ice Thickness</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICETTY</semantic__td>
+<semantic__td valign="top" align="left">Ice Thickness Type</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICESCT</semantic__td>
+<semantic__td valign="top" align="left">Snow Depth</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICESCN</semantic__td>
+<semantic__td valign="top" align="left">Snow Cover Concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEDOS</semantic__td>
+<semantic__td valign="top" align="left">Direction Of Sastrugi</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICERCN</semantic__td>
+<semantic__td valign="top" align="left">Ice Ridge Concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICERDV</semantic__td>
+<semantic__td valign="top" align="left">Ice Ridge Classification</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICERMH</semantic__td>
+<semantic__td valign="top" align="left">Ice Ridge Mean Height</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICERFQ</semantic__td>
+<semantic__td valign="top" align="left">Ice Ridge Frequency</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICERXH</semantic__td>
+<semantic__td valign="top" align="left">Ice Ridge Maximum Height</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEKCN</semantic__td>
+<semantic__td valign="top" align="left">Ice Keel Concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEKFQ</semantic__td>
+<semantic__td valign="top" align="left">Ice Keel Frequency</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEKMD</semantic__td>
+<semantic__td valign="top" align="left">Ice Keel Mean Depth</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEKXD</semantic__td>
+<semantic__td valign="top" align="left">Ice Keel Maximum Depth</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEFCN</semantic__td>
+<semantic__td valign="top" align="left">Ice Rafting Concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_SFA</semantic__td>
+<semantic__td valign="top" align="left">Ice Stage of Development and Floe Size for the 1st p.c.</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_SFB</semantic__td>
+<semantic__td valign="top" align="left">Ice Stage of Development and Floe Size for the 2nd p.c.</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_SFC</semantic__td>
+<semantic__td valign="top" align="left">Ice Stage of Development and Floe Size for the 3rd p.c.</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_FFA</semantic__td>
+<semantic__td valign="top" align="left">Ice Breccia for the 1st partial concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEFCN</semantic__td>
+<semantic__td valign="top" align="left">Ice Breccia for the 2nd partial concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_FFC</semantic__td>
+<semantic__td valign="top" align="left">Ice Breccia for the 3rd partial concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_SNG</semantic__td>
+<semantic__td valign="top" align="left">Snow concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_MLT</semantic__td>
+<semantic__td valign="top" align="left">Stage of melting</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_PLG</semantic__td>
+<semantic__td valign="top" align="left">Contamination</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_HLG</semantic__td>
+<semantic__td valign="top" align="left">Hills concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_DUG</semantic__td>
+<semantic__td valign="top" align="left">Fractures concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_BCN</semantic__td>
+<semantic__td valign="top" align="left">Icebergs concentration</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_BFM</semantic__td>
+<semantic__td valign="top" align="left">Prevailing iceberg form</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_BUH</semantic__td>
+<semantic__td valign="top" align="left">Max. height of the above-water part (iceberg / grounded hummock)</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_OBN</semantic__td>
+<semantic__td valign="top" align="left">Number of ice objects</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_DXW</semantic__td>
+<semantic__td valign="top" align="left">Max. width of ice lead (or fracture or crack)</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">IA_DMW</semantic__td>
+<semantic__td valign="top" align="left">Min. width of ice lead (or fracture or crack)</semantic__td>
+</semantic__tr><semantic__tr><semantic__td valign="top" align="left">IceFCD</semantic__td>
+<semantic__td valign="top" align="left">Attribute</semantic__td>
+<semantic__td valign="top" align="left">ICEBRS</semantic__td>
+<semantic__td valign="top" align="left">Brash Ice</semantic__td>
 </semantic__tr></semantic__tbody>
 </semantic__table>
 
@@ -3578,7 +3254,7 @@ sourcecode .nt {
 
 <p id="_297be5c1-e945-9004-5f4d-ea41f8ce8ab9">Published by the<br/> International Hydrographic Organization <br/> 4b quai Antoine 1 <sup>er</sup><br/> Principauté de Monaco <br/> Tel: (377) 93.10.81.00 <br/> Fax: (377) 93.10.81.40 <br/> info@iho.int <br/> \www.iho.int<br/></p>
 </feedback-statement>
-</boilerplate><preface><clause type="toc" id="_11bb5dd7-adc6-4afa-b54c-155ae7ab6209" displayorder="1"><title depth="1">Contents</title></clause>
+</boilerplate><preface><clause type="toc" id="_918c6db9-63ff-4eaf-94a1-d4a0d5c74560" displayorder="1"><title depth="1">Contents</title></clause>
 <clause id="_document_history" obligation="informative" displayorder="2">
 <title depth="1">Document History</title>
 <p id="_345292b8-60e3-bfbd-add1-ad7c16880e2d">Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site.</p>
@@ -3666,7 +3342,7 @@ sourcecode .nt {
 
 <clause id="_terms_and_definitions" obligation="normative">
 <title depth="3">1.3.2<tab/>Terms and definitions</title>
-<p id="_4334f48b-9379-3d69-221d-7d0846cdc34f"><em>The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI</em></p>
+<p id="_4334f48b-9379-3d69-221d-7d0846cdc34f">The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI</p>
 
 <p id="_94f65d3a-71a8-6995-abf8-ed6fa7b309d4"><strong>Coordinate</strong></p>
 
@@ -4316,667 +3992,343 @@ sourcecode .nt {
 
 <clause id="_feature_types_summary" obligation="normative">
 <title depth="3">4.3.3<tab/>Feature Types Summary</title>
-<table id="_94b62d85-78a2-a956-7a1f-5944c466b762"><name>Table 4-2</name><thead><tr><th valign="top" align="left">Register Dictionary</th>
+<ol id="_b1497836-37d6-753a-75f8-652c22a5fa14" type="arabic"><li id="_6770e1c6-7571-4c96-bf1d-b06ff2ef8d46" label="1"><p id="_841fd41c-40d8-bffe-57c2-f33926934df9">Summary of Types</p>
+</li>
+</ol>
+
+<table id="_80bd3f3b-9239-4264-9e77-3e8622233632"><name>Table 4-2</name><thead><tr><th valign="top" align="left">Register Dictionary</th>
 <th valign="top" align="left">Index</th>
 <th valign="top" align="left">Alpha code</th>
 <th valign="top" align="left">Name</th>
 </tr></thead>
-<tbody><tr><td valign="top" align="left"><p id="_0957a51d-1f35-71e1-535e-9f19bb9f7db5">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_ed71c08f-9375-d4e3-48a7-1cd77257fa42">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_0eb46a33-93a6-f076-fc30-c56252a55cbf">SEAICE</p>
-</td>
-<td valign="top" align="left"><p id="_00efbf3a-4a05-9a22-f6ce-f05d7496237c">Sea Ice</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_ffca0062-2932-68a4-0db8-f674ec85f812">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_b5996ae8-a0a4-801a-7fe0-bdd43f81c8e4">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_398ea8eb-18cf-96fc-c272-7efda919bdd4">LACICE</p>
-</td>
-<td valign="top" align="left"><p id="_49b4ee75-41e6-bf1a-c15e-44d216835c7e">Lake Ice</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_23bbdb5d-7df4-a378-3d77-6655160eda1d">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_f3251a56-4732-e8b7-87de-4824ecdfa80e">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_9d61a8e1-c6c1-96f6-9c67-b0b937087d69">BRGARE</p>
-</td>
-<td valign="top" align="left"><p id="_22d92cd3-5be2-9a1d-f6c9-53bdd06cda41">Iceberg Area</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_f2b804ee-7e4b-0e30-b04e-7e08588c1ce5">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_34a910fb-ffcc-b19b-58a1-cf89857add57">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_f8b9e666-0a33-376a-82bc-8db1073ba5ca">ICELNE</p>
-</td>
-<td valign="top" align="left"><p id="_27858784-b035-95cd-7b4b-f0a1e8b40cbe">Ice Edge</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_0bb7cb5e-67d9-874e-9e6c-3b2aa5014926">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_7ec51cbe-c53d-b70f-9e61-97096ae90b50">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_b65c48b8-ce4d-e78b-3e99-be87bbd47dc5">BRGLNE</p>
-</td>
-<td valign="top" align="left"><p id="_bd17ea25-30d9-3daf-b1ae-abb015970050">Iceberg Limit</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_330b0a68-a075-485c-5bb9-77ecd27db0af">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_a8f88d6b-9cb1-56c0-4913-e44712a6bf51">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_2d4d9044-5080-5549-b5dc-07c386ea3ba0">OPNLNE</p>
-</td>
-<td valign="top" align="left"><p id="_ddf3123f-88a0-646c-c481-7a3f2a2e98ec">Limit of Open Water</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_b3b23053-f2b1-b56e-1b9d-a9c76b96e670">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_a81c5fd0-ae71-1b22-ced6-f3606c4b2dde">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_067c60c5-12c7-c68d-11a8-92f8ba0f1381">LKILNE</p>
-</td>
-<td valign="top" align="left"><p id="_a8de148f-0d8d-fddc-4384-f8d7e1952607">Limit of All Known Ice</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_acc5c80e-d989-d3ab-0038-371bdb8a6531">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_efe70890-ec30-51a8-55a2-1da648fb3614">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_8e9e0353-5687-e688-4fa1-39536c52cd16">I_RIDG</p>
-</td>
-<td valign="top" align="left"><p id="_8f89dcbb-9632-af53-297b-9c4d72f3a952">Line of Ice Ridge</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_290746e8-d1b5-a513-fb6b-1b0111eb670e">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_69dfc8c1-a85d-d603-5637-7094219fc97e">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_46b109b2-1a1b-05eb-1494-d91e885d7a94">I_LEAD</p>
-</td>
-<td valign="top" align="left"><p id="_a6eb87aa-7ac5-8752-7053-0dbca56d2f3e">Line of Ice Lead</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_746b0661-eb03-2fd5-618c-bba1e767a22c">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_854d06b2-12e9-8e56-6e25-fe80db7c4740">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_d7b6725b-f505-30dc-6748-570fbbf68713">I_FRAL</p>
-</td>
-<td valign="top" align="left"><p id="_2d486732-5c6a-d921-b640-aacda9ad649d">Line of Ice Fracture</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_ebe14490-781e-9f07-ba65-9e3e71b2a06d">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_e998a8da-c128-c2b3-aa95-682cc8c4db52">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_09c8bf5d-2ecf-05ae-c19e-fef352e31d35">I_CRAC</p>
-</td>
-<td valign="top" align="left"><p id="_a8b514fc-495e-75ad-5222-391707108d4e">Line of Ice Crack</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_5fabd529-9dcd-6f3c-4cb4-cbac95e73732">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_44dc2c66-b858-1811-5860-51a2194f4e42">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_159e8061-8954-958c-278d-0c2450d89404">ICECOM</p>
-</td>
-<td valign="top" align="left"><p id="_4edc7c94-6e94-52f6-0bd4-f459d0c126ee">Ice Compacting</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_d614bf29-c956-8625-da95-f109981d2940">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_bf5a0d7e-e48b-b7ce-8d2d-e1fac2afa096">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_08459289-ea09-baeb-0fbb-71c84fd53d23">ICELEA</p>
-</td>
-<td valign="top" align="left"><p id="_3a28b67c-8a76-f9bf-8df5-b380c5f72c9b">Ice Lead</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_24b4255f-470f-ca88-775d-9db003efc9be">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_c192f6c4-f485-3108-2335-d7863ffeb3ea">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_6acf6ca7-d7e5-2ee2-0766-d6e1a79181ec">ICEBRG</p>
-</td>
-<td valign="top" align="left"><p id="_01faea15-88e9-9d0f-2758-40c0941a102b">Iceberg</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_f7725375-7a64-65fa-70db-18335e53e8a5">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_6c3e3d5b-a832-5c03-fa4e-7e5e819381a7">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_9a7a43ec-e84d-360e-0bfd-6301c9b405bf">FLOBRG</p>
-</td>
-<td valign="top" align="left"><p id="_37a5f6f5-e66e-8e53-e7a9-c9a2860d033c">Floeberg</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_f024290a-fa52-dd6a-1a4f-7db2b4ba5fd6">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_b80751c6-2bbf-42c2-9bf1-4449e60c0f76">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_1015bec2-ab3b-8437-3b54-c5c12e022d59">ICETHK</p>
-</td>
-<td valign="top" align="left"><p id="_643cb173-36e0-4feb-1893-203e34494c02">Ice Thickness</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_747f322d-0696-e154-557e-2196c20063b4">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_993bc4a0-8c4e-8bd5-e775-c964df3d5c16">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_23b094ea-d055-7c72-877d-f18301b6951e">ICESHR</p>
-</td>
-<td valign="top" align="left"><p id="_a0a67c46-94fe-4cc6-c2e7-15c9bc1452f0">Ice Shear</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_945620ae-bf49-d106-ebf3-ea6fd9c30b3b">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_88ef80e9-b58f-c45a-8e31-9feac15f5df6">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_508bac49-5cac-7c90-6e46-f9f28f1f4e8c">ICEDIV</p>
-</td>
-<td valign="top" align="left"><p id="_b148d519-db49-9f8e-7fee-5487f4ce2ea9">Ice Divergence</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_952bc647-8e5a-66bd-4c45-dd0d5ed084e1">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_8f20c8d2-0951-028c-25e9-38206c57b8eb">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_b31ca717-aa05-2c13-e84e-0ae6d0783ee9">ICERDG</p>
-</td>
-<td valign="top" align="left"><p id="_1ed8f1a9-6ec0-4f95-b177-337ab305931a">Ice Ridge/Hummock</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_ab9ca0f2-5292-64da-e496-afb8c8da5ea6">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_3b842813-005a-7a63-31cb-33bd514e1680">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_2dac27ef-5abe-9331-6543-a127577515b6">ICEKEL</p>
-</td>
-<td valign="top" align="left"><p id="_0eb5bf63-77de-e34e-13e5-4bef9a579bf8">Ice Keel/Bummock</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_9e45afdb-bc5f-5446-1e81-82619b22fa7c">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_38d933ff-f46f-622e-ae89-c5b4eafe50f3">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_6b4dd70e-381f-defa-7913-55604e785f91">ICEDFT</p>
-</td>
-<td valign="top" align="left"><p id="_567ab7da-e788-ff03-9a4e-1bf7fd610aeb">Ice Drift</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_9e447205-03bb-0b69-5912-e2fa5b1f153a">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_44c1a52d-2ff1-0a83-5862-ba500d65d60b">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_bf9cde2f-5a26-3e17-43e7-097c976f03ee">ICEFRA</p>
-</td>
-<td valign="top" align="left"><p id="_a4a62c58-bcc6-848e-4cbc-30399f9b70bb">Ice Fracture</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_9f0ad2d2-690b-6189-ba64-06949049947b">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_4cbd96b8-15ad-1c58-d6b2-110cbed16f47">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_e918e986-9e69-2feb-e3c3-f9209657478d">ICERFT</p>
-</td>
-<td valign="top" align="left"><p id="_565af5fd-7cd9-f3ca-b961-fde3504bf562">Ice Rafting</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_a5e0a60b-75ea-7226-9dee-b016ef7756e9">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_95eda2b0-2805-ef22-b32f-f08499e771c9">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_b4b5f0a0-6e15-81d3-b10b-f22c0adb578c">JMDBRR</p>
-</td>
-<td valign="top" align="left"><p id="_37338b54-e3e6-f0a0-ff67-98e0c09873ff">Jammed Brash Barrier</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_486e061f-19f8-c864-7dbf-2278cb0058b4">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_5512f367-1019-808c-444f-8f0cf2169c88">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_8cf69d64-a6f8-475d-b1bb-f60f388eb347">STGMLT</p>
-</td>
-<td valign="top" align="left"><p id="_026790e5-2d17-6496-7073-565a07327b31">Stage of Melt</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_4be6447a-5fbb-5632-20c3-7fa65244adf3">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_3e0b19e4-1922-4da5-5640-ffa36a9daf5b">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_f1f6586f-3062-4712-8c69-3754915a8c0e">SNWCVR</p>
-</td>
-<td valign="top" align="left"><p id="_120de9ce-b8ac-56fe-c533-a371821989e1">Snow Cover</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_901fc8eb-7ee1-a1f3-9416-16f19a856943">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_43311711-d9f6-e5a1-50b8-04da3441e390">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_f5197ccb-4404-9211-deda-6050135085d2">STRPTC</p>
-</td>
-<td valign="top" align="left"><p id="_947000db-e35b-6343-10fd-285e5f16197d">Strips and Patches</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_5ebf236b-0f33-9ef7-cb65-d98e35d3d116">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_e9f00fa7-c9a3-952b-a9f7-5554b8ca092e">Feature</p>
-</td>
-<td valign="top" align="left"><p id="_d997ff14-5dd0-adea-ab07-f7544bc96dc7">I_GRHM</p>
-</td>
-<td valign="top" align="left"><p id="_874678c3-8cab-4608-d83e-6fbf4cd003f9">Grounded Hummock</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_b0460563-cce0-3d82-5f77-5abb517448c7">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_7efbf27f-441e-1819-5d1b-584e4e26cbe7">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_8744f12e-3f94-a525-a55e-d40b2bcad318">ICEACT</p>
-</td>
-<td valign="top" align="left"><p id="_cb9c9722-03c1-63e2-3c61-ba069a741140">Total Concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_4d7e3573-e221-b775-8881-4559a4c85232">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_3b8950a7-9b01-a1d2-266d-72c5c1d04bbf">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_3e2b6ad2-4f26-bad5-1cfd-0eb2b16796bc">ICEAPC</p>
-</td>
-<td valign="top" align="left"><p id="_36644aa4-d539-bd48-e2ba-a1344a6fe481">Partial Concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_76fef22b-492e-e95a-f29f-131b6760ad1f">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_7e58a057-d07a-6423-64e2-9a978bdf1c40">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_0248f331-c23e-9b2c-0959-60108d6315b9">ICESOD</p>
-</td>
-<td valign="top" align="left"><p id="_249f2fc3-0fca-1e34-8e91-873ed948e5dc">Ice Stage of Development</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_d5291911-8438-cc3b-92a1-98877632ba9b">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_fd3eb611-8dbd-b192-57e6-8ff0851dcecb">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_70846255-3d25-1e6c-e144-f5a35d7d1072">ICELSO</p>
-</td>
-<td valign="top" align="left"><p id="_0207e278-7eaf-1e51-b25d-578773726846">Lake Ice Stage of Development</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_ebdb5f2a-3002-8cbe-3ada-a6513adcee28">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_5209823f-23df-df34-e607-b1a3d6d30128">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_b10ccfa1-f52a-9e25-8a8e-301279b11da4">ICEFLZ</p>
-</td>
-<td valign="top" align="left"><p id="_d525cfba-abe8-a351-ac21-696220a7b8d5">Floe Sizes</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_2fd57714-3c5f-bb4e-2af1-16065703b7d1">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_21bee8e5-911e-601b-af58-496c28c61357">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_20055e47-fa57-5afe-91f2-33c6cc4f1ebd">ICEMLT</p>
-</td>
-<td valign="top" align="left"><p id="_4a18112e-ea9a-a144-731b-f5409d96bb44">Melt Stage</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_569dcf75-e598-88ed-d0b3-546382590f4f">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_5b1c399e-fd56-7adc-6f0e-002c070b466e">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_7c358404-637c-5f23-c7e4-068499c7a1ee">ICESPC</p>
-</td>
-<td valign="top" align="left"><p id="_83c14651-f070-09f5-9f8b-c939027dd09a">Concentration of Strips and Patches</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_47a39611-caf8-4592-26df-6256e59db2ac">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_655034ca-8723-7d62-aec3-e2c722328a2b">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_606b6824-c574-90ff-21b6-f9ff75679e0c">ICEBNM</p>
-</td>
-<td valign="top" align="left"><p id="_6d1f966b-99a2-fd03-4f6a-819f895eb98b">Number of Icebergs in Area</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_2a1899af-b5f4-5eab-fdee-67ef2f5fcfc8">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_296d52ca-f68c-588f-a03f-e9b91bc66549">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_5ab848ed-59b3-fbb2-76fe-716a9fb21429">ICELVL</p>
-</td>
-<td valign="top" align="left"><p id="_f07c16af-d18c-71f0-a893-0ed427ea64e5">Level Ice</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_eb690b5d-44f1-a02c-ff1b-2c5a35a14295">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_27b1788b-435c-f272-2cc5-feadfd1cdacc">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_08fd0ad2-f85c-e71a-2caa-c368f5fe8e10">ICECST</p>
-</td>
-<td valign="top" align="left"><p id="_82025f99-40e1-2018-cec7-c961d471f0a1">Compacting Strength</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_b8b64ec1-599d-299f-6770-bf8ce6b4bf6e">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_3b385ef2-eeb6-c9a8-a820-db865279744d">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_890d8781-1ff5-fb5a-e496-5f884c39710a">ICEFTY</p>
-</td>
-<td valign="top" align="left"><p id="_77d33938-9c99-5e03-d272-5cb7b1e4006a">Ice Fracture Type</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_dbc7e64c-a813-053a-81ad-ad6e1b612bde">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_d5758a5d-92b4-7017-1d10-c53212d612ba">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_79e659af-34c6-5c0b-adeb-74bd5bcae8f9">ICELST</p>
-</td>
-<td valign="top" align="left"><p id="_4e895171-ecf9-18a8-3711-7f15b5ca3cd1">Ice Lead Status</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_2df2472d-cfa2-08a2-4291-c7cbc26086b9">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_9de9336d-2275-07fb-6c4c-c91ee3944abf">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_1f0374b7-ef13-e701-0853-4f07d0e9247d">ICELFQ</p>
-</td>
-<td valign="top" align="left"><p id="_f4a904ae-d967-c512-1ee2-7be8cf3d2aba">Frequency of Leads or Fractures</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_52ab9752-4f91-11e1-20eb-2b12482c4f60">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_63d5427b-3f27-912a-b432-78ea22b1da23">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_d6bd2334-8676-cd6c-c34e-0e39d4c278ca">ICELOR</p>
-</td>
-<td valign="top" align="left"><p id="_aa8c5fda-4cd8-3577-89f1-7d164514fc9e">Orientation of Leads or Fractures</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_67d0e399-2134-2526-3f97-a912b2c8c193">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_a4b47e90-5eb2-a7ef-9cff-dd8d20b372bf">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_ed72103c-3858-83cc-8b7b-86361874574c">ICELWD</p>
-</td>
-<td valign="top" align="left"><p id="_8f9e72a9-7de1-a9cd-855f-f20f11232085">Ice Lead (or Fracture or Crack) Width</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_ec3fcd64-6bc8-508e-3f09-b1ffdf8f57ae">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_f5e786ed-38fc-4202-354f-e1fb55eaf161">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_31f83d4f-a3e5-1e04-79b9-1bacd00e03fc">ICELOC</p>
-</td>
-<td valign="top" align="left"><p id="_8d10b16d-06e3-1746-f580-87fae027a5df">Ice Location Information</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_909fe116-4226-703c-157c-cca60847694f">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_4a383e20-8a1c-7eca-dffc-7ff12948bff0">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_7fa6f83d-886c-0236-e06d-184f5ef067ff">ICEBSZ</p>
-</td>
-<td valign="top" align="left"><p id="_844db2af-541f-b304-414b-6544ff4a646f">Iceberg Size</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_55875170-f1c5-a5ff-cf8e-36446fef2e87">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_50976399-5ee1-1c5b-b197-77e41f359d68">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_00fa2396-39b0-9ba0-16cf-b9c7ee723222">ICEDDR</p>
-</td>
-<td valign="top" align="left"><p id="_92ad171e-cfdb-a23b-ea84-ec7f20ffccd7">Ice Drift Direction</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_fe8270ee-27df-04a8-285f-8475eceb1050">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_3dcebaec-7040-fcb7-666b-03880281a320">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_b035139e-89c0-f229-e215-4bc949fad78c">ICEDSP</p>
-</td>
-<td valign="top" align="left"><p id="_959d6742-5033-2a05-42da-7a9958976612">Ice Drift Speed</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_b266c57b-8107-4594-2971-ba29679adaf1">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_2c5f032a-c514-8bd9-be20-b342c90869e2">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_811d364e-13f5-f162-c3e3-a1e0f4492aa8">ICETCK</p>
-</td>
-<td valign="top" align="left"><p id="_9dc49393-7093-f5db-d128-481d30525525">Ice Average Thickness</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_a7882c55-31e9-ac4c-e9b5-d347e498756e">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_560a5071-71ca-18d7-e946-dd528c8c0b0e">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_5e8dbf69-2c5f-73ba-5422-a72d1e26c7e6">ICEMAX</p>
-</td>
-<td valign="top" align="left"><p id="_5c16ea09-92f0-d51a-36b2-b282509da1c0">Maximum Ice Thickness</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_6ae55c8a-837f-185d-d265-05cbd195f25c">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_6f3bfc83-e9f6-2d0b-8d73-80d12c26884f">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_53172500-9a58-7a98-487e-47fdf388e112">ICEMIN</p>
-</td>
-<td valign="top" align="left"><p id="_35e3aa5d-2dfe-829e-439a-6f9b0da961b4">Minimum Ice Thickness</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_ad2e8cf8-3b32-82e5-29a1-c369b8ddbc1c">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_1f2042db-b086-fdad-920e-4e0bcc70457b">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_1ff91d69-e650-4bca-6fcf-21db7ed6e9da">ICETTY</p>
-</td>
-<td valign="top" align="left"><p id="_8a837a61-c356-1c50-6db1-bfb374e837b3">Ice Thickness Type</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_e472fe03-23cf-67ce-368f-9c22cfc11860">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_45d2ed6c-25f9-2e7e-4261-e6ceec2fd3fb">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_0251598b-274e-4d84-0ff0-85d310b0cfd2">ICESCT</p>
-</td>
-<td valign="top" align="left"><p id="_5f02dba3-02a5-01e4-fd12-dea7b867adf2">Snow Depth</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_6911318a-bb76-5762-452b-736787143ed4">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_a6458429-c14e-92ce-ad0f-257cb60972e3">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_d7eb5c4b-522a-ed6d-f108-b54aa5e8c84a">ICESCN</p>
-</td>
-<td valign="top" align="left"><p id="_415b8ee9-828d-2de3-2dd1-57586bebe9e9">Snow Cover Concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_66b0bafb-0905-3f83-4e38-30581cccaa80">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_2a7c1209-4838-0171-b95a-2dec053b4fc4">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_9d6685e2-a980-a7cd-9fb0-f98874382e3e">ICEDOS</p>
-</td>
-<td valign="top" align="left"><p id="_f28a24f0-965f-78c6-e729-775721321e53">Direction Of Sastrugi</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_a4fd2972-7dcc-4d74-cb58-e80fc71148f4">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_23a9e3e2-4716-27d4-c43e-9f3203c9f438">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_37e6660e-b112-1d2d-c86d-93099d2b8a0b">ICERCN</p>
-</td>
-<td valign="top" align="left"><p id="_08ca316e-a0bb-8807-f015-3dfc3d92e369">Ice Ridge Concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_046b14cb-57c4-1441-85b3-e4ff907abede">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_899dc340-e5fd-211f-b014-de6fe642af8d">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_373280b0-7a42-129c-cada-8178133b91df">ICERDV</p>
-</td>
-<td valign="top" align="left"><p id="_5aec5e4d-b1ea-5788-3422-9339d66dd62d">Ice Ridge Classification</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_b795c351-b339-ed88-8788-304b6b353cdf">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_a0417749-33a1-13ce-4d5f-902724f0f612">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_953c500c-72aa-8325-7899-b77e33cf8494">ICERMH</p>
-</td>
-<td valign="top" align="left"><p id="_001baa57-8586-bcae-aefe-73b7d20bd5d7">Ice Ridge Mean Height</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_0b813a03-5e23-b5d2-8f30-22f9d4af6f7d">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_634bb877-43c3-a382-8f67-19cb95c2ec04">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_be92f76c-f8e3-71e1-f3ee-a89b0f981d1d">ICERFQ</p>
-</td>
-<td valign="top" align="left"><p id="_83888634-4625-8eff-c9aa-2474ffd83a33">Ice Ridge Frequency</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_befa7928-c98a-a144-5149-ba2e4496c5fd">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_1568145b-0f8d-d3a2-3d79-65523efc4a76">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_9be986a0-595a-dacf-58b6-fd6380aa9dae">ICERXH</p>
-</td>
-<td valign="top" align="left"><p id="_596e363b-edef-ad7f-bff9-ba2961def2bd">Ice Ridge Maximum Height</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_5492a01a-1809-3370-2f50-c600776098a6">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_8b3092e5-4763-4d60-4fba-b4f62d0099b8">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_4aeee7fc-dc40-bd66-b574-8d486da26bd4">ICEKCN</p>
-</td>
-<td valign="top" align="left"><p id="_c3abf51b-f404-0de5-ba9f-c9525712deb9">Ice Keel Concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_4974ec6f-d87c-5254-05ae-9a68ccdadee9">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_63d7737f-02b0-7acb-10ed-d9cbeb515e29">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_870a8d12-278a-234c-6ed2-383860bee6ca">ICEKFQ</p>
-</td>
-<td valign="top" align="left"><p id="_9f1e9429-3ef9-a88b-0ad5-b981ed318ed6">Ice Keel Frequency</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_e0c903a8-0fd8-af58-0b64-902807dec747">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_3dce5326-25a7-7b87-b17e-8883e1494e91">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_8bcd2dec-da5e-4ab2-8960-d3a093e2bd1f">ICEKMD</p>
-</td>
-<td valign="top" align="left"><p id="_b8c393e8-816d-8603-a131-764307f8d992">Ice Keel Mean Depth</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_8842860d-72dd-d70c-a618-f31b76abbe53">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_71152637-ff65-28bd-ecec-fd96b3c6ba60">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_bbb4db80-cbc0-fbe6-7e34-03dfcd3184f7">ICEKXD</p>
-</td>
-<td valign="top" align="left"><p id="_6bab491b-daba-0e99-fbcb-59160274cd57">Ice Keel Maximum Depth</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_546a277e-0aaa-9351-ad34-28010724407a">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_f72aa90b-73a1-1d73-fe86-e8b5ae42b121">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_ec136350-52e4-5fdb-e30a-6407ef95363d">ICEFCN</p>
-</td>
-<td valign="top" align="left"><p id="_af29c02d-fdf6-fea9-1c91-372d1fe36fc7">Ice Rafting Concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_5f66b8df-5734-bce3-abb8-3a0dfc943001">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_ce8ee7b9-ed54-eb69-dd4e-acdccc375c38">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_68a89b3c-aa3f-b1c8-8357-cb4a41e01163">IA_SFA</p>
-</td>
-<td valign="top" align="left"><p id="_5c2bfafc-fbe3-8757-89e5-2dde91deca19">Ice Stage of Development and Floe Size for the 1st p.c.</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_b918d895-04b0-00bd-1d83-91182b2e48ed">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_1caa4f2a-aa51-c746-5d0d-86c8537ab928">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_16c406db-22bd-56df-3615-2febcfe32b66">IA_SFB</p>
-</td>
-<td valign="top" align="left"><p id="_b2c8d82e-b65e-a85a-f2e1-7b8eab0f878e">Ice Stage of Development and Floe Size for the 2nd p.c.</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_4b33fa11-bb5d-d3f6-c49e-b2d2dd2c6df6">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_956ddae7-187c-b586-745d-9e201f86472d">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_ff156216-3d7f-a048-4a03-bf4625a962fa">IA_SFC</p>
-</td>
-<td valign="top" align="left"><p id="_19a0f4f5-131c-715f-ab29-2b2ac75304ef">Ice Stage of Development and Floe Size for the 3rd p.c.</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_a58e630a-d018-0d48-9836-09e3d67bec66">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_81b03461-5738-a8ef-abad-0abb17ec66f9">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_5e2fc739-c7c7-f141-277e-8f458a6543d8">IA_FFA</p>
-</td>
-<td valign="top" align="left"><p id="_83f9cbaf-7b23-72f3-7910-fc73de852f30">Ice Breccia for the 1st partial concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_5c4be184-cb28-1d45-9d41-8c715d44d199">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_d49466d8-6664-6852-b271-32c784abfa8a">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_a01b8eb0-a7f1-23c9-f3f9-fbfab13bee53">ICEFCN</p>
-</td>
-<td valign="top" align="left"><p id="_d51411d4-b446-7d4e-f956-285694da7711">Ice Breccia for the 2nd partial concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_67daec5c-17df-1b43-834a-25ac3b7122f9">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_07969075-ff8c-820f-e09b-18303a3bd9bd">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_2f6441d6-4857-ce1a-241c-cb8b9a73ed8d">IA_FFC</p>
-</td>
-<td valign="top" align="left"><p id="_acc72924-f175-02a0-83da-c2f07e4a4747">Ice Breccia for the 3rd partial concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_5123f435-a62c-f94f-4582-45c5a13e1697">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_a2ce94aa-65e9-865e-2dfc-aee8d8427b50">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_160d9650-3fe8-d9b8-079c-aa69a8e720c4">IA_SNG</p>
-</td>
-<td valign="top" align="left"><p id="_6fb8bc05-14ab-58ff-a4b0-2fec195a902d">Snow concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_157c942e-971d-6f6f-7207-24b030fa9260">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_0b759065-5b80-2c06-8060-d22a2b9747e3">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_2095b823-588d-3465-20dd-297ae5fd69e4">IA_MLT</p>
-</td>
-<td valign="top" align="left"><p id="_c4eaa86a-685a-9654-88a9-17d53f8dd7bb">Stage of melting</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_f35133af-3f39-33fb-7e00-f89af38fbbd6">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_e1d503dc-a018-63aa-ed19-6f6aa13439e2">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_7f41fe43-8bd8-a752-2e28-2e59d1443cd5">IA_PLG</p>
-</td>
-<td valign="top" align="left"><p id="_9d55bec2-77c9-fa41-04e1-e4726a1dae6b">Contamination</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_6cfb9b15-3f8b-6ac8-8e59-700a49302a4e">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_19af0591-371e-e745-5be7-11dcf3ee058c">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_ac3320f3-3daf-8f42-e86c-c5ee81b80f63">IA_HLG</p>
-</td>
-<td valign="top" align="left"><p id="_56a3dddd-48a2-4c89-9171-18f0f0981e1d">Hills concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_18080514-ddf3-058f-bb80-a87b61b08451">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_9ccf65dc-0e8c-8fb8-90d0-dc4a5b2fe990">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_735a1b3c-dc3e-cb35-2b36-95cccc2fa85a">IA_DUG</p>
-</td>
-<td valign="top" align="left"><p id="_00cd7741-246f-2b1b-ba59-20f6be4a8d22">Fractures concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_3b11b73b-910f-d5c9-dfaa-9005cc864132">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_745394b9-fa0e-9c82-bf66-5046c67bc0ee">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_42dbf446-7184-8118-d013-b97d89c80d6e">IA_BCN</p>
-</td>
-<td valign="top" align="left"><p id="_685c43a0-f491-6d54-fc9d-67d5d3317b8e">Icebergs concentration</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_1e217954-cff7-68f7-70bd-9925f497317e">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_e834691b-78e3-0967-05f1-dba655cb2280">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_0a419ee7-394c-853a-bdd2-3d22c95f79f7">IA_BFM</p>
-</td>
-<td valign="top" align="left"><p id="_16324d76-e042-a046-cc54-1c1110548cdd">Prevailing iceberg form</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_0b0cc961-0566-420f-8c60-64bfea8c337c">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_1b013159-9fc0-0366-2178-a93fc386e118">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_a6263d30-3c59-88c6-4d4b-d414e252cd52">IA_BUH</p>
-</td>
-<td valign="top" align="left"><p id="_178b9b8a-3884-77dd-d3cf-a4f0780e60f3">Max. height of the above-water part (iceberg / grounded hummock)</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_781c5fcf-3cfc-73e8-f4ca-644b0cb50dfc">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_58acb523-7b25-b5d0-49fe-637ec3a17fe3">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_fdedb920-4b88-bb24-f049-25cca1318117">IA_OBN</p>
-</td>
-<td valign="top" align="left"><p id="_9eef4317-7982-a54e-ded4-6492a58a1514">Number of ice objects</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_4a5ebbd6-f484-2ebd-5d1b-f8c87883db16">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_c0728a5b-e0fe-c5ce-cee2-430071b3b6d6">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_c93cc4c5-ffd0-2b6b-bab3-c5e31fa37c9c">IA_DXW</p>
-</td>
-<td valign="top" align="left"><p id="_095d5b54-a884-7b69-627e-f54dfe3e436c">Max. width of ice lead (or fracture or crack)</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_6df30db9-3fb2-1370-f55c-03c1ae598737">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_dc589377-dbd4-f150-2554-22f8e420686f">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_be6f4295-53bf-2b12-f32f-2c28628e4522">IA_DMW</p>
-</td>
-<td valign="top" align="left"><p id="_687096d9-1c42-4786-90c5-9d0440790cd7">Min. width of ice lead (or fracture or crack)</p>
-</td>
-</tr><tr><td valign="top" align="left"><p id="_a5042283-81b5-94bb-f190-142de3761436">IceFCD</p>
-</td>
-<td valign="top" align="left"><p id="_931dc718-4d48-830f-b594-b8f3704a04d2">Attribute</p>
-</td>
-<td valign="top" align="left"><p id="_31edb24f-a7c3-f8e5-5554-4093bb47e53a">ICEBRS</p>
-</td>
-<td valign="top" align="left"><p id="_139ba797-9129-08ee-40dd-be2d3411feef">Brash Ice</p>
-</td>
+<tbody><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">SEAICE</td>
+<td valign="top" align="left">Sea Ice</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">LACICE</td>
+<td valign="top" align="left">Lake Ice</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">BRGARE</td>
+<td valign="top" align="left">Iceberg Area</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICELNE</td>
+<td valign="top" align="left">Ice Edge</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">BRGLNE</td>
+<td valign="top" align="left">Iceberg Limit</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">OPNLNE</td>
+<td valign="top" align="left">Limit of Open Water</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">LKILNE</td>
+<td valign="top" align="left">Limit of All Known Ice</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">I_RIDG</td>
+<td valign="top" align="left">Line of Ice Ridge</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">I_LEAD</td>
+<td valign="top" align="left">Line of Ice Lead</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">I_FRAL</td>
+<td valign="top" align="left">Line of Ice Fracture</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">I_CRAC</td>
+<td valign="top" align="left">Line of Ice Crack</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICECOM</td>
+<td valign="top" align="left">Ice Compacting</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICELEA</td>
+<td valign="top" align="left">Ice Lead</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICEBRG</td>
+<td valign="top" align="left">Iceberg</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">FLOBRG</td>
+<td valign="top" align="left">Floeberg</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICETHK</td>
+<td valign="top" align="left">Ice Thickness</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICESHR</td>
+<td valign="top" align="left">Ice Shear</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICEDIV</td>
+<td valign="top" align="left">Ice Divergence</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICERDG</td>
+<td valign="top" align="left">Ice Ridge/Hummock</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICEKEL</td>
+<td valign="top" align="left">Ice Keel/Bummock</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICEDFT</td>
+<td valign="top" align="left">Ice Drift</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICEFRA</td>
+<td valign="top" align="left">Ice Fracture</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">ICERFT</td>
+<td valign="top" align="left">Ice Rafting</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">JMDBRR</td>
+<td valign="top" align="left">Jammed Brash Barrier</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">STGMLT</td>
+<td valign="top" align="left">Stage of Melt</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">SNWCVR</td>
+<td valign="top" align="left">Snow Cover</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">STRPTC</td>
+<td valign="top" align="left">Strips and Patches</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Feature</td>
+<td valign="top" align="left">I_GRHM</td>
+<td valign="top" align="left">Grounded Hummock</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEACT</td>
+<td valign="top" align="left">Total Concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEAPC</td>
+<td valign="top" align="left">Partial Concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICESOD</td>
+<td valign="top" align="left">Ice Stage of Development</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELSO</td>
+<td valign="top" align="left">Lake Ice Stage of Development</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEFLZ</td>
+<td valign="top" align="left">Floe Sizes</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEMLT</td>
+<td valign="top" align="left">Melt Stage</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICESPC</td>
+<td valign="top" align="left">Concentration of Strips and Patches</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEBNM</td>
+<td valign="top" align="left">Number of Icebergs in Area</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELVL</td>
+<td valign="top" align="left">Level Ice</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICECST</td>
+<td valign="top" align="left">Compacting Strength</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEFTY</td>
+<td valign="top" align="left">Ice Fracture Type</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELST</td>
+<td valign="top" align="left">Ice Lead Status</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELFQ</td>
+<td valign="top" align="left">Frequency of Leads or Fractures</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELOR</td>
+<td valign="top" align="left">Orientation of Leads or Fractures</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELWD</td>
+<td valign="top" align="left">Ice Lead (or Fracture or Crack) Width</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICELOC</td>
+<td valign="top" align="left">Ice Location Information</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEBSZ</td>
+<td valign="top" align="left">Iceberg Size</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEDDR</td>
+<td valign="top" align="left">Ice Drift Direction</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEDSP</td>
+<td valign="top" align="left">Ice Drift Speed</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICETCK</td>
+<td valign="top" align="left">Ice Average Thickness</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEMAX</td>
+<td valign="top" align="left">Maximum Ice Thickness</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEMIN</td>
+<td valign="top" align="left">Minimum Ice Thickness</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICETTY</td>
+<td valign="top" align="left">Ice Thickness Type</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICESCT</td>
+<td valign="top" align="left">Snow Depth</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICESCN</td>
+<td valign="top" align="left">Snow Cover Concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEDOS</td>
+<td valign="top" align="left">Direction Of Sastrugi</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICERCN</td>
+<td valign="top" align="left">Ice Ridge Concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICERDV</td>
+<td valign="top" align="left">Ice Ridge Classification</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICERMH</td>
+<td valign="top" align="left">Ice Ridge Mean Height</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICERFQ</td>
+<td valign="top" align="left">Ice Ridge Frequency</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICERXH</td>
+<td valign="top" align="left">Ice Ridge Maximum Height</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEKCN</td>
+<td valign="top" align="left">Ice Keel Concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEKFQ</td>
+<td valign="top" align="left">Ice Keel Frequency</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEKMD</td>
+<td valign="top" align="left">Ice Keel Mean Depth</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEKXD</td>
+<td valign="top" align="left">Ice Keel Maximum Depth</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEFCN</td>
+<td valign="top" align="left">Ice Rafting Concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_SFA</td>
+<td valign="top" align="left">Ice Stage of Development and Floe Size for the 1st p.c.</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_SFB</td>
+<td valign="top" align="left">Ice Stage of Development and Floe Size for the 2nd p.c.</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_SFC</td>
+<td valign="top" align="left">Ice Stage of Development and Floe Size for the 3rd p.c.</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_FFA</td>
+<td valign="top" align="left">Ice Breccia for the 1st partial concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEFCN</td>
+<td valign="top" align="left">Ice Breccia for the 2nd partial concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_FFC</td>
+<td valign="top" align="left">Ice Breccia for the 3rd partial concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_SNG</td>
+<td valign="top" align="left">Snow concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_MLT</td>
+<td valign="top" align="left">Stage of melting</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_PLG</td>
+<td valign="top" align="left">Contamination</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_HLG</td>
+<td valign="top" align="left">Hills concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_DUG</td>
+<td valign="top" align="left">Fractures concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_BCN</td>
+<td valign="top" align="left">Icebergs concentration</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_BFM</td>
+<td valign="top" align="left">Prevailing iceberg form</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_BUH</td>
+<td valign="top" align="left">Max. height of the above-water part (iceberg / grounded hummock)</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_OBN</td>
+<td valign="top" align="left">Number of ice objects</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_DXW</td>
+<td valign="top" align="left">Max. width of ice lead (or fracture or crack)</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">IA_DMW</td>
+<td valign="top" align="left">Min. width of ice lead (or fracture or crack)</td>
+</tr><tr><td valign="top" align="left">IceFCD</td>
+<td valign="top" align="left">Attribute</td>
+<td valign="top" align="left">ICEBRS</td>
+<td valign="top" align="left">Brash Ice</td>
 </tr></tbody>
 </table>
 
@@ -5690,15 +5042,15 @@ sourcecode .nt {
 
 <p id="_6e2679f2-4385-2105-b6e8-a230f19bf401">=== Exchange Set The structure of an S-411 Exchange Set must be according to the structure described below, which is based on  <xref target="iho-s100">part=17,clause=4.2</xref>.</p>
 
-<ol id="_0c8ea659-c6ba-faef-d1c4-df0655eb23a3" type="arabic"><li id="_3385ffaf-822b-4dcb-81f4-809cc1cd0f66" label="1"><p id="_666061a1-aac3-50af-95b3-301dc997d144">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
+<ol id="_0c8ea659-c6ba-faef-d1c4-df0655eb23a3" type="arabic"><li id="_c76cf038-a62e-4885-9b14-a5f35937e4c6" label="1"><p id="_666061a1-aac3-50af-95b3-301dc997d144">An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.</p>
 </li>
-<li id="_eea12266-99fe-4d36-a063-cd1dedd2526c" label="2"><p id="_b7d033dd-fd0f-bab9-0fbf-604e727fe4ac">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
+<li id="_493d3641-ebc7-4c80-b57e-440d195eb155" label="2"><p id="_b7d033dd-fd0f-bab9-0fbf-604e727fe4ac">All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.</p>
 </li>
-<li id="_c839278c-db8e-4d9a-b173-66323ca85843" label="3"><p id="_fac9708a-7ce1-1d48-c0cc-cb8fb79e362f">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
+<li id="_6cdb5e58-e38c-4f2a-b833-1b0c9479fd84" label="3"><p id="_fac9708a-7ce1-1d48-c0cc-cb8fb79e362f">The S100_ROOT folder must contain a subfolder named S-411. This subfolder holds content specific to the S-411 Product Specification.</p>
 </li>
-<li id="_4cfa0f41-502b-4b65-98ae-df974fd7a2ed" label="4"><p id="_7959c973-111a-eeaa-a4dd-44e773cd4730">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
+<li id="_2e4e4652-ba84-4cf5-979e-5e2cad55e9f1" label="4"><p id="_7959c973-111a-eeaa-a4dd-44e773cd4730">The S-411 subfolder must contain subfolders for the component dataset files (DATASET_FILES) and Catalogues (CATALOGUES) as required.</p>
 </li>
-<li id="_90f571c5-750f-46b2-ab56-3fbdaeb51e3d" label="5"><p id="_20eddd04-db5f-da31-5c32-af38c9de1dc5">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
+<li id="_40a0564a-cdbe-4847-b5cf-6783c6d64c4d" label="5"><p id="_20eddd04-db5f-da31-5c32-af38c9de1dc5">The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.</p>
 </li>
 </ol>
 
