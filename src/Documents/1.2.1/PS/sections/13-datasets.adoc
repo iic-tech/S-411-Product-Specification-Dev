@@ -38,7 +38,7 @@ Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 
 *Insert standard Level 3a Geometry words here*
 
 [[fig-geometric-primitives-in-ice-information-product]]
-.*: Geometric Primitives Ice Information Product [REDRAW]*
+.*Geometric Primitives Ice Information Product [REDRAW]*
 image::../images/figure-geometric-primitives-in-Ice-information-product.png[Diagram depicting the allowable geometries]
 
 There are three types of geometry: Point, Curve and Polygon. Multi-geometries are not supported.
