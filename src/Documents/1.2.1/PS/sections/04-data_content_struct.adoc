@@ -13,7 +13,7 @@ _The following paragraph has been added based on S-101PS. TBC by GCOMM-ETSI_
 S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
 implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.
 
-Picture below shows very simplified structure of ice data structure.
+Picture below shows very simplified structure of the ice data structure.
 
 [[fig-ice-data-product-structure]]
 .*: Ice Data Product Structure*
@@ -695,6 +695,14 @@ image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting t
 ===== Geographic
 
 _Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
+
+the following figure shows all the major ice features in the S-411 Application Schema
+
+[[fig-all-ice-features]]
+.*:All Ice Features*
+image::../images/figure-all-ice-features.png[Diagram showqing all ice features]
+
+
 Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22._
 
 ==== Attributes
