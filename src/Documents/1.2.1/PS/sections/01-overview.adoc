@@ -37,7 +37,7 @@ Within this document:
 
 ==== Terms and definitions
 
-_The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI_
+#The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI#
 
 *Coordinate*
 
