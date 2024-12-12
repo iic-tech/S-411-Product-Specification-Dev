@@ -5,93 +5,97 @@
 <title>S-411 Feature Types</title>
 <link href="css/ea.css" rel="stylesheet" type="text/css" />
 <script>
-const guid_look = new Map([['46F308D5-C0A0-4F47-A44C-0CBDCFB1B0B1', 'EA1.htm'],
-['4CDD5286-0D02-4B73-8F08-8107AE1269C4', 'EA3.htm'],
-['45268DDE-0471-4247-BF82-741BD6720B52', 'EA5.htm'],
-['92DEA069-227E-4753-84A9-087CBF2E0610', 'EA6.htm'],
-['CFE423AE-243B-4B21-A567-2F45BAAB35C8', 'EA7.htm'],
-['FDB88CF9-43E5-46AD-9582-1BB2A038132F', 'EA8.htm'],
-['265EB5FE-C125-45B2-8878-B3A0F388B9D4', 'EA9.htm'],
-['DC4CC523-1479-4251-977A-6C2B4CE184FE', 'EA10.htm'],
-['09E8C986-8BE8-4165-B6B5-4D89C7DC8827', 'EA11.htm'],
-['B1C9ECF6-4C37-4E93-BE01-C88F6A288211', 'EA12.htm'],
-['64DF865F-9CCF-4270-ABB3-0AB80D3F63D1', 'EA13.htm'],
-['2790A677-296E-4FEC-B61F-F615F399D759', 'EA14.htm'],
-['A3A0A7AA-3BA8-48E2-AF3A-A1B60D12EB0E', 'EA15.htm'],
-['05690F29-9BA5-4B7B-AF62-53843F5F66D1', 'EA16.htm'],
-['15A995A7-7B83-4AF5-9DFC-270F1D9179AB', 'EA17.htm'],
-['9C1BDDB6-86B6-4A06-8927-6D7FC9599DE8', 'EA18.htm'],
-['C9C8CD7A-F4A0-4A35-A74D-6DC490B3C69F', 'EA19.htm'],
-['B1828BE7-DA64-4ADF-9495-06B8BB65AFDC', 'EA20.htm'],
-['5AE2E513-8D28-4DDB-B7F1-ACD9C8B4EE2E', 'EA21.htm'],
-['145C17E5-BEC2-4C0F-A72E-51C28695545C', 'EA22.htm'],
-['34F76EE3-5C98-4992-9E37-ED252EDCAD14', 'EA23.htm'],
-['F49D974E-DA60-4EF9-B81C-3B2B16933FBE', 'EA24.htm'],
-['EEEC896F-7054-401C-8025-1D2B298C5C29', 'EA25.htm'],
-['A6111021-9866-4D32-9DB1-5EEDFF20EE1C', 'EA26.htm'],
-['EE08B45D-CB1E-4059-A5C5-215C9EF1586A', 'EA27.htm'],
-['C73408EA-438B-4C08-92A5-5F670063E870', 'EA28.htm'],
-['556ADD4B-940C-4739-A19D-D277D8C812B3', 'EA29.htm'],
-['33A7711E-115D-440D-A2EA-FF6BE1A8D111', 'EA30.htm'],
-['6F53EDD8-CE62-4A92-A85E-2AE08DDC1289', 'EA31.htm'],
-['5D50679F-792E-4272-A667-AD3E6D09E8EC', 'EA32.htm'],
-['18A78176-A0C3-405A-ABCF-4B39A19A80DC', 'EA33.htm'],
-['2CC62692-CE20-4159-A56A-C9C95599F7F7', 'EA34.htm'],
-['432D4795-4698-46E2-A868-701ADC3D4A57', 'EA35.htm'],
-['DA2F597C-64E7-4B6C-8126-86A5624044E5', 'EA36.htm'],
-['FA76ADB6-4E19-4B7A-B9AA-EC684B438841', 'EA37.htm'],
-['3922970F-5C1D-45B9-B1A8-5B059C73D52E', 'EA38.htm'],
-['672ED4E2-109C-45AD-B719-D5C2465CF690', 'EA39.htm'],
-['520FBE5C-5BA8-4C69-ACF2-DB87C364E7D7', 'EA40.htm'],
-['859D9E88-274A-402F-98CB-CC42D88220AE', 'EA41.htm'],
-['797DF383-B07B-4B78-B5C6-EE8D0CAEFAB8', 'EA42.htm'],
-['B9BF74D3-5115-459B-B6FF-7DDE72E318DB', 'EA43.htm'],
-['5D2B0916-5C5C-4A56-9AEB-CC1379AA5847', 'EA44.htm'],
-['094283F9-B610-4560-88CF-0318BB7E847D', 'EA45.htm'],
-['5945462E-B9D5-4618-9016-C3BAB0EAAFBC', 'EA46.htm'],
-['4B8EC283-6AF7-48F2-B33E-A197BFCEF177', 'EA47.htm'],
-['300655A7-9153-47D4-BA79-82AA6E28539A', 'EA48.htm'],
-['F902E873-D79D-42B1-9A65-7FC80EE72547', 'EA49.htm'],
-['11D56424-B758-4595-807E-03456232C454', 'EA50.htm'],
-['C15933CB-1398-48E6-949F-A418DEC0EAC9', 'EA51.htm'],
-['B7A653D0-4479-4BC3-9A7E-215B46F14A41', 'EA52.htm'],
-['E1AC8CCA-AA96-4346-B046-A1C94540B058', 'EA53.htm'],
-['124B586B-C7E5-4E8D-B506-44BF28330E34', 'EA54.htm'],
-['128F50B5-745B-4F99-A1F5-D69E80E125EF', 'EA55.htm'],
-['55400EDB-3935-48A6-8809-D13BE54BB40E', 'EA56.htm'],
-['C26B173B-71FB-4DFB-B8EE-5258B5FCA112', 'EA57.htm'],
-['3B4C8744-191B-448E-A634-A045D40C9FF7', 'EA58.htm'],
-['0AF67E3A-C0DE-4EEC-AB11-3CCE30789321', 'EA59.htm'],
-['C32ACD45-7692-4069-BD43-4782A487D089', 'EA60.htm'],
-['6A7379F0-370D-413D-8FA1-2E63AFBD0941', 'EA61.htm'],
-['1C7536AE-3B99-4FAF-BAC6-011B88FDCDB2', 'EA62.htm'],
-['ECB4B2F1-72E9-4601-9D8A-91F4041F8585', 'EA63.htm'],
-['57F9380A-57A0-494B-AD86-9B2B93C7771F', 'EA64.htm'],
-['828B32FA-49E9-4D04-8162-583D8BBE1CC0', 'EA65.htm'],
-['0C29C359-6CB7-4202-84E3-11B74F6E817A', 'EA66.htm'],
-['3B29665B-2825-4856-B49E-0346019300DD', 'EA67.htm'],
-['1F801624-D3BB-4DCA-B0D4-9CD55808AA1F', 'EA68.htm'],
-['A7F12BF7-9617-4350-AC84-ACB08AAEEB8D', 'EA69.htm'],
-['A454C759-4971-4DE4-B410-3F6A5737D29D', 'EA70.htm'],
-['DD6FE1A9-492D-442D-B421-75A0C591EDFF', 'EA71.htm'],
-['27B6CD87-D6CE-41FC-B798-627D5655E968', 'EA72.htm'],
-['EFD9543A-A0EE-4A7A-8276-F24CC9A6CAFB', 'EA73.htm'],
-['F72BC774-7EED-4988-889A-673E17869D89', 'EA74.htm'],
-['DCD1583C-5CF8-4535-86F7-519DA08AE2DC', 'EA75.htm'],
-['4AF04E3F-5976-4C7A-8706-5C0EF090E3D7', 'EA76.htm'],
-['4D86D8E1-D118-46A5-A4DA-226BAC154F16', 'EA77.htm'],
-['31EFB0E9-835C-4A8B-A696-300A995A744B', 'EA78.htm'],
-['A537DFC1-BC59-40E1-B0B0-41DEC821A91F', 'EA79.htm'],
-['ED74F6D6-0173-405E-920B-5CE2DD8EF2B2', 'EA80.htm'],
-['0EB9E0DC-1508-4F98-BAAB-A0BD5A13F3B6', 'EA81.htm'],
-['89BC4D0E-0717-4B29-87A7-732F6F91391B', 'EA82.htm'],
-['073D22BD-4D5F-4E26-A869-ACB1AFFF4F8A', 'EA83.htm'],
-['7956FF58-E785-43F5-8BFE-EFE2D8E9315B', 'EA84.htm'],
-['73D16849-4528-406B-8487-163B829F48FC', 'EA85.htm'],
-['2C2297F9-9AAB-47D5-B1BD-2CBB96FE22AC', 'EA86.htm'],
-['FA566943-B579-4947-A565-D6E20F7D55FA', 'EA87.htm'],
-['F95FF514-3B5D-4655-AA56-68220CE4935B', 'EA88.htm'],
-['3AE6F392-4D10-40BC-AD18-019B5D0D7F8E', 'EA89.htm'],
+const guid_look = new Map([['512254F5-8285-473B-B11D-4C092B9E3DE8', 'EA1.htm'],
+['FF990775-4C6C-4B46-9F09-A9585E428CA4', 'EA3.htm'],
+['46F308D5-C0A0-4F47-A44C-0CBDCFB1B0B1', 'EA5.htm'],
+['4CDD5286-0D02-4B73-8F08-8107AE1269C4', 'EA7.htm'],
+['45268DDE-0471-4247-BF82-741BD6720B52', 'EA9.htm'],
+['B61B4F93-6932-4CC7-977C-395CFB3EA351', 'EA10.htm'],
+['75FB0CB3-6BB6-4250-911B-B99637AAD0E2', 'EA11.htm'],
+['92DEA069-227E-4753-84A9-087CBF2E0610', 'EA12.htm'],
+['CFE423AE-243B-4B21-A567-2F45BAAB35C8', 'EA13.htm'],
+['FDB88CF9-43E5-46AD-9582-1BB2A038132F', 'EA14.htm'],
+['265EB5FE-C125-45B2-8878-B3A0F388B9D4', 'EA15.htm'],
+['DC4CC523-1479-4251-977A-6C2B4CE184FE', 'EA16.htm'],
+['09E8C986-8BE8-4165-B6B5-4D89C7DC8827', 'EA17.htm'],
+['B1C9ECF6-4C37-4E93-BE01-C88F6A288211', 'EA18.htm'],
+['64DF865F-9CCF-4270-ABB3-0AB80D3F63D1', 'EA19.htm'],
+['2790A677-296E-4FEC-B61F-F615F399D759', 'EA20.htm'],
+['A3A0A7AA-3BA8-48E2-AF3A-A1B60D12EB0E', 'EA21.htm'],
+['05690F29-9BA5-4B7B-AF62-53843F5F66D1', 'EA22.htm'],
+['15A995A7-7B83-4AF5-9DFC-270F1D9179AB', 'EA23.htm'],
+['9C1BDDB6-86B6-4A06-8927-6D7FC9599DE8', 'EA24.htm'],
+['C9C8CD7A-F4A0-4A35-A74D-6DC490B3C69F', 'EA25.htm'],
+['B1828BE7-DA64-4ADF-9495-06B8BB65AFDC', 'EA26.htm'],
+['5AE2E513-8D28-4DDB-B7F1-ACD9C8B4EE2E', 'EA27.htm'],
+['145C17E5-BEC2-4C0F-A72E-51C28695545C', 'EA28.htm'],
+['34F76EE3-5C98-4992-9E37-ED252EDCAD14', 'EA29.htm'],
+['F49D974E-DA60-4EF9-B81C-3B2B16933FBE', 'EA30.htm'],
+['EEEC896F-7054-401C-8025-1D2B298C5C29', 'EA31.htm'],
+['A6111021-9866-4D32-9DB1-5EEDFF20EE1C', 'EA32.htm'],
+['EE08B45D-CB1E-4059-A5C5-215C9EF1586A', 'EA33.htm'],
+['C73408EA-438B-4C08-92A5-5F670063E870', 'EA34.htm'],
+['556ADD4B-940C-4739-A19D-D277D8C812B3', 'EA35.htm'],
+['33A7711E-115D-440D-A2EA-FF6BE1A8D111', 'EA36.htm'],
+['6F53EDD8-CE62-4A92-A85E-2AE08DDC1289', 'EA37.htm'],
+['5D50679F-792E-4272-A667-AD3E6D09E8EC', 'EA38.htm'],
+['18A78176-A0C3-405A-ABCF-4B39A19A80DC', 'EA39.htm'],
+['2CC62692-CE20-4159-A56A-C9C95599F7F7', 'EA40.htm'],
+['432D4795-4698-46E2-A868-701ADC3D4A57', 'EA41.htm'],
+['DA2F597C-64E7-4B6C-8126-86A5624044E5', 'EA42.htm'],
+['FA76ADB6-4E19-4B7A-B9AA-EC684B438841', 'EA43.htm'],
+['3922970F-5C1D-45B9-B1A8-5B059C73D52E', 'EA44.htm'],
+['672ED4E2-109C-45AD-B719-D5C2465CF690', 'EA45.htm'],
+['520FBE5C-5BA8-4C69-ACF2-DB87C364E7D7', 'EA46.htm'],
+['859D9E88-274A-402F-98CB-CC42D88220AE', 'EA47.htm'],
+['797DF383-B07B-4B78-B5C6-EE8D0CAEFAB8', 'EA48.htm'],
+['B9BF74D3-5115-459B-B6FF-7DDE72E318DB', 'EA49.htm'],
+['5D2B0916-5C5C-4A56-9AEB-CC1379AA5847', 'EA50.htm'],
+['094283F9-B610-4560-88CF-0318BB7E847D', 'EA51.htm'],
+['5945462E-B9D5-4618-9016-C3BAB0EAAFBC', 'EA52.htm'],
+['4B8EC283-6AF7-48F2-B33E-A197BFCEF177', 'EA53.htm'],
+['300655A7-9153-47D4-BA79-82AA6E28539A', 'EA54.htm'],
+['F902E873-D79D-42B1-9A65-7FC80EE72547', 'EA55.htm'],
+['11D56424-B758-4595-807E-03456232C454', 'EA56.htm'],
+['C15933CB-1398-48E6-949F-A418DEC0EAC9', 'EA57.htm'],
+['B7A653D0-4479-4BC3-9A7E-215B46F14A41', 'EA58.htm'],
+['E1AC8CCA-AA96-4346-B046-A1C94540B058', 'EA59.htm'],
+['124B586B-C7E5-4E8D-B506-44BF28330E34', 'EA60.htm'],
+['128F50B5-745B-4F99-A1F5-D69E80E125EF', 'EA61.htm'],
+['55400EDB-3935-48A6-8809-D13BE54BB40E', 'EA62.htm'],
+['C26B173B-71FB-4DFB-B8EE-5258B5FCA112', 'EA63.htm'],
+['3B4C8744-191B-448E-A634-A045D40C9FF7', 'EA64.htm'],
+['0AF67E3A-C0DE-4EEC-AB11-3CCE30789321', 'EA65.htm'],
+['C32ACD45-7692-4069-BD43-4782A487D089', 'EA66.htm'],
+['6A7379F0-370D-413D-8FA1-2E63AFBD0941', 'EA67.htm'],
+['1C7536AE-3B99-4FAF-BAC6-011B88FDCDB2', 'EA68.htm'],
+['ECB4B2F1-72E9-4601-9D8A-91F4041F8585', 'EA69.htm'],
+['57F9380A-57A0-494B-AD86-9B2B93C7771F', 'EA70.htm'],
+['828B32FA-49E9-4D04-8162-583D8BBE1CC0', 'EA71.htm'],
+['0C29C359-6CB7-4202-84E3-11B74F6E817A', 'EA72.htm'],
+['3B29665B-2825-4856-B49E-0346019300DD', 'EA73.htm'],
+['1F801624-D3BB-4DCA-B0D4-9CD55808AA1F', 'EA74.htm'],
+['A7F12BF7-9617-4350-AC84-ACB08AAEEB8D', 'EA75.htm'],
+['A454C759-4971-4DE4-B410-3F6A5737D29D', 'EA76.htm'],
+['DD6FE1A9-492D-442D-B421-75A0C591EDFF', 'EA77.htm'],
+['27B6CD87-D6CE-41FC-B798-627D5655E968', 'EA78.htm'],
+['EFD9543A-A0EE-4A7A-8276-F24CC9A6CAFB', 'EA79.htm'],
+['F72BC774-7EED-4988-889A-673E17869D89', 'EA80.htm'],
+['DCD1583C-5CF8-4535-86F7-519DA08AE2DC', 'EA81.htm'],
+['4AF04E3F-5976-4C7A-8706-5C0EF090E3D7', 'EA82.htm'],
+['4D86D8E1-D118-46A5-A4DA-226BAC154F16', 'EA83.htm'],
+['31EFB0E9-835C-4A8B-A696-300A995A744B', 'EA84.htm'],
+['A537DFC1-BC59-40E1-B0B0-41DEC821A91F', 'EA85.htm'],
+['ED74F6D6-0173-405E-920B-5CE2DD8EF2B2', 'EA86.htm'],
+['0EB9E0DC-1508-4F98-BAAB-A0BD5A13F3B6', 'EA87.htm'],
+['89BC4D0E-0717-4B29-87A7-732F6F91391B', 'EA88.htm'],
+['073D22BD-4D5F-4E26-A869-ACB1AFFF4F8A', 'EA89.htm'],
+['7956FF58-E785-43F5-8BFE-EFE2D8E9315B', 'EA90.htm'],
+['73D16849-4528-406B-8487-163B829F48FC', 'EA91.htm'],
+['2C2297F9-9AAB-47D5-B1BD-2CBB96FE22AC', 'EA92.htm'],
+['FA566943-B579-4947-A565-D6E20F7D55FA', 'EA93.htm'],
+['F95FF514-3B5D-4655-AA56-68220CE4935B', 'EA94.htm'],
+['3AE6F392-4D10-40BC-AD18-019B5D0D7F8E', 'EA95.htm'],
 ]);
 
 		function switchProjectProperties()
@@ -196,92 +200,94 @@ const guid_look = new Map([['46F308D5-C0A0-4F47-A44C-0CBDCFB1B0B1', 'EA1.htm'],
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<li><img src="images/175.png" alt="Diagram"/> <a href="./EARoot/EA1.htm">S-411Model</a></li>
-<li><img src="images/175.png" alt="Diagram"/> <a href="./EARoot/EA3.htm">simpl attributes (obselete)</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA6.htm">averageWidthOfIceLead</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA8.htm">combinationIceStageOfDevelopmentAndFloeSize</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA13.htm">Floeberg</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA17.htm">frequencyOfLeadsOrFractures</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA18.htm">GroundedHummock</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA20.htm">Ice</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA21.htm">iceAverageThickness</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA22.htm">Iceberg</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA23.htm">IcebergArea</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA25.htm">IcebergLimit</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA27.htm">iceBrecciaforTheFirstPartialconcentration</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA28.htm">IceCompacting</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA29.htm">IceDivergence</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA30.htm">IceDrift</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA32.htm">iceDriftSpeed</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA33.htm">IceEdge</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA34.htm">IceFracture</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA37.htm">iceKeelFrequency</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA38.htm">iceKeelMaximumDepth</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA39.htm">iceKeelMeanDepth</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA40.htm">IceKeelOrBummock</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA41.htm">IceLead</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA43.htm">iceLeadWidth</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA45.htm">IceRafting</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA49.htm">iceRidgeFrequency</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA50.htm">iceRidgeMaximumHeight</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA51.htm">iceRidgeMeanHeight</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA52.htm">IceRidgeOrHummock</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA53.htm">IceShear</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA55.htm">IceThickness</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA57.htm">JammedBrashBarrier</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA58.htm">LakeIce</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA61.htm">LimitOfAllKnownIce</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA62.htm">LimitOfOpenWater</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA63.htm">LineOfIceCrac</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA64.htm">LineOfIceFracture</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA65.htm">LineOfIceLead</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA66.htm">LineOfIceRidge</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA67.htm">maximumHeightOfAboveWaterPart</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA68.htm">maximumIceThickness</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA69.htm">maximumWidthOfIceLead</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA71.htm">minimumIceThickness</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA72.htm">minimumWidthOfIceLead</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA73.htm">numberOfIcebergsInArea</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA74.htm">numberOfIceParts</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA78.htm">SeaIce</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA79.htm">SimpleAttributes</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA81.htm">SnowCover</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA83.htm">snowDepth</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA85.htm">StageOfMelt</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA87.htm">StripsAndPatches</a></li>
-<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA88.htm">totalConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA7.htm">brashIce</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA9.htm">compactingStrength</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA10.htm">concentrationOfStripsAndPatches</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA11.htm">contamination</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA12.htm">directionOfSastrugi</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA14.htm">floeSize(FF)</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA15.htm">floeSizes</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA16.htm">fracturesConcentratation</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA19.htm">hillsConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA24.htm">icebergConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA26.htm">icebergSize</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA31.htm">iceDriftDirection</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA35.htm">iceFractureType</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA36.htm">iceKeelConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA42.htm">iceLeadStatus</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA44.htm">iceLocationInformation</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA46.htm">iceRaftingConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA47.htm">iceRidgeClassification</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA48.htm">iceRidgeConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA54.htm">iceStageOfDevelopment</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA56.htm">iceThicknessType</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA59.htm">lakeIceStageOfDevelopment</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA60.htm">levelIce</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA70.htm">meltStage</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA75.htm">orientationOfLeadsOrFractures</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA76.htm">partialConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA77.htm">prevailingIcebergForm</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA80.htm">snowCover</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA82.htm">snowCoverConcentration</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA84.htm">stageOfDevelopment(SS)</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA86.htm">stageOfMelting</a></li>
-<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA89.htm">totalConcentration</a></li>
+<li><img src="images/175.png" alt=""/> <a href="./EARoot/EA1.htm">Curve Features</a></li>
+<li><img src="images/175.png" alt="Diagram"/> <a href="./EARoot/EA3.htm">Ice Feature Classes</a></li>
+<li><img src="images/175.png" alt="Diagram"/> <a href="./EARoot/EA5.htm">S-411Model</a></li>
+<li><img src="images/175.png" alt="Diagram"/> <a href="./EARoot/EA7.htm">simpl attributes (obselete)</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA12.htm">averageWidthOfIceLead</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA14.htm">combinationIceStageOfDevelopmentAndFloeSize</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA19.htm">Floeberg</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA23.htm">frequencyOfLeadsOrFractures</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA24.htm">GroundedHummock</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA26.htm">Ice</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA27.htm">iceAverageThickness</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA28.htm">Iceberg</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA29.htm">IcebergArea</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA31.htm">IcebergLimit</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA33.htm">iceBrecciaforTheFirstPartialconcentration</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA34.htm">IceCompacting</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA35.htm">IceDivergence</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA36.htm">IceDrift</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA38.htm">iceDriftSpeed</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA39.htm">IceEdge</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA40.htm">IceFracture</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA43.htm">iceKeelFrequency</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA44.htm">iceKeelMaximumDepth</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA45.htm">iceKeelMeanDepth</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA46.htm">IceKeelOrBummock</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA47.htm">IceLead</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA49.htm">iceLeadWidth</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA51.htm">IceRafting</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA55.htm">iceRidgeFrequency</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA56.htm">iceRidgeMaximumHeight</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA57.htm">iceRidgeMeanHeight</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA58.htm">IceRidgeOrHummock</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA59.htm">IceShear</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA61.htm">IceThickness</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA63.htm">JammedBrashBarrier</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA64.htm">LakeIce</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA67.htm">LimitOfAllKnownIce</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA68.htm">LimitOfOpenWater</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA69.htm">LineOfIceCrack</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA70.htm">LineOfIceFracture</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA71.htm">LineOfIceLead</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA72.htm">LineOfIceRidge</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA73.htm">maximumHeightOfAboveWaterPart</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA74.htm">maximumIceThickness</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA75.htm">maximumWidthOfIceLead</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA77.htm">minimumIceThickness</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA78.htm">minimumWidthOfIceLead</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA79.htm">numberOfIcebergsInArea</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA80.htm">numberOfIceParts</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA84.htm">SeaIce</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA85.htm">SimpleAttributes</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA87.htm">SnowCover</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA89.htm">snowDepth</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA91.htm">StageOfMelt</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA93.htm">StripsAndPatches</a></li>
+<li><img src="images/5.png" alt="Class"/> <a href="./EARoot/EA94.htm">totalConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA13.htm">brashIce</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA15.htm">compactingStrength</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA16.htm">concentrationOfStripsAndPatches</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA17.htm">contamination</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA18.htm">directionOfSastrugi</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA20.htm">floeSize(FF)</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA21.htm">floeSizes</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA22.htm">fracturesConcentratation</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA25.htm">hillsConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA30.htm">icebergConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA32.htm">icebergSize</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA37.htm">iceDriftDirection</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA41.htm">iceFractureType</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA42.htm">iceKeelConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA48.htm">iceLeadStatus</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA50.htm">iceLocationInformation</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA52.htm">iceRaftingConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA53.htm">iceRidgeClassification</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA54.htm">iceRidgeConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA60.htm">iceStageOfDevelopment</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA62.htm">iceThicknessType</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA65.htm">lakeIceStageOfDevelopment</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA66.htm">levelIce</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA76.htm">meltStage</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA81.htm">orientationOfLeadsOrFractures</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA82.htm">partialConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA83.htm">prevailingIcebergForm</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA86.htm">snowCover</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA88.htm">snowCoverConcentration</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA90.htm">stageOfDevelopment(SS)</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA92.htm">stageOfMelting</a></li>
+<li><img src="images/247.png" alt="Enumeration"/> <a href="./EARoot/EA95.htm">totalConcentration</a></li>
 </ul>
 
 					</td>
@@ -295,81 +301,27 @@ const guid_look = new Map([['46F308D5-C0A0-4F47-A44C-0CBDCFB1B0B1', 'EA1.htm'],
 <img src="./EARoot/EA2.png" usemap="#EA2" border="0" />
 
 <MAP NAME="EA2">
-<area shape="rect" coords="245,2053,455,2512" href="./EARoot/EA76.htm" target="_self">
-<area shape="rect" coords="29,475,321,817" href="./EARoot/EA7.htm" target="_self">
-<area shape="rect" coords="188,1551,395,1763" href="./EARoot/EA86.htm" target="_self">
-<area shape="rect" coords="337,475,629,817" href="./EARoot/EA46.htm" target="_self">
-<area shape="rect" coords="951,480,1243,822" href="./EARoot/EA36.htm" target="_self">
-<area shape="rect" coords="2156,591,2368,728" href="./EARoot/EA78.htm" target="_self">
-<area shape="rect" coords="1372,912,1595,981" href="./EARoot/EA18.htm" target="_self">
-<area shape="rect" coords="1372,819,1586,889" href="./EARoot/EA87.htm" target="_self">
-<area shape="rect" coords="1570,444,1756,528" href="./EARoot/EA81.htm" target="_self">
-<area shape="rect" coords="1372,724,1520,794" href="./EARoot/EA85.htm" target="_self">
-<area shape="rect" coords="1570,373,1732,422" href="./EARoot/EA57.htm" target="_self">
-<area shape="rect" coords="1368,637,1527,707" href="./EARoot/EA45.htm" target="_self">
-<area shape="rect" coords="1744,985,1918,1122" href="./EARoot/EA34.htm" target="_self">
-<area shape="rect" coords="1723,30,1868,100" href="./EARoot/EA30.htm" target="_self">
-<area shape="rect" coords="1360,503,1521,602" href="./EARoot/EA40.htm" target="_self">
-<area shape="rect" coords="1361,373,1537,484" href="./EARoot/EA52.htm" target="_self">
-<area shape="rect" coords="1570,303,1732,339" href="./EARoot/EA29.htm" target="_self">
-<area shape="rect" coords="1570,238,1736,277" href="./EARoot/EA53.htm" target="_self">
-<area shape="rect" coords="1570,115,1740,213" href="./EARoot/EA55.htm" target="_self">
-<area shape="rect" coords="1565,30,1711,100" href="./EARoot/EA13.htm" target="_self">
-<area shape="rect" coords="1361,215,1544,339" href="./EARoot/EA22.htm" target="_self">
-<area shape="rect" coords="1361,115,1522,200" href="./EARoot/EA41.htm" target="_self">
-<area shape="rect" coords="1361,30,1507,100" href="./EARoot/EA28.htm" target="_self">
-<area shape="rect" coords="2150,843,2317,953" href="./EARoot/EA63.htm" target="_self">
-<area shape="rect" coords="1746,843,1916,954" href="./EARoot/EA64.htm" target="_self">
-<area shape="rect" coords="1933,843,2128,954" href="./EARoot/EA65.htm" target="_self">
-<area shape="rect" coords="1936,288,2103,373" href="./EARoot/EA66.htm" target="_self">
-<area shape="rect" coords="1934,223,2105,273" href="./EARoot/EA61.htm" target="_self">
-<area shape="rect" coords="1934,160,2100,212" href="./EARoot/EA62.htm" target="_self">
-<area shape="rect" coords="1934,105,2093,144" href="./EARoot/EA25.htm" target="_self">
-<area shape="rect" coords="1934,46,2093,93" href="./EARoot/EA33.htm" target="_self">
-<area shape="rect" coords="2153,10,2371,121" href="./EARoot/EA23.htm" target="_self">
-<area shape="rect" coords="2424,315,2514,385" href="./EARoot/EA58.htm" target="_self">
-<area shape="rect" coords="2156,149,2368,546" href="./EARoot/EA20.htm" target="_self">
-<area shape="rect" coords="258,50,560,120" href="./EARoot/EA27.htm" target="_self">
-<area shape="rect" coords="584,50,862,120" href="./EARoot/EA8.htm" target="_self">
-<area shape="rect" coords="757,2062,988,2365" href="./EARoot/EA84.htm" target="_self">
-<area shape="rect" coords="865,1123,1114,1296" href="./EARoot/EA14.htm" target="_self">
-<area shape="rect" coords="23,1810,168,1983" href="./EARoot/EA77.htm" target="_self">
-<area shape="rect" coords="1295,1558,1485,1860" href="./EARoot/EA24.htm" target="_self">
-<area shape="rect" coords="472,1748,850,1960" href="./EARoot/EA16.htm" target="_self">
-<area shape="rect" coords="734,1567,957,1726" href="./EARoot/EA19.htm" target="_self">
-<area shape="rect" coords="417,1552,633,1711" href="./EARoot/EA11.htm" target="_self">
-<area shape="rect" coords="682,1123,839,1322" href="./EARoot/EA70.htm" target="_self">
-<area shape="rect" coords="219,915,386,1075" href="./EARoot/EA80.htm" target="_self">
-<area shape="rect" coords="816,192,973,365" href="./EARoot/EA47.htm" target="_self">
-<area shape="rect" coords="645,475,937,817" href="./EARoot/EA48.htm" target="_self">
-<area shape="rect" coords="620,192,778,378" href="./EARoot/EA12.htm" target="_self">
-<area shape="rect" coords="272,192,600,417" href="./EARoot/EA82.htm" target="_self">
-<area shape="rect" coords="23,1551,168,1646" href="./EARoot/EA56.htm" target="_self">
-<area shape="rect" coords="209,1810,391,2009" href="./EARoot/EA31.htm" target="_self">
-<area shape="rect" coords="762,1343,1179,1529" href="./EARoot/EA26.htm" target="_self">
-<area shape="rect" coords="403,915,549,997" href="./EARoot/EA44.htm" target="_self">
-<area shape="rect" coords="502,1343,734,1542" href="./EARoot/EA75.htm" target="_self">
-<area shape="rect" coords="575,915,738,1010" href="./EARoot/EA42.htm" target="_self">
-<area shape="rect" coords="232,1337,477,1458" href="./EARoot/EA35.htm" target="_self">
-<area shape="rect" coords="14,1337,217,1497" href="./EARoot/EA9.htm" target="_self">
-<area shape="rect" coords="266,1117,414,1212" href="./EARoot/EA60.htm" target="_self">
-<area shape="rect" coords="14,1117,247,1316" href="./EARoot/EA10.htm" target="_self">
-<area shape="rect" coords="435,1117,657,1329" href="./EARoot/EA15.htm" target="_self">
-<area shape="rect" coords="18,915,204,1062" href="./EARoot/EA59.htm" target="_self">
-<area shape="rect" coords="477,2057,741,2399" href="./EARoot/EA54.htm" target="_self">
-<area shape="rect" coords="29,2053,232,2512" href="./EARoot/EA89.htm" target="_self">
-<area shape="rect" coords="10,46,234,348" href="./EARoot/EA79.htm" target="_self">
+<area shape="rect" coords="383,296,673,638" href="./EARoot/EA60.htm" target="_self">
+<area shape="rect" coords="516,103,673,276" href="./EARoot/EA53.htm" target="_self">
+<area shape="rect" coords="10,652,268,810" href="./EARoot/EA69.htm" target="_self">
+<area shape="rect" coords="10,476,268,634" href="./EARoot/EA70.htm" target="_self">
+<area shape="rect" coords="10,296,268,454" href="./EARoot/EA71.htm" target="_self">
+<area shape="rect" coords="232,118,484,250" href="./EARoot/EA72.htm" target="_self">
+<area shape="rect" coords="10,195,191,254" href="./EARoot/EA67.htm" target="_self">
+<area shape="rect" coords="12,103,191,179" href="./EARoot/EA68.htm" target="_self">
+<area shape="rect" coords="12,10,191,86" href="./EARoot/EA31.htm" target="_self">
+<area shape="rect" coords="232,15,427,91" href="./EARoot/EA39.htm" target="_self">
 </MAP>
  </div>
-	<div class="ObjectTitle">S-411Model : Class diagram</div>
+	<div class="ObjectTitle">Curve Features : Class diagram</div>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">19/11/2024 12:57:17</td>
+			<td width="85%" class="ObjectDetailsValue">12/12/2024 12:34:40</td>
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">02/12/2024 15:44:45</td>
+			<td width="85%" class="ObjectDetailsValue">12/12/2024 12:50:59</td>
 		</tr>
 		<tr style="padding-top: 10px;">
 			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="./images//plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
@@ -389,7 +341,7 @@ const guid_look = new Map([['46F308D5-C0A0-4F47-A44C-0CBDCFB1B0B1', 'EA1.htm'],
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
-			<td width="85%" class="ObjectDetailsValue">{46F308D5-C0A0-4f47-A44C-0CBDCFB1B0B1}</td>
+			<td width="85%" class="ObjectDetailsValue">{512254F5-8285-473b-B11D-4C092B9E3DE8}</td>
 		</tr>
 	</table>
 	
