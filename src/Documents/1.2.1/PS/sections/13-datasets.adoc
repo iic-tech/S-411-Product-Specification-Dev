@@ -33,18 +33,22 @@ When the system’s viewing scale is smaller than the value indicated by minimum
 
 == Geometry
 
-Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional objects (points, curves and surfaces).
+=== S-411 Geometry
 
-*Insert standard Level 3a Geometry words here*
+S-411 Ice Information features are encoded as vector entities which conform to S-100 geometry configuration level 3a (S-100 clause 7-4.3).
+Level 3a is described by the following constraints:
+
+* Each curve must reference a start and end point (they may be the same).
+* Curves must not self intersect. See S-100 Figure 7-5.
+* Areas are represented by a closed loop of curves beginning and ending at a common point.
+* In the case of areas with holes, all internal boundaries must be completely contained within the external boundary and the internal boundaries must not intersect each other or the external boundary. Internal boundaries may touch other internal boundaries or the external boundary tangentially (that is at one point) as shown in S-100 Figure 7-6.
+* The outer boundary of a surface must be in a clockwise direction (surface to the right of the curve) and the curve orientation positive. The inner boundary of a surface must be in a counter-clockwise direction (surface to the right of the curve) and the curve orientation negative. See S-100 Figure 7-7.
+
+S-411 further constrains Level 3a with the following:
+
+* Linear geometry is defined by curves which are made of curve segments. Each curve segment contains the geographic coordinates as control points and defines an interpolation method between them. Coordinate density can have a significant impact on file size and system performance. A rule of thumb is to limit the coordinate density to 0.3 mm at maximum permitted display scale.
+* For a scale-less product, the producer should keep in mind the expected scale range for typical use and the density of coordinates needed to suit the needs of the product.
 
 [[fig-geometric-primitives-in-ice-information-product]]
-.*Geometric Primitives Ice Information Product [REDRAW]*
+.*Geometric Primitives Ice Information Product [REDRAW THIS DIAGRAM]*
 image::../images/figure-geometric-primitives-in-Ice-information-product.png[Diagram depicting the allowable geometries]
-
-There are three types of geometry: Point, Curve and Polygon. Multi-geometries are not supported.
-
-Standard geometries of GML are supported for S-411 including
-
-* Polygon
-* Point
-* Curve
