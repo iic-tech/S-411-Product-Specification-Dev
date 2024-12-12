@@ -2,10 +2,16 @@
 [[sec-data-product-delivery]]
 == Data Product Delivery
 
-=== Introduction
-Ice Information Product will be delivered as Exchange Set, containing dataset itself, metadata, etc. It is also possible that several charts are available for an area. The decision, which one to use, is within the responsibility of the navigator on the vessel.
+=== Format Specification
 
-=== Echange Set
+At the moment there is only one type of dataset supported. This is GML encoded ice feature collections according to S-100 Part 10b.
+
+=== Introduction
+Ice Information Product will be delivered as Exchange Set, containing dataset itself, metadata, etc. It is also possible that several datasets are available for an area. The decision which one to use is the responsibility of the navigator on the vessel.
+
+_question, can datasets overlap?_
+
+=== Exchange Set
 The exchange set for the Ice Information Product has following structure:
 [[fig-exchange-set-structure]]
 .*: Exchange set Structure*

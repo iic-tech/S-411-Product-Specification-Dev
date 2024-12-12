@@ -41,4 +41,6 @@ include::sections/11-data_product_delivery.adoc[]
 
 include::sections/12-metadata.adoc[]
 
+include::sections/13-datasets.adoc[]
+
 include::sections/aa-data_class_enc_.adoc[]

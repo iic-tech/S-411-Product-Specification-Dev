@@ -8,56 +8,58 @@ The application schema of ice information product contains 28 feature types with
 
 === Application Schema
 
-_The following paragraph has been added based on S-101PS. TBC by GCOMM-ETSI_
-
 S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
 implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.
 
-Picture below shows very simplified structure of the ice data structure.
+The diagram below shows a very simplified summary of the ice data structure.
 
 [[fig-ice-data-product-structure]]
 .*: Ice Data Product Structure*
 image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure]
 
 
-General GML (XML) representation:
+==== S-411 Features
 
-[source,xml]
-----
-<?xml version="1.0" encoding="UTF-8"?>
-<ice:IceDataSet xmlns:ice="http://www.iho.int/ice"
-                xmlns:gml=http://www.opengis.net/gml/3.2>
-    <ice:IceFeatureMember>
-        <ice:seaice>
-            <ice:iceact> … </ice:iceact>
-            . 
-            . 
-            <gml:Polygon srsName="..">… </gml:Polygon>
-        </ice:seaice>
-</ice:IceMember>
-<ice:IceMember>
-    <ice:i_ridg>
-        <ice:icerdv> … </ice:icerdv>
-        . 
-        .
-        <gml:LineString srsName="..">… </gml:LineString>
-    </ice:i_ridg>
-</ice:IceMember>
-<ice:IceMember>
-    <ice:icebrg>
-        <ice:icebsz> … </ice:icebsz>
-        .
-        .
-        <gml:Point srsName="..">… </gml:Point>
-    </ice:icebrg>
-</ice:IceFeatureMember>
-----
+===== Meta Features
+S-411 provides a single meta-feature, *DataCoverage*. *DataCoverage* is for describing areas in the dataset that are populated with data. The dataset may include multiple *DataCoverage* features to describe different contiguous (i.e. non-overlapping) areas.
+
+===== Geographic Features
+
+Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
+
+The following figure shows all the major ice features and a simplified view of their attributes in the S-411 Application Schema
+
+[[fig-all-ice-features]]
+.*All Ice Features*
+image::../images/figure-all-ice-features.png[Diagram showqing all ice features]
+
+Limit and Line curve features and their attributes are shown in the following diagram
+[[fig-all-curve-features]]
+.*All Curve Features*
+image::../images/figure-all-curve-features.png[Diagram showqing all ice features]
+
+
+Full details of all geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.
+
+==== Attributes
+
+S-411 defines attributes as either simple or complex.
+
+===== Simple attributes
+
+S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.
+
+===== Complex attributes
+
+Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.
+
+_description of use of complex attributes in S-411_
 
 === Feature Catalogue
 
 ==== Introduction
 
-_Text in italic below has been added based on S-101 PS. TBC by JCOMM-ETSI._
+_Text in italics below has been added based on the S-101 PS. TBC by JCOMM-ETSI._
 
 _The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product._
 
@@ -73,7 +75,7 @@ _The S-411 Feature Catalogue is available in an XML document which conforms to t
 .*: Ice Application Schema Types*
 image::../images/figure-ice-app-schema-types.png[UML diagram depicting the Application Schema Data Set Structure]
 
-_I would suggest moving the following table to the DCEG (and adpat to the DCEG format)_
+_I would suggest moving the following table to the DCEG (and adapt to the DCEG format)_
 
 [cols="a,a,a,a, ",options="headers"]
 |===
@@ -691,52 +693,3 @@ image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting t
 |Brash Ice
 
 |===
-
-===== Geographic
-
-_Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
-
-the following figure shows all the major ice features in the S-411 Application Schema
-
-[[fig-all-ice-features]]
-.*:All Ice Features*
-image::../images/figure-all-ice-features.png[Diagram showqing all ice features]
-
-
-Details of geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22._
-
-==== Attributes
-
-S-411 defines attributes as either simple or complex.
-
-===== Simple attributes
-
-_S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30._
-
-===== Complex attributes
-
-_Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29._
-
-=== Dataset types
-
-==== Introduction
-
-At the moment there is only one type of dataset supported. This is GML encoded ice feature collections.
-
-=== Geometry
-
-Ice Information datasets use S-100 Level 3a geometry which supports 0-, 1-, and 2-dimensional objects (points, line strings, and polygons).
-
-*Insert standard Level 3a Geometry words here*
-
-[[fig-geometric-primitives-in-ice-information-product]]
-.*: Geometric Primitives Ice Information Product [REDRAW]*
-image::../images/figure-geometric-primitives-in-Ice-information-product.png[Diagram depicting the allowable geometries]
-
-There are three types of geometry: Point, Curve and Polygon. Multi-geometries are not supported.
-
-Standard geometries of GML are supported for S-411 including
-
-* Polygon
-* Point
-* Curve
