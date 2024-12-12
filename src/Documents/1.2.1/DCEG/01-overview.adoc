@@ -1,0 +1,24 @@
+= DCEG
+:sectnums:
+
+== Overview
+
+=== Preface
+=== S-101 Annex A; Data Classification and Encoding Guide - Metadata
+=== Terms, definitions and abbreviations
+==== Terms and definitions
+==== Abbreviations
+=== Use of language
+=== Maintenance
+
+== General
+=== Feature types
+====
+
+
+== Geo Features
+
+== Geo Feature Attribute and Enumerate Descriptions
+
+
+
