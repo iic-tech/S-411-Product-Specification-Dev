@@ -50,7 +50,7 @@ Within this document, allowable primitives are included in the description of ea
 [%unnumbered]
 [[tab-features-spatial-primitives]]
 .Features and their spatial primitives
-[cols="70%,10%,10%,10%",options="headers"]
+[cols="5,1,1,1",options="headers"]
 |===
 |Feature |P |C |S
 
@@ -118,12 +118,12 @@ Within this document, allowable primitives are included in the description of ea
 |
 
 |Ice Thickness
-|
+|P
 |
 |
 
 |Iceberg
-|
+|P
 |
 |
 
@@ -134,11 +134,11 @@ Within this document, allowable primitives are included in the description of ea
 
 |Iceberg Limit
 |
-|
+|C
 |
 
 |Jammed Brash Barrier
-|
+|P
 |
 |
 
@@ -149,32 +149,32 @@ Within this document, allowable primitives are included in the description of ea
 
 |Limit of All Known Ice
 |
-|
+|C
 |
 
 |Limit of Open Water
 |
-|
+|C
 |
 
 |Line of Ice Crack
 |
-|
+|C
 |
 
 |Line of Ice Fracture
 |
-|
+|C
 |
 
 |Line of Ice Lead
 |
-|
+|C
 |
 
 |Line of Ice Ridge
 |
-|
+|C
 |
 
 |Sea Ice
@@ -182,30 +182,28 @@ Within this document, allowable primitives are included in the description of ea
 |
 |S
 
-|Seperate Giant Floe
-|
+|Seperate Giant Floe *(TBC)*
+|P
 |
 |
 
 
 |Snow Cover
-|
+|P
 |
 |
 
 |Stage of Melt
-|
+|P
 |
 |
 
 |Strips and Patches
-|
+|P
 |
 |
 
 |===
-
-
 
 == Geo Features
 
