@@ -1,0 +1,17 @@
+
+[.preface]
+== Document History
+
+Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site. 
+
+[cols="a,a,a,a",options="headers"]
+|===
+|Version Number |Date |Approved By |Purpose
+
+
+|1.2.0
+|xx January 2025
+|WMO
+|Draft 1. Version number in line with the PS
+
+|===
