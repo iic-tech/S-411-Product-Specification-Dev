@@ -50,71 +50,70 @@ Within this document, allowable primitives are included in the description of ea
 [%unnumbered]
 [[tab-features-spatial-primitives]]
 .Features and their spatial primitives
-[width="100%"]
-[cols="7,1,1,1",options="headers"]
+[cols="70%,10%,10%,10%",options="headers"]
 |===
 |Feature |P |C |S
 
 4+|[.underline]#*Geographic Features*#
 
 |Floeberg
-|
+|P
 |
 |
 
 |Grounded Hummock
-|
+|P
 |
 |
 
 |Ice Compacting
-|
+|P
 |
 |
 
 |Ice Divergence
-|
+|P
 |
 |
 
 |Ice Drift
-|
+|P
 |
 |
 
 |Ice Edge
 |
-|
+|C
 |
 
 |Ice Fracture
 |
-|
+|C
 |
 
 |Ice Keel/Bummock
-|
+|P
 |
 |
 
 |Ice Lead
 |
-|
+|C
 |
 
 |Ice Rafting
-|
+|P
 |
 |
 
 
 |Ice Ridge/Hummock
-|
+|P
 |
 |
 
 |Ice Shear
-|
+|P
 |
 |
 
@@ -131,7 +130,7 @@ Within this document, allowable primitives are included in the description of ea
 |Iceberg Area
 |
 |
-|
+|S
 
 |Iceberg Limit
 |
@@ -146,7 +145,7 @@ Within this document, allowable primitives are included in the description of ea
 |Lake Ice
 |
 |
-|
+|S
 
 |Limit of All Known Ice
 |
@@ -181,7 +180,7 @@ Within this document, allowable primitives are included in the description of ea
 |Sea Ice
 |
 |
-|
+|S
 
 |Seperate Giant Floe
 |
