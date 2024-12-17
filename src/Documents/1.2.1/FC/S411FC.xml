@@ -3281,7 +3281,7 @@
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
         <S100FC:S100_FC_FeatureType>
-            <S100FC:name>Line of Ice Crac</S100FC:name>
+            <S100FC:name>Line of Ice Crack</S100FC:name>
             <S100FC:definition>Line of Ice Crack identifies any ice breakup, but no passage-way(s) for surface vessels.</S100FC:definition>
             <S100FC:code>LineOfIceCrack</S100FC:code>
             <S100FC:alias>I_CRAC</S100FC:alias>
