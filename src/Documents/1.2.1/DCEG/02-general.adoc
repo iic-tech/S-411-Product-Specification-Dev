@@ -1,25 +1,209 @@
 
 [[sec-overview]]
 == General
-The S-411 Data Classification and Encoding Guide describes how data describing the real world should be captured using the types defined in the S-411 Feature Catalogue (see S-411 Product Specification Main document clause 4.3). It provides the encoding rules and guidance required to create S-411 datasets.
-This standard is specifically concerned with those entities in the real world that are of relevance to Ice Information. This regime is considered to be geo-spatial. As a result, the model defines real-world entities as a combination of descriptive and spatial characteristics. Within the model these sets of characteristics are defined in terms of feature types. A type is defined as a stereotype of class that is used to specify a domain of instances (features) together with the operations applicable to the features. A type may have attributes and may be related to other types.
 
-The types used within S-411 are described below. Within this document feature types and attributes appear in *bold* text.
+=== Introduction
+This S-411 Data Classification and Encoding Guide (DCEG) contains rules and guidance for converting data describing the real world into data products that conform to the S-411 specification.
 
-=== Feature types
-Feature types contain descriptive attributes and do not contain any geometry (that is, information about the shape and position of a real-world entity).
+The S-411 specification contains an application schema (UML model) describing the conceptual domain model in terms of classes and a Feature Catalogue (see S-411 Annex B) that specifies the data model, i.e., specifies the data model types corresponding to the various classes in the application schema.
 
-Features have two aspects – feature type and feature instance. A feature type is a class and is defined in a Feature Catalogue. A feature instance is a single occurrence of the feature type and represented as an object in a dataset. A feature instance is located by a relationship to one or more spatial instances. #A feature instance may exist without referencing a spatial instance. (*not sure this applies to S-411*)#
+To simplify the DCEG text, the various data model types will be provided without the suffixes “class”, “type” or “instance”; e.g. the term “feature” should be understood as “feature class” or “feature type” or “feature instance” as best fits the immediate context in which it is used (and where there might be confusion, it is written out in full as feature class/type/instance).The model defines real world entities as a combination of descriptive and spatial characteristics (S-411 Product Specification clause 6).
+
+This clause of the DCEG contains general information needed to understand the encoding rules and describes fundamental common rules and constraints. It also describes datasets and metadata. The data model object types used within S-411 and their encoding rules and guidelines are defined in detail in subsequent clauses of this document.
+
+Within this document the features and attributes appear in *bold text* or _italic text_, to distinguish them from surrounding words.
+
+=== Descriptive characteristics
+
+==== Feature
+A feature contains descriptive attributes that characterize real world entities.
+
+The word ‘feature’ as used in the ISO 191xx series and in S-100 based product specifications has two distinct but related senses – ‘feature type’ and ‘feature instance’. A feature instance is a single occurrence of the feature and is represented as an object in a dataset.
+
+The location of a feature instance on the Earth’s surface is indicated by a relationship to one or more spatial primitive instances.
 
 S-411 only makes use of the *Geographic (Geo) feature type* which carries the descriptive characteristics of a real-world entity.
 
-=== Geometric primitives
-The allowable geometric primitive for each feature type is defined in the Feature Catalogue. Within this document, allowable primitives are included in the tables containing a description of each feature type. Allowable geometric primitives are point, curve and surface. +
-Each spatial value must be referenced by at least one feature instance.
-Within this document, allowable primitives are included in the description of each feature type. For easy reference, Table 2-1 below summarises the allowable geometric primitives for each feature type.
-In the Table, abbreviations are as follows: point (P), curve (C) and surface (S).
+==== Geographic feature class
 
-#Geo feature geometric primitive table to be created#
+*Geographic (Geo) feature types* carry the descriptive characteristics of a real world entity which is
+provided by a spatial primitive instance.
+
+==== Meta feature class
+
+*Meta feature type* contains information about other features.
+
+==== Charted background feature
+
+The data product would mostly be visualized as an overlay of an ENC or other GIS applications. Consequently, all necessary descriptive and spatial characteristics to provide a charted background should be provided by the 
+underlying application.
+
+=== Spatial characteristics
+
+==== Spatial primitives
+
+The allowable geometric primitive for each feature type is defined in the Feature Catalogue. Allowable geometric primitives are point, curve and surface. Each spatial value must be referenced by at least one feature instance.
+
+Within this document, allowable primitives are included in the description of each feature type. For easy reference, Table 2-1 below summarises the allowable geometric primitives for each feature. In the Table, abbreviations are as follows: point (P), curve (C) and surface (S).
+
+
+[%unnumbered]
+[[tab-features-spatial-primitives]]
+.Features and their spatial primitives
+[cols="5,1,1,1",options="headers"]
+|===
+|Feature |P |C |S
+
+4+|[.underline]#*Geographic Features*#
+
+|Floeberg
+|P
+|
+|
+
+|Grounded Hummock
+|P
+|
+|
+
+|Ice Compacting
+|P
+|
+|
+
+|Ice Divergence
+|P
+|
+|
+
+|Ice Drift
+|P
+|
+|
+
+|Ice Edge
+|
+|C
+|
+
+|Ice Fracture
+|
+|C
+|
+
+|Ice Keel/Bummock
+|P
+|
+|
+
+|Ice Lead
+|
+|C
+|
+
+|Ice Rafting
+|P
+|
+|
+
+
+|Ice Ridge/Hummock
+|P
+|
+|
+
+|Ice Shear
+|P
+|
+|
+
+|Ice Thickness
+|P
+|
+|
+
+|Iceberg
+|P
+|
+|
+
+|Iceberg Area
+|
+|
+|S
+
+|Iceberg Limit
+|
+|C
+|
+
+|Jammed Brash Barrier
+|P
+|
+|
+
+|Lake Ice
+|
+|
+|S
+
+|Limit of All Known Ice
+|
+|C
+|
+
+|Limit of Open Water
+|
+|C
+|
+
+|Line of Ice Crack
+|
+|C
+|
+
+|Line of Ice Fracture
+|
+|C
+|
+
+|Line of Ice Lead
+|
+|C
+|
+
+|Line of Ice Ridge
+|
+|C
+|
+
+|Sea Ice
+|
+|
+|S
+
+|Seperate Giant Floe *(TBC)*
+|P
+|
+|
+
+
+|Snow Cover
+|P
+|
+|
+
+|Stage of Melt
+|P
+|
+|
+
+|Strips and Patches
+|P
+|
+|
+
+|===
 
 == Geo Features
 

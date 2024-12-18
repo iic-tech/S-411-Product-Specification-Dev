@@ -1,28 +1,37 @@
 
 [[sec-overview]]
 == Overview
+=== Introduction
+S-411 is the Ice Information Product Specification, produced by the World Meteorological Organization (WMO)/Intergovernmental Oceanographic Commission Technical Commission for Oceanography and Marine Meteorology (JCOMM) Expert Team on Sea Ice (ETSI). +
+This document has been produced in response to a requirement to produce a data product that can be used as an Information Overlay within an Electronic Chart Display and Information Systems (ECDIS). It is based on the IHO S-100 framework specification, the ISO 19100 series of standards and Geography Markup Language (GML). It is a vector product specification that is intended for encoding the extent and nature of Sea Ice for navigational purpose in ice covered regions.
 
 === Scope
+This document describes an S-100 compliant Product Specification for Ice Information, which will form an overlay layer for an S-100 based marine navigation system. It specifies the content, structure, and metadata needed for creating a fully compliant S-411 product and for its portrayal within an S-100 system. +
+This Product Specification includes the content model, the encoding, the Feature Catalogue, Portrayal Catalogue, and metadata.
 
-This document has been produced by the BSH as part of JCOMM/ETSI in response to a requirement to produce an ice data product that can be used within Electronic Chart Display and Information Systems.
-
-The Ice Information product specification is based on the IHO S-100 framework specification, Geography Markup Language (GML) Encoding Standard and the ISO 19100 series of standards. It is a vector product specification that is primarily intended for encoding the extent and nature of Sea Ice for navigational purpose.
 
 [[bibliography]]
 
 === References
 
 ==== Normative
-
 GML OpenGIS®:: _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)
+S-97:: _IHO Guidelines for Creating S-100 Product Specifications_, Edition 1.1.0, June 2020.
 S-100:: _IHO Universal Hydrographic Data Model_, Edition 5.2.0, June 2024
-ISO-19115-1:: _Geographic information - Metadata - Part 1: Fundamentals_ - 2014/Amd 1: 2018
-ISO-19115-3:: _Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts_ - 2016
-ISO-19139-1:: _Geographic information - XML schema implementation - Part 1: Encoding rules_ - 2019
+WMO-No. 574:: _Sea-ice Information and Services_, 2024 edition
 
 ==== Informative
-
-_TBD by JCOMM/ETSI_
+ISO 19101:: _Geographic Information – Reference Model_, 2003
+ISO 19103:: _Geographic Information – Conceptual Schema Language_, 2005
+ISO 19103-2:: _Geographic Information – Conceptual Schema Language – Part 2_, 2005
+ISO 19109:: _Geographic Information – Rules for Application Schema_, 2005
+ISO 19110:: _Geographic Information – Methodology for Feature Cataloguing_, 2005
+ISO 19111:: _Geographic Information – Spatial Referencing by Coordinates_, 2007
+ISO 19115-1:: _Geographic information - Metadata - Part 1: Fundamentals_ - 2014/Amd 1: 2018
+ISO 19115-3:: _Geographic information - Metadata - Part 3: XML Schema implementation for fundamental concepts_ - 2016
+ISO 19117:: _Geographic Information – Portrayal_, 2012
+ISO 19131:: _Geographic Information – Data Product Specifications_, 2008
+ISO 19139-1:: _Geographic information - XML schema implementation - Part 1: Encoding rules_ - 2019
 
 === Terms, definitions and abbreviations
 
@@ -37,21 +46,51 @@ Within this document:
 
 ==== Terms and definitions
 
-#The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI#
+#_The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI_#
+
+*Application Schema*
+
+Conceptual schema for data required by one or more applications.
+
+*Attribute*
+
+(1) Named property of an entity.
+
+NOTE:: Describes a geometrical, thematic, or other characteristic of an entity.
+
+(2) Feature within a classifier that describes a range of values that instances of the classifier may hold.
+
+NOTE:: An attribute is semantically equivalent to a composition association; however, the intent and usage is normally different.
+
+NOTE:: “Feature” used in this definition is the UML meaning of the term.
+
+*Boundary*
+
+Set that represents the limit of an entity.
+
+NOTE:: Boundary is most commonly used in the context of geometry, where the set is a collection of points or a collection of objects that represent those points.
 
 *Coordinate*
 
 One of a sequence of _n_ numbers designating the position of a *point* in N-dimensional space.
 
-NOTE: The numbers must be qualified by units and CRS.
+NOTE:: In a *coordinate reference system*, the coordinate numbers are qualified by units.
 
 *Coordinate Reference System*
 
-*Coordinate* system which is related to the real world by a datum.
+*Coordinate* system which is related to an object by a datum.
 
-*Data Quality*
+*Curve*
 
-A set of elements describing aspects of quality, including a measure of quality, an evaluation procedure, a quality result, and a scope.
+1-dimensional geometric primitive, representing the continuous image of a line.
+
+NOTE:: The boundary of a curve is the set of points at either end of the curve. If the curve is a cycle, the two ends are identical, and the curve (if topologically closed) is considered to not have a boundary. The first point is called the start point, and the last is the end point. Connectivity of the curve is guaranteed by the "continuous image of a line" clause. A topological theorem states that a continuous image of a connected set is connected.
+
+#*Data Quality*#
+
+#_A set of elements describing aspects of quality, including a measure of quality, an evaluation procedure, a quality result, and a scope._#
+
+#_No quality data in the current PS. TBC_#
 
 *Data Type*
 
@@ -71,13 +110,13 @@ NOTE:: A dataset may be a smaller grouping of data which, though limited by some
 
 Parameter or set of parameters that define the position of the origin, the scale, and the orientation of a *coordinate* system.
 
-*Depth*
+#*Depth*#
 
-The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
+#_The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted"._#
 
-_This definition may need to be adapted by JCOMM-ETSI_
+#*_This definition may need to be adapted by JCOMM-ETSI_*#
 
-NOTE:: The numbers must be qualified by units and datum. 
+NOTE:: The numbers must be qualified by units and datum._#
 
 *ECDIS*
 
@@ -132,12 +171,6 @@ NOTE:: The boundary of a point is the empty set.
 Collection of defined portrayals for a feature catalogue.
 
 NOTE:: Content of a portrayal catalogue includes portrayal functions, symbols, and portrayal context.
-
-*Vector*
-
-Quantity having ion as well as magnitude.
-
-NOTE:: A ed line segment represents a vector if the length and ion of the line segment are equal to the magnitude and ion of the vector. The term vector data refers to data that represents the spatial configuration of features as a set of ed line segments.
 
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:

@@ -10,19 +10,19 @@ The purpose of the Data Classification and Encoding Guide is to facilitate S-411
 The entire S-411 Standard, including the S-411 ENC Product Specification, is available at the following
 web site, https://iho.int/.
 
-=== S-101 Annex A; Data Classification and Encoding Guide - Metadata
-Note: This information uniquely identifies this Annex to the Product Specification and provides
+=== S-101 Annex A - Data Classification and Encoding Guide - Metadata
+NOTE:: This information uniquely identifies this Annex to the Product Specification and provides
 information about its creation and maintenance.
 
 *Title*:: The World Meteorological Organization Ice Information Product Specification, Annex A – Data Classification and Encoding Guide
 
-*Version*:: 1.2.1
+*Version*:: 1.2.0
 
 *Date*:: xx 2025
 
 *Language*:: English
 
-*Classifiacation*:: Unclassified
+*Classification*:: Unclassified
 
 *Contact*:: International Hydrographic Organization
 4b, quai Antoine 1er
@@ -43,21 +43,7 @@ Fax: +377 93 10 81 40
 See S-411 Product Specification Main document, clause 1.3.2.
 
 ==== Abbreviations
-#List to be reviewed#
-
-BSH:: Bundesamt für Seeschifffahrt und Hydrographie (Germany) +
-CRS::  Coordinate Reference System
-ECDIS:: Electronic Chart Display and Information System
-ENC:: Electronic Navigational Chart
-EPSG:: European Petroleum Survey Group
-ETSI:: Expert Team on Sea Ice
-GML:: Geography Markup Language
-IHO:: International Hydrographic Organization
-ISO:: International Organization for Standardization
-JCOMM:: Joint Technical Commission for Oceanography and Marine Meteorology
-UTF-8:: Unicode Transformation Format-8
-WMO:: World Meteorological Organization
-XML:: eXtensible Markup Language
+For a list of abbreviations, see the Ice Information Product Specification, Clause 1.3.3.
 
 === Use of language
 

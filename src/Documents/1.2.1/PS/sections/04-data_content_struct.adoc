@@ -4,12 +4,28 @@
 
 === Introduction
 
-The application schema of ice information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.1) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe full schema in suitable form in this specification. The full schema can be found as XML Schema File in Annex B – Data Product format (encoding).
+The S-411 product is based on the S-100 General Feature Model (GFM), and is a feature-based vector product. Figure 4.1 shows how the S-411 application schema is realised from the S-100 GFM. All S-411 feature classes are derived from the abstract class FeatureType defined in the S-411 application schema, which realize the GFM meta-classes S100_GF_FeatureType.
+
+The application schema of Ice Information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.3) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe full schema in suitable form in this specification. The full schema can be found as XML Schema File in Annex B – Data Product format (encoding).
+
+#_Figure to be inserted, based on S-131  Figure 4.1_#
 
 === Application Schema
 
 S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
-implementation is defined in the Feature Catalogue. The S-411 Application Schema is realised in the Feature Catalogue and the Product Specification only contains specific examples.
+implementation is defined in the Feature Catalogue which is included as a separate Annex (Annex C) and provides a full specification of all types including feature types, their attributes, allowed and values. The S-411 Product Specification only contains specific examples.
+
+The following conventions are used in the UML diagrams depicting the application schema:
+
+* Standard UML conventions for classes, associations, inheritance, roles, and multiplicities apply. These conventions are described in Part 1 of S-100.
+
+* Italic font for a class name indicates an abstract class.
+
+* Feature classes are depicted with green background; the dark shade for abstract feature classes and the light shade for ordinary (non-abstract) feature classes.
+
+* Complex attributes are depicted with a pink background.
+
+* Enumeration lists and codelists are depicted with a tan background. The numeric code corresponding to each listed value is shown to its right following an ‘=’ sign.
 
 The diagram below shows a very simplified summary of the ice data structure.
 
@@ -17,11 +33,19 @@ The diagram below shows a very simplified summary of the ice data structure.
 .*: Ice Data Product Structure*
 image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure]
 
+==== Domain model
+The S-411 domain model has one base classe (‘root classe’) from which all the domain-specific geographic features type classes are derived. The base classe is shown in Figure 4.2 below. The base class for geographic features is FeatureType which has a set of attributes which are therefore inherited by all domain-specific features. The approximate area features in S-411 are also derived from the geographic feature root class. Both base classes are abstract classes and do not have direct instances in S-411 data – instead, S-411 feature type data objects are instantiations of a non-abstract class.
+
+S-411 meta-feature is derived from the base classe – S-411 instead incorporates meta-feature definition originally prepared for S-101 in the interests of harmonization and interoperability with other S-100-based data products, especially S-101 ENCs.
+
+#_Figure to be inserted, based on S-131  Figure 4.21_#
 
 ==== S-411 Features
 
 ===== Meta Features
 S-411 provides a single meta-feature, *DataCoverage*. *DataCoverage* is for describing areas in the dataset that are populated with data. The dataset may include multiple *DataCoverage* features to describe different contiguous (i.e. non-overlapping) areas.
+
+#_Figure to be inserted, based on S-131  Figure 4.2_#
 
 ===== Geographic Features
 
@@ -59,13 +83,46 @@ _description of use of complex attributes in S-411_
 
 ==== Introduction
 
-_Text in italics below has been added based on the S-101 PS. TBC by JCOMM-ETSI._
+The S-411 Feature Catalogue describes the feature types, attributes and attribute values which may be used in an S-411 product.
 
-_The S-411 Feature Catalogue describes the feature types, attributes, attribute values, associations and roles which may be used in an S-411 product._
+The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website (https://registry.iho.int/). S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.
 
-The feature Catalogue for Ice Information contains only geographic features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
+The feature Catalogue for Ice Information contains only geographic and meta features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
 
-_The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website. S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue._
+==== Feature types
+
+Feature types contain descriptive attributes that characterize real-world entities. The word ‘feature’ may be used in one of two senses – feature type and feature instance. A feature type is a class and is defined in a Feature Catalogue. A feature instance is a single occurrence of the feature type and represented as an object in a dataset. A feature instance is located by a relationship to one or more spatial instances. A feature instance may exist without referencing a spatial instance.
+
+==== Geographic
+
+Geographic (geo) feature types carry the descriptive characteristics of a real-world entity (a location or place on the surface of the Earth). In the context of Ice Information products, this includes the ...
+
+==== Meta
+
+*Text to be added*
+
+==== Attributes
+
+S-411 defines attributes as either simple or complex.
+
+===== Simple attributes
+
+S-411 uses three types of simple attributes; they are listed in the following Table:
+
+[cols="a,a",options="headers"]
+|===
+|Type |Definition 
+
+|Integer
+|An integer number.
+
+|Real
+|A floating point number.
+
+|Enumeration
+|One of a list of predefined values.
+
+|===
 
 ==== Application Schema implementation classes
 
