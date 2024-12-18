@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pc:portrayalCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.iho.int/S100PortrayalCatalog/5.2 ../../xgml/34-S100-20240521-5.2/schemas-20240521/S100/5.2.0/S100PC/20240415/S100PortrayalCatalog.xsd"
+ xsi:schemaLocation="http://www.iho.int/S100PortrayalCatalog/5.2 ../../../../../../xgml/34-S100-20240521-5.2/schemas-20240521/S100/5.2.0/S100PC/20240415/S100PortrayalCatalog.xsd"
  xmlns:xsl="http://www.w3.org/2001/XMLSchema" xmlns:pc="http://www.iho.int/S100PortrayalCatalog/5.2"
- productId="S-101" version="1.5.0">
+ productId="S-411" version="1.2.1">
 	<!--<pixmaps/>-->
 	<pixmaps></pixmaps>
 	<colorProfiles>
