@@ -7,22 +7,33 @@ defined in clause 12.
 
 *Title*:: Ice Information
 
-*Abstract*:: Ice Information for navigation in ice covered regions
+*Abstract*:: S-411 datasets must be produced in accordance with the rules defined in the S-411 Product Specification. The S-411 Product Specification contains all the information necessary to enable producers to produce a consistent Ice Information dataset; and manufacturers to use that data efficiently within navigation
+systems.
 
 *Topic Category*:: Transportation, climatology, meteorology, atmosphere
 
 *Geographic Description*:: Ice covered regions
 
-*Spatial Resolution*:: ---
+*Spatial Resolution*:: Each Data Coverage feature of an Ice Information dataset must indicate a value for maximum display scale. Recommended values for scales can be found in the S-101 ENC Product Specification. Producers should note that at the smaller scales, geographic details will have no perceptible visual separation on a graphic display, and are therefore encouraged to determine display scales taking into account the content and intended navigation purpose of the dataset.
 
 *Purpose*:: Navigation in ice covered regions
 
 *Language*:: English (Mandatory), other (Optional)
 
-*Classification*:: Unclassified
+*Classification*:: Data may be classified as one of the following:
+
+. Unclassified;
+. Restricted;
+. Confidential;
+. Secret;
+. Top Secret;
+. Sensitive but Unclassified;
+. For official Use Only;
+. Protected;
+. Limited Distribution.
 
 *Spatial Representation Type*:: Vector
 
 *Point of Contact*:: Producing Agency
 
-*Use Limitation*:: ---
+*Use Limitation*:: Not for sole use in navigation; must be used with an ENC.
