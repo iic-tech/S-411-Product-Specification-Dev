@@ -90,7 +90,7 @@ The encoding encapsulates exchange set elements as follows:
 
 * S-411 Feature Catalogue -- If it is necessary to deliver the latest Feature Catalogue to the end user it may be done using the S-411 exchange set mechanism for datasets
 * S-411 Portrayal Catalogue -- If it is necessary to deliver the latest Portrayal Catalogue to the end user it may be done using the S-411 exchange set mechanism for datasets.
---
+
 
 === Dataset
 
