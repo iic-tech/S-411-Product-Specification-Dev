@@ -29,6 +29,8 @@ The following conventions are used in the UML diagrams depicting the application
 
 The diagram below shows a very simplified summary of the ice data structure.
 
+#*Suggest deleting the figure below*#
+
 [[fig-ice-data-product-structure]]
 .*: Ice Data Product Structure*
 image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure]
@@ -120,7 +122,7 @@ S-411 uses three types of simple attributes; they are listed in the following Ta
 |A floating point number.
 
 |Enumeration
-|One of a list of predefined values.
+|One #*or more?*# of a list of predefined values.
 
 |===
 
@@ -132,7 +134,7 @@ S-411 uses three types of simple attributes; they are listed in the following Ta
 .*: Ice Application Schema Types*
 image::../images/figure-ice-app-schema-types.png[UML diagram depicting the Application Schema Data Set Structure]
 
-_I would suggest moving the following table to the DCEG (and adapt to the DCEG format)_
+#*I would suggest deleting the following table - there are no associations in S-411*#
 
 [cols="a,a,a,a, ",options="headers"]
 |===
@@ -163,6 +165,8 @@ _IceDataSetType_ is a type of root Element of an ice information data set.
 image::../images/figure-ice-data-set-type.png[UML diagram depicting the Ice Data Set structure]
 
 Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).
+
+#*I would suggest deleting the existing figures in the current PS*#
 
 ===== seaiceType (Sea Ice)
 
