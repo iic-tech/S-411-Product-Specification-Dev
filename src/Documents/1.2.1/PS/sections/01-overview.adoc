@@ -11,8 +11,20 @@ This Product Specification includes the content model, the encoding, the Feature
 
 
 [[bibliography]]
-
 === References
+* [[[iho-s100,IHO S-100 5.2.0]]]
+
+* [[[iho-s44,IHO S-44]]]
+
+* [[[iho-s4,IHO S-4]]]
+
+* [[[iho-s32,IHO S-32]]]
+
+* [[[iso-8601,ISO 8601:2004]]]
+
+* [[[iso-639-2,ISO 639-2:1998]]]
+
+**more?**
 
 ==== Normative
 GML OpenGIS®:: _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)

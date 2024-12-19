@@ -1,6 +1,6 @@
 
 [[sec-datasets]]
-== Datasets
+== Dataset Encoding
 
 === Introduction
 
