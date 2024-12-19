@@ -3,32 +3,32 @@
 
 === Introduction
 
+A dataset is a grouping of features, attributes, geometry and metadata which comprises a specific coverage.
+
 === Dataset Rules
 
-In order to facilitate the efficient processing of S-411 data the geographic coverage of a given maximum display scale may be split into multiple datasets.
+In order to facilitate the efficient processing of S-411 data the geographic coverage of a given *maximum display* scale may be split into multiple datasets.
 
-The discovery metadata of a dataset must list all the Data Coverage features contained within that dataset and their assigned scale attributions.
+The discovery metadata of a dataset must list all the *Data Coverage* features contained within that dataset and their assigned scale attributions.
 
-Datasets must not cross the 180° meridian; this includes both the Data Coverage features and the bounding box for the dataset.
-
-All base datasets (new dataset, new edition) must contain at least one Data Coverage feature.
-
-
+Datasets must not cross the 180° meridian; this includes both the *Data Coverage* features and the bounding box for the dataset.
 
 === Data Coverage rules
 
-* The data boundary of the base dataset is defined by the extent of the Data Coverage features and must be contained within the bounding box.
-* The Data Coverage features within a dataset must not overlap, however Data Coverage features from different datasets may overlap if they have differing maximum display scales.
-* Datasets may overlap, however there must be no overlapping Data Coverage features of the same maximum display scale, except at the agreed adjoining national data limits, where, if it is difficult to achieve a perfect join, a 5 metre overlapping buffer zone may be used; and for this situation, there must be no gaps in data.
-* When a dataset has multiple Data Coverage features, then the minimum display scale must be the same for all Data Coverage features within the dataset. The maximum display scale for multiple Data Coverage features within a dataset may be different.
-* When a dataset has multiple Data Coverage features then the maximum display scale of the dataset must be equal to the largest maximum display scale of the Data Coverage features.
-* The maximum display scale is considered to be the equivalent of the compilation scale of the data.
+* All base datasets (new dataset, new edition) must contain at least one *Data Coverage* feature.
+* The data boundary of the base dataset is defined by the extent of the *Data Coverage* features and must be contained within the bounding box.
+* The *Data Coverage* features within a dataset must not overlap, however *Data Coverage* features from different datasets may overlap if they have differing *maximum display scales*.
+* Datasets may overlap, however there must be no overlapping *Data Coverage* features of the same *maximum display scale*, except at the agreed adjoining national data limits, where, if it is difficult to achieve a perfect join, a 5 metre overlapping buffer zone may be used; and for this situation, there must be no gaps in data.
+* When a dataset has multiple *Data Coverage* features, then the *minimum display scale* must be the same for all *Data Coverage* features within the dataset. The *maximum display scale* for multiple *Data Coverage* features within a dataset may be different.
+* When a dataset has multiple *Data Coverage features* then the *maximum display scale* of the dataset must be equal to the largest *maximum display scale* of the *Data Coverage* features.
+* The *maximum display scale* is considered to be the equivalent of the compilation scale of the data.
 
 
 == Display Scale Range
-A scale range of a dataset is used to indicate a range of scales between which a producer considers the data is intended for use. The smallest scale is defined by the minimum display scale and the largest scale by the maximum display scale. These scales must be set at one of the scales specified elsewhere in this product specification.
+A scale range of a dataset is used to indicate a range of scales between which a producer considers the data is intended for use. The smallest scale is defined by the *minimum display scale* and the largest scale by the *maximum display scale*. These scales must be set at one of the scales specified elsewhere in this product specification.
 
-When the system’s viewing scale is smaller than the value indicated by minimum display scale, features within the Data Coverage feature are not displayed, except where the System Database does not contain a dataset covering the area at a smaller scale, in which case the dataset will be displayed at all smaller scales. When the viewing scale is larger than the value indicated by maximum display scale, an overscale indication must be shown.
+When the system’s viewing scale is smaller than the value indicated by *minimum display scale*, features within the *Data Coverage* feature are not displayed, except where the System Database does not contain a dataset covering the area at a smaller scale, in which case the dataset will be displayed at all smaller scales. When the viewing scale is larger than the value indicated by *maximum display scale*, an overscale indication must be shown.
+#*Don't think this last clause applies to S-411*#
 
 
 == Geometry
