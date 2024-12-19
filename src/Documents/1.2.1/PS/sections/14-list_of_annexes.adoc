@@ -5,5 +5,8 @@
 These Annexes are separate files and can be found either in the S-411 Product Specification distribution package or at the locations indicated.
 
 Annex A:: Data Classification and Encoding Guide. Separate document. IHO Geospatial Information Registry, https://registry.iho.int
-Annex B:: Feature catalogue. XML file. IHO Geospatial Information Registry, https://registry.iho.int
-Annex C:: Portrayal Catalogue. Zip archive of portrayal catalogue. IHO Geospatial Information Registry, https://registry.iho.int
+Annex B:: Encoding Format. GML schema, Schematron rule files, and schema documentation. S-100 schema server, https://schemas.s100dev.net #*TBC*#
+Annex C:: Feature catalogue. XML file. IHO Geospatial Information Registry, https://registry.iho.int
+Annex D:: Validation Checks. Separate document. IHO Geospatial Information Registry,
+https://registry.iho.int #*TBC*#
+Annex E:: Portrayal Catalogue. Zip archive of portrayal catalogue. IHO Geospatial Information Registry, https://registry.iho.int

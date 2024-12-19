@@ -207,4 +207,29 @@ Within this document, allowable primitives are included in the description of ea
 
 == Geo Features
 
+=== Sea Ice
+
+[width="100%",cols="5,5,5,1,1"]
+|===
+
+5+|[.underline]#IHO Definition:# *SEA ICE* is an area at sea that is covered, in whole or in part, with ice.
+5+|[.underline]#*S-101 Geo Feature:# Military Practice Area (MIPARE)*
+5+|[.underline]#*Primitives:# Point, Surface*
+
+|*S-411 Attribute* |*S-57 Acronym* |*Allowable Encoding Value* |*Type |Multiplicity*
+
+|Total Concentration
+|(ICEACT)
+|
+|EN
+|0,0
+
+|Partial Concentration
+|(ICEAPC)
+|
+|EN
+|0,0
+
+|===
+
 == Geo Feature Attribute and Enumerate Descriptions
