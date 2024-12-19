@@ -32,7 +32,7 @@ systems.
 . Protected;
 . Limited Distribution.
 
-#*various values added*#
+#*Various classification values added - TBC by WMO ETSI*#
 
 *Spatial Representation Type*:: Vector
 
