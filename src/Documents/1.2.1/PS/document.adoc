@@ -43,3 +43,4 @@ include::sections/12-metadata.adoc[]
 
 include::sections/13-datasets.adoc[]
 
+include::sections/14-list_of_annexes.adoc[]
