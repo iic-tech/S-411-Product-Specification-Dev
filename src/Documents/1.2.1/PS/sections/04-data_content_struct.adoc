@@ -29,12 +29,6 @@ The following conventions are used in the UML diagrams depicting the application
 
 The diagram below shows a very simplified summary of the ice data structure.
 
-#*Suggest deleting the figure below*#
-
-[[fig-ice-data-product-structure]]
-.*: Ice Data Product Structure*
-image::../images/figure-ice-data-product-structure.png[UML diagram depicting the Application Schema Data Set Structure]
-
 ==== Domain model
 The S-411 domain model has one base classe (‘root classe’) from which all the domain-specific geographic features type classes are derived. The base classe is shown in Figure 4.2 below. The base class for geographic features is FeatureType which has a set of attributes which are therefore inherited by all domain-specific features. The approximate area features in S-411 are also derived from the geographic feature root class. Both base classes are abstract classes and do not have direct instances in S-411 data – instead, S-411 feature type data objects are instantiations of a non-abstract class.
 
@@ -122,7 +116,7 @@ S-411 uses three types of simple attributes; they are listed in the following Ta
 |A floating point number.
 
 |Enumeration
-|One #*or more?*# of a list of predefined values.
+|One or more of a list of predefined values.
 
 |===
 
@@ -130,625 +124,345 @@ S-411 uses three types of simple attributes; they are listed in the following Ta
 
 ===== Implementation classes description
 
-[[fig-ice-app-schema-types]]
-.*: Ice Application Schema Types*
-image::../images/figure-ice-app-schema-types.png[UML diagram depicting the Application Schema Data Set Structure]
-
-#*I would suggest deleting the following table - there are no associations in S-411*#
-
-[cols="a,a,a,a, ",options="headers"]
-|===
-|Role Name |Name |Description |Mult. |Data Type
-
-|Class
-|IceDataSet
-|Set of ice data
-|-
-|IceDataSetType
-
-|Association
-|IceFeatureMember
-|Contains ice feature members
-|1..*
-|IceFeatureMemberType
-
-|===
-
 ===== IceDataSet / Types
 
 ====== IceDataSetType
 
 _IceDataSetType_ is a type of root Element of an ice information data set.
 
-[[fig-ice-data-set-type]]
-.*: Ice Data Set Type*
-image::../images/figure-ice-data-set-type.png[UML diagram depicting the Ice Data Set structure]
-
 Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).
-
-#*I would suggest deleting the existing figures in the current PS*#
-
-===== seaiceType (Sea Ice)
-
-[[fig-sea-ice-type-sea-ice]]
-.*: Sea Ice Type Sea Ice*
-image::../images/figure-sea-ice-type-sea-ice.png[UML diagram depicting the Sea Ice Type]
-
-===== laciceType (Lake Ice)
-
-[[fig-lake-ice-type-lake-ice]]
-.*: Lake Ice Type Lake Ice*
-image::../images/figure-lake-ice-type-lake-ice.png[UML diagram depicting the Lake Ice Type]
-
-===== brgareType (Iceberg Area)
-
-[[fig-brgare-type-iceberg-area]]
-.*: Brgare Type Iceberg Area*
-image::../images/figure-brgare-type-iceberg-area.png[UML diagram depicting the brgare Type]
-
-===== icelneType (Ice Edge)
-
-[[fig-icelne-type-ice-edge]]
-.*: Icelne Type Ice Edge*
-image::../images/figure-icelne-type-ice-edge.png[UML diagram depicting the icelne Type]
-
-===== brglne Type (Iceberg Limit)
-
-[[fig-brglne-type-iceberg-limit]]
-.*: Brglne Type Iceberg Limit*
-image::../images/figure-brglne-type-iceberg-limit.png[UML diagram depicting the brglne Type]
-
-===== opnlne Type (Limit of Open Water)
-
-[[fig-opnlne-type-limit-of-open-water]]
-.*: Opnlne Type Limit Of Open Water*
-image::../images/figure-opnlne-type-limit-of-open-water.png[UML diagram depicting the opnlne Type]
-
-===== lkilne Type (Limit of All Known Ice)
-
-[[fig-lkilne-type-limit-of-all-known-ice]]
-.*: Opnlne Type Limit of All Known Ice*
-image::../images/figure-lkilne-type-limit-of-all-known-ice.png[UML diagram depicting the lkilne Type]
-
-===== i_ridg Type (Line of Ice Ridge)
-
-[[fig-i_ridg-type-line-of-ice-ridge]]
-.*: i_ridg Type Line Of Ice Ridge*
-image::../images/figure-i_ridg-type-line-of-ice-ridge.png[UML diagram depicting the i_ridg Type]
-
-===== i_lead Type (Line of Ice Lead)
-
-[[fig-i_fral-type-line-of-ice-lead]]
-.*: i_lead Type Line Of Ice Lead*
-image::../images/figure-i_lead-type-line-of-ice-lead.png[UML diagram depicting the i_lead Type]
-
-===== i_fral Type (Line of Ice Fracture)
-
-[[fig-i_fral-type-line-of-ice-fracture]]
-.*: i_fral Type Line Of Ice Fracture*
-image::../images/figure-i_fral-type-line-of-ice-fracture.png[UML diagram depicting the i_fral Type]
-
-===== i_crac Type (Line of Ice Crack)
-
-[[fig-i_crac-type-line-of-ice-crack]]
-.*: i_crac Type Line Of Ice Crack*
-image::../images/figure-i_fral-type-line-of-ice-fracture.png[UML diagram depicting the i_crac Type]
-
-===== icecom Type (Ice Compacting)
-
-[[fig-icecom-type-ice-compacting]]
-.*: icecom Type Ice Compacting*
-image::../images/figure-icecom-type--ice-compacting.png[UML diagram depicting the icecom Type]
-
-===== icelea Type (Ice Lead)
-
-[[fig-icelea-type-ice-lead]]
-.*: icelea Type Ice Lead*
-image::../images/figure-icelea-type-ice-lead.png[UML diagram depicting the icelea Type]
-
-===== icebrg Type (Iceberg)
-
-[[fig-icebrg-type-iceberg]]
-.*: icebrg Type Iceberg*
-image::../images/figure-icebrg-type-iceberg.png[UML diagram depicting the icebrg Type]
-
-===== flobrg Type (Floeberg)
-
-[[fig-flobrg-type-floeberg]]
-.*: flobrg Type Floeberg*
-image::../images/figure-flobrg-type-floeberg.png[UML diagram depicting the flobrg Type]
-
-===== icethk Type (Ice Thickness)
-
-[[fig-icethk-type-ice-thickness]]
-.*: icethk Type Ice Thickness*
-image::../images/figure-icethk-type-ice-thickness.png[UML diagram depicting the icethk Type]
-
-===== iceshr Type (Ice Shear)
-
-[[fig-iceshr-type-ice-shear]]
-.*: iceshr Type Ice Shear*
-image::../images/figure-iceshr-type-ice-shear.png[UML diagram depicting the iceshr Type]
-
-===== icediv Type (Ice Divergence)
-
-[[fig-icediv-type-ice-divergence]]
-.*: icediv Type Ice Divergence*
-image::../images/figure-icediv-type-ice-divergence.png[UML diagram depicting the icediv Type]
-
-===== icerdg Type (Ice Ridge/Hummock)
-
-[[fig-icerdg-type-ice-ridge/hummock]]
-.*: icerdg Type Ice Ridge/Hummock*
-image::../images/figure-icerdg-type-ice-ridge.png[UML diagram depicting the icerdg Type]
-
-===== icekel Type (Ice Keel/Bummock)
-
-[[fig-icekel-type-ice-keel-bummock]]
-.*: icerdg Type Ice Keel/Bummock*
-image::../images/figure-icekel-type-ice-keel-bummock.png[UML diagram depicting the icekel Type]
-
-===== icedft Type (Ice Drift)
-
-[[fig-icedft-type-ice-drift]]
-.*: icedft Type Ice Drift*
-image::../images/figure-icedft-type-ice-drift.png[UML diagram depicting the icedft Type]
-
-===== icefra Type (Ice Fracture)
-
-[[fig-icefra-type-ice-fracture]]
-.*: icefra Type Ice Fracture*
-image::../images/figure-icefra-type-ice-fracture.png[UML diagram depicting the icefra Type]
-
-===== icerft Type (Ice Rafting)
-
-[[fig-icerft-type-ice-rafting]]
-.*: icerft Type Ice Rafting*
-image::../images/figure-icerft Type Ice Rafting.png[UML diagram depicting the icerft Type]
-
-===== jmdbrr Type (Jammed Brash Barrier)
-
-[[fig-jmdbrr-type-jammed-brash-barrier]]
-.*: jmdbrr Type Jammed Brash Barrier*
-image::../images/figure-jmdbrr-type-jammed-brash-barrier.png[UML diagram depicting the jmdbrr Type]
-
-===== stgmlt Type (Stage of Melt)
-
-[[fig-stgmlt-type-stage-of-melt]]
-.*: stgmlt Type Stage of Melt*
-image::../images/figure-stgmlt-type-stage-of-melt.png[UML diagram depicting the stgmlt Type]
-
-===== snwcvr Type (Snow Cover)
-
-[[fig-snwcvr-type-snow-cover]]
-.*: snwcvr Type Snow Cover*
-image::../images/figure-snwcvr-type-snow-cover.png[UML diagram depicting the snwcvr Type]
-
-===== strptc Type (Strips and Patches)
-
-[[fig-strptc-type-strips-and-patches]]
-.*: strptc Type Strips and Patches*
-image::../images/figure-strptc-type-strips-and-patches.png[UML diagram depicting the strptc Type]
-
-===== i_grhm Type (Grounded Hummock)
-
-[[fig-i_grhm-type-grounded-hummock]]
-.*: i_grhm Type Grounded Hummock*
-image::../images/figure-i_grhm-type-grounded-hummock.png[UML diagram depicting the i_grhm Type]
 
 ==== Feature Types Summary
 
-. Summary of Types
-[cols="a,a,a,a",options="headers"]
+. Summary of Types in the WMO Ice Domain Register
+[width=50%,cols="1,1,5",options="headers"]
 |===
-|Register Dictionary |Index |Alpha code |Name
+|Index |Alpha code |Name
 
-|IceFCD
 |Feature
 |SEAICE
 |Sea Ice
 
-|IceFCD
 |Feature
 |LACICE
 |Lake Ice
 
-|IceFCD
 |Feature
 |BRGARE
 |Iceberg Area
 
-|IceFCD
 |Feature
 |ICELNE
 |Ice Edge
 
-|IceFCD
 |Feature
 |BRGLNE
 |Iceberg Limit
 
-|IceFCD
 |Feature
 |OPNLNE
 |Limit of Open Water
 
-|IceFCD
 |Feature
 |LKILNE
 |Limit of All Known Ice
 
-|IceFCD
 |Feature
 |I_RIDG
 |Line of Ice Ridge
 
-|IceFCD
 |Feature
 |I_LEAD
 |Line of Ice Lead
 
-|IceFCD
 |Feature
 |I_FRAL
 |Line of Ice Fracture
 
-|IceFCD
 |Feature
 |I_CRAC
 |Line of Ice Crack
 
-|IceFCD
 |Feature
 |ICECOM
 |Ice Compacting
 
-|IceFCD
 |Feature
 |ICELEA
 |Ice Lead
 
-|IceFCD
 |Feature
 |ICEBRG
 |Iceberg
 
-|IceFCD
 |Feature
 |FLOBRG
 |Floeberg
 
-|IceFCD
 |Feature
 |ICETHK
 |Ice Thickness
 
-|IceFCD
 |Feature
 |ICESHR
 |Ice Shear
 
-|IceFCD
 |Feature
 |ICEDIV
 |Ice Divergence
 
-|IceFCD
 |Feature
 |ICERDG
 |Ice Ridge/Hummock
 
-|IceFCD
 |Feature
 |ICEKEL
 |Ice Keel/Bummock
 
-|IceFCD
 |Feature
 |ICEDFT
 |Ice Drift
 
-|IceFCD
 |Feature
 |ICEFRA
 |Ice Fracture
 
-|IceFCD
 |Feature
 |ICERFT
 |Ice Rafting
 
-|IceFCD
 |Feature
 |JMDBRR
 |Jammed Brash Barrier
 
-|IceFCD
 |Feature
 |STGMLT
 |Stage of Melt
 
-|IceFCD
 |Feature
 |SNWCVR
 |Snow Cover
 
-|IceFCD
 |Feature
 |STRPTC
 |Strips and Patches
 
-|IceFCD
 |Feature
 |I_GRHM
 |Grounded Hummock
 
-|IceFCD
 |Attribute
 |ICEACT
 |Total Concentration
 
-|IceFCD
 |Attribute
 |ICEAPC
 |Partial Concentration
 
-|IceFCD
 |Attribute
 |ICESOD
 |Ice Stage of Development
 
-|IceFCD
 |Attribute
 |ICELSO
 |Lake Ice Stage of Development
 
-|IceFCD
 |Attribute
 |ICEFLZ
 |Floe Sizes
 
-|IceFCD
 |Attribute
 |ICEMLT
 |Melt Stage
 
-|IceFCD
 |Attribute
 |ICESPC
 |Concentration of Strips and Patches
 
-|IceFCD
 |Attribute
 |ICEBNM
 |Number of Icebergs in Area
 
-|IceFCD
 |Attribute
 |ICELVL
 |Level Ice
 
-|IceFCD
 |Attribute
 |ICECST
 |Compacting Strength
 
-|IceFCD
 |Attribute
 |ICEFTY
 |Ice Fracture Type
 
-|IceFCD
 |Attribute
 |ICELST
 |Ice Lead Status
 
-|IceFCD
 |Attribute
 |ICELFQ
 |Frequency of Leads or Fractures
 
-|IceFCD
 |Attribute
 |ICELOR
 |Orientation of Leads or Fractures
 
-|IceFCD
 |Attribute
 |ICELWD
 |Ice Lead (or Fracture or Crack) Width
 
-|IceFCD
 |Attribute
 |ICELOC
 |Ice Location Information
 
-|IceFCD
 |Attribute
 |ICEBSZ
 |Iceberg Size
 
-|IceFCD
 |Attribute
 |ICEDDR
 |Ice Drift Direction
 
-|IceFCD
 |Attribute
 |ICEDSP
 |Ice Drift Speed
 
-|IceFCD
 |Attribute
 |ICETCK
 |Ice Average Thickness
 
-|IceFCD
 |Attribute
 |ICEMAX
 |Maximum Ice Thickness
 
-|IceFCD
 |Attribute
 |ICEMIN
 |Minimum Ice Thickness
 
-|IceFCD
 |Attribute
 |ICETTY
 |Ice Thickness Type
 
-|IceFCD
 |Attribute
 |ICESCT
 |Snow Depth
 
-|IceFCD
 |Attribute
 |ICESCN
 |Snow Cover Concentration
 
-|IceFCD
 |Attribute
 |ICEDOS
 |Direction Of Sastrugi
 
-|IceFCD
 |Attribute
 |ICERCN
 |Ice Ridge Concentration
 
-|IceFCD
 |Attribute
 |ICERDV
 |Ice Ridge Classification
 
-|IceFCD
 |Attribute
 |ICERMH
 |Ice Ridge Mean Height
 
-|IceFCD
 |Attribute
 |ICERFQ
 |Ice Ridge Frequency
 
-|IceFCD
 |Attribute
 |ICERXH
 |Ice Ridge Maximum Height
 
-|IceFCD
 |Attribute
 |ICEKCN
 |Ice Keel Concentration
 
-|IceFCD
 |Attribute
 |ICEKFQ
 |Ice Keel Frequency
 
-|IceFCD
 |Attribute
 |ICEKMD
 |Ice Keel Mean Depth
 
-|IceFCD
 |Attribute
 |ICEKXD
 |Ice Keel Maximum Depth
 
-|IceFCD
 |Attribute
 |ICEFCN
 |Ice Rafting Concentration
 
-|IceFCD
 |Attribute
 |IA_SFA
 |Ice Stage of Development and Floe Size for the 1st p.c.
 
-|IceFCD
 |Attribute
 |IA_SFB
 |Ice Stage of Development and Floe Size for the 2nd p.c.
 
-|IceFCD
 |Attribute
 |IA_SFC 
 |Ice Stage of Development and Floe Size for the 3rd p.c.
 
-|IceFCD
 |Attribute
 |IA_FFA
 |Ice Breccia for the 1st partial concentration
 
-|IceFCD
 |Attribute
 |ICEFCN
 |Ice Breccia for the 2nd partial concentration
 
-|IceFCD
 |Attribute
 |IA_FFC
 |Ice Breccia for the 3rd partial concentration
 
-|IceFCD
 |Attribute
 |IA_SNG
 |Snow concentration
 
-|IceFCD
 |Attribute
 |IA_MLT
 |Stage of melting
 
-|IceFCD
 |Attribute
 |IA_PLG
 |Contamination
 
-|IceFCD
 |Attribute
 |IA_HLG
 |Hills concentration
 
-|IceFCD
 |Attribute
 |IA_DUG
 |Fractures concentration
 
-|IceFCD
 |Attribute
 |IA_BCN
 |Icebergs concentration
 
-|IceFCD
 |Attribute
 |IA_BFM
 |Prevailing iceberg form
 
-|IceFCD
 |Attribute
 |IA_BUH
 |Max. height of the above-water part (iceberg / grounded hummock)
 
-|IceFCD
 |Attribute
 |IA_OBN
 |Number of ice objects
 
-|IceFCD
 |Attribute
 |IA_DXW
 |Max. width of ice lead (or fracture or crack)
 
-|IceFCD
 |Attribute
 |IA_DMW
 |Min. width of ice lead (or fracture or crack)
 
-|IceFCD
 |Attribute
 |ICEBRS
 |Brash Ice
