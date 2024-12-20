@@ -1,5 +1,6 @@
 [[sec-specification-scope]]
 == Specification Scope
+
 This product specification defines only one general scope which applies to all its sections.
 
 *Scope Identification*:: JCOMM S-411 dataset
@@ -8,8 +9,8 @@ This product specification defines only one general scope which applies to all i
 
 *Extent*
 
-EX_GeographicExtent -Global coverage of maritime areas.
+EX_GeographicExtent - Global coverage of maritime areas.
 
-EX_TemporalExtent -Not defined for this product specification.
+EX_TemporalExtent - Not defined for this product specification.
 
-EX_VerticalExtent-Not defined for this product specification.
+EX_VerticalExtent  -Not defined for this product specification.
