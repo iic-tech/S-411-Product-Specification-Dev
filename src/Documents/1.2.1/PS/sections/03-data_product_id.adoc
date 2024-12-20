@@ -32,8 +32,6 @@ systems.
 . Protected;
 . Limited Distribution.
 
-#*Various classification values added - TBC by WMO ETSI*#
-
 *Spatial Representation Type*:: Vector
 
 *Point of Contact*:: Producing Agency
