@@ -11,12 +11,6 @@ This Product Specification includes the content model, the encoding, the Feature
 
 [bibliography]
 === References
-* [[[iho-s100,IHO S-100 5.2.0]]]
-
-* [[[iho-s44,IHO S-44]]]
-
-**are there more?**
-
 ==== Normative
 GML OpenGIS®:: _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)
 S-97:: _IHO Guidelines for Creating S-100 Product Specifications_, Edition 1.1.0, June 2020.
@@ -35,6 +29,7 @@ ISO 19115-3:: _Geographic information - Metadata - Part 3: XML Schema implementa
 ISO 19117:: _Geographic Information – Portrayal_, 2012
 ISO 19131:: _Geographic Information – Data Product Specifications_, 2008
 ISO 19139-1:: _Geographic information - XML schema implementation - Part 1: Encoding rules_ - 2019
+MANICE:: _Manual of Standard Procedures for Observing and Reporting Ice Conditions_, Meteorological Service of Canada, 2005
 
 === Terms, definitions and abbreviations
 
@@ -48,8 +43,6 @@ Within this document:
 
 
 ==== Terms and definitions
-
-#_The definitions hereafter have been copied from other S-1xx PS. The list has to be reviewed by JCOMM-ETSI_#
 
 *Application Schema*
 
@@ -89,11 +82,9 @@ NOTE:: In a *coordinate reference system*, the coordinate numbers are qualified 
 
 NOTE:: The boundary of a curve is the set of points at either end of the curve. If the curve is a cycle, the two ends are identical, and the curve (if topologically closed) is considered to not have a boundary. The first point is called the start point, and the last is the end point. Connectivity of the curve is guaranteed by the "continuous image of a line" clause. A topological theorem states that a continuous image of a connected set is connected.
 
-#*Data Quality*#
+*Data Quality*
 
-#_A set of elements describing aspects of quality, including a measure of quality, an evaluation procedure, a quality result, and a scope._#
-
-#_No quality data in the current PS. TBC_#
+A set of elements describing aspects of quality, including a measure of quality, an evaluation procedure, a quality result, and a scope.
 
 *Data Type*
 
@@ -113,13 +104,11 @@ NOTE:: A dataset may be a smaller grouping of data which, though limited by some
 
 Parameter or set of parameters that define the position of the origin, the scale, and the orientation of a *coordinate* system.
 
-#*Depth*#
+*Depth*
 
-#_The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted"._#
+The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
 
-#*_This definition may need to be adapted by JCOMM-ETSI_*#
-
-NOTE:: The numbers must be qualified by units and datum._#
+NOTE:: The numbers must be qualified by units and datum.
 
 *ECDIS*
 
@@ -212,37 +201,33 @@ XML:: eXtensible Markup Language
 
 *Purpose*:: Navigation in ice covered regions
 
-// ported from S-122 product specification.
-
 === Product Specification metadata
 
 *Title*:: Ice Information Product Specification
 *S-100 Version*:: 5.2.0
-*S-411 Version*:: 1.1.0
-*Date*:: 15 June 2014
+*S-411 Version*:: 1.2.0
+*Date*:: xx January 2025
 *Language*:: English (optional additional)
 *Classification*:: Unclassified
-*Contact*:: Jürgen Holfort (ice@bsh.de)
+*Contact*::
 *Identifier*:: JCOMM S-411
-*Maintenance*:: Changes to this product specification are coordinated by ETSI.
-+
+*Maintenance*:: Changes to this product specification are coordinated by JCOMM ETSI. +
 --
-International Hydrographic Organization +
-4 Quai Antoine 1er +
-B.P. 445 +
-MC 98011 MONACO CEDEX +
-Telephone: +377 93 10 81 00 +
-Fax: +377 93 10 81 40 +
-Email: mailto:info@iho.int[] +
+World Meteorological Organization (WMO) +
+7 bis, avenue de la Paix +
+P.O. Box 2300 +
+CH-1211 Geneva 2, Switzerland +
+Telephone: +41 (0) 22 730 84 03 +
+Email: mailto:publications@wmo.int[] +
 --
-*URL*:: link:http://www.iho.int/[www.iho.int]
+*URL*:: link:http://www.wmo.int/[www.wmo.int]
 *Identifier*:: S-411
 *Maintenance*:: Changes to the Product Specification S-411 are coordinated by the JCOMM, and must be made available via the IHO web site.
 
-=== IHO Product Specification Maintenance
+=== WMO Product Specification Maintenance
 
 ==== Introduction
-Changes to S-411 will be released by the IHO as a New Edition, revision, or clarification.
+Changes to S-411 will be released by the WMO as a New Edition, revision, or clarification.
 
 ==== New Edition
 _New Editions_ of S-411 introduce significant changes. _New Editions_ enable new concepts, such as the ability to support new functions or applications, or the introduction of new constructs or data types. _New Editions_ are likely to have a significant impact on either existing users or future users of S-122. All cumulative _revisions_ and _clarifications_ must be included with the release of approved New Editions.
