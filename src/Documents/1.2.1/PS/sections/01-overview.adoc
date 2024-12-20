@@ -9,22 +9,13 @@ This document has been produced in response to a requirement to produce a data p
 This document describes an S-100 compliant Product Specification for Ice Information, which will form an overlay layer for an S-100 based marine navigation system. It specifies the content, structure, and metadata needed for creating a fully compliant S-411 product and for its portrayal within an S-100 system. +
 This Product Specification includes the content model, the encoding, the Feature Catalogue, Portrayal Catalogue, and metadata.
 
-
-[[bibliography]]
+[bibliography]
 === References
 * [[[iho-s100,IHO S-100 5.2.0]]]
 
 * [[[iho-s44,IHO S-44]]]
 
-* [[[iho-s4,IHO S-4]]]
-
-* [[[iho-s32,IHO S-32]]]
-
-* [[[iso-8601,ISO 8601:2004]]]
-
-* [[[iso-639-2,ISO 639-2:1998]]]
-
-**more?**
+**are there more?**
 
 ==== Normative
 GML OpenGIS®:: _Geography Markup Language (GML) Encoding Standard_ (Version 3.2.1)
