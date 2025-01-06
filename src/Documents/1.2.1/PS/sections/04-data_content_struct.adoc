@@ -51,12 +51,30 @@ The following figure shows all the major ice features and a simplified view of t
 
 [[fig-all-ice-features]]
 .*All Ice Features*
-image::../images/figure-all-ice-features.png[Diagram showqing all ice features]
+image::../images/figure-all-ice-features.png[Diagram showing all ice features]
 
 Limit and Line curve features and their attributes are shown in the following diagram
 [[fig-all-curve-features]]
 .*All Curve Features*
-image::../images/figure-all-curve-features.png[Diagram showqing all ice features]
+image::../images/figure-all-curve-features.png[Diagram showing all ice features]
+
+There are a number of point features shown in the following diagrams
+[[fig-point-features1]]
+.*Point Features 1*
+image::../images/PointFeatures1.png
+
+
+[[fig-point-features2]]
+.*Point Features 2*
+image::../images/PointFeatures2.png
+
+[[fig-point-features3]]
+.*Point Features 3*
+image::../images/PointFeatures3.png
+
+[[fig-point-features4]]
+.*Point Features 4*
+image::../images/PointFeatures4.png
 
 
 Full details of all geographic feature types can be found in Annex A – Data Classification and Encoding Guide, clause 2.1 and Sections 4-22.
