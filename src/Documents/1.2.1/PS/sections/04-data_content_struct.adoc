@@ -89,6 +89,8 @@ Full details of all geographic feature types can be found in Annex A – Data Cl
 
 S-411 defines attributes as either simple or complex.
 
+
+
 ===== Simple attributes
 
 S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.
@@ -120,6 +122,8 @@ Geographic (geo) feature types carry the descriptive characteristics of a real-w
 ==== Meta
 
 *Text to be added*
+
+
 
 ==== Attributes
 
