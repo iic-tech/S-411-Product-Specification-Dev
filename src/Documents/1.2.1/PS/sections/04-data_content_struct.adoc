@@ -47,11 +47,17 @@ S-411 provides a single meta-feature, *DataCoverage*. *DataCoverage* is for desc
 
 Geographic (geo) feature types form the principal content of the S-411 product and are fully defined by their associated attributes.
 
-The following figure shows all the major ice features and a simplified view of their attributes in the S-411 Application Schema
+The following figure shows all the major ice features and a simplified view of their attributes in the S-411 Application Schema. The abstract Ice class is introduced to simplify the UML model of the features.
 
 [[fig-all-ice-features]]
 .*All Ice Features*
 image::../images/figure-all-ice-features.png[Diagram showing all ice features]
+
+The ice features contains a number of attributes defined as enumerations. The following diagram shows the main ice (surface) feature classes complete with the details of these enumerations and their values.
+[[fig-all-ice-features-wenums]]
+.*Detailed Ice Features*
+image::../../model/HTML/EARoot/EA8.png[Diagram showing all ice features]
+
 
 Limit and Line curve features and their attributes are shown in the following diagram
 [[fig-all-curve-features]]
