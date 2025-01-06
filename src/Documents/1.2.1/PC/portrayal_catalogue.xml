@@ -5,14 +5,18 @@
  productId="S-411" version="1.2.1">
 	<!--<pixmaps/>-->
 	<pixmaps></pixmaps>
+	
+	
 	<colorProfiles>
-<!--		<colorProfile id="iceprofile">
+<!-- TODO: what is needed here? -->
+		<!--		<colorProfile id="iceprofile">
 			<description>
 				<name>name</name>
 				<description>description</description>
 			</description>
 			<fileName>http://tempuri.org</fileName>
 		</colorProfile>-->
+		
 	</colorProfiles>
 	<symbols>
 		<symbol id="brgareSymbol">
