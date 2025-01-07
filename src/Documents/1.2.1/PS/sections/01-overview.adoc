@@ -52,25 +52,25 @@ Conceptual schema for data required by one or more applications.
 
 (1) Named property of an entity.
 
-NOTE:: Describes a geometrical, thematic, or other characteristic of an entity.
+NOTE: Describes a geometrical, thematic, or other characteristic of an entity.
 
 (2) Feature within a classifier that describes a range of values that instances of the classifier may hold.
 
-NOTE:: An attribute is semantically equivalent to a composition association; however, the intent and usage is normally different.
+NOTE: An attribute is semantically equivalent to a composition association; however, the intent and usage is normally different.
 
-NOTE:: “Feature” used in this definition is the UML meaning of the term.
+NOTE: “Feature” used in this definition is the UML meaning of the term.
 
 *Boundary*
 
 Set that represents the limit of an entity.
 
-NOTE:: Boundary is most commonly used in the context of geometry, where the set is a collection of points or a collection of objects that represent those points.
+NOTE: Boundary is most commonly used in the context of geometry, where the set is a collection of points or a collection of objects that represent those points.
 
 *Coordinate*
 
 One of a sequence of _n_ numbers designating the position of a *point* in N-dimensional space.
 
-NOTE:: In a *coordinate reference system*, the coordinate numbers are qualified by units.
+NOTE: In a *coordinate reference system*, the coordinate numbers are qualified by units.
 
 *Coordinate Reference System*
 
@@ -80,7 +80,7 @@ NOTE:: In a *coordinate reference system*, the coordinate numbers are qualified 
 
 1-dimensional geometric primitive, representing the continuous image of a line.
 
-NOTE:: The boundary of a curve is the set of points at either end of the curve. If the curve is a cycle, the two ends are identical, and the curve (if topologically closed) is considered to not have a boundary. The first point is called the start point, and the last is the end point. Connectivity of the curve is guaranteed by the "continuous image of a line" clause. A topological theorem states that a continuous image of a connected set is connected.
+NOTE: The boundary of a curve is the set of points at either end of the curve. If the curve is a cycle, the two ends are identical, and the curve (if topologically closed) is considered to not have a boundary. The first point is called the start point, and the last is the end point. Connectivity of the curve is guaranteed by the "continuous image of a line" clause. A topological theorem states that a continuous image of a connected set is connected.
 
 *Data Quality*
 
@@ -90,15 +90,15 @@ A set of elements describing aspects of quality, including a measure of quality,
 
 Specification of a value domain with operations allowed on values in this domain.
 
-NOTE:: Data types include primitive predefined types and user-definable types.
+NOTE: Data types include primitive predefined types and user-definable types.
 
-NOTE:: A data type is identified by a term, for example Integer.
+NOTE: A data type is identified by a term, for example Integer.
 
 *Dataset*
 
 An identifiable collection of data.
 
-NOTE:: A dataset may be a smaller grouping of data which, though limited by some constraint such as spatial extent or feature type, is located physically within a larger dataset. Theoretically, a dataset may be as small as a single feature contained within a larger dataset. A hardcopy map or chart may be considered a dataset.
+NOTE: A dataset may be a smaller grouping of data which, though limited by some constraint such as spatial extent or feature type, is located physically within a larger dataset. Theoretically, a dataset may be as small as a single feature contained within a larger dataset. A hardcopy map or chart may be considered a dataset.
 
 *Datum*
 
@@ -108,7 +108,7 @@ Parameter or set of parameters that define the position of the origin, the scale
 
 The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
 
-NOTE:: The numbers must be qualified by units and datum.
+NOTE: The numbers must be qualified by units and datum.
 
 *ECDIS*
 
@@ -122,19 +122,19 @@ A fixed list of valid identifiers of named literal values. Attributes of an enum
 
 Abstraction of real-world phenomena.
 
-NOTE:: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
+NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
 
 *Feature*
 
 Abstraction of real world phenomena.
 
-NOTE:: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
+NOTE: A feature may occur as a type or an instance. Feature type or feature instance should be used when only one is meant.
 
 *Feature Attribute*
 
 Characteristic of a *feature*.
 
-NOTE:: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
+NOTE: A feature attribute type has a name, a data type, and a domain associated to it. A feature attribute instance has an attribute value taken from the value domain of the feature attribute type.
 
 *Feature Catalogue*
 
@@ -144,7 +144,7 @@ A catalogue containing definitions and descriptions of the *feature* types, *fea
 
 Geometric object representing a single, connected, homogeneous element of geometry.
 
-NOTE:: Geometric primitives are non-decomposed objects that present information about geometric configuration. They include points, curves and surfaces.
+NOTE: Geometric primitives are non-decomposed objects that present information about geometric configuration. They include points, curves and surfaces.
 
 *Multiplicity*
 
@@ -156,13 +156,13 @@ EXAMPLES: 1..* (one to many); 1 (exactly one); 0..1 (zero or one)
 
 0-dimensional geometric primitive, representing a position.
 
-NOTE:: The boundary of a point is the empty set.
+NOTE: The boundary of a point is the empty set.
 
 *Portrayal Catalogue*
 
 Collection of defined portrayals for a feature catalogue.
 
-NOTE:: Content of a portrayal catalogue includes portrayal functions, symbols, and portrayal context.
+NOTE: Content of a portrayal catalogue includes portrayal functions, symbols, and portrayal context.
 
 ==== Abbreviations
 This Product Specification adopts the following convention for presentation purposes:
