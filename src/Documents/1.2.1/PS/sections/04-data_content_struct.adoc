@@ -123,8 +123,8 @@ Geographic (geo) feature types carry the descriptive characteristics of a real-w
 
 Only one metadata feature is defined, DataCoverage. This defines the area of coverage bounded by the dataset, and any features within it. DataCoverage contains a mandatory optimumDisplayScale attribute and two optional maximum, and minimum display scale attributes.
 
-[[fig-point-features3]]
-.*Point Features 3*
+[[fig-data-coverage]]
+.*Data Coverage*
 image::../../model/HTML/EARoot/EA8.png[DataCoverage]
 
 ==== Attributes
