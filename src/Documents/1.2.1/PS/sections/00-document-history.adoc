@@ -4,6 +4,7 @@
 
 Changes to this Specification are coordinated by WMO/IOC Joint Technical Commission for Oceanography and Marine Meteorology (JCOMM). New editions will be made available via the IHO web site. 
 
+[%unnumbered]
 [cols="a,a,a,a",options="headers"]
 |===
 |Version Number |Date |Approved By |Purpose
