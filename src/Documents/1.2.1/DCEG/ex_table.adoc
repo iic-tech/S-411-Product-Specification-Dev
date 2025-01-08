@@ -1,0 +1,18 @@
+[[sec-FeatureName]]
+=== Feature Name
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** CANAL. An artificial waterway with no flow, or a controlled flow....
+a|**S-101 Geo Feature:** Canal (CANALS)
+a|**Primitives**: Curve, Surface
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|category of canal
+|(CATCAN)
+|1: transportation
+|EN
+|0,1
+|===

@@ -1,0 +1,29 @@
+[[sec-LineOfIceRidge]]
+=== Line of Ice Ridge
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** LINEOFICERIDGE : Line of Ice Ridge is a line or wall of broken ice forced up by pressure processes.
+a|**S-411 Geo Feature:** : LineOfIceRidge
+a|**Primitives**: curve
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| iceRidgeClassification
+| 
+|
+|EN
+|0,1
+| iceRidgeMeanHeight
+| 
+|
+|IN
+|0,1
+| iceRidgeMaximumHeight
+| 
+|
+|IN
+|0,1
+|===
+

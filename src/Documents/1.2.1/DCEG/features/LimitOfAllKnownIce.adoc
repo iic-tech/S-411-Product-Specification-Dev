@@ -1,0 +1,14 @@
+[[sec-LimitOfAllKnownIce]]
+=== Limit of All Known Ice
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** LIMITOFALLKNOWNICE : The limit of all known ice, including both sea ice of any kind and icebergs.
+a|**S-411 Geo Feature:** : LimitOfAllKnownIce
+a|**Primitives**: curve
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|===
+

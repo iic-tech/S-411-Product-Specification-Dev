@@ -1,0 +1,14 @@
+[[sec-IcebergLimit]]
+=== Iceberg Limit
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** ICEBERGLIMIT : Limit of all known Icebergs.
+a|**S-411 Geo Feature:** : IcebergLimit
+a|**Primitives**: curve
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|===
+

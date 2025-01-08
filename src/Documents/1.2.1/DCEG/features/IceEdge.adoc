@@ -1,0 +1,14 @@
+[[sec-IceEdge]]
+=== Ice Edge
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** ICEEDGE :  The demarcation at any given time between the open sea and sea ice of any kind and in any concentration, whether fast or drifting.
+a|**S-411 Geo Feature:** : IceEdge
+a|**Primitives**: curve
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|===
+

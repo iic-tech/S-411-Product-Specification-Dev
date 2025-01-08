@@ -1,0 +1,209 @@
+[[sec-SeaIce]]
+=== Sea Ice
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** SEAICE : Sea Ice is an area at sea that is covered, in whole or in part, with ice.
+a|**S-411 Geo Feature:** : SeaIce
+a|**Primitives**: surface
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| totalConcentration
+| 
+|
+|EN
+|0,1
+| partialConcentration
+| 
+|
+|EN
+|0,3
+| iceStageofDevelopment
+| 
+|
+|EN
+|0,5
+| floeSizes
+| 
+|
+|EN
+|0,3
+| concentrationofStripsandPatches
+| 
+|
+|EN
+|0,1
+| levelIce
+| 
+|
+|EN
+|0,1
+| compactingStrength
+| 
+|
+|EN
+|0,1
+| iceFractureType
+| 
+|
+|EN
+|0,1
+| iceDriftSpeed
+| 
+|
+|RE
+|0,1
+| iceDriftDirection
+| 
+|
+|EN
+|0,1
+| iceRidgeConcentration
+| 
+|
+|EN
+|0,3
+| iceRidgeFrequency
+| 
+|
+|IN
+|0,1
+| iceRidgeMeanHeight
+| 
+|
+|IN
+|0,1
+| iceRidgeMaximumHeight
+| 
+|
+|IN
+|0,1
+| iceRidgeClassification
+| 
+|
+|EN
+|0,1
+| iceKeelConcentration
+| 
+|
+|EN
+|0,1
+| iceAverageThickness
+| 
+|
+|IN
+|0,1
+| maximumIceThickness
+| 
+|
+|IN
+|0,1
+| mimimumIceThickness
+| 
+|
+|IN
+|0,1
+| iceThicknessType
+| 
+|
+|EN
+|0,1
+| meltStage
+| 
+|
+|EN
+|0,1
+| snowCoverConcentration
+| 
+|
+|EN
+|0,1
+| snowDepth
+| 
+|
+|IN
+|0,1
+| directionofSastrugi
+| 
+|
+|EN
+|0,1
+| iceLeadStatus
+| 
+|
+|EN
+|0,1
+| frequencyofLeadsorFractures
+| 
+|
+|IN
+|0,1
+| orientationofLeadsorFractures
+| 
+|
+|EN
+|0,1
+| iceLeadWidth
+| 
+|
+|IN
+|0,1
+| IA_SFA
+| 
+|
+|-
+|0,3
+| IA_SFB
+| 
+|
+|-
+|0,3
+| IA_SFC
+| 
+|
+|-
+|0,3
+| IA_FFA
+| 
+|
+|-
+|0,3
+| IA_FFB
+| 
+|
+|-
+|0,3
+| IA_FFC
+| 
+|
+|-
+|0,3
+| snowcover
+| 
+|
+|EN
+|0,1
+| stageofMelting
+| 
+|
+|EN
+|0,1
+| contamination
+| 
+|
+|EN
+|0,1
+| hillsConcentration
+| 
+|
+|EN
+|0,1
+| fracturesConcentration
+| 
+|
+|EN
+|0,1
+|===
+

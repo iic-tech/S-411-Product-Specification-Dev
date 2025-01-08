@@ -1,0 +1,39 @@
+[[sec-LineOfIceFracture]]
+=== Line of Ice Fracture
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** LINEOFICEFRACTURE : Any break or rupture through the ice cover, or through the single floe, resulting from deformation processes. Length may vary from a few meters to a few kilometers.
+a|**S-411 Geo Feature:** : LineOfIceFracture
+a|**Primitives**: curve
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| iceStageofDevelopment
+| 
+|
+|EN
+|0,5
+| numberofIceObjects
+| 
+|
+|IN
+|0,1
+| averageWidthofIceLead
+| 
+|
+|IN
+|0,1
+| minimumWidthofIceLead
+| 
+|
+|IN
+|0,1
+| maximumWidthofIceLead
+| 
+|
+|IN
+|0,1
+|===
+

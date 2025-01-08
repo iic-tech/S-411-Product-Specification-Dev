@@ -1,0 +1,39 @@
+[[sec-IcebergArea]]
+=== Iceberg Area
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** ICEBERGAREA : An Iceberg Area is an area at sea in which icebergs, bergy bits, or growlers are present.
+a|**S-411 Geo Feature:** : IcebergArea
+a|**Primitives**: surface
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| numberofIcebergsinArea
+| 
+|
+|IN
+|0,1
+| icebergSize
+| 
+|
+|EN
+|0,1
+| icebergConcentration
+| 
+|
+|EN
+|0,1
+| prevailingIcebergForm
+| 
+|
+|EN
+|0,1
+| maximumHeightofAboveWaterPart
+| 
+|
+|IN
+|0,1
+|===
+

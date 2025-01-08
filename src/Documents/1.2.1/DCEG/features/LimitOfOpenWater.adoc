@@ -1,0 +1,14 @@
+[[sec-LimitOfOpenWater]]
+=== Limit of Open Water
+
+[cols="a",options="headers"]
+|===
+a|**IHO Definition:** LIMITOFOPENWATER : The demarcation at any given time between sea ice and freely navigable water, in which sea ice is present in concentrations less than 1/10.
+a|**S-411 Geo Feature:** : LimitOfOpenWater
+a|**Primitives**: curve
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|===
+
