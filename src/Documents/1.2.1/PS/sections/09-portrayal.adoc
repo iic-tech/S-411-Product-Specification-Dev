@@ -47,9 +47,44 @@ image::../images/figure-ice-scientific-lcesod-display-mode.png[Table showing the
 
 ==== Line Features
 
-[[fig-line-features-portrayal]]
-.*: Line Feautures Portrayal*
-image::../images/figure-line-features-portrayal.png[Table showing the portrayal of line features]
+[width="100%",cols="2,2,1"]
+|===
+
+|*Feature Class* |*Acronym* |*Symbol*
+
+|Ice Edge
+|icelne
+a|image::../../PC/LineStyles/icelne.svg[]
+
+|Iceberg Limit
+|brglne
+a|image::../../PC/LineStyles/brglne.svg[]
+
+|Limit of Open Water
+|opnlne
+a|image::../../PC/LineStyles/opnlne.svg[]
+
+|Limit of All Known ice
+|lkilne
+a|image::../../PC/LineStyles/lkilne.svg[]
+
+|Line of Ice Ridge
+|i_ridg
+a|image::../../PC/LineStyles/i_ridg.svg[]
+
+|Line of Ice Lead
+|i_lead
+a|image::../../PC/LineStyles/i_lead.svg[]
+
+|Line of Ice Fracture
+|i_fral
+a|image::../../PC/LineStyles/i_fral.svg[]
+
+|Line of Ice Crack
+|i_crac
+a|image::../../PC/LineStyles/i_crac.svg[]
+
+|===
 
 ==== Point Features
 
