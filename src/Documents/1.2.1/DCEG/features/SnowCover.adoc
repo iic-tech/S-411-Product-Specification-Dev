@@ -1,0 +1,29 @@
+[[sec-SnowCover]]
+=== Snow Cover
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# A description of the amount of snow covering the ice.
+a|[underline]#**S-411 Geo Feature:**# Snow Cover
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Snow Cover Concentration
+| (ICESCN)
+|
+|EN
+|0,1
+| Snow Depth
+| (ICESCT)
+|
+|IN
+|0,1
+| Direction of Sastrugi
+| (ICEDOS)
+|
+|EN
+|0,1
+|===
+

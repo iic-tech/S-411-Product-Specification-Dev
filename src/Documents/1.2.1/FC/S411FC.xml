@@ -40,7 +40,6 @@
             <S100FC:definition>ICEACT specifies the total concentration of ice in an area.  It represents the ratio expressed in tenths describing the total area of the water surface covered by ice as a fraction of the whole area.</S100FC:definition>
             <S100FC:code>totalConcentration</S100FC:code>
             <S100FC:alias>ICEACT</S100FC:alias>
-            <S100FC:alias>ICEACT</S100FC:alias>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>

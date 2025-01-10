@@ -1,0 +1,44 @@
+[[sec-Iceberg]]
+=== Iceberg
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# An Iceberg is a massive piece of ice, greatly varying in shape and showing more than 5 meters above the sea surface which has broken away from a glacier, and which may be afloat or grounded. This Object Class also includes smaller forms of glacial ice, known as “Bergy Bits” and “Growlers”, which are defined by their size Attribute. ICEBRG can indicate the location of a single iceberg or, if the attribute IA_OBN is specified and is greater than 1, multiple icebergs in the vicinity of a point.
+a|[underline]#**S-411 Geo Feature:**# Iceberg
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Iceberg Size
+| (ICEBSZ)
+|
+|EN
+|0,1
+| Ice Drift Speed
+| (ICEDSP)
+|
+|RE
+|0,1
+| Ice Drift Direction
+| (ICEDDR)
+|
+|EN
+|0,1
+| Number of Ice Objects
+| (IA_OBN)
+|
+|IN
+|0,1
+| Prevailing Iceberg Form
+| (IA_BFM)
+|
+|EN
+|0,1
+| Maximum Height of Above Water Part (iceberg/grounded hummock)
+| (IA_BUH)
+|
+|IN
+|0,1
+|===
+

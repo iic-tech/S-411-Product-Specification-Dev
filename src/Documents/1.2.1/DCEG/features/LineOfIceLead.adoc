@@ -4,34 +4,34 @@
 [cols="a",options="headers"]
 |===
 a|[underline]#**IHO Definition** :# Line of Ice Lead identifies any passage-way(s) through ice which is (are) navigable by surface vessels.
-a|[underline]#**S-411 Geo Feature:** :# Line of Ice Lead
+a|[underline]#**S-411 Geo Feature:**# Line of Ice Lead
 a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]
 |===
 a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
 | Ice Stage of Development
-| 
+| (ICESOD)
 |
 |EN
 |0,5
 | Number of Ice Objects
-| 
+| (IA_OBN)
 |
 |IN
 |0,1
 | Average Width of Ice Lead (or Fracture or Crack)
-| 
+| (ICEDVW)
 |
 |IN
 |0,1
 | Minimum Width of Ice Lead (or Fracture or Crack)
-| 
+| (IA_DMW)
 |
 |IN
 |0,1
 | Maximum Width of Ice Lead (or Fracture or Crack)
-| 
+| (IA_DXW)
 |
 |IN
 |0,1

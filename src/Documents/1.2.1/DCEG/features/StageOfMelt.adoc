@@ -1,0 +1,19 @@
+[[sec-StageOfMelt]]
+=== Stage of Melt
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# A description of the stage of melt of the ice; i.e. whether it has formed puddles on the surface and whether these have frozen.
+a|[underline]#**S-411 Geo Feature:**# Stage of Melt
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Melt Stage
+| (ICEMLT)
+|
+|EN
+|0,1
+|===
+

@@ -4,7 +4,7 @@
 [cols="a",options="headers"]
 |===
 a|[underline]#**IHO Definition** :# The demarcation at any given time between sea ice and freely navigable water, in which sea ice is present in concentrations less than 1/10.
-a|[underline]#**S-411 Geo Feature:** :# Limit of Open Water
+a|[underline]#**S-411 Geo Feature:**# Limit of Open Water
 a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]

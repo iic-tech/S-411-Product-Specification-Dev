@@ -1,0 +1,19 @@
+[[sec-IceRafting]]
+=== Ice Rafting
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Pressure processes whereby one piece of ice overrides another.
+a|[underline]#**S-411 Geo Feature:**# Ice Rafting
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Ice Rafting Concentration
+| (ICEFCN)
+|
+|EN
+|0,1
+|===
+

@@ -1,10 +1,10 @@
-[[sec-LineOfIceFracture]]
-=== Line of Ice Fracture
+[[sec-LineOfIceCrack]]
+=== Line of Ice Crack
 
 [cols="a",options="headers"]
 |===
-a|[underline]#**IHO Definition** :# Any break or rupture through the ice cover, or through the single floe, resulting from deformation processes. Length may vary from a few meters to a few kilometers.
-a|[underline]#**S-411 Geo Feature:**# Line of Ice Fracture
+a|[underline]#**IHO Definition** :# Line of Ice Crack identifies any ice breakup, but no passage-way(s) for surface vessels.
+a|[underline]#**S-411 Geo Feature:**# Line of Ice Crack
 a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]

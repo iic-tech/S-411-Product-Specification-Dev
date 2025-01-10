@@ -4,7 +4,7 @@
 [cols="a",options="headers"]
 |===
 a|[underline]#**IHO Definition** :# Limit of all known Icebergs.
-a|[underline]#**S-411 Geo Feature:** :# Iceberg Limit
+a|[underline]#**S-411 Geo Feature:**# Iceberg Limit
 a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]

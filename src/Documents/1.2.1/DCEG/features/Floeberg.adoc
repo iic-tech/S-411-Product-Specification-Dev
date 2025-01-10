@@ -1,0 +1,24 @@
+[[sec-Floeberg]]
+=== Floeberg
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# A Floeberg is a massive piece of sea ice composed of a hummock or a group of hummocks, frozen together and separated from any ice surroundings. They typically protrude up to 5 meters above the sea surface.
+a|[underline]#**S-411 Geo Feature:**# Floeberg
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Ice Drift Speed
+| (ICEDSP)
+|
+|RE
+|0,1
+| Ice Drift Direction
+| (ICEDDR)
+|
+|EN
+|0,1
+|===
+

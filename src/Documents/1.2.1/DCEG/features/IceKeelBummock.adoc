@@ -1,0 +1,34 @@
+[[sec-IceKeelBummock]]
+=== Ice Keel/Bummock
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# From a submariner’s point of view, a Keel is a downward projecting ridge on the underside of the ice canopy - the counterpart of a Ridge. A Bummock is the counterpart of a hummock on the underside of the ice canopy.
+a|[underline]#**S-411 Geo Feature:**# Ice Keel/Bummock
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Ice Keel Concentration
+| (ICEKCN)
+|
+|EN
+|0,1
+| Ice Keel Frequency
+| (ICEKFQ)
+|
+|IN
+|0,1
+| Ice Keel Mean Depth
+| (ICEKMD)
+|
+|IN
+|0,1
+| Ice Keel Maximum Depth
+| (ICEKXD)
+|
+|IN
+|0,1
+|===
+

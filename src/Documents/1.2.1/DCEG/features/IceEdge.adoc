@@ -4,7 +4,7 @@
 [cols="a",options="headers"]
 |===
 a|[underline]#**IHO Definition** :#  The demarcation at any given time between the open sea and sea ice of any kind and in any concentration, whether fast or drifting.
-a|[underline]#**S-411 Geo Feature:** :# Ice Edge
+a|[underline]#**S-411 Geo Feature:**# Ice Edge
 a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]

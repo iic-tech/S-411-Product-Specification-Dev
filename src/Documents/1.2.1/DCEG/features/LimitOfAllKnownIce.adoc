@@ -4,7 +4,7 @@
 [cols="a",options="headers"]
 |===
 a|[underline]#**IHO Definition** :# The limit of all known ice, including both sea ice of any kind and icebergs.
-a|[underline]#**S-411 Geo Feature:** :# Limit of All Known Ice
+a|[underline]#**S-411 Geo Feature:**# Limit of All Known Ice
 a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]

@@ -1,0 +1,19 @@
+[[sec-StripsAndPatches]]
+=== Strips and Patches
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# A strip is a long narrow area of floating ice, about 1 kilometre or less in width, usually composed of small fragments detached from the main mass of ice, and run together under the influence of wind, swell or current. If the area of ice becomes more rounded in shape, it is referred to as a patch.
+a|[underline]#**S-411 Geo Feature:**# Strips and Patches
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Concentration of Strips and Patches
+| (ICESPC)
+|
+|EN
+|0,1
+|===
+

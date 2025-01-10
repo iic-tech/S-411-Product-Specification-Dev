@@ -1,0 +1,14 @@
+[[sec-IceShear]]
+=== Ice Shear
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# An area of drift ice is subject to shear when the ice motion varies significantly in the direction normal to the motion, subjecting the ice to rotational forces.
+a|[underline]#**S-411 Geo Feature:**# Ice Shear
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|===
+

@@ -1,0 +1,19 @@
+[[sec-IceCompacting]]
+=== Ice Compacting
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Pieces of ice are said to be compacting when they are subjected to a converging motion, which increases ice concentration and/or produces stresses which may result in ice deformation.
+a|[underline]#**S-411 Geo Feature:**# Ice Compacting
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Compacting Strength
+| (ICECST)
+|
+|EN
+|0,1
+|===
+

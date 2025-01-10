@@ -1,0 +1,29 @@
+[[sec-IceLead]]
+=== Ice Lead
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Ice Lead identifies any fracture(s) or passage-way(s) through ice which is (are) navigable by surface vessels.
+a|[underline]#**S-411 Geo Feature:**# Ice Lead
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Ice Location Information
+| (ICELOC)
+|
+|EN
+|0,1
+| Ice Lead Status
+| (ICELST)
+|
+|EN
+|0,1
+| Ice Lead (or Fracture or Crack) Width
+| (ICELWD)
+|
+|IN
+|0,1
+|===
+

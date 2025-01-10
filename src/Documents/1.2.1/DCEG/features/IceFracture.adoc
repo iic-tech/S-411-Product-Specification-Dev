@@ -1,0 +1,49 @@
+[[sec-IceFracture]]
+=== Ice Fracture
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Any break or rupture through the ice pack, or a single floe, resulting from deformation processes. Length may vary from a few metres to many kilometres.
+a|[underline]#**S-411 Geo Feature:**# Ice Fracture
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Ice Fracture Type
+| (ICEFTY)
+|
+|EN
+|0,1
+| Ice Location Information
+| (ICELOC)
+|
+|EN
+|0,1
+| Number of Ice Objects
+| (IA_OBN)
+|
+|IN
+|0,1
+| Ice Stage of Development
+| (ICESOD)
+|
+|EN
+|0,1
+| Average Width of Ice Lead (or Fracture or Crack)
+| (ICEDVW)
+|
+|IN
+|0,5
+| Minimum Width of Ice Lead (or Fracture or Crack)
+| (IA_DMW)
+|
+|IN
+|0,1
+| Maximum Width of Ice Lead (or Fracture or Crack)
+| (IA_DXW)
+|
+|IN
+|0,1
+|===
+

@@ -4,149 +4,149 @@
 [cols="a",options="headers"]
 |===
 a|[underline]#**IHO Definition** :# Lake Ice is an area on a lake that is covered, in whole or in part, with ice.
-a|[underline]#**S-411 Geo Feature:** :# Lake Ice
+a|[underline]#**S-411 Geo Feature:**# Lake Ice
 a|[underline]#**Primitives**: surface#
 |===
 [cols="a,a,a,a,a",options="headers"]
 |===
 a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
 | Total Concentration
-| 
+| (ICEACT)
 |
 |EN
 |0,1
 | Partial Concentration
-| 
+| (ICEAPC)
 |
 |EN
 |0,3
 | Lake Ice Stage of Development
-| 
+| (ICELSO)
 |
 |EN
 |0,5
 | Floe Sizes
-| 
+| (ICEFLZ)
 |
 |EN
 |0,3
 | Concentration of Strips and Patches
-| 
+| (ICESPC)
 |
 |EN
 |0,1
 | Level Ice
-| 
+| (ICELVL)
 |
 |EN
 |0,1
 | Compacting Strength
-| 
+| (ICECST)
 |
 |EN
 |0,1
 | Ice Fracture Type
-| 
+| (ICEFTY)
 |
 |EN
 |0,1
 | Ice Drift Speed
-| 
+| (ICEDSP)
 |
 |RE
 |0,1
 | Ice Drift Direction
-| 
+| (ICEDDR)
 |
 |EN
 |0,1
 | Ice Ridge Concentration
-| 
+| (ICERCN)
 |
 |EN
 |0,3
 | Ice Ridge Frequency
-| 
+| (ICERFQ)
 |
 |IN
 |0,1
 | Ice Ridge Mean Height
-| 
+| (ICERMH)
 |
 |IN
 |0,1
 | Ice Ridge Maximum Height
-| 
+| (ICERXH)
 |
 |IN
 |0,1
 | Ice Ridge Classification
-| 
+| (ICERDV)
 |
 |EN
 |0,1
 | Ice Keel Concentration
-| 
+| (ICEKCN)
 |
 |EN
 |0,1
 | Ice Average Thickness
-| 
+| (ICETCK)
 |
 |IN
 |0,1
 | Maximum Ice Thickness
-| 
+| (ICEMAX)
 |
 |IN
 |0,1
 | Mimimum Ice Thickness
-| 
+| (ICEMIN)
 |
 |IN
 |0,1
 | Ice Thickness Type
-| 
+| (ICETTY)
 |
 |EN
 |0,1
 | Melt Stage
-| 
+| (ICEMLT)
 |
 |EN
 |0,1
 | Snow Cover Concentration
-| 
+| (ICESCN)
 |
 |EN
 |0,1
 | Snow Depth
-| 
+| (ICESCT)
 |
 |IN
 |0,1
 | Direction of Sastrugi
-| 
+| (ICEDOS)
 |
 |EN
 |0,1
 | Ice Lead Status
-| 
+| (ICELST)
 |
 |EN
 |0,1
 | Frequency of Leads or Fractures
-| 
+| (ICELFQ)
 |
 |IN
 |0,1
 | Orientation of Leads or Fractures
-| 
+| (ICELOR)
 |
 |EN
 |0,1
 | Ice Lead (or Fracture or Crack) Width
-| 
+| (ICELWD)
 |
 |IN
 |0,1

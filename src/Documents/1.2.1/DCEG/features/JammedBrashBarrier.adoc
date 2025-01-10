@@ -1,0 +1,14 @@
+[[sec-JammedBrashBarrier]]
+=== Jammed Brash Barrier
+
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# A strip or narrow belt of new, young or brash ice (usually 100-500 metres wide) formed at the edge of either drift or fast ice.
+a|[underline]#**S-411 Geo Feature:**# Jammed Brash Barrier
+a|[underline]#**Primitives**: point#
+|===
+[cols="a,a,a,a,a",options="headers"]
+|===
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+|===
+
