@@ -41,7 +41,7 @@ The `encoverlay` parameter helps to calculate the priority for display of single
 |
 |
 |
-a|image::../../PC/AreaFills/sea_ice.svg[]
+a|
 
 |*Lake Ice*
 |lacice
@@ -50,16 +50,16 @@ a|image::../../PC/AreaFills/sea_ice.svg[]
 |
 |
 |
-a|image::../../PC/AreaFills/lake_ice.svg[]
+a|
 
 |*Iceberg Area*
 |icebrg
-6+a|image::../../PC/AreaFills/iceberg_area.png[]
+a|
 |
 |
 |
 |
-|
+a|
 
 |===
 
