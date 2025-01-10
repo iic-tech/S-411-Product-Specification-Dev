@@ -53,9 +53,156 @@ image::../images/figure-line-features-portrayal.png[Table showing the portrayal 
 
 ==== Point Features
 
-[[fig-point-features-portrayal]]
-.*: Point Feautures Portrayal*
-image::../images/figure-point-features-portrayal.png[Table showing the portrayal of point features]
+[width="100%",cols="2,2,1"]
+|===
+
+|*Feature Class* |*Acronym* |*Symbol*
+
+|Ice Compacting
+|icecom
+a|image::../../PC/Symbols/icecom.svg[]
+
+|Ice Lead
+|icelea
+a|image::../../PC/Symbols/icelea.svg[]
+
+|Ice Shear
+|iceshr
+a|image::../../PC/Symbols/iceshr.svg[]
+
+|Ice Divergence
+|icediv
+a|image::../../PC/Symbols/icediv.svg[]
+
+|Ice Ridge / Hummock
+|icerdg
+a|image::../../PC/Symbols/icerdg.svg[]
+
+|Ice Keel / Bummock
+|icekel
+a|image::../../PC/Symbols/icekel.svg[]
+
+|Ice Fracture
+|flobrg
+a|image::../../PC/Symbols/flobrg.svg[]
+
+|Ice Rafting
+|icerft
+a|image::../../PC/Symbols/icerft.svg[]
+
+|Jammed Brash Barrier
+|jmdbrr
+a|image::../../PC/Symbols/jmdbrr.svg[]
+
+|Stage of Mell
+|stgmlt
+a|image::../../PC/Symbols/stgmlt.svg[]
+
+|Snow Cover
+|snwcvr
+a|image::../../PC/Symbols/snwcvr.svg[]
+
+|Strips and patches
+|strptc
+a|image::../../PC/Symbols/strptc.svg[]
+
+|Grounded Hummock
+|i_grhm
+a|image::../../PC/Symbols/i_grhm.svg[]
+
+|Iceberg
+|icebrg
+|
+
+|
+|icebrg 01 (Growler)
+a|image::../../PC/Symbols/icebrg_growler.svg[]
+
+|
+|icebrg 02 (Bergy Bit)
+a|image::../../PC/Symbols/icebrg_bergy_bit.svg[]
+
+|
+|icebrg 03 (Small Iceberg)
+a|image::../../PC/Symbols/icebrg_small.svg[]
+
+|
+|icebrg 04 (Medium Iceberg)
+a|image::../../PC/Symbols/icebrg_medium.svg[]
+
+|
+|icebrg 05 (Large Iceberg)
+a|image::../../PC/Symbols/icebrg_large.svg[]
+
+|
+|icebrg 06 (Very Large Iceberg)
+a|image::../../PC/Symbols/icebrg_very_large.svg[]
+
+|
+|icebrg 07 (Ice Island Fragment)
+a|image::../../PC/Symbols/icebrg_ice_island_fragment.svg[]
+
+|
+|icebrg 08 (Ice Island)
+a|image::../../PC/Symbols/icebrg_ice_island.svg[]
+
+|
+|icebrg 09 (Radar Target)
+a|image::../../PC/Symbols/icebrg_radar_target.svg[]
+
+|
+|icebrg 99 (Unknown)
+a|image::../../PC/Symbols/icebrg_unknown.svg[]
+
+|Ice Drift
+|icedft
+|
+
+|
+|icedft 01 (No Ice Motion)
+a|image::../../PC/Symbols/icedft_no_ice_motion.svg[]
+
+|
+|icedft 02 (NE)
+a|image::../../PC/Symbols/icedft_NE.svg[]
+
+|
+|icedft 03 (E)
+a|image::../../PC/Symbols/icedft_E.svg[]
+
+|
+|icedft 04 (SE)
+a|image::../../PC/Symbols/icedft_SE.svg[]
+
+|
+|icedft 05 (S)
+a|image::../../PC/Symbols/icedft_S.svg[]
+
+|
+|icedft 06 (SW)
+a|image::../../PC/Symbols/icedft_NW.svg[]
+
+|
+|icedft 07 (W)
+a|image::../../PC/Symbols/icedft_W.svg[]
+
+|
+|icedft 08 (NW)
+a|image::../../PC/Symbols/icedft_NW.svg[]
+
+|
+|icedft 09 (N)
+a|image::../../PC/Symbols/icedft_N.svg[]
+
+|
+|icedft 10 (Variable)
+a|image::../../PC/Symbols/icedft_variable.svg[]
+
+|
+|icedft 99 (Unknown)
+a|image::../../PC/Symbols/icedft_unknown.svg[]
+
+|===
 
 ==== Draw order
 The highest number will be drawn on the top.
