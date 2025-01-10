@@ -1,0 +1,32 @@
+[[sec-geofeatures]]
+== General
+
+=== Geo Features
+include::features/SeaIce.adoc
+include::features/LakeIce.adoc
+include::features/IcebergArea.adoc
+include::features/IceEdge.adoc
+include::features/IcebergLimit.adoc
+include::features/LimitOfOpenWater.adoc
+include::features/LimitOfAllKnownIce.adoc
+include::features/LineOfIceRidge.adoc
+include::features/LineOfIceLead.adoc
+include::features/LineOfIceFracture.adoc
+include::features/LineOfIceCrack.adoc
+include::features/IceCompacting.adoc
+include::features/IceLead.adoc
+include::features/Iceberg.adoc
+include::features/Floeberg.adoc
+include::features/IceThickness.adoc
+include::features/IceShear.adoc
+include::features/IceDivergence.adoc
+include::features/IceRidgeHummock.adoc
+include::features/IceKeelBummock.adoc
+include::features/IceDrift.adoc
+include::features/IceFracture.adoc
+include::features/IceRafting.adoc
+include::features/JammedBrashBarrier.adoc
+include::features/StageOfMelt.adoc
+include::features/SnowCover.adoc
+include::features/StripsAndPatches.adoc
+include::features/GroundedHummock.adoc
