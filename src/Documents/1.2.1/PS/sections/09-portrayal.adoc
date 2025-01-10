@@ -29,38 +29,512 @@ The `encoverlay` parameter helps to calculate the priority for display of single
 
 ===== IceNavigationalDisplayMode (Traffic Light Principle, depends on Ice Class)
 
-[[fig-ice-navigational-display-mode]]
-.*: Ice Navigational Display Mode*
-image::../images/figure-ice-navigational-display-mode.png[Table showing the Display Modes]
+[width="100%",cols="2,1,1,1,1,1,1,1"]
+|===
+
+|*Object Class* |*Acronym* ||||||
+
+|*Sea Ice*
+|seaice
+|
+|
+|
+|
+|
+a|image::../../PC/AreaFills/sea_ice.svg[]
+
+|*Lake Ice*
+|lacice
+|
+|
+|
+|
+|
+a|image::../../PC/AreaFills/lake_ice.svg[]
+
+|*Iceberg Area*
+|icebrg
+6+a|image::../../PC/AreaFills/iceberg_area.png[]
+|
+|
+|
+|
+|
+
+|===
 
 ===== IceScientificIceactDisplayMode
 
-[[fig-ice-scientific-lceact-display-mode]]
-.*: Ice Scientific lceact Display Mode*
-image::../images/figure-ice-scientific-lceact-display-mode.png[Table showing the Ice scientific lceact Display Modes]
+[width="100%",cols="1,4,3,3"]
+|===
+
+|*iceact* |*Description* |*rgb* |*colour*
+
+|1
+|Ice Free
+|000 100 255
+|
+
+|2
+|Open Water (<1/10 ice)
+|150 200 255
+|
+
+|3
+|Bergy Water
+|150 200 255  
+|
+
+|10
+|1/10 ice
+|140 255 160
+|
+
+|12
+|1/10 to 2/10 ice
+|140 255 160
+|
+
+|13
+|1/10 to 3/10 ice
+|140 255 160
+|
+
+|20
+|2/10 ice
+|140 255 160
+|
+
+|23
+|2/10 to 3/10 ice
+|140 255 160
+|
+
+|24
+|2/10 to 4/10 ice
+|140 255 160
+|
+
+|30
+|3/10 ice
+|140 255 160
+|
+
+|34
+|3/10 to 4/10 ice
+|140 255 160
+|
+
+|35
+|3/10 to 5/10 ice
+|255 255 000
+|
+
+|40
+|4/10 ice
+|255 255 000
+|
+
+|45
+|4/10 to 5/10 ice
+|255 255 000
+|
+
+|46
+|4/10 to 6/10 ice
+|255 255 000
+|
+
+|50
+|5/10 ice
+|255 255 000
+|
+
+|56
+|5/10 to 6/10 ice
+|255 255 000
+|
+
+|57
+|5/10 to 7/10 ice
+|255 255 000
+|
+
+|60
+|6/10 ice
+|255 255 000
+|
+
+|67
+|6/10 to 7/10 ice
+|255 255 000
+|
+
+|68
+|6/10 to 8/10 ice
+|255 125 007
+|
+
+|70
+|7/10 ice
+|255 125 007
+|
+
+|78
+|7/10 to 8/10 ice
+|255 125 007
+|
+
+|79
+|7/10 to 9/10 ice
+|255 125 007
+|
+
+|80
+|8/10 ice
+|255 125 007
+|
+
+|81
+|8/10 to 10/10 ice
+|255 000 000
+|
+
+|89
+|8/10 to 9/10 ice
+|255 125 007
+|
+
+|90
+|9/10 ice
+|255 255 000
+|
+
+|91
+|9/10 to 10 or 9+/10 ice
+|255 255 000
+|
+
+|92
+|10/10 ice
+|145 000 000
+|
+
+|99
+|Undertermined/Unknown
+|SymbolFill
+|
+
+|===
 
 ===== IceNavigationalDisplayMode
 
-[[fig-ice-scientific-lcesod-display-mode]]
-.*: Ice Scientific lcesod Display Mode*
-image::../images/figure-ice-scientific-lcesod-display-mode.png[Table showing the Ice scientific lcesod Display Modes]
+[width="100%",cols="1,4,3,3"]
+
+|===
+
+|*icesod* |*Description* |*rgb* |*Colour*
+
+|1
+|Ice Free
+|150 200 255
+|
+
+|70
+|Brash Ice
+|150 200 255
+|
+
+|80
+|No Stage Development
+|150 200 255  
+|
+
+|81
+|New Ice (<10 cm)
+|240 210 250
+|
+
+|82
+|Nilas Ice Rind (<10 cm)
+|255 100 255
+|
+
+|83
+|Young Ice (10 to <30 cm)
+|170 040 240
+|
+
+|84
+|Grey Ice (10 to <15 cm)
+|135 060 215
+|
+
+|85
+|Grey - White Ice (15 to <30 cm)
+|220 080 235
+|
+
+|86
+|First Year Ice (30 to 200 cm)
+|255 255 000
+|
+
+|87
+|Thin First Year Ice (30 to <70 cm)
+|175 250 000
+|
+
+|88
+|Thin First Year Ice Stage 1 (30 to <50 cm)
+|215 250 130
+|
+
+|89
+|Thin First Year Ice Stage 2 (50 to <70 cm)
+|175 250 000
+|
+
+|91
+|Medium First Year Ice (70 to 120 cm)
+|000 120 000
+|
+
+|93
+|Thick First Year Ice (>120 cm)
+|000 120 000
+|
+
+|94
+|Residual Ice
+|000 120 000
+|
+
+|95
+|Old Ice
+|180 100 050
+|
+
+|96
+|Second Year Ice
+|255 120 010
+|
+
+|97
+|Multi-Year Ice
+|200 000 000
+|
+
+|98
+|Glacier Ice (Icebergs)
+|Symbolfill
+|
+
+|99
+|Undertermined/Unknown
+|SymbolFill
+|
+
+|===
 
 ==== Line Features
 
-[[fig-line-features-portrayal]]
-.*: Line Feautures Portrayal*
-image::../images/figure-line-features-portrayal.png[Table showing the portrayal of line features]
+[width="100%",cols="2,2,1"]
+|===
+
+|*Feature Class* |*Acronym* |*Symbol*
+
+|Ice Edge
+|icelne
+a|image::../../PC/LineStyles/icelne.svg[]
+
+|Iceberg Limit
+|brglne
+a|image::../../PC/LineStyles/brglne.svg[]
+
+|Limit of Open Water
+|opnlne
+a|image::../../PC/LineStyles/opnlne.svg[]
+
+|Limit of All Known ice
+|lkilne
+a|image::../../PC/LineStyles/lkilne.svg[]
+
+|Line of Ice Ridge
+|i_ridg
+a|image::../../PC/LineStyles/i_ridg.svg[]
+
+|Line of Ice Lead
+|i_lead
+a|image::../../PC/LineStyles/i_lead.svg[]
+
+|Line of Ice Fracture
+|i_fral
+a|image::../../PC/LineStyles/i_fral.svg[]
+
+|Line of Ice Crack
+|i_crac
+a|image::../../PC/LineStyles/i_crac.svg[]
+
+|===
 
 ==== Point Features
 
-[[fig-point-features-portrayal]]
-.*: Point Feautures Portrayal*
-image::../images/figure-point-features-portrayal.png[Table showing the portrayal of point features]
+[width="100%",cols="2,2,1"]
+|===
+
+|*Feature Class* |*Acronym* |*Symbol*
+
+|Ice Compacting
+|icecom
+a|image::../../PC/Symbols/icecom.svg[]
+
+|Ice Lead
+|icelea
+a|image::../../PC/Symbols/icelea.svg[]
+
+|Ice Shear
+|iceshr
+a|image::../../PC/Symbols/iceshr.svg[]
+
+|Ice Divergence
+|icediv
+a|image::../../PC/Symbols/icediv.svg[]
+
+|Ice Ridge / Hummock
+|icerdg
+a|image::../../PC/Symbols/icerdg.svg[]
+
+|Ice Keel / Bummock
+|icekel
+a|image::../../PC/Symbols/icekel.svg[]
+
+|Ice Fracture
+|flobrg
+a|image::../../PC/Symbols/flobrg.svg[]
+
+|Ice Rafting
+|icerft
+a|image::../../PC/Symbols/icerft.svg[]
+
+|Jammed Brash Barrier
+|jmdbrr
+a|image::../../PC/Symbols/jmdbrr.svg[]
+
+|Stage of Mell
+|stgmlt
+a|image::../../PC/Symbols/stgmlt.svg[]
+
+|Snow Cover
+|snwcvr
+a|image::../../PC/Symbols/snwcvr.svg[]
+
+|Strips and patches
+|strptc
+a|image::../../PC/Symbols/strptc.svg[]
+
+|Grounded Hummock
+|i_grhm
+a|image::../../PC/Symbols/i_grhm.svg[]
+
+|Iceberg
+|icebrg
+|
+
+|
+|icebrg 01 (Growler)
+a|image::../../PC/Symbols/icebrg_growler.svg[]
+
+|
+|icebrg 02 (Bergy Bit)
+a|image::../../PC/Symbols/icebrg_bergy_bit.svg[]
+
+|
+|icebrg 03 (Small Iceberg)
+a|image::../../PC/Symbols/icebrg_small.svg[]
+
+|
+|icebrg 04 (Medium Iceberg)
+a|image::../../PC/Symbols/icebrg_medium.svg[]
+
+|
+|icebrg 05 (Large Iceberg)
+a|image::../../PC/Symbols/icebrg_large.svg[]
+
+|
+|icebrg 06 (Very Large Iceberg)
+a|image::../../PC/Symbols/icebrg_very_large.svg[]
+
+|
+|icebrg 07 (Ice Island Fragment)
+a|image::../../PC/Symbols/icebrg_ice_island_fragment.svg[]
+
+|
+|icebrg 08 (Ice Island)
+a|image::../../PC/Symbols/icebrg_ice_island.svg[]
+
+|
+|icebrg 09 (Radar Target)
+a|image::../../PC/Symbols/icebrg_radar_target.svg[]
+
+|
+|icebrg 99 (Unknown)
+a|image::../../PC/Symbols/icebrg_unknown.svg[]
+
+|Ice Drift
+|icedft
+|
+
+|
+|icedft 01 (No Ice Motion)
+a|image::../../PC/Symbols/icedft_no_ice_motion.svg[]
+
+|
+|icedft 02 (NE)
+a|image::../../PC/Symbols/icedft_NE.svg[]
+
+|
+|icedft 03 (E)
+a|image::../../PC/Symbols/icedft_E.svg[]
+
+|
+|icedft 04 (SE)
+a|image::../../PC/Symbols/icedft_SE.svg[]
+
+|
+|icedft 05 (S)
+a|image::../../PC/Symbols/icedft_S.svg[]
+
+|
+|icedft 06 (SW)
+a|image::../../PC/Symbols/icedft_NW.svg[]
+
+|
+|icedft 07 (W)
+a|image::../../PC/Symbols/icedft_W.svg[]
+
+|
+|icedft 08 (NW)
+a|image::../../PC/Symbols/icedft_NW.svg[]
+
+|
+|icedft 09 (N)
+a|image::../../PC/Symbols/icedft_N.svg[]
+
+|
+|icedft 10 (Variable)
+a|image::../../PC/Symbols/icedft_variable.svg[]
+
+|
+|icedft 99 (Unknown)
+a|image::../../PC/Symbols/icedft_unknown.svg[]
+
+|===
 
 ==== Draw order
 The highest number will be drawn on the top.
 
-[cols="a,a,a" ,options="headers"]
+[cols="1,1,1"]
 |===
 |No |Name |Acronym
 
@@ -117,7 +591,7 @@ The highest number will be drawn on the top.
 |icecom
 
 |12
-|ce Lead
+|Ice Lead
 |icelea
 
 |13

@@ -83,7 +83,7 @@ The encoding encapsulates exchange set elements as follows:
 
 *Mandatory Elements*
 
-* S-411 datasets -- HDF encoding
+* S-411 datasets -- GML encoding
 * Exchange Catalogue -- the XML encoded representation of exchange set catalogue features [discovery metadata].
 
 *Optional Elements*
@@ -107,7 +107,7 @@ Dataset naming must follow a standard pattern to give implementers greater predi
 411::: the first 3 characters identify the dataset as an S-411 dataset (mandatory).
 YYYY::: the fourth to seventh characters identify the producer code according to the Producer Code Register.
 ØØØØ::: the eighth to the maximum nineteenth characters are optional and may be used in any way by the producer to provide the unique file name. The following characters are allowed in the dataset name: A to Z, 0 to 9 and the special character _ (underscore).
-GML::: denotes an HDF5 file.
+GML::: denotes a GML file.
 
 === Exchange Set
 The structure of an S-411 Exchange Set must be according to the structure described below, which is based on <<iho-s100,part=17,clause=4.2>>.
@@ -129,12 +129,12 @@ The Exchange Catalogue acts as the table of contents for the Exchange Set. The C
 <<iho-s100,part=15>> defines the algorithms for compressing, encrypting and digitally signing datasets based on the S-100 Data Model. The individual Product Specifications provide details about which of the elements are being used and on which files in the dataset.
 
 ==== Use of compression
-The data producer decides if compression will be used on the S-411 product files (HDF5). It is expected that a hydrographic office will make a policy decision and that all the S-411 datasets from the producer will be either compressed or uncompressed.
+The data producer decides if compression will be used on the S-411 product files (GML). It is expected that a hydrographic office will make a policy decision and that all the S-411 datasets from the producer will be either compressed or uncompressed.
 
-It is recommended to compress all the dataset files, for example HDF5 files. The ZIP compression method defined in <<iho-s100,part=15,clause=5.2>> must be applied to the product files.
+It is recommended to compress all the dataset files, for example MGL files. The ZIP compression method defined in <<iho-s100,part=15,clause=5.2>> must be applied to the product files.
 
 ==== Use of data protection
-It is recommended to encrypt all the dataset files, for example HDF5. The encryption method defined in <<iho-s100,part=15>> must be applied.
+It is recommended to encrypt all the dataset files, for example GML. The encryption method defined in <<iho-s100,part=15>> must be applied.
 
 ==== Use of digital signatures
 Digital signatures shall be used on all files included in a S-411 compliant Exchange Set to meet the requirements of IMO resolution MSC.428(98) to reduce cyber security risks among users, especially when used in navigations systems at sea. The recommended signature method is defined in <<iho-s100,part=15>>.
