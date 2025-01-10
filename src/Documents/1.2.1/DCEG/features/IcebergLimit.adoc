@@ -3,12 +3,12 @@
 
 [cols="a",options="headers"]
 |===
-a|**IHO Definition:** ICEBERGLIMIT : Limit of all known Icebergs.
-a|**S-411 Geo Feature:** : IcebergLimit
-a|**Primitives**: curve
+a|[underline]#**IHO Definition** :# Limit of all known Icebergs.
+a|[underline]#**S-411 Geo Feature:** :# Iceberg Limit
+a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]
 |===
-a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
 |===
 

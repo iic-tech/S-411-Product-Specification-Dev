@@ -3,34 +3,34 @@
 
 [cols="a",options="headers"]
 |===
-a|**IHO Definition:** ICEBERGAREA : An Iceberg Area is an area at sea in which icebergs, bergy bits, or growlers are present.
-a|**S-411 Geo Feature:** : IcebergArea
-a|**Primitives**: surface
+a|[underline]#**IHO Definition** :# An Iceberg Area is an area at sea in which icebergs, bergy bits, or growlers are present.
+a|[underline]#**S-411 Geo Feature:** :# Iceberg Area
+a|[underline]#**Primitives**: surface#
 |===
 [cols="a,a,a,a,a",options="headers"]
 |===
-a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
-| numberofIcebergsinArea
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Number of Icebergs in Area
 | 
 |
 |IN
 |0,1
-| icebergSize
+| Iceberg Size
 | 
 |
 |EN
 |0,1
-| icebergConcentration
+| Iceberg Concentration
 | 
 |
 |EN
 |0,1
-| prevailingIcebergForm
+| Prevailing Iceberg Form
 | 
 |
 |EN
 |0,1
-| maximumHeightofAboveWaterPart
+| Maximum Height of Above Water Part (iceberg/grounded hummock)
 | 
 |
 |IN

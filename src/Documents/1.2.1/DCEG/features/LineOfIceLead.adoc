@@ -3,34 +3,34 @@
 
 [cols="a",options="headers"]
 |===
-a|**IHO Definition:** LINEOFICELEAD : Line of Ice Lead identifies any passage-way(s) through ice which is (are) navigable by surface vessels.
-a|**S-411 Geo Feature:** : LineOfIceLead
-a|**Primitives**: curve
+a|[underline]#**IHO Definition** :# Line of Ice Lead identifies any passage-way(s) through ice which is (are) navigable by surface vessels.
+a|[underline]#**S-411 Geo Feature:** :# Line of Ice Lead
+a|[underline]#**Primitives**: curve#
 |===
 [cols="a,a,a,a,a",options="headers"]
 |===
-a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
-| iceStageofDevelopment
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Ice Stage of Development
 | 
 |
 |EN
 |0,5
-| numberofIceObjects
+| Number of Ice Objects
 | 
 |
 |IN
 |0,1
-| averageWidthofIceLead
+| Average Width of Ice Lead (or Fracture or Crack)
 | 
 |
 |IN
 |0,1
-| minimumWidthofIceLead
+| Minimum Width of Ice Lead (or Fracture or Crack)
 | 
 |
 |IN
 |0,1
-| maximumWidthofIceLead
+| Maximum Width of Ice Lead (or Fracture or Crack)
 | 
 |
 |IN

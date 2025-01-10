@@ -3,204 +3,204 @@
 
 [cols="a",options="headers"]
 |===
-a|**IHO Definition:** SEAICE : Sea Ice is an area at sea that is covered, in whole or in part, with ice.
-a|**S-411 Geo Feature:** : SeaIce
-a|**Primitives**: surface
+a|[underline]#**IHO Definition** :# Sea Ice is an area at sea that is covered, in whole or in part, with ice.
+a|[underline]#**S-411 Geo Feature:** :# Sea Ice
+a|[underline]#**Primitives**: surface#
 |===
 [cols="a,a,a,a,a",options="headers"]
 |===
-a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
-| totalConcentration
+a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
+| Total Concentration
 | 
 |
 |EN
 |0,1
-| partialConcentration
+| Partial Concentration
 | 
 |
 |EN
 |0,3
-| iceStageofDevelopment
+| Ice Stage of Development
 | 
 |
 |EN
 |0,5
-| floeSizes
+| Floe Sizes
 | 
 |
 |EN
 |0,3
-| concentrationofStripsandPatches
+| Concentration of Strips and Patches
 | 
 |
 |EN
 |0,1
-| levelIce
+| Level Ice
 | 
 |
 |EN
 |0,1
-| compactingStrength
+| Compacting Strength
 | 
 |
 |EN
 |0,1
-| iceFractureType
+| Ice Fracture Type
 | 
 |
 |EN
 |0,1
-| iceDriftSpeed
+| Ice Drift Speed
 | 
 |
 |RE
 |0,1
-| iceDriftDirection
+| Ice Drift Direction
 | 
 |
 |EN
 |0,1
-| iceRidgeConcentration
+| Ice Ridge Concentration
 | 
 |
 |EN
 |0,3
-| iceRidgeFrequency
+| Ice Ridge Frequency
 | 
 |
 |IN
 |0,1
-| iceRidgeMeanHeight
+| Ice Ridge Mean Height
 | 
 |
 |IN
 |0,1
-| iceRidgeMaximumHeight
+| Ice Ridge Maximum Height
 | 
 |
 |IN
 |0,1
-| iceRidgeClassification
+| Ice Ridge Classification
 | 
 |
 |EN
 |0,1
-| iceKeelConcentration
+| Ice Keel Concentration
 | 
 |
 |EN
 |0,1
-| iceAverageThickness
+| Ice Average Thickness
 | 
 |
 |IN
 |0,1
-| maximumIceThickness
+| Maximum Ice Thickness
 | 
 |
 |IN
 |0,1
-| mimimumIceThickness
+| Mimimum Ice Thickness
 | 
 |
 |IN
 |0,1
-| iceThicknessType
+| Ice Thickness Type
 | 
 |
 |EN
 |0,1
-| meltStage
+| Melt Stage
 | 
 |
 |EN
 |0,1
-| snowCoverConcentration
+| Snow Cover Concentration
 | 
 |
 |EN
 |0,1
-| snowDepth
+| Snow Depth
 | 
 |
 |IN
 |0,1
-| directionofSastrugi
+| Direction of Sastrugi
 | 
 |
 |EN
 |0,1
-| iceLeadStatus
+| Ice Lead Status
 | 
 |
 |EN
 |0,1
-| frequencyofLeadsorFractures
+| Frequency of Leads or Fractures
 | 
 |
 |IN
 |0,1
-| orientationofLeadsorFractures
+| Orientation of Leads or Fractures
 | 
 |
 |EN
 |0,1
-| iceLeadWidth
+| Ice Lead (or Fracture or Crack) Width
 | 
 |
 |IN
 |0,1
-| IA_SFA
+| 
 | 
 |
 |-
 |0,3
-| IA_SFB
+| 
 | 
 |
 |-
 |0,3
-| IA_SFC
+| 
 | 
 |
 |-
 |0,3
-| IA_FFA
+| 
 | 
 |
 |-
 |0,3
-| IA_FFB
+| 
 | 
 |
 |-
 |0,3
-| IA_FFC
+| 
 | 
 |
 |-
 |0,3
-| snowcover
+| Snow cover
 | 
 |
 |EN
 |0,1
-| stageofMelting
+| Stage of Melting
 | 
 |
 |EN
 |0,1
-| contamination
+| Contamination
 | 
 |
 |EN
 |0,1
-| hillsConcentration
+| Hills Concentration
 | 
 |
 |EN
 |0,1
-| fracturesConcentration
+| Fractures Concentration
 | 
 |
 |EN
