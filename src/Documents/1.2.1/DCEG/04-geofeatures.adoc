@@ -1,40 +1,86 @@
 [[sec-geofeatures]]
-== General
+== Geo Features
 
-=== Geo Features
-
-==== Sea Ice
+=== Sea Ice
 include::features/SeaIce.adoc[]
 
-==== Lake Ice
+=== Lake Ice
 include::features/LakeIce.adoc[]
 
-==== Iceberg Area
+=== Iceberg Area
 include::features/IcebergArea.adoc[]
 
+=== Ice Edge
+include::features/IceEdge.adoc[]
 
-include::features/IceEdge.adoc
-include::features/IcebergLimit.adoc
-include::features/LimitOfOpenWater.adoc
-include::features/LimitOfAllKnownIce.adoc
-include::features/LineOfIceRidge.adoc
-include::features/LineOfIceLead.adoc
-include::features/LineOfIceFracture.adoc
-include::features/LineOfIceCrack.adoc
-include::features/IceCompacting.adoc
-include::features/IceLead.adoc
-include::features/Iceberg.adoc
-include::features/Floeberg.adoc
-include::features/IceThickness.adoc
-include::features/IceShear.adoc
-include::features/IceDivergence.adoc
-include::features/IceRidgeHummock.adoc
-include::features/IceKeelBummock.adoc
-include::features/IceDrift.adoc
-include::features/IceFracture.adoc
-include::features/IceRafting.adoc
-include::features/JammedBrashBarrier.adoc
-include::features/StageOfMelt.adoc
-include::features/SnowCover.adoc
-include::features/StripsAndPatches.adoc
-include::features/GroundedHummock.adoc
+=== Iceberg Limit
+include::features/IcebergLimit.adoc[]
+
+=== Limit of Open Water
+include::features/LimitOfOpenWater.adoc[]
+
+=== Limit of all Known Ice
+include::features/LimitOfAllKnownIce.adoc[]
+
+=== Line of Ice Ridge
+include::features/LineOfIceRidge.adoc[]
+
+=== Line of Ice Lead
+include::features/LineOfIceLead.adoc[]
+
+=== Line of Ice Fracture
+include::features/LineOfIceFracture.adoc[]
+
+=== Line of Ice Crack
+include::features/LineOfIceCrack.adoc[]
+
+=== Ice Compacting
+include::features/IceCompacting.adoc[]
+
+=== Ice Lead
+include::features/IceLead.adoc[]
+
+=== Iceberg
+include::features/Iceberg.adoc[]
+
+=== Floaberg
+include::features/Floeberg.adoc[]
+
+=== Ice Thickness
+include::features/IceThickness.adoc[]
+
+=== Ice Shear
+include::features/IceShear.adoc[]
+
+=== Ice Divergence
+include::features/IceDivergence.adoc[]
+
+=== Ice Ridge or Hummock
+include::features/IceRidgeHummock.adoc[]
+
+=== Ice keel or Bummock
+include::features/IceKeelBummock.adoc[]
+
+=== Ice Drift
+include::features/IceDrift.adoc[]
+
+=== Ice Fracture
+include::features/IceFracture.adoc[]
+
+=== Ice Rafting
+include::features/IceRafting.adoc[]
+
+=== Jammed Brash Barrier
+include::features/JammedBrashBarrier.adoc[]
+
+=== Stage of Ice melt
+include::features/StageOfMelt.adoc[]
+
+=== Snow Cover
+include::features/SnowCover.adoc[]
+
+=== Strips and Patches
+include::features/StripsAndPatches.adoc[]
+
+=== Grounded Hummock
+include::features/GroundedHummock.adoc[]
