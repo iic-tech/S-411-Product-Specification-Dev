@@ -1,0 +1,71 @@
+[[sec-totalConcentration]]
+=== Total Concentration
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEACT specifies the total concentration of ice in an area.  It represents the ratio expressed in tenths describing the total area of the water surface covered by ice as a fraction of the whole area. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Ice Free + 
+2) 02 + 
+[underline]#**IHO Definition**# :Open Water ( < 1/10 ice) + 
+3) 03 + 
+[underline]#**IHO Definition**# :Bergy Water + 
+10) 10 + 
+[underline]#**IHO Definition**# :1/10 ice + 
+12) 12 + 
+[underline]#**IHO Definition**# :1/10 to 2/10 ice + 
+13) 13 + 
+[underline]#**IHO Definition**# :1/10 to 3/10 ice + 
+20) 20 + 
+[underline]#**IHO Definition**# :2/10 ice + 
+23) 23 + 
+[underline]#**IHO Definition**# :2/10 to 3/10 ice + 
+24) 24 + 
+[underline]#**IHO Definition**# :2/10 to 4/10 ice + 
+30) 30 + 
+[underline]#**IHO Definition**# :3/10 ice + 
+34) 34 + 
+[underline]#**IHO Definition**# :3/10 to 4/10 ice + 
+35) 35 + 
+[underline]#**IHO Definition**# :3/10 to 5/10 ice + 
+40) 40 + 
+[underline]#**IHO Definition**# :4/10 ice + 
+45) 45 + 
+[underline]#**IHO Definition**# : + 
+46) 46 + 
+[underline]#**IHO Definition**# :4/10 to 6/10 ice + 
+50) 50 + 
+[underline]#**IHO Definition**# :5/10 ice + 
+56) 56 + 
+[underline]#**IHO Definition**# :5/10 to 6/10 ice + 
+57) 57 + 
+[underline]#**IHO Definition**# :5/10 to 7/10 ice + 
+60) 60 + 
+[underline]#**IHO Definition**# :6/10 ice + 
+67) 67 + 
+[underline]#**IHO Definition**# :6/10 to 7/10 ice + 
+68) 68 + 
+[underline]#**IHO Definition**# :6/10 to 8/10 ice + 
+70) 70 + 
+[underline]#**IHO Definition**# :7/10 ice + 
+78) 78 + 
+[underline]#**IHO Definition**# :7/10 to 8/10 ice + 
+79) 79 + 
+[underline]#**IHO Definition**# :7/10 to 9/10 ice + 
+80) 80 + 
+[underline]#**IHO Definition**# :8/10 ice + 
+81) 81 + 
+[underline]#**IHO Definition**# :8/10 to 10/10 ice + 
+89) 89 + 
+[underline]#**IHO Definition**# :8/10 to 9/10 ice + 
+90) 90 + 
+[underline]#**IHO Definition**# :9/10 ice + 
+91) 91 + 
+[underline]#**IHO Definition**# :9/10 to 10/10 ice + 
+92) 92 + 
+[underline]#**IHO Definition**# :10/10 ice + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
