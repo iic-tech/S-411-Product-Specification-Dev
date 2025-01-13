@@ -24,14 +24,14 @@ information about its creation and maintenance.
 
 *Classification*:: Unclassified
 
-*Contact*:: International Hydrographic Organization
-4b, quai Antoine 1er
-B.P. 445
-MC 98011 MONACO CEDEX
-Telephone: +377 93 10 81 00
-Fax: +377 93 10 81 40
+*Contact*:: World Meteorological Organization +
+7 bis, avenue de la Paix +
+P.O. Box 2300 +
+CH-1211 Geneva 2, Switzerland +
+Telephone: +41 (0) 22 730 84 03 +
+Email: publications@wmo.int
 
-*URL*:: https://iho.int/
+*URL*:: https://mwo.int/
 
 *Identifier*:: S-411 Annex A
 
