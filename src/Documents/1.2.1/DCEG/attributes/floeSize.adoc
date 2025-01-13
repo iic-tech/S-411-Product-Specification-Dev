@@ -1,4 +1,10 @@
-
+[[sec-floeSizes]]
+=== Floe Sizes
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Floe Sizes describe the predominate forms of ice floe sizes (Fa, Fb and Fc) corresponding to the ice Stages of Development Sa, Sb and Screspectively. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
 [underline]#**IHO Definition**# :Pancake Ice (30 cm to 3m across) + 
 2) 02 + 
 [underline]#**IHO Definition**# :Shuga/Small Ice Cake; Brash Ice (<2m across) + 
