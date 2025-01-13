@@ -18,3 +18,6 @@
 include::00-document-histoty.adoc[]
 include::01-overview.adoc[]
 include::02-general.adoc[]
+include::03-metafeatures.adoc[]
+include::04-geofeatures.adoc[]
+include::05-attributes.adoc[]
