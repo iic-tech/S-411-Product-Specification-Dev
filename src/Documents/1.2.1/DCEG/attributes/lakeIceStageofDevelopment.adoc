@@ -1,0 +1,23 @@
+[[sec-lakeIceStageofDevelopment]]
+=== Lake Ice Stage of Development
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Lake Ice Stages of Development describe the ages and thicknesses of lake ice. (‘So, Sa, Sb, Sc and Sd’) + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :New Lake Ice (<5cms) + 
+2) 02 + 
+[underline]#**IHO Definition**# :Thin Lake Ice (5-<15cms) + 
+3) 03 + 
+[underline]#**IHO Definition**# :Medium Lake Ice (15-<30cms) + 
+4) 04 + 
+[underline]#**IHO Definition**# :Thick Lake Ice (30-70cms) + 
+5) 05 + 
+[underline]#**IHO Definition**# :Very Thick Lake Ice (>70cms) + 
+70) 70 + 
+[underline]#**IHO Definition**# :Brash Ice + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
