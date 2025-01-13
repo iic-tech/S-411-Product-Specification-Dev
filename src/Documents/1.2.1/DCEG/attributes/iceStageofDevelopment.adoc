@@ -1,0 +1,53 @@
+[[sec-iceStageofDevelopment]]
+=== Ice Stage of Development
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Ice Stage of Development describes the ages and thicknesses of the ice (‘So, Sa, Sb, Sc and Sd’). + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Ice Free + 
+70) 70 + 
+[underline]#**IHO Definition**# :Brash Ice + 
+80) 80 + 
+[underline]#**IHO Definition**# :No stage of development + 
+81) 81 + 
+[underline]#**IHO Definition**# :New Ice (<10 cm)  + 
+82) 82 + 
+[underline]#**IHO Definition**# :Nilas Ice Rind (<10 cm) + 
+83) 83 + 
+[underline]#**IHO Definition**# :Young Ice (10 to <30 cm) + 
+84) 84 + 
+[underline]#**IHO Definition**# :Grey Ice (10 to <15 cm) + 
+85) 85 + 
+[underline]#**IHO Definition**# :Grey – White Ice (15 to <30 cm) + 
+86) 86 + 
+[underline]#**IHO Definition**# :First Year Ice (30 to 200 cm) + 
+87) 87 + 
+[underline]#**IHO Definition**# :Thin First Year Ice (30 to <70 cm) + 
+88) 88 + 
+[underline]#**IHO Definition**# :Thin First Year Ice Stage 1 (30 to <50 cm) + 
+89) 89 + 
+[underline]#**IHO Definition**# :Thin First Year Ice Stage 2 (50 to <70 cm) + 
+90) 90 + 
+[underline]#**IHO Definition**# :Code not currently assigned + 
+91) 91 + 
+[underline]#**IHO Definition**# :Medium First Year Ice (70 to 120 cm) + 
+92) 92 + 
+[underline]#**IHO Definition**# :Code not currently assigned + 
+93) 93 + 
+[underline]#**IHO Definition**# :Thick First Year Ice (>120 cm) + 
+94) 94 + 
+[underline]#**IHO Definition**# :Residual Ice + 
+95) 95 + 
+[underline]#**IHO Definition**# :Old Ice + 
+96) 96 + 
+[underline]#**IHO Definition**# :Second Year Ice + 
+97) 97 + 
+[underline]#**IHO Definition**# :Multi-Year Ice + 
+98) 98 + 
+[underline]#**IHO Definition**# :Glacier Ice (Icebergs) + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
