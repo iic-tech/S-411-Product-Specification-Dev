@@ -15,13 +15,78 @@
 
 === Fractures Concentration
 
-=== Brash Ice
+=== Frequency of Leads or Fractures
 
-=== Brash Ice
+=== Ice Attribute Partial Concentration
 
-=== Brash Ice
+=== Ice Attribute Total Concentration
 
-=== Brash Ice
+=== Ice Average Thickness
 
+=== Ice Drift Direction
 
+=== Ice Drift Speed
 
+=== Ice Fracture Typa
+
+=== Ice Keel Concentration
+
+=== Ice Keel Frequency
+
+=== Ice Keel Maximum Depth
+
+=== Ice Keel Mean Depth
+
+=== Ice Lead (or Fracture or crack) Width
+
+=== Ice Lead Status
+
+=== Ice Location Information
+
+=== Ice rafting Concentration
+
+=== Ice Ridge Clasification
+
+=== Ice Ridge Concentration
+
+=== Ice Ridge Frequency
+
+=== Ice Ridge Maximum Height
+
+=== Ice Ridge Mean Height
+
+=== Ice Stage of Developmenet
+
+=== Ice Thickness Type
+
+=== Iceberg Concentration
+
+=== Iceberg Form
+
+=== Iceberg Size
+
+=== Lake Ice Stage of Development
+
+=== Level Ice
+
+=== Maximum Height of Iceberg Topside
+
+=== Maximum Ice Thickness
+
+=== Maximum Width of Ice Lead (or Fracture or Crack)
+
+=== Minimum Width of Ice Lead (or Fracture or Crack)
+
+=== Number of Ice Objecs
+
+=== Number of Icebergs in an Area
+
+=== Snow Depth
+
+=== Ice Average Thickness
+
+=== Snow Cover
+
+=== Snow Cover Concentration
+
+=== Snow Depth
