@@ -4,13 +4,13 @@
 === Geo Features
 
 ==== Sea Ice
-include::features/SeaIce.adoc
+include::features/SeaIce.adoc[]
 
 ==== Lake Ice
-include::features/LakeIce.adoc
+include::features/LakeIce.adoc[]
 
 ==== Iceberg Area
-include::features/IcebergArea.adoc
+include::features/IcebergArea.adoc[]
 
 
 include::features/IceEdge.adoc
