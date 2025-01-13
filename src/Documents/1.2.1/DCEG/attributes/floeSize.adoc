@@ -1,0 +1,27 @@
+
+[underline]#**IHO Definition**# :Pancake Ice (30 cm to 3m across) + 
+2) 02 + 
+[underline]#**IHO Definition**# :Shuga/Small Ice Cake; Brash Ice (<2m across) + 
+3) 03 + 
+[underline]#**IHO Definition**# :Ice Cake (<20m across) + 
+4) 04 + 
+[underline]#**IHO Definition**# :Small Floe (20 to <100m across) + 
+5) 05 + 
+[underline]#**IHO Definition**# :Medium Floe (100 to 500m) + 
+6) 06 + 
+[underline]#**IHO Definition**# :Big Floe (500 to <2000m across) + 
+7) 07 + 
+[underline]#**IHO Definition**# :Vast Floe (2000 to10000m across) + 
+8) 08 + 
+[underline]#**IHO Definition**# :Giant Floe (>10000m across) + 
+9) 09 + 
+[underline]#**IHO Definition**# :Fast Ice + 
+10) 10 + 
+[underline]#**IHO Definition**# :Growlers, Floebergs or Floebits + 
+11) 11 + 
+[underline]#**IHO Definition**# :Icebergs + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
