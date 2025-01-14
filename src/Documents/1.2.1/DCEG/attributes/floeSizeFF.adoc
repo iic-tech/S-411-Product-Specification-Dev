@@ -1,0 +1,27 @@
+[[sec-floeSizeFF]]
+=== Floe Size FF
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Size of ice floes (ff) for ia_sfa, ia_sfb, ia_sfc, ia_ffa, ia_ffb, ia_ffc complex attributes + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Pancake Ice (30 cm – 3 m) + 
+2) 02 + 
+[underline]#**IHO Definition**# :Shuga/Small Ice Cake; Brash Ice (<2 m) + 
+3) 03 + 
+[underline]#**IHO Definition**# :Ice Cake (<20 m) + 
+4) 04 + 
+[underline]#**IHO Definition**# :Small Floe (20 – 100 m) + 
+5) 05 + 
+[underline]#**IHO Definition**# :Medium Floe (100-500 m) + 
+6) 06 + 
+[underline]#**IHO Definition**# :Big Floe (500 – 2000 m) + 
+7) 07 + 
+[underline]#**IHO Definition**# :Vast Floe (2 – 10 km) + 
+8) 08 + 
+[underline]#**IHO Definition**# :Giant Floe (>10 km) + 
+9) 09 + 
+[underline]#**IHO Definition**# :Fast Ice + 
+ 
+[underline]#** Remarks :**#  + 
+|===
