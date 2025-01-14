@@ -1,0 +1,33 @@
+[[sec-stageofMelting]]
+=== Stage of Melting
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_MLT describes the stage of melting according to the 5-point Russian national scale + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :0/5 - 1/5 or 0/3 - 1/3 + 
+10) 10 + 
+[underline]#**IHO Definition**# :1/5 or 1/3 + 
+12) 12 + 
+[underline]#**IHO Definition**# :1/5 - 2/5 or 1/3 - 2/3 + 
+20) 20 + 
+[underline]#**IHO Definition**# :2/5 or 2/3 + 
+23) 23 + 
+[underline]#**IHO Definition**# :2/5 – 3/5 or 2/3 – 3/3 + 
+30) 30 + 
+[underline]#**IHO Definition**# :3/5 or 3/3 + 
+34) 34 + 
+[underline]#**IHO Definition**# :3/5 – 4/5 + 
+40) 40 + 
+[underline]#**IHO Definition**# :4/5 + 
+45) 45 + 
+[underline]#**IHO Definition**# :4/5 – 5/5 + 
+50) 50 + 
+[underline]#**IHO Definition**# :5/5 + 
+98) 98 + 
+[underline]#**IHO Definition**# :No Melting + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
