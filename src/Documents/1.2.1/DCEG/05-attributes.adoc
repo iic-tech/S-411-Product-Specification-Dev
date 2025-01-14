@@ -130,5 +130,3 @@ include::attributes/iceAverageThickness.adoc[]
 === Snow Cover Concentration
 include::attributes/snowCoverConcentration.adoc[]
 
-=== Snow Depth
-include::attributes/snowDepth.adoc[]
