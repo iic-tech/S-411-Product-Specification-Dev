@@ -1,4 +1,4 @@
-[[sec-iceAverageThickness]]
+[[sec-iceAverageThickness2]]
 === Ice Average Thickness
 [cols="a",options="headers"]
 |===
