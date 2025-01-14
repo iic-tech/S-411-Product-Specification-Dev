@@ -7,7 +7,7 @@ include::attributes/brashIce.adoc[]
 include::attributes/compactingStrength.adoc[]
 
 // === Concentration of Hills
-// include::attributes/concentrationofHills.adoc[]
+// concentrationofHills.adoc[]
 
 === Contamination
 include::attributes/contamination.adoc[]
