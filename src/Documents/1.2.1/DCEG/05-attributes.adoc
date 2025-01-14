@@ -6,8 +6,8 @@ include::attributes/brashIce.adoc[]
 === Compacting Strength
 include::attributes/compactingStrength.adoc[]
 
-=== Concentration of Hills
-include::attributes/concentrationofHills.adoc[]
+// === Concentration of Hills
+// include::attributes/concentrationofHills.adoc[]
 
 === Contamination
 include::attributes/contamination.adoc[]
@@ -75,8 +75,8 @@ include::attributes/iceRidgeFrequency.adoc[]
 === Ice Ridge Maximum Height
 include::attributes/iceRidgeMaximumHeight.adoc[]
 
-=== Ice Ridge Mean Height
-include::attributes/iceRidgeMeanHeight.adoc[]
+// === Ice Ridge Mean Height
+// include::attributes/iceRidgeMeanHeight.adoc[]
 
 === Ice Stage of Developmenet
 include::attributes/iceStageofDevelopment.adoc[]
@@ -84,11 +84,11 @@ include::attributes/iceStageofDevelopment.adoc[]
 === Ice Thickness Type
 include::attributes/iceThicknessType.adoc[]
 
-=== Iceberg Concentration
-include::attributes/icebergConcentration.adoc[]
-
-=== Iceberg Form
-include::attributes/icebergForm.adoc[]
+// === Iceberg Concentration
+// include::attributes/icebergConcentration.adoc[]
+//
+// === Iceberg Form
+// include::attributes/icebergForm.adoc[]
 
 === Iceberg Size
 include::attributes/icebergSize.adoc[]
@@ -99,8 +99,8 @@ include::attributes/lakeIceStageofDevelopment.adoc[]
 === Level Ice
 include::attributes/levelIce.adoc[]
 
-=== Maximum Height of Iceberg Topside
-include::attributes/maximumheightofIcebergTopside.adoc[]
+// === Maximum Height of Iceberg Topside
+// include::attributes/maximumheightofIcebergTopside.adoc[]
 
 === Maximum Ice Thickness
 include::attributes/maximumIceThickness.adoc[]
@@ -123,8 +123,8 @@ include::attributes/snowDepth.adoc[]
 === Ice Average Thickness
 include::attributes/iceAverageThickness.adoc[]
 
-=== Snow Cover
-include::attributes/snowCover.adoc[]
+// === Snow Cover
+// include::attributes/snowCover.adoc[]
 
 === Snow Cover Concentration
 include::attributes/snowCoverConcentration.adoc[]
