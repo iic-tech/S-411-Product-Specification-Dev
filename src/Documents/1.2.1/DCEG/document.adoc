@@ -1,4 +1,4 @@
-= Ice Information Product Specification DCEG
+= Ice Information Data Classification and Encoding Guide
 :series: S
 :docnumber: 411
 :doctype: standard
