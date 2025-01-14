@@ -1,0 +1,9 @@
+[[sec-numberofIcebergsinArea]]
+=== Number of Icebergs in Area
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEBNM indicates the number of Icebergs within a specified area. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
