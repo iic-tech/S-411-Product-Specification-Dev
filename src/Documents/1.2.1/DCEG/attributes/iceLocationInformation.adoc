@@ -1,0 +1,13 @@
+[[sec-iceLocationInformation]]
+=== Ice Location Information
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICELOC indicates whether the break is at a specific location, or whether there is a presence in the area. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Specific Location + 
+2) 02 + 
+[underline]#**IHO Definition**# :Presence in Area + 
+ 
+[underline]#** Remarks :**#  + 
+|===
