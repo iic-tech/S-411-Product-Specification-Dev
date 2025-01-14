@@ -1,0 +1,31 @@
+[[sec-concentrationofStripsandPatches]]
+=== Concentration of Strips and Patches
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# A strip is a long narrow area of floating ice, about 1 kilometre or less in width, usually composed of small fragments detached from the main mass of ice, and run together under the influence of wind, swell or current. If the area of ice becomes more rounded in shape, it is referred to as a patch. ICESPC indicates the concentration in tenths within the area of Strips and Patches. + 
+[underline]#** Attribute Type :**# enumeration + 
+11) 11 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 1/10) + 
+12) 12 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 2/10) + 
+13) 13 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 3/10) + 
+14) 14 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 4/10) + 
+15) 15 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 5/10) + 
+16) 16 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 6/10) + 
+17) 17 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 7/10) + 
+18) 18 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 8/10) + 
+19) 19 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 9/10) + 
+20) 20 + 
+[underline]#**IHO Definition**# :Strips and Patches (concentrations 10/10) + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
