@@ -1,0 +1,27 @@
+[[sec-prevailingIcebergForm]]
+=== Prevailing Iceberg Form
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_BFM specifies the prevailing form of icebergs in an area. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Domed + 
+2) 02 + 
+[underline]#**IHO Definition**# :Tabular + 
+3) 03 + 
+[underline]#**IHO Definition**# :Sloping + 
+4) 04 + 
+[underline]#**IHO Definition**# :Pinnacled + 
+5) 05 + 
+[underline]#**IHO Definition**# :Dry-dock + 
+6) 06 + 
+[underline]#**IHO Definition**# :Glacier (irregular) + 
+7) 07 + 
+[underline]#**IHO Definition**# :Blocky + 
+8) 08 + 
+[underline]#**IHO Definition**# :Weathered + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
