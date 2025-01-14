@@ -1,0 +1,27 @@
+[[sec-iceRidgeClassification]]
+=== Ice Ridge Classification
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERDV describes the predominant type of ice ridge(s) present. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :New Ridge + 
+2) 02 + 
+[underline]#**IHO Definition**# :Weathered Ridge + 
+3) 03 + 
+[underline]#**IHO Definition**# :Very Weathered Ridge + 
+4) 04 + 
+[underline]#**IHO Definition**# :Aged Ridge + 
+5) 05 + 
+[underline]#**IHO Definition**# :Consolidated Ridge + 
+6) 06 + 
+[underline]#**IHO Definition**# :Ridge + 
+7) 07 + 
+[underline]#**IHO Definition**# :Ridged Ice Zone + 
+8) 08 + 
+[underline]#**IHO Definition**# :Ridge Barrier + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
