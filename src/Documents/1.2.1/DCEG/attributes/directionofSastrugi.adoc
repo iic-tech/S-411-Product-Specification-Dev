@@ -1,0 +1,31 @@
+[[sec-directionofSastrugi]]
+=== Direction of Sastrugi
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEDOS indicates the bearing of a sastrugi.  Sastrugi are sharp, irregular ridges formed on a snow surface by wind erosion and deposition. On mobile floating ice the ridges are parallel to the direction of the wind at the time they were formed. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :No Sastrugi + 
+2) 02 + 
+[underline]#**IHO Definition**# :NE + 
+3) 03 + 
+[underline]#**IHO Definition**# :E + 
+4) 04 + 
+[underline]#**IHO Definition**# :SE + 
+5) 05 + 
+[underline]#**IHO Definition**# :S + 
+6) 06 + 
+[underline]#**IHO Definition**# :SW + 
+7) 07 + 
+[underline]#**IHO Definition**# :W + 
+8) 08 + 
+[underline]#**IHO Definition**# :NW + 
+9) 09 + 
+[underline]#**IHO Definition**# :N + 
+10) 10 + 
+[underline]#**IHO Definition**# :Variable + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
