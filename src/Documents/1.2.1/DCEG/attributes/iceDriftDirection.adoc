@@ -1,0 +1,31 @@
+[[sec-iceDriftDirection]]
+=== Ice Drift Direction
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEDDR indicates the direction in which an ice mass is drifting. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :No Ice Motion + 
+2) 02 + 
+[underline]#**IHO Definition**# :Ice Drift to NE + 
+3) 03 + 
+[underline]#**IHO Definition**# :Ice Drift to E + 
+4) 04 + 
+[underline]#**IHO Definition**# :Ice Drift to SE + 
+5) 05 + 
+[underline]#**IHO Definition**# :Ice Drift to S + 
+6) 06 + 
+[underline]#**IHO Definition**# :Ice Drift to SW + 
+7) 07 + 
+[underline]#**IHO Definition**# :Ice Drift to W + 
+8) 08 + 
+[underline]#**IHO Definition**# :Ice Drift to NW + 
+9) 09 + 
+[underline]#**IHO Definition**# :Ice Drift to N + 
+10) 10 + 
+[underline]#**IHO Definition**# :Variable + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
