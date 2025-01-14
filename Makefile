@@ -4,6 +4,8 @@ DT=`date`
 
 all:	pull local
 
+dceg:   pull dcegdoc
+
 pull:
 	git pull
 	
@@ -18,7 +20,7 @@ tst:
 	echo $(DT)
 	echo $(DT) " is the date"
 
-dceg:
+dcegdoc:
 	DT=`date`
 	echo $(DT) " is the date"
 	cd src/Documents/1.2.1/DCEG && metanorma compile document.adoc -o build
