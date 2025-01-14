@@ -75,6 +75,7 @@ include::attributes/iceRidgeFrequency.adoc[]
 === Ice Ridge Maximum Height
 include::attributes/iceRidgeMaximumHeight.adoc[]
 
+// TODO fix.
 // === Ice Ridge Mean Height
 // include::attributes/iceRidgeMeanHeight.adoc[]
 
