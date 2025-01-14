@@ -1,4 +1,4 @@
-[[sec-attributes]]
+bergSize[[sec-attributes]]
 == Attributes and Enumerates Descriptions
 
 === Brash Ice
@@ -92,7 +92,7 @@ include::attributes/icebergConcentration.adoc[]
 include::attributes/icebergForm.adoc[]
 
 === Iceberg Size
-include::attributes/.adoc[]
+include::attributes/icebergSize.adoc[]
 
 === Lake Ice Stage of Development
 include::attributes/lakeIceStageofDevelopment.adoc[]
