@@ -1,0 +1,9 @@
+[[sec-maximumWidthofIceLead]]
+=== Maximum Width of Ice Lead (or Fracture or Crack)
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_DXW defines the maximum width of the lead or fracture or crack. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===

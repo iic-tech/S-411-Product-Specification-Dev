@@ -1,0 +1,25 @@
+[[sec-snowcover]]
+=== Snow cover
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Snow cover describes the degree of snow cover in an ice area. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Little snow cover + 
+10) 10 + 
+[underline]#**IHO Definition**# :Thin snow cover (<5 cm) + 
+12) 12 + 
+[underline]#**IHO Definition**# :< 20 cm + 
+20) 20 + 
+[underline]#**IHO Definition**# :Medium snow cover (5-20 cm) + 
+23) 23 + 
+[underline]#**IHO Definition**# :> 5 cm + 
+30) 30 + 
+[underline]#**IHO Definition**# :Thick snow cover (> 20 cm) + 
+98) 98 + 
+[underline]#**IHO Definition**# :No snow cover + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===

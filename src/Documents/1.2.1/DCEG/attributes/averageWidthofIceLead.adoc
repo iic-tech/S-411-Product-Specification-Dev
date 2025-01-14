@@ -1,0 +1,9 @@
+[[sec-averageWidthofIceLead]]
+=== Average Width of Ice Lead (or Fracture or Crack)
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEDVW defines the average width of the lead or fracture or crack + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===

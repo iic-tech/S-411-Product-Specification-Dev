@@ -1,0 +1,9 @@
+[[sec-iceKeelMaximumDepth]]
+=== Ice Keel Maximum Depth
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERMT indicates the maximum depth of ice keels in decimetres. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===

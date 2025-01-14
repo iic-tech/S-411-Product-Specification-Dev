@@ -1,0 +1,25 @@
+[[sec-contamination]]
+=== Contamination
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_PLG describes the degree of contamination (aerial coverage) in thirds based on the Russian national 3-point scale. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :No or insignificant Contamination + 
+10) 10 + 
+[underline]#**IHO Definition**# :<1/3 of area + 
+12) 12 + 
+[underline]#**IHO Definition**# :<2/3 of area + 
+20) 20 + 
+[underline]#**IHO Definition**# :1/3 – 2/3 of area + 
+23) 23 + 
+[underline]#**IHO Definition**# :>1/3 area + 
+30) 30 + 
+[underline]#**IHO Definition**# :>2/3 area + 
+98) 98 + 
+[underline]#**IHO Definition**# :No Contamination + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===

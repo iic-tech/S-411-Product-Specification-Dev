@@ -1,0 +1,9 @@
+[[sec-iceKeelFrequency]]
+=== Ice Keel Frequency
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERFQ indicates the frequency of ice keels in number per nautical mile + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===

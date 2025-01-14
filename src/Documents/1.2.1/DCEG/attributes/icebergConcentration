@@ -1,0 +1,47 @@
+[[sec-icebergConcentration]]
+=== Iceberg Concentration
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_BCN specifies the total concentration of icebergs in an area. + 
+[underline]#** Attribute Type :**# enumeration + 
+10) 10 + 
+[underline]#**IHO Definition**# :>45 nm between bergs + 
+12) 12 + 
+[underline]#**IHO Definition**# :>15 nm between bergs + 
+20) 20 + 
+[underline]#**IHO Definition**# :15 - 44 nm between bergs + 
+23) 23 + 
+[underline]#**IHO Definition**# :10 - 44 nm between bergs + 
+30) 30 + 
+[underline]#**IHO Definition**# :10 - 14 nm between bergs + 
+34) 34 + 
+[underline]#**IHO Definition**# :7 - 14 nm between bergs + 
+40) 40 + 
+[underline]#**IHO Definition**# :7 - 10 nm between bergs + 
+45) 45 + 
+[underline]#**IHO Definition**# :5 - 10 nm between bergs + 
+50) 50 + 
+[underline]#**IHO Definition**# :5 - 6 nm between bergs + 
+56) 56 + 
+[underline]#**IHO Definition**# :3 - 6 nm between bergs + 
+60) 60 + 
+[underline]#**IHO Definition**# :3 - 4 nm between bergs + 
+67) 67 + 
+[underline]#**IHO Definition**# :1 - 4 nm between bergs + 
+70) 70 + 
+[underline]#**IHO Definition**# :1 - 2 nm between bergs + 
+78) 78 + 
+[underline]#**IHO Definition**# :0.5 - 2.0 nm between bergs + 
+80) 80 + 
+[underline]#**IHO Definition**# :0.5 - 1.0 nm between bergs + 
+89) 89 + 
+[underline]#**IHO Definition**# :<1.0 nm between bergs + 
+90) 90 + 
+[underline]#**IHO Definition**# :<0.5 nm between bergs + 
+98) 98 + 
+[underline]#**IHO Definition**# :No Icebergs + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===

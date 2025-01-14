@@ -1,0 +1,9 @@
+[[sec-iceRidgeMaximumHeight]]
+=== Ice Ridge Maximum Height
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERMT indicates the maximum height of ice ridge(s) in decimetres. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===

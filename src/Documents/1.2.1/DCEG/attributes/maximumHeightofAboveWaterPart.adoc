@@ -1,0 +1,9 @@
+[[sec-maximumHeightofAboveWaterPart]]
+=== Maximum Height of Above Water Part (iceberg/grounded hummock)
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_BUF specifies the maximum height of an iceberg above the waterline in meters. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
