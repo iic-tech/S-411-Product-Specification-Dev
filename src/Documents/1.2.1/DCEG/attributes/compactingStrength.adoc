@@ -1,0 +1,25 @@
+[[sec-compactingStrength]]
+=== Compacting Strength
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICECST is an indication of strength of the compacting of the ice. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Little compacting + 
+10) 10 + 
+[underline]#**IHO Definition**# :Slight compacting + 
+12) 12 + 
+[underline]#**IHO Definition**# :Slight to moderate compacting + 
+20) 20 + 
+[underline]#**IHO Definition**# :Moderate compacting + 
+23) 23 + 
+[underline]#**IHO Definition**# :Moderate to strong compacting + 
+30) 30 + 
+[underline]#**IHO Definition**# :Strong compacting + 
+98) 98 + 
+[underline]#**IHO Definition**# :Ice divergence + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
