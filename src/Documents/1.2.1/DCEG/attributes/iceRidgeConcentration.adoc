@@ -1,0 +1,53 @@
+[[sec-iceRidgeConcentration]]
+=== Ice Ridge Concentration
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERCN describes the concentration of hummocked ice in an ice area.  Up to three values may be given in the list to correspond to the partial concentrations in ICEAPC. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :0/10 – 1/10 + 
+10) 10 + 
+[underline]#**IHO Definition**# :1/10 + 
+12) 12 + 
+[underline]#**IHO Definition**# :1/10 – 2/10 + 
+20) 20 + 
+[underline]#**IHO Definition**# :2/10 + 
+23) 23 + 
+[underline]#**IHO Definition**# :2/10 – 3/10 + 
+30) 30 + 
+[underline]#**IHO Definition**# :3/10 + 
+34) 34 + 
+[underline]#**IHO Definition**# :3/10 – 4/10 + 
+40) 40 + 
+[underline]#**IHO Definition**# :4/10 + 
+45) 45 + 
+[underline]#**IHO Definition**# :4/10 – 5/10 + 
+50) 50 + 
+[underline]#**IHO Definition**# :5/10 + 
+56) 56 + 
+[underline]#**IHO Definition**# :5/10 – 6/10 + 
+60) 60 + 
+[underline]#**IHO Definition**# :6/10 + 
+67) 67 + 
+[underline]#**IHO Definition**# :6/10 – 7/10 + 
+70) 70 + 
+[underline]#**IHO Definition**# :7/10 + 
+78) 78 + 
+[underline]#**IHO Definition**# :7/10 – 8/10 + 
+80) 80 + 
+[underline]#**IHO Definition**# :8/10 + 
+89) 89 + 
+[underline]#**IHO Definition**# :8/10 – 9/10 + 
+90) 90 + 
+[underline]#**IHO Definition**# :9/10 + 
+91) 91 + 
+[underline]#**IHO Definition**# :9/10 – 10/10 + 
+92) 92 + 
+[underline]#**IHO Definition**# :10/10 + 
+98) 98 + 
+[underline]#**IHO Definition**# :No Ridging + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
