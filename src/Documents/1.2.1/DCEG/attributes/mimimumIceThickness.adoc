@@ -1,0 +1,9 @@
+[[sec-mimimumIceThickness]]
+=== Mimimum Ice Thickness
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEMIN specifies the minimum thickness of the ice. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
