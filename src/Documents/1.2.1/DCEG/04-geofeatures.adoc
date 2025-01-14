@@ -1,86 +1,58 @@
 [[sec-geofeatures]]
 == Geo Features
 
-=== Sea Ice
 include::features/SeaIce.adoc[]
 
-=== Lake Ice
 include::features/LakeIce.adoc[]
 
-=== Iceberg Area
 include::features/IcebergArea.adoc[]
 
-=== Ice Edge
 include::features/IceEdge.adoc[]
 
-=== Iceberg Limit
 include::features/IcebergLimit.adoc[]
 
-=== Limit of Open Water
 include::features/LimitOfOpenWater.adoc[]
 
-=== Limit of all Known Ice
 include::features/LimitOfAllKnownIce.adoc[]
 
-=== Line of Ice Ridge
 include::features/LineOfIceRidge.adoc[]
 
-=== Line of Ice Lead
 include::features/LineOfIceLead.adoc[]
 
-=== Line of Ice Fracture
 include::features/LineOfIceFracture.adoc[]
 
-=== Line of Ice Crack
 include::features/LineOfIceCrack.adoc[]
 
-=== Ice Compacting
 include::features/IceCompacting.adoc[]
 
-=== Ice Lead
 include::features/IceLead.adoc[]
 
-=== Iceberg
 include::features/Iceberg.adoc[]
 
-=== Floaberg
 include::features/Floeberg.adoc[]
 
-=== Ice Thickness
 include::features/IceThickness.adoc[]
 
-=== Ice Shear
 include::features/IceShear.adoc[]
 
-=== Ice Divergence
 include::features/IceDivergence.adoc[]
 
-=== Ice Ridge or Hummock
 include::features/IceRidgeHummock.adoc[]
 
-=== Ice keel or Bummock
 include::features/IceKeelBummock.adoc[]
 
-=== Ice Drift
 include::features/IceDrift.adoc[]
 
-=== Ice Fracture
 include::features/IceFracture.adoc[]
 
-=== Ice Rafting
 include::features/IceRafting.adoc[]
 
-=== Jammed Brash Barrier
 include::features/JammedBrashBarrier.adoc[]
 
-=== Stage of Ice melt
 include::features/StageOfMelt.adoc[]
 
-=== Snow Cover
 include::features/SnowCover.adoc[]
 
-=== Strips and Patches
 include::features/StripsAndPatches.adoc[]
 
-=== Grounded Hummock
 include::features/GroundedHummock.adoc[]
