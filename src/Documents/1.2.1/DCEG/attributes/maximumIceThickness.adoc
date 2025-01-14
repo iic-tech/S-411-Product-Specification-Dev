@@ -1,0 +1,9 @@
+[[sec-maximumIceThickness]]
+=== Maximum Ice Thickness
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEMAX specifies the maximum thickness of the ice. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
