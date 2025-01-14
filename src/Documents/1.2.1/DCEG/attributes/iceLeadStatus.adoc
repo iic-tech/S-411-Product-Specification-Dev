@@ -1,0 +1,15 @@
+[[sec-iceLeadStatus]]
+=== Ice Lead Status
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# The Ice Lead Status indicates the surface nature of the lead. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Open Lead + 
+2) 02 + 
+[underline]#**IHO Definition**# :Frozen Lead + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
