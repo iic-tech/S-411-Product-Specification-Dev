@@ -1,0 +1,29 @@
+[[sec-icebergSize]]
+=== Iceberg Size
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# The "Iceberg Size" categorizes the size of an iceberg. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Growler (<1m asl) + 
+2) 02 + 
+[underline]#**IHO Definition**# :Bergy Bit (1-<5m asl; 5-<15m length) + 
+3) 03 + 
+[underline]#**IHO Definition**# :Small Iceberg (5-15m asl; 15-60m length) + 
+4) 04 + 
+[underline]#**IHO Definition**# :Medium Iceberg (16-45m asl; 61-120m length) + 
+5) 05 + 
+[underline]#**IHO Definition**# :Large Iceberg (46-75m asl; 121-200m length) + 
+6) 06 + 
+[underline]#**IHO Definition**# :Very Large Iceberg (>75m asl; >200m length) + 
+7) 07 + 
+[underline]#**IHO Definition**# :Ice Island Fragment + 
+8) 08 + 
+[underline]#**IHO Definition**# :Ice Island (in the Northern Hemisphere) or Very Large Tabular Berg (in the Southern Ocean) + 
+9) 09 + 
+[underline]#**IHO Definition**# :Radar Target + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
