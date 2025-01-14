@@ -1,0 +1,9 @@
+[[sec-iceLeadWidth]]
+=== Ice Lead (or Fracture or Crack) Width
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICELWD indicates the width of a lead or fracture or crack in metres. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
