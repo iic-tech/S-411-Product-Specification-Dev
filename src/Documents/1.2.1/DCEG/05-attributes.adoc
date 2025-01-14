@@ -121,8 +121,6 @@ include::attributes/numberofIcebergsinArea.adoc[]
 === Snow Depth
 include::attributes/snowDepth.adoc[]
 
-=== Ice Average Thickness
-include::attributes/iceAverageThickness.adoc[]
 
 // === Snow Cover
 //
