@@ -1,0 +1,9 @@
+[[sec-iceRidgeMeanHeight]]
+=== Ice Ridge Mean Height
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERMH indicates the mean height of ice ridge(s) in decimetres. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
