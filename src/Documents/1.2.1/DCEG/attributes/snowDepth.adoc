@@ -1,4 +1,5 @@
-[[sec-snowDepth2 ]]
+[[sec-snowDepth2]]
+
 === Snow Depth
 [cols="a",options="headers"]
 |===
