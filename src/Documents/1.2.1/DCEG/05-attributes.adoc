@@ -2,6 +2,7 @@
 == Attributes and Enumerates Descriptions
 
 === Brash Ice
+include::features/brashIce.adoc[]
 
 === Compacting Strength
 
