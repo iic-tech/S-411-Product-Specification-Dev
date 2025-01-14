@@ -1,0 +1,35 @@
+[[sec-snowCoverConcentration]]
+=== Snow Cover Concentration
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICESCN indicates the concentration (aerial coverage) of snow in tenths. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :1/10 + 
+2) 02 + 
+[underline]#**IHO Definition**# :2/10 + 
+3) 03 + 
+[underline]#**IHO Definition**# :3/10 + 
+4) 04 + 
+[underline]#**IHO Definition**# :4/10 + 
+5) 05 + 
+[underline]#**IHO Definition**# :5/10 + 
+6) 06 + 
+[underline]#**IHO Definition**# :6/10 + 
+7) 07 + 
+[underline]#**IHO Definition**# :7/10 + 
+8) 08 + 
+[underline]#**IHO Definition**# :8/10 + 
+9) 09 + 
+[underline]#**IHO Definition**# :9/10 + 
+10) 10 + 
+[underline]#**IHO Definition**# :10/10 + 
+11) 11 + 
+[underline]#**IHO Definition**# :<1/10 + 
+12) 12 + 
+[underline]#**IHO Definition**# :No Snow Cover + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
