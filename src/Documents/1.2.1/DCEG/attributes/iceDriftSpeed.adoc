@@ -1,0 +1,9 @@
+[[sec-iceDriftSpeed]]
+=== Ice Drift Speed
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICEDSP describes the speed in knots at which an ice mass is traveling. + 
+[underline]#** Attribute Type :**# real + 
+ 
+[underline]#** Remarks :**#  + 
+|===
