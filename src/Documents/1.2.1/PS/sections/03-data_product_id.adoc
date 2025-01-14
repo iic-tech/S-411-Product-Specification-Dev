@@ -14,7 +14,7 @@ systems.
 
 *Geographic Description*:: Ice covered regions
 
-*Spatial Resolution*:: Each Data Coverage feature of an Ice Information dataset must indicate a value for maximum display scale. Recommended values for scales can be found in the S-101 ENC Product Specification. Producers should note that at the smaller scales, geographic details will have no perceptible visual separation on a graphic display, and are therefore encouraged to determine display scales taking into account the content and intended navigation purpose of the dataset.
+*Spatial Resolution*:: Each Data Coverage feature of an Ice Information dataset must indicate a value for an optimum viewing scale. Recommended values for scales can be found in the S-101 ENC Product Specification. Producers should note that at the smaller scales, geographic details will have no perceptible visual separation on a graphic display, and are therefore encouraged to determine display scales taking into account the content and intended navigation purpose of the dataset.
 
 *Purpose*:: Navigation in ice covered regions
 

@@ -8,8 +8,6 @@ The S-411 product is based on the S-100 General Feature Model (GFM), and is a fe
 
 The application schema of Ice Information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.3) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe full schema in suitable form in this specification. The full schema can be found as XML Schema File in Annex B – Data Product format (encoding).
 
-#_Figure to be inserted, based on S-131  Figure 4.1_#
-
 === Application Schema
 
 S-411 conforms to the General Feature Model (GFM) from S-100 Part 3. The GFM is the conceptual model and the 
@@ -27,21 +25,22 @@ The following conventions are used in the UML diagrams depicting the application
 
 * Enumeration lists and codelists are depicted with a tan background. The numeric code corresponding to each listed value is shown to its right following an ‘=’ sign.
 
-The diagram below shows a very simplified summary of the ice data structure.
 
 ==== Domain model
-The S-411 domain model has one base classe (‘root classe’) from which all the domain-specific geographic features type classes are derived. The base classe is shown in Figure 4.2 below. The base class for geographic features is FeatureType which has a set of attributes which are therefore inherited by all domain-specific features. The approximate area features in S-411 are also derived from the geographic feature root class. Both base classes are abstract classes and do not have direct instances in S-411 data – instead, S-411 feature type data objects are instantiations of a non-abstract class.
+The S-411 domain model has one base class (‘root class’) from which all the domain-specific geographic features type classes are derived. The base class is shown in the figure below. The base class for geographic features is FeatureType which has a set of attributes which are therefore inherited by all domain-specific features. The approximate area features in S-411 are also derived from the geographic feature root class. Base classes are abstract classes and do not have direct instances in S-411 data – instead, S-411 feature type data objects are instantiations of all non-abstract class.
 
-S-411 meta-feature is derived from the base classe – S-411 instead incorporates meta-feature definition originally prepared for S-101 in the interests of harmonization and interoperability with other S-100-based data products, especially S-101 ENCs.
+S-411 meta-features are also derived from the base class – S-411 incorporates meta-feature definitions originally prepared for S-101 in the interests of harmonization and interoperability with other S-100-based data products, especially S-101 ENCs.
 
-#_Figure to be inserted, based on S-131  Figure 4.21_#
 
 ==== S-411 Features
 
 ===== Meta Features
 S-411 provides a single meta-feature, *DataCoverage*. *DataCoverage* is for describing areas in the dataset that are populated with data. The dataset may include multiple *DataCoverage* features to describe different contiguous (i.e. non-overlapping) areas.
 
-#_Figure to be inserted, based on S-131  Figure 4.2_#
+
+[[fig-the-data-coverage]]
+.*Data Coverage*
+image::../../model/HTML/EARoot/EA8.png[DataCoverage]
 
 ===== Geographic Features
 
@@ -56,30 +55,30 @@ image::../images/figure-all-ice-features.png[Diagram showing all ice features]
 The ice features contains a number of attributes defined as enumerations. The following diagram shows the main ice (surface) feature classes complete with the details of these enumerations and their values.
 [[fig-all-ice-features-wenums]]
 .*Detailed Ice Features*
-image::../../model/HTML/EARoot/EA8.png[Diagram showing all ice features]
+image::../../model/HTML/EARoot/EA4.png[Diagram showing all ice features]
 
 
-Limit and Line curve features and their attributes are shown in the following diagram
+All Limit and Line curve features and their attributes are shown in the following diagram
 [[fig-all-curve-features]]
 .*All Curve Features*
 image::../images/figure-all-curve-features.png[Diagram showing all ice features]
 
 There are a number of point features shown in the following diagrams
 [[fig-point-features1]]
-.*Point Features 1*
+.*Point Features*
 image::../images/PointFeatures1.png[Point Features]
 
 
 [[fig-point-features2]]
-.*Point Features 2*
+.*Point Features*
 image::../images/PointFeatures2.png[Point Features]
 
 [[fig-point-features3]]
-.*Point Features 3*
+.*Point Features*
 image::../images/PointFeatures3.png[Point Features]
 
 [[fig-point-features4]]
-.*Point Features 4*
+.*Point Features*
 image::../images/PointFeatures4.png[Point Features]
 
 
@@ -87,19 +86,15 @@ Full details of all geographic feature types can be found in Annex A – Data Cl
 
 ==== Attributes
 
-S-411 defines attributes as either simple or complex.
-
-
+S-411 defines attributes as either simple or complex in line with the S-100 GFM.
 
 ===== Simple attributes
 
-S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-101 can be found in Annex A, Sections 27, 28 and 30.
+S-411 uses 3 types of simple attributes; these types are listed in Annex A – Data Classification and Encoding Guide, clause 2.4.2. Descriptions of the simple attributes included in S-411 can be found in Annex A, Sections 27, 28 and 30.
 
 ===== Complex attributes
 
-Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide, Section 29.
-
-_description of use of complex attributes in S-411_
+Complex attributes are aggregations of other attributes that are either simple or complex. The aggregation is defined by means of attribute bindings. Examples of modelling complex attributes can be found in S-100 Part 2a, Appendix 2a-A. Descriptions of the complex attributes included in S-411 can be found in Annex A – Data Classification and Encoding Guide
 
 === Feature Catalogue
 
@@ -107,9 +102,9 @@ _description of use of complex attributes in S-411_
 
 The S-411 Feature Catalogue describes the feature types, attributes and attribute values which may be used in an S-411 product.
 
-The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website (https://registry.iho.int/). S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue.
+The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website (https://registry.iho.int/). S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue along with information on how features should be encoded.
 
-The feature Catalogue for Ice Information contains only geographic and meta features. The ice features which can be used in ECDIS are fully presented in the ICE domain of the IHO Registry.
+The feature Catalogue for Ice Information contains only geographic and meta features. The ice features which can be used in ECDIS are defined within the ICE domain of the IHO Registry.
 
 ==== Feature types
 

@@ -344,37 +344,37 @@ a|
 
 |*Feature Class* |*Acronym* |*Symbol*
 
-|Ice Edge
-|icelne
-a|image::../../PC/LineStyles/icelne.svg[]
+// |Ice Edge
+// |icelne
+// a|image::../../PC/Pixmaps/icelne.png[]
 
 |Iceberg Limit
 |brglne
-a|image::../../PC/LineStyles/brglne.svg[]
+a|image::../../PC/Pixmaps/brglne.png[]
 
-|Limit of Open Water
-|opnlne
-a|image::../../PC/LineStyles/opnlne.svg[]
-
-|Limit of All Known ice
-|lkilne
-a|image::../../PC/LineStyles/lkilne.svg[]
+// |Limit of Open Water
+// |opnlne
+// a|image::../../PC/Pixmaps/opnlne.png[]
+//
+// |Limit of All Known ice
+// |lkilne
+// a|image::../../PC/Pixmaps/lkilne.png[]
 
 |Line of Ice Ridge
 |i_ridg
-a|image::../../PC/LineStyles/i_ridg.svg[]
+a|image::../../PC/Pixmaps/i_ridg.png[]
 
 |Line of Ice Lead
 |i_lead
-a|image::../../PC/LineStyles/i_lead.svg[]
+a|image::../../PC/Pixmaps/i_lead.png[]
 
 |Line of Ice Fracture
 |i_fral
-a|image::../../PC/LineStyles/i_fral.svg[]
+a|image::../../PC/Pixmaps/i_fral.png[]
 
 |Line of Ice Crack
 |i_crac
-a|image::../../PC/LineStyles/i_crac.svg[]
+a|image::../../PC/Pixmaps/i_crac.png[]
 
 |===
 
@@ -387,55 +387,55 @@ a|image::../../PC/LineStyles/i_crac.svg[]
 
 |Ice Compacting
 |icecom
-a|image::../../PC/Symbols/icecom.svg[]
+a|image::../../PC/Pixmaps/icecom.png[]
 
 |Ice Lead
 |icelea
-a|image::../../PC/Symbols/icelea.svg[]
+a|image::../../PC/Pixmaps/icelea.png[]
 
 |Ice Shear
 |iceshr
-a|image::../../PC/Symbols/iceshr.svg[]
+a|image::../../PC/Pixmaps/iceshr.png[]
 
 |Ice Divergence
 |icediv
-a|image::../../PC/Symbols/icediv.svg[]
+a|image::../../PC/Pixmaps/icediv.png[]
 
 |Ice Ridge / Hummock
 |icerdg
-a|image::../../PC/Symbols/icerdg.svg[]
+a|image::../../PC/Pixmaps/icerdg.png[]
 
 |Ice Keel / Bummock
 |icekel
-a|image::../../PC/Symbols/icekel.svg[]
+a|image::../../PC/Pixmaps/icekel.png[]
 
 |Ice Fracture
 |flobrg
-a|image::../../PC/Symbols/flobrg.svg[]
+a|image::../../PC/Pixmaps/flobrg.png[]
 
 |Ice Rafting
 |icerft
-a|image::../../PC/Symbols/icerft.svg[]
+a|image::../../PC/Pixmaps/icerft.png[]
 
 |Jammed Brash Barrier
 |jmdbrr
-a|image::../../PC/Symbols/jmdbrr.svg[]
+a|image::../../PC/Pixmaps/jmdbrr.png[]
 
 |Stage of Mell
 |stgmlt
-a|image::../../PC/Symbols/stgmlt.svg[]
+a|image::../../PC/Pixmaps/stgmlt.png[]
 
 |Snow Cover
 |snwcvr
-a|image::../../PC/Symbols/snwcvr.svg[]
+a|image::../../PC/Pixmaps/snwcvr.png[]
 
 |Strips and patches
 |strptc
-a|image::../../PC/Symbols/strptc.svg[]
+a|image::../../PC/Pixmaps/strptc.png[]
 
 |Grounded Hummock
 |i_grhm
-a|image::../../PC/Symbols/i_grhm.svg[]
+a|image::../../PC/Pixmaps/i_grhm.png[]
 
 |Iceberg
 |icebrg
@@ -443,43 +443,43 @@ a|image::../../PC/Symbols/i_grhm.svg[]
 
 |
 |icebrg 01 (Growler)
-a|image::../../PC/Symbols/icebrg_growler.svg[]
+a|image::../../PC/Pixmaps/icebrg_growler.png[]
 
 |
 |icebrg 02 (Bergy Bit)
-a|image::../../PC/Symbols/icebrg_bergy_bit.svg[]
+a|image::../../PC/Pixmaps/icebrg_bergy_bit.png[]
 
 |
 |icebrg 03 (Small Iceberg)
-a|image::../../PC/Symbols/icebrg_small.svg[]
+a|image::../../PC/Pixmaps/icebrg_small.png[]
 
 |
 |icebrg 04 (Medium Iceberg)
-a|image::../../PC/Symbols/icebrg_medium.svg[]
+a|image::../../PC/Pixmaps/icebrg_medium.png[]
 
 |
 |icebrg 05 (Large Iceberg)
-a|image::../../PC/Symbols/icebrg_large.svg[]
+a|image::../../PC/Pixmaps/icebrg_large.png[]
 
 |
 |icebrg 06 (Very Large Iceberg)
-a|image::../../PC/Symbols/icebrg_very_large.svg[]
+a|image::../../PC/Pixmaps/icebrg_very_large.png[]
 
 |
 |icebrg 07 (Ice Island Fragment)
-a|image::../../PC/Symbols/icebrg_ice_island_fragment.svg[]
+a|image::../../PC/Pixmaps/icebrg_ice_island_fragment.png[]
 
 |
 |icebrg 08 (Ice Island)
-a|image::../../PC/Symbols/icebrg_ice_island.svg[]
+a|image::../../PC/Pixmaps/icebrg_ice_island.png[]
 
 |
 |icebrg 09 (Radar Target)
-a|image::../../PC/Symbols/icebrg_radar_target.svg[]
+a|image::../../PC/Pixmaps/icebrg_radar_target.png[]
 
 |
 |icebrg 99 (Unknown)
-a|image::../../PC/Symbols/icebrg_unknown.svg[]
+a|image::../../PC/Pixmaps/icebrg_unknown.png[]
 
 |Ice Drift
 |icedft
@@ -487,47 +487,47 @@ a|image::../../PC/Symbols/icebrg_unknown.svg[]
 
 |
 |icedft 01 (No Ice Motion)
-a|image::../../PC/Symbols/icedft_no_ice_motion.svg[]
+a|image::../../PC/Pixmaps/icedft_no_ice_motion.png[]
 
 |
 |icedft 02 (NE)
-a|image::../../PC/Symbols/icedft_NE.svg[]
+a|image::../../PC/Pixmaps/icedft_NE.png[]
 
 |
 |icedft 03 (E)
-a|image::../../PC/Symbols/icedft_E.svg[]
+a|image::../../PC/Pixmaps/icedft_E.png[]
 
 |
 |icedft 04 (SE)
-a|image::../../PC/Symbols/icedft_SE.svg[]
+a|image::../../PC/Pixmaps/icedft_SE.png[]
 
 |
 |icedft 05 (S)
-a|image::../../PC/Symbols/icedft_S.svg[]
+a|image::../../PC/Pixmaps/icedft_S.png[]
 
 |
 |icedft 06 (SW)
-a|image::../../PC/Symbols/icedft_NW.svg[]
+a|image::../../PC/Pixmaps/icedft_NW.png[]
 
 |
 |icedft 07 (W)
-a|image::../../PC/Symbols/icedft_W.svg[]
+a|image::../../PC/Pixmaps/icedft_W.png[]
 
 |
 |icedft 08 (NW)
-a|image::../../PC/Symbols/icedft_NW.svg[]
+a|image::../../PC/Pixmaps/icedft_NW.png[]
 
 |
 |icedft 09 (N)
-a|image::../../PC/Symbols/icedft_N.svg[]
+a|image::../../PC/Pixmaps/icedft_N.png[]
 
 |
 |icedft 10 (Variable)
-a|image::../../PC/Symbols/icedft_variable.svg[]
+a|image::../../PC/Pixmaps/icedft_variable.png[]
 
 |
 |icedft 99 (Unknown)
-a|image::../../PC/Symbols/icedft_unknown.svg[]
+a|image::../../PC/Pixmaps/icedft_unknown.png[]
 
 |===
 

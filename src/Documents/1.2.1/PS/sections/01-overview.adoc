@@ -104,12 +104,6 @@ NOTE:: A dataset may be a smaller grouping of data which, though limited by some
 
 Parameter or set of parameters that define the position of the origin, the scale, and the orientation of a *coordinate* system.
 
-*Depth*
-
-The vertical distance from a given water level to the bottom. In this standard, depth refers to the S-32 definition of "Depth Charted".
-
-NOTE:: The numbers must be qualified by units and datum.
-
 *ECDIS*
 
 A navigation information system which with adequate back-up arrangements can be accepted as complying with the up-to-date chart required by regulations V/19 and V/27 of the 1974 SOLAS Convention, as amended, by displaying selected information from a System Electronic Navigational Chart (System Database) with positional information from navigation sensors to assist the Mariner in route planning and route monitoring, and if required display additional navigation-related information.
@@ -206,7 +200,7 @@ XML:: eXtensible Markup Language
 *Title*:: Ice Information Product Specification
 *S-100 Version*:: 5.2.0
 *S-411 Version*:: 1.2.0
-*Date*:: xx January 2025
+*Date*:: 31 January 2025
 *Language*:: English (optional additional)
 *Classification*:: Unclassified
 *Contact*::

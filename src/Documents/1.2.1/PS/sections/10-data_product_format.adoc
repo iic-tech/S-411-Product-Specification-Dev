@@ -4,23 +4,14 @@
 
 === Introduction
 
-This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 was used.
+This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 is used as per S-100 Part 10b.
 
 === Encoding Rules
 
 ==== Longitude / Latitude
 
 * Longitude and latitude must be encoded in decimal degrees, e.g.: 12.567 56.765
-* Number of decimals is not limited, but it should be as less as possible for minimizing of file
-size, normally 3 or even 2 digits are enough
-
-
-==== Elements and attributes
-
-* Names of elements representing ice features or attributes (from IceFDC dictionary see Table 1: Summary of Types) must be encoded with lower case letters
-* Names of elements representing features or attributes from other dictionaries must be encoded with upper case letters
-* Character Set is UTF-8
-* Elements or attributes may be empty, but it should be eliminated for minimizing of file size
+* Number of decimals is not specified.
 
 === Encoding Examples
 
