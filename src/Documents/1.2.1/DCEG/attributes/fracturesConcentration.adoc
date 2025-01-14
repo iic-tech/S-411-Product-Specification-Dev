@@ -1,0 +1,33 @@
+[[sec-fracturesConcentration]]
+=== Fractures Concentration
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_DUG describes the degree of disunity in an ice area. + 
+[underline]#** Attribute Type :**# enumeration + 
+10) 10 + 
+[underline]#**IHO Definition**# :Frequency of Cracks and Leads seldom in 10 km on Route + 
+20) 20 + 
+[underline]#**IHO Definition**# :Frequency of Cracks and Leads in 5 – 10 km on Route + 
+30) 30 + 
+[underline]#**IHO Definition**# :Frequency of Cracks and Leads in 3 – 5 km on Route  + 
+40) 40 + 
+[underline]#**IHO Definition**# :Frequency of Cracks and Leads in 2 – 3 km on Route + 
+50) 50 + 
+[underline]#**IHO Definition**# :Frequency of Cracks and Leads often in 2 km on Route + 
+60) 60 + 
+[underline]#**IHO Definition**# :Small and Medium Floes – 1/10-3/10; Big Floes – 7/10-10/10 Conc. + 
+70) 70 + 
+[underline]#**IHO Definition**# :Small and Medium Floes – 4/10-6/10; Big Floes – 4/10-6/10 Conc. + 
+80) 80 + 
+[underline]#**IHO Definition**# :Small and Medium Floes – 7/10-10/10; Big Floes – 1/10-3/10 Conc. + 
+90) 90 + 
+[underline]#**IHO Definition**# :Small and Medium Floes Only  + 
+92) 92 + 
+[underline]#**IHO Definition**# :Small Floes Only + 
+98) 98 + 
+[underline]#**IHO Definition**# :No Fractures + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
