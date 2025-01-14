@@ -1,0 +1,9 @@
+[[sec-frequencyofLeadsorFractures]]
+=== Frequency of Leads or Fractures
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# ICERFQ indicates the frequency of leads or fractures in number per nautical mile. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
