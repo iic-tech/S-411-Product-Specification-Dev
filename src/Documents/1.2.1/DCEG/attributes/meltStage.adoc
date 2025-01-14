@@ -1,0 +1,31 @@
+[[sec-meltStage]]
+=== Melt Stage
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# The Stage of Melt describes the stages of the melting ice. Puddle: An accumulation of water on ice, mainly due to the melting of snow, but in some more advanced stages also the melting of ice. Thaw Hole: Vertical holes formed in ice when surface puddles melt through to the underlying water. Dried Ice: Ice surface from which water has disappeared after the formation of cracks and thaw holes. During the process of drying the surface whitens. Rotten Ice:                     Ice which has become honey-combed and is in an advanced state of disintegration. Flooded Ice:                   Ice which has been flooded and is heavily loaded by water or water and wet snow. Frozen Puddle: A puddle which has frozen over. + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Few Puddles + 
+2) 02 + 
+[underline]#**IHO Definition**# :Many Puddles + 
+3) 03 + 
+[underline]#**IHO Definition**# :Flooded Ice + 
+4) 04 + 
+[underline]#**IHO Definition**# :Few Thaw Holes + 
+5) 05 + 
+[underline]#**IHO Definition**# :Many Thaw Holes + 
+6) 06 + 
+[underline]#**IHO Definition**# :Dried Ice + 
+7) 07 + 
+[underline]#**IHO Definition**# :Rotten Ice + 
+8) 08 + 
+[underline]#**IHO Definition**# :Few Frozen Puddles + 
+9) 09 + 
+[underline]#**IHO Definition**# :All Puddles Frozen + 
+10) 10 + 
+[underline]#**IHO Definition**# :No Melt + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
