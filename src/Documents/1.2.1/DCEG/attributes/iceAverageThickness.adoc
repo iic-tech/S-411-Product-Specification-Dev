@@ -1,0 +1,9 @@
+[[sec-iceAverageThickness]]
+=== Ice Average Thickness
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# Ice Average Thickness defines the average thickness of the ice. + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
