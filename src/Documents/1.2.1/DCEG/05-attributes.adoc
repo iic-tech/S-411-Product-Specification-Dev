@@ -1,4 +1,3 @@
-bergSize[[sec-attributes]]
 == Attributes and Enumerates Descriptions
 
 === Brash Ice
