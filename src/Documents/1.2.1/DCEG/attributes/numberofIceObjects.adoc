@@ -1,0 +1,9 @@
+[[sec-numberofIceObjects]]
+=== Number of Ice Objects
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_OBN defines the number of ice objects (cracks, leads, fractures, icebergs). + 
+[underline]#** Attribute Type :**# integer + 
+ 
+[underline]#** Remarks :**#  + 
+|===
