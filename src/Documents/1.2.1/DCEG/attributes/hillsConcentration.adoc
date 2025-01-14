@@ -1,0 +1,25 @@
+[[sec-hillsConcentration]]
+=== Hills Concentration
+[cols="a",options="headers"]
+|===
+a|[underline]#**IHO Definition** :# IA_HLG describes the degree of hilling in an ice area (usually multi-year ice). + 
+[underline]#** Attribute Type :**# enumeration + 
+1) 01 + 
+[underline]#**IHO Definition**# :Few hills + 
+10) 10 + 
+[underline]#**IHO Definition**# :Slight concentration of hills + 
+12) 12 + 
+[underline]#**IHO Definition**# :Slight to moderate concentration of hills + 
+20) 20 + 
+[underline]#**IHO Definition**# :Moderate concentration of hills + 
+23) 23 + 
+[underline]#**IHO Definition**# :Moderate to heavy concentration of hills + 
+30) 30 + 
+[underline]#**IHO Definition**# :Heavy concentration of hills + 
+98) 98 + 
+[underline]#**IHO Definition**# :No hills + 
+99) 99 + 
+[underline]#**IHO Definition**# :Undetermined/Unknown + 
+ 
+[underline]#** Remarks :**#  + 
+|===
