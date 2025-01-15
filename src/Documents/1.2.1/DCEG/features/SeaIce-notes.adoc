@@ -1,1 +1,3 @@
+If it is required to encode the possible existence of sea ice in a sea water area, it must be done using the feature *Sea Ice*.
 
+*Sea Ice* must not overlap *Lake Ice* feature.
