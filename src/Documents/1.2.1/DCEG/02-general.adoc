@@ -2,8 +2,6 @@
 [[sec-general]]
 == General
 
-include::ex_table.adoc[]
-
 
 === Introduction
 This S-411 Data Classification and Encoding Guide (DCEG) contains rules and guidance for converting data describing the real world into data products that conform to the S-411 specification.
