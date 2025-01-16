@@ -1,6 +1,6 @@
 [[sec-SeaIce]]
 === Sea Ice
-:table-caption!:
+
 
 [cols="a",options="headers"]
 |===

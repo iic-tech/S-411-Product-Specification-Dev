@@ -15,6 +15,9 @@
 :imagesdir: images
 :status: draft-development
 
+:table-caption!:
+
+
 include::00-document-history.adoc[]
 include::01-overview.adoc[]
 include::02-general.adoc[]
