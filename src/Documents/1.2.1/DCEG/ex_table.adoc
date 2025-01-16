@@ -1,6 +1,10 @@
 [[sec-FeatureName]]
 === Testing Tables etc...
 
+:table-caption!:
+:table-caption:
+
+
 [cols="a",options="headers"]
 |===
 a|**IHO Definition:** CANAL. An artificial waterway with no flow, or a controlled flow....
@@ -18,7 +22,6 @@ a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **M
 |===
 
 [caption=]
-.A table with a title but no label
 [cols="2,1"]
 |===
 |Lots and lots of data |A little data
