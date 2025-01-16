@@ -22,7 +22,7 @@ a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **M
 |===
 
 [caption=]
-[cols="2,1"]
+[cols="2,1",options="unnumbered"]
 |===
 |Lots and lots of data |A little data
 
