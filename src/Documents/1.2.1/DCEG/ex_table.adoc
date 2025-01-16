@@ -11,7 +11,7 @@ a|**IHO Definition:** CANAL. An artificial waterway with no flow, or a controlle
 a|**S-101 Geo Feature:** Canal (CANALS)
 a|**Primitives**: Curve, Surface
 |===
-[cols="a,a,a,a,a",options="headers"]
+[cols="a,a,a,a,a",options="headers,unnumbered"]
 |===
 a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Multiplicity**
 |category of canal
