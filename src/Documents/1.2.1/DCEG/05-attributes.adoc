@@ -16,7 +16,7 @@ include::attributes/hillsConcentration.adoc[]
 
 include::attributes/iceAverageThickness.adoc[]
 
-include::attributes/icebergConcentration.adoc[]
+//include::attributes/icebergConcentration.adoc[]
 
 include::attributes/icebergSize.adoc[]
 
@@ -50,7 +50,7 @@ include::attributes/iceRidgeFrequency.adoc[]
 
 include::attributes/iceRidgeMaximumHeight.adoc[]
 
-include::attributes/iceRidgeMeanHeight.adoc[]
+//include::attributes/iceRidgeMeanHeight.adoc[]
 
 include::attributes/iceStageofDevelopment.adoc[]
 
