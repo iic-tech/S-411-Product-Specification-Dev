@@ -1,5 +1,5 @@
 [[sec-FeatureName]]
-=== Feature Name
+=== Testing Tables etc...
 
 [cols="a",options="headers"]
 |===
@@ -15,4 +15,14 @@ a|**S-411 Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **M
 |1: transportation
 |EN
 |0,1
+|===
+
+[caption=]
+.A table with a title but no label
+[cols="2,1"]
+|===
+|Lots and lots of data |A little data
+
+|834,734 |3
+|3,999,271.5601 |5
 |===
