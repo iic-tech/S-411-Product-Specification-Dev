@@ -1,130 +1,84 @@
 == Attributes and Enumerates Descriptions
 
-=== Brash Ice
 include::attributes/brashIce.adoc[]
 
-=== Compacting Strength
 include::attributes/compactingStrength.adoc[]
 
-// === Concentration of Hills
-// concentrationofHills.adoc[]
-
-=== Contamination
 include::attributes/contamination.adoc[]
 
-=== Direction of Sastrugi
 include::attributes/directionofSastrugi.adoc[]
 
-=== Frequency of Leads or Fractures
-include::attributes/frequencyofLeadsorFractures.adoc[]
-
-=== Fractures Concentration
 include::attributes/fracturesConcentration.adoc[]
 
-=== Partial Concentration
-include::attributes/partialConcentration.adoc[]
+include::attributes/frequencyofLeadsorFractures.adoc[]
 
-=== Total Concentration
-include::attributes/totalConcentration.adoc[]
+include::attributes/hillsConcentration.adoc[]
 
-=== Ice Average Thickness
 include::attributes/iceAverageThickness.adoc[]
 
-=== Ice Drift Direction
-include::attributes/iceDriftDirection.adoc[]
+include::attributes/icebergConcentration.adoc[]
 
-=== Ice Drift Speed
-include::attributes/iceDriftSpeed.adoc[]
-
-=== Ice Fracture Type
-include::attributes/iceFractureType.adoc[]
-
-=== Ice Keel Concentration
-include::attributes/iceKeelConcentration.adoc[]
-
-=== Ice Keel Frequency
-include::attributes/iceKeelFrequency.adoc[]
-
-=== Ice Keel Maximum Depth
-include::attributes/iceKeelMaximumDepth.adoc[]
-
-=== Ice Keel Mean Depth
-include::attributes/iceKeelMeanDepth.adoc[]
-
-=== Ice Lead (or Fracture or crack) Width
-include::attributes/iceLeadWidth.adoc[]
-
-=== Ice Lead Status
-include::attributes/iceLeadStatus.adoc[]
-
-=== Ice Location Information
-include::attributes/iceLocationInformation.adoc[]
-
-=== Ice rafting Concentration
-include::attributes/iceRaftingConcentration.adoc[]
-
-=== Ice Ridge Clasification
-include::attributes/iceRidgeClassification.adoc[]
-
-=== Ice Ridge Concentration
-include::attributes/iceRidgeConcentration.adoc[]
-
-=== Ice Ridge Frequency
-include::attributes/iceRidgeFrequency.adoc[]
-
-=== Ice Ridge Maximum Height
-include::attributes/iceRidgeMaximumHeight.adoc[]
-
-// TODO fix.
-// === Ice Ridge Mean Height
-// iceRidgeMeanHeight.adoc[]
-
-=== Ice Stage of Developmenet
-include::attributes/iceStageofDevelopment.adoc[]
-
-=== Ice Thickness Type
-include::attributes/iceThicknessType.adoc[]
-
-// === Iceberg Concentration
-//
-//
-// === Iceberg Form
-//
-
-=== Iceberg Size
 include::attributes/icebergSize.adoc[]
 
-=== Lake Ice Stage of Development
+include::attributes/iceDriftDirection.adoc[]
+
+include::attributes/iceDriftSpeed.adoc[]
+
+include::attributes/iceFractureType.adoc[]
+
+include::attributes/iceKeelConcentration.adoc[]
+
+include::attributes/iceKeelFrequency.adoc[]
+
+include::attributes/iceKeelMaximumDepth.adoc[]
+
+include::attributes/iceKeelMeanDepth.adoc[]
+
+include::attributes/iceLeadStatus.adoc[]
+
+include::attributes/iceLeadWidth.adoc[]
+
+include::attributes/iceLocationInformation.adoc[]
+
+include::attributes/iceRaftingConcentration.adoc[]
+
+include::attributes/iceRidgeClassification.adoc[]
+
+include::attributes/iceRidgeConcentration.adoc[]
+
+include::attributes/iceRidgeFrequency.adoc[]
+
+include::attributes/iceRidgeMaximumHeight.adoc[]
+
+include::attributes/iceRidgeMeanHeight.adoc[]
+
+include::attributes/iceStageofDevelopment.adoc[]
+
+include::attributes/iceThicknessType.adoc[]
+
 include::attributes/lakeIceStageofDevelopment.adoc[]
 
-=== Level Ice
 include::attributes/levelIce.adoc[]
 
-// === Maximum Height of Iceberg Topside
-//
+include::attributes/maximumHeightofAboveWaterPart.adoc[]
 
-=== Maximum Ice Thickness
 include::attributes/maximumIceThickness.adoc[]
 
-=== Maximum Width of Ice Lead (or Fracture or Crack)
 include::attributes/maximumWidthofIceLead.adoc[]
 
-=== Minimum Width of Ice Lead (or Fracture or Crack)
 include::attributes/minimumWidthofIceLead.adoc[]
 
-=== Number of Ice Objecs
-include::attributes/numberofIceObjects.adoc[]
-
-=== Number of Icebergs in an Area
 include::attributes/numberofIcebergsinArea.adoc[]
 
-=== Snow Depth
+include::attributes/numberofIceObjects.adoc[]
+
+include::attributes/partialConcentration.adoc[]
+
+include::attributes/prevailingIcebergForm.adoc[]
+
+include::attributes/snowCoverConcentration.adoc[]
+
 include::attributes/snowDepth.adoc[]
 
-
-// === Snow Cover
-//
-
-=== Snow Cover Concentration
-include::attributes/snowCoverConcentration.adoc[]
+include::attributes/totalConcentration.adoc[]
 
