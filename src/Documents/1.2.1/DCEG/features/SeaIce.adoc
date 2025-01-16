@@ -207,3 +207,5 @@ a|**S-411Attribute** |**Acronym** |**Allowable Encoding Value** |**Type** | **Mu
 |0,1
 |===
 
+include::SeaIce-notes.adoc[]
+
