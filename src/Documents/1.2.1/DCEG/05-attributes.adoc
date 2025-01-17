@@ -8,6 +8,10 @@ include::attributes/contamination.adoc[]
 
 include::attributes/directionofSastrugi.adoc[]
 
+include::attributes/floeSizes.adoc[]
+
+include::attributes/floeSizeFF.adoc[]
+
 include::attributes/fracturesConcentration.adoc[]
 
 include::attributes/frequencyofLeadsorFractures.adoc[]
