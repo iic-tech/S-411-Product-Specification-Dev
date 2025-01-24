@@ -43,9 +43,9 @@
             <S100FC:code>totalConcentration</S100FC:code>
             <S100FC:alias>ICEACT</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>496</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>496</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
@@ -53,279 +53,279 @@
                     <S100FC:definition>Ice Free</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2343</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2343</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>Open Water ( &lt; 1/10 ice)</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2344</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2344</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>03</S100FC:label>
                     <S100FC:definition>Bergy Water</S100FC:definition>
                     <S100FC:code>3</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2345</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2345</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	  	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>10</S100FC:label>
                     <S100FC:definition>1/10 ice</S100FC:definition>
                     <S100FC:code>10</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2346</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2346</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>12</S100FC:label>
                     <S100FC:definition>1/10 to 2/10 ice</S100FC:definition>
                     <S100FC:code>12</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2347</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2347</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>13</S100FC:label>
                     <S100FC:definition>1/10 to 3/10 ice</S100FC:definition>
                     <S100FC:code>13</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2348</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2348</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	  	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>20</S100FC:label>
                     <S100FC:definition>2/10 ice</S100FC:definition>
                     <S100FC:code>20</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2349</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2349</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>23</S100FC:label>
                     <S100FC:definition>2/10 to 3/10 ice</S100FC:definition>
                     <S100FC:code>23</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2350</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2350</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>24</S100FC:label>
                     <S100FC:definition>2/10 to 4/10 ice</S100FC:definition>
                     <S100FC:code>24</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2351</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2351</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>30</S100FC:label>
                     <S100FC:definition>3/10 ice</S100FC:definition>
                     <S100FC:code>30</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2352</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2352</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>34</S100FC:label>
                     <S100FC:definition>3/10 to 4/10 ice</S100FC:definition>
                     <S100FC:code>34</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2353</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2353</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>35</S100FC:label>
                     <S100FC:definition>3/10 to 5/10 ice</S100FC:definition>
                     <S100FC:code>35</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2354</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2354</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>40</S100FC:label>
                     <S100FC:definition>4/10 ice</S100FC:definition>
                     <S100FC:code>40</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2355</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2355</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>45</S100FC:label>
                     <S100FC:definition></S100FC:definition>
                     <S100FC:code>45</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2356</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2356</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>46</S100FC:label>
                     <S100FC:definition>4/10 to 6/10 ice</S100FC:definition>
                     <S100FC:code>46</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2357</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2357</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>50</S100FC:label>
                     <S100FC:definition>5/10 ice</S100FC:definition>
                     <S100FC:code>50</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2358</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2358</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>56</S100FC:label>
                     <S100FC:definition>5/10 to 6/10 ice</S100FC:definition>
                     <S100FC:code>56</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2359</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2359</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>57</S100FC:label>
                     <S100FC:definition>5/10 to 7/10 ice</S100FC:definition>
                     <S100FC:code>57</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2360</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2360</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>60</S100FC:label>
                     <S100FC:definition>6/10 ice</S100FC:definition>
                     <S100FC:code>60</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2361</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2361</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>67</S100FC:label>
                     <S100FC:definition>6/10 to 7/10 ice</S100FC:definition>
                     <S100FC:code>67</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2362</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2362</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>68</S100FC:label>
                     <S100FC:definition>6/10 to 8/10 ice</S100FC:definition>
                     <S100FC:code>68</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2363</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2363</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>70</S100FC:label>
                     <S100FC:definition>7/10 ice</S100FC:definition>
                     <S100FC:code>70</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2364</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2364</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>78</S100FC:label>
                     <S100FC:definition>7/10 to 8/10 ice</S100FC:definition>
                     <S100FC:code>78</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2365</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2365</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>79</S100FC:label>
                     <S100FC:definition>7/10 to 9/10 ice</S100FC:definition>
                     <S100FC:code>79</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2366</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2366</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>80</S100FC:label>
                     <S100FC:definition>8/10 ice</S100FC:definition>
                     <S100FC:code>80</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2367</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2367</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>81</S100FC:label>
                     <S100FC:definition>8/10 to 10/10 ice</S100FC:definition>
                     <S100FC:code>81</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2368</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2368</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	 	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>89</S100FC:label>
                     <S100FC:definition>8/10 to 9/10 ice</S100FC:definition>
                     <S100FC:code>89</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2369</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2369</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>90</S100FC:label>
                     <S100FC:definition>9/10 ice</S100FC:definition>
                     <S100FC:code>90</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2370</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2370</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>91</S100FC:label>
                     <S100FC:definition>9/10 to 10/10 ice</S100FC:definition>
                     <S100FC:code>91</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2371/S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2371/S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>92</S100FC:label>
                     <S100FC:definition>10/10 ice</S100FC:definition>
                     <S100FC:code>92</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>2372</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2372</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
                     <S100FC:definitionReference>
-						<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
-						<S100FC:definitionSource ref="IHOREG" />
-					</S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -335,165 +335,289 @@
             <S100FC:code>partialConcentration</S100FC:code>
             <S100FC:alias>ICEAPC</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>495</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>Ice Free</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
-                </S100FC:listedValue>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2343</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
+		</S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>Open Water ( &lt; 1/10 ice)</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2344</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>			
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>03</S100FC:label>
                     <S100FC:definition>Bergy Water</S100FC:definition>
                     <S100FC:code>3</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2345</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>			
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>10</S100FC:label>
                     <S100FC:definition>1/10 ice</S100FC:definition>
                     <S100FC:code>10</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2346</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>			
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>12</S100FC:label>
                     <S100FC:definition>1/10 to 2/10 ice</S100FC:definition>
                     <S100FC:code>12</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2347</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>13</S100FC:label>
                     <S100FC:definition>1/10 to 3/10 ice</S100FC:definition>
                     <S100FC:code>13</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2348</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>20</S100FC:label>
                     <S100FC:definition>2/10 ice</S100FC:definition>
                     <S100FC:code>20</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2349</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>23</S100FC:label>
                     <S100FC:definition>2/10 to 3/10 ice</S100FC:definition>
                     <S100FC:code>23</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2350</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>24</S100FC:label>
                     <S100FC:definition>2/10 to 4/10 ice</S100FC:definition>
                     <S100FC:code>24</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2351</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>30</S100FC:label>
                     <S100FC:definition>3/10 ice</S100FC:definition>
                     <S100FC:code>30</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2352</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>34</S100FC:label>
                     <S100FC:definition>3/10 to 4/10 ice</S100FC:definition>
                     <S100FC:code>34</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2353</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>35</S100FC:label>
                     <S100FC:definition>3/10 to 5/10 ice</S100FC:definition>
                     <S100FC:code>35</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2354</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>40</S100FC:label>
                     <S100FC:definition>4/10 ice</S100FC:definition>
                     <S100FC:code>40</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2355</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>45</S100FC:label>
                     <S100FC:definition></S100FC:definition>
                     <S100FC:code>45</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2356</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>46</S100FC:label>
                     <S100FC:definition>4/10 to 6/10 ice</S100FC:definition>
                     <S100FC:code>46</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2357</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>50</S100FC:label>
                     <S100FC:definition>5/10 ice</S100FC:definition>
                     <S100FC:code>50</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2358</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>56</S100FC:label>
                     <S100FC:definition>5/10 to 6/10 ice</S100FC:definition>
                     <S100FC:code>56</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2359</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>57</S100FC:label>
                     <S100FC:definition>5/10 to 7/10 ice</S100FC:definition>
                     <S100FC:code>57</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2360</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>60</S100FC:label>
                     <S100FC:definition>6/10 ice</S100FC:definition>
                     <S100FC:code>60</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2361</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>67</S100FC:label>
                     <S100FC:definition>6/10 to 7/10 ice</S100FC:definition>
                     <S100FC:code>67</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2362</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>68</S100FC:label>
                     <S100FC:definition>6/10 to 8/10 ice</S100FC:definition>
                     <S100FC:code>68</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2363</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>70</S100FC:label>
                     <S100FC:definition>7/10 ice</S100FC:definition>
                     <S100FC:code>70</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2364</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>78</S100FC:label>
                     <S100FC:definition>7/10 to 8/10 ice</S100FC:definition>
                     <S100FC:code>78</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2365</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>79</S100FC:label>
                     <S100FC:definition>7/10 to 9/10 ice</S100FC:definition>
                     <S100FC:code>79</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2366</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>80</S100FC:label>
                     <S100FC:definition>8/10 ice</S100FC:definition>
                     <S100FC:code>80</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2367</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>81</S100FC:label>
                     <S100FC:definition>8/10 to 10/10 ice</S100FC:definition>
                     <S100FC:code>81</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2368</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>89</S100FC:label>
                     <S100FC:definition>8/10 to 9/10 ice</S100FC:definition>
                     <S100FC:code>89</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2369</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>90</S100FC:label>
                     <S100FC:definition>9/10 ice</S100FC:definition>
                     <S100FC:code>90</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2370</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>91</S100FC:label>
                     <S100FC:definition>9/10 to 10/10 ice</S100FC:definition>
                     <S100FC:code>91</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2371</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>92</S100FC:label>
                     <S100FC:definition>10/10 ice</S100FC:definition>
                     <S100FC:code>92</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2372</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -503,70 +627,118 @@
             <S100FC:code>iceStageofDevelopment</S100FC:code>
             <S100FC:alias>ICESOD</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>517</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>Ice Free</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2343</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>70</S100FC:label>
                     <S100FC:definition>Brash Ice</S100FC:definition>
                     <S100FC:code>70</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2401</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>80</S100FC:label>
                     <S100FC:definition>No stage of development</S100FC:definition>
                     <S100FC:code>80</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2402</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>81</S100FC:label>
                     <S100FC:definition>New Ice (&lt;10 cm) </S100FC:definition>
                     <S100FC:code>81</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2403</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>82</S100FC:label>
                     <S100FC:definition>Nilas Ice Rind (&lt;10 cm)</S100FC:definition>
                     <S100FC:code>82</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2404</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>83</S100FC:label>
                     <S100FC:definition>Young Ice (10 to &lt;30 cm)</S100FC:definition>
                     <S100FC:code>83</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2405</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>84</S100FC:label>
                     <S100FC:definition>Grey Ice (10 to &lt;15 cm)</S100FC:definition>
                     <S100FC:code>84</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2406</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>85</S100FC:label>
                     <S100FC:definition>Grey – White Ice (15 to &lt;30 cm)</S100FC:definition>
                     <S100FC:code>85</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2407</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>86</S100FC:label>
                     <S100FC:definition>First Year Ice (30 to 200 cm)</S100FC:definition>
                     <S100FC:code>86</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2408</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>87</S100FC:label>
                     <S100FC:definition>Thin First Year Ice (30 to &lt;70 cm)</S100FC:definition>
                     <S100FC:code>87</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2409</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>88</S100FC:label>
                     <S100FC:definition>Thin First Year Ice Stage 1 (30 to &lt;50 cm)</S100FC:definition>
                     <S100FC:code>88</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2410</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>89</S100FC:label>
                     <S100FC:definition>Thin First Year Ice Stage 2 (50 to &lt;70 cm)</S100FC:definition>
                     <S100FC:code>89</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2411</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>90</S100FC:label>
@@ -577,6 +749,10 @@
                     <S100FC:label>91</S100FC:label>
                     <S100FC:definition>Medium First Year Ice (70 to 120 cm)</S100FC:definition>
                     <S100FC:code>91</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2412</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>92</S100FC:label>
@@ -587,36 +763,64 @@
                     <S100FC:label>93</S100FC:label>
                     <S100FC:definition>Thick First Year Ice (&gt;120 cm)</S100FC:definition>
                     <S100FC:code>93</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2413</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>94</S100FC:label>
                     <S100FC:definition>Residual Ice</S100FC:definition>
                     <S100FC:code>94</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2414</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>95</S100FC:label>
                     <S100FC:definition>Old Ice</S100FC:definition>
                     <S100FC:code>95</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2415</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>96</S100FC:label>
                     <S100FC:definition>Second Year Ice</S100FC:definition>
                     <S100FC:code>96</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2416</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>97</S100FC:label>
                     <S100FC:definition>Multi-Year Ice</S100FC:definition>
                     <S100FC:code>97</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2417</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>98</S100FC:label>
                     <S100FC:definition>Glacier Ice (Icebergs)</S100FC:definition>
                     <S100FC:code>98</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2418</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -626,45 +830,73 @@
             <S100FC:code>lakeIceStageofDevelopment</S100FC:code>
             <S100FC:alias>ICELSO</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>539</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>New Lake Ice (&lt;5cms)</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2474</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>Thin Lake Ice (5-&lt;15cms)</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2475</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>03</S100FC:label>
                     <S100FC:definition>Medium Lake Ice (15-&lt;30cms)</S100FC:definition>
                     <S100FC:code>3</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2476</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>04</S100FC:label>
                     <S100FC:definition>Thick Lake Ice (30-70cms)</S100FC:definition>
                     <S100FC:code>4</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2477</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>05</S100FC:label>
                     <S100FC:definition>Very Thick Lake Ice (&gt;70cms)</S100FC:definition>
                     <S100FC:code>5</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2478</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>70</S100FC:label>
                     <S100FC:definition>Brash Ice</S100FC:definition>
                     <S100FC:code>70</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2401</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+		    </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -674,70 +906,118 @@
             <S100FC:code>floeSizes</S100FC:code>
             <S100FC:alias>ICEFLZ</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>487</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>Pancake Ice (30 cm to 3m across)</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2077</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>Shuga/Small Ice Cake; Brash Ice (&lt;2m across)</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2078</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>03</S100FC:label>
                     <S100FC:definition>Ice Cake (&lt;20m across)</S100FC:definition>
                     <S100FC:code>3</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2079</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>04</S100FC:label>
                     <S100FC:definition>Small Floe (20 to &lt;100m across)</S100FC:definition>
                     <S100FC:code>4</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2080</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>05</S100FC:label>
                     <S100FC:definition>Medium Floe (100 to 500m)</S100FC:definition>
                     <S100FC:code>5</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2081</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>06</S100FC:label>
                     <S100FC:definition>Big Floe (500 to &lt;2000m across)</S100FC:definition>
                     <S100FC:code>6</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2082</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>07</S100FC:label>
                     <S100FC:definition>Vast Floe (2000 to10000m across)</S100FC:definition>
                     <S100FC:code>7</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2083</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>08</S100FC:label>
                     <S100FC:definition>Giant Floe (&gt;10000m across)</S100FC:definition>
                     <S100FC:code>8</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2084</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>09</S100FC:label>
                     <S100FC:definition>Fast Ice</S100FC:definition>
                     <S100FC:code>9</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>158</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>10</S100FC:label>
                     <S100FC:definition>Growlers, Floebergs or Floebits</S100FC:definition>
                     <S100FC:code>10</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2085</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>11</S100FC:label>
                     <S100FC:definition>Icebergs</S100FC:definition>
                     <S100FC:code>11</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2086</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -747,55 +1027,91 @@
             <S100FC:code>meltStage</S100FC:code>
             <S100FC:alias>ICEMLT</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>555</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>Few Puddles</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2489</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>Many Puddles</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2490</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>03</S100FC:label>
                     <S100FC:definition>Flooded Ice</S100FC:definition>
                     <S100FC:code>3</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2491</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>04</S100FC:label>
                     <S100FC:definition>Few Thaw Holes</S100FC:definition>
                     <S100FC:code>4</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2492</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>05</S100FC:label>
                     <S100FC:definition>Many Thaw Holes</S100FC:definition>
                     <S100FC:code>5</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2493</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>06</S100FC:label>
                     <S100FC:definition>Dried Ice</S100FC:definition>
                     <S100FC:code>6</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2494</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>07</S100FC:label>
                     <S100FC:definition>Rotten Ice</S100FC:definition>
                     <S100FC:code>7</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2495</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>08</S100FC:label>
                     <S100FC:definition>Few Frozen Puddles</S100FC:definition>
                     <S100FC:code>8</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2496</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>09</S100FC:label>
                     <S100FC:definition>All Puddles Frozen</S100FC:definition>
                     <S100FC:code>9</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2497</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>10</S100FC:label>
@@ -806,6 +1122,10 @@
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2498</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -815,7 +1135,7 @@
             <S100FC:code>concentrationofStripsandPatches</S100FC:code>
             <S100FC:alias>ICESPC</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
+				<S100FC:sourceIdentifier>446</S100FC:sourceIdentifier>
 				<S100FC:definitionSource ref="IHOREG" />
 			</S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
@@ -824,56 +1144,100 @@
                     <S100FC:label>11</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 1/10)</S100FC:definition>
                     <S100FC:code>11</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2052</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>12</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 2/10)</S100FC:definition>
                     <S100FC:code>12</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2053</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>13</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 3/10)</S100FC:definition>
                     <S100FC:code>13</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2054</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>14</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 4/10)</S100FC:definition>
                     <S100FC:code>14</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2055</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>15</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 5/10)</S100FC:definition>
                     <S100FC:code>15</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2056</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>16</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 6/10)</S100FC:definition>
                     <S100FC:code>16</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2057</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>17</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 7/10)</S100FC:definition>
                     <S100FC:code>17</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2058</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>18</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 8/10)</S100FC:definition>
                     <S100FC:code>18</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2059</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>19</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 9/10)</S100FC:definition>
                     <S100FC:code>19</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2060</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>20</S100FC:label>
                     <S100FC:definition>Strips and Patches (concentrations 10/10)</S100FC:definition>
                     <S100FC:code>20</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2061</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -883,10 +1247,17 @@
             <S100FC:code>numberofIcebergsinArea</S100FC:code>
             <S100FC:alias>ICEBNM</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>953</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>integer</S100FC:valueType>
+	    <S100FC:constraints>
+		<S100CD:range>
+		    <S100Base:lowerBound>0</S100Base:lowerBound>
+		    <S100Base:upperBound>1000</S100Base:upperBound>
+		    <S100Base:closure>closedInterval</S100Base:closure>
+		</S100CD:range>
+	    </S100FC:constraints>
         </S100FC:S100_FC_SimpleAttribute>
         <S100FC:S100_FC_SimpleAttribute>
             <S100FC:name>Level Ice</S100FC:name>
@@ -894,25 +1265,37 @@
             <S100FC:code>levelIce</S100FC:code>
             <S100FC:alias>ICELVL</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+	        <S100FC:sourceIdentifier>542</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>Level(undeformed)</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2485</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>Deformed</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2486</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+     	            <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
