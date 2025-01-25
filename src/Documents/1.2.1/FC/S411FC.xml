@@ -906,8 +906,8 @@
             <S100FC:code>floeSizes</S100FC:code>
             <S100FC:alias>ICEFLZ</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>487</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
+		<S100FC:sourceIdentifier>487</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
 	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
@@ -1135,9 +1135,9 @@
             <S100FC:code>concentrationofStripsandPatches</S100FC:code>
             <S100FC:alias>ICESPC</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>446</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>446</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
