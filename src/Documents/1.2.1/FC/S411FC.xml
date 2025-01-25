@@ -1305,50 +1305,82 @@
             <S100FC:code>compactingStrength</S100FC:code>
             <S100FC:alias>ICECST</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>440</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
                     <S100FC:label>01</S100FC:label>
                     <S100FC:definition>Little compacting</S100FC:definition>
                     <S100FC:code>1</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2032</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>10</S100FC:label>
                     <S100FC:definition>Slight compacting</S100FC:definition>
                     <S100FC:code>10</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2033</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>12</S100FC:label>
                     <S100FC:definition>Slight to moderate compacting</S100FC:definition>
                     <S100FC:code>12</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2034</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	            </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>20</S100FC:label>
                     <S100FC:definition>Moderate compacting</S100FC:definition>
                     <S100FC:code>20</S100FC:code>
+                    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2035</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	    	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>23</S100FC:label>
                     <S100FC:definition>Moderate to strong compacting</S100FC:definition>
                     <S100FC:code>23</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2036</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	    	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>30</S100FC:label>
                     <S100FC:definition>Strong compacting</S100FC:definition>
                     <S100FC:code>30</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2037</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	    	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>98</S100FC:label>
                     <S100FC:definition>Ice divergence</S100FC:definition>
                     <S100FC:code>98</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>2038</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	    	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>99</S100FC:label>
                     <S100FC:definition>Undetermined/Unknown</S100FC:definition>
                     <S100FC:code>99</S100FC:code>
+            	    <S100FC:definitionReference>
+			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
+			<S100FC:definitionSource ref="IHOREG" />
+	    	    </S100FC:definitionReference>
                 </S100FC:listedValue>
             </S100FC:listedValues>
         </S100FC:S100_FC_SimpleAttribute>
@@ -1358,9 +1390,9 @@
             <S100FC:code>iceFractureType</S100FC:code>
             <S100FC:alias>ICEFTY</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:valueType>enumeration</S100FC:valueType>
             <S100FC:listedValues>
                 <S100FC:listedValue>
