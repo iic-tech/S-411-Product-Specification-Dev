@@ -4547,14 +4547,10 @@
             <S100FC:definition>Sea Ice is an area at sea that is covered, in whole or in part, with ice.</S100FC:definition>
             <S100FC:code>SeaIce</S100FC:code>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>507</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:alias>SEAICE</S100FC:alias>
-            <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -4837,9 +4833,9 @@
             <S100FC:code>LakeIce</S100FC:code>
             <S100FC:alias>LACICE</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>461</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5045,9 +5041,9 @@
             <S100FC:code>IcebergArea</S100FC:code>
             <S100FC:alias>BRGARE</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>450</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5092,9 +5088,9 @@
             <S100FC:code>IceEdge</S100FC:code>
             <S100FC:alias>ICELNE</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>441</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5104,9 +5100,9 @@
             <S100FC:code>IcebergLimit</S100FC:code>
             <S100FC:alias>BRGLNE</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>451</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5116,9 +5112,9 @@
             <S100FC:code>LimitOfOpenWater</S100FC:code>
             <S100FC:alias>OPNLNE</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>467</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5128,9 +5124,9 @@
             <S100FC:code>LimitOfAllKnownIce</S100FC:code>
             <S100FC:alias>LKILNE</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>466</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>curve</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5140,9 +5136,9 @@
             <S100FC:code>LineOfIceRidge</S100FC:code>
             <S100FC:alias>I_RIDG</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>472</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5173,9 +5169,9 @@
             <S100FC:code>LineOfIceLead</S100FC:code>
             <S100FC:alias>I_LEAD</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>471</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5220,9 +5216,9 @@
             <S100FC:code>LineOfIceFracture</S100FC:code>
             <S100FC:alias>I_FRAL</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>470</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5267,9 +5263,9 @@
             <S100FC:code>LineOfIceCrack</S100FC:code>
             <S100FC:alias>I_CRAC</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>469</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5314,9 +5310,9 @@
             <S100FC:code>IceCompacting</S100FC:code>
             <S100FC:alias>ICECOM</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>438</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5333,9 +5329,9 @@
             <S100FC:code>IceLead</S100FC:code>
             <S100FC:alias>ICELEA</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>444</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5366,9 +5362,9 @@
             <S100FC:code>Iceberg</S100FC:code>
             <S100FC:alias>ICEBRG</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>449</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5420,9 +5416,9 @@
             <S100FC:code>Floeberg</S100FC:code>
             <S100FC:alias>FLOBRG</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>423</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5446,9 +5442,9 @@
             <S100FC:code>IceThickness</S100FC:code>
             <S100FC:alias>ICETHK</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>448</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5486,9 +5482,9 @@
             <S100FC:code>IceShear</S100FC:code>
             <S100FC:alias>ICESHR</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>447</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5498,9 +5494,9 @@
             <S100FC:code>IceDivergence</S100FC:code>
             <S100FC:alias>ICEDIV</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>439</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5510,9 +5506,9 @@
             <S100FC:code>IceRidgeHummock</S100FC:code>
             <S100FC:alias>ICERDG</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>446</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5557,9 +5553,9 @@
             <S100FC:code>IceKeelBummock</S100FC:code>
             <S100FC:alias>ICEKEL</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>443</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5597,9 +5593,9 @@
             <S100FC:code>IceDrift</S100FC:code>
             <S100FC:alias>ICEDFT</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>440</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5623,9 +5619,9 @@
             <S100FC:code>IceFracture</S100FC:code>
             <S100FC:alias>ICEFRA</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>442</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5684,9 +5680,9 @@
             <S100FC:code>IceRafting</S100FC:code>
             <S100FC:alias>ICERFT</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>445</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5703,9 +5699,9 @@
             <S100FC:code>JammedBrashBarrier</S100FC:code>
             <S100FC:alias>JMDBRR</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>459</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:featureUseType>geographic</S100FC:featureUseType>
             <S100FC:permittedPrimitives>point</S100FC:permittedPrimitives>
         </S100FC:S100_FC_FeatureType>
@@ -5715,9 +5711,9 @@
             <S100FC:code>StageOfMelt</S100FC:code>
             <S100FC:alias>STGMLT</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>514</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5734,9 +5730,9 @@
             <S100FC:code>SnowCover</S100FC:code>
             <S100FC:alias>SNWCVR</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>511</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5767,9 +5763,9 @@
             <S100FC:code>StripsAndPatches</S100FC:code>
             <S100FC:alias>STRPTC</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>517</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
@@ -5786,9 +5782,9 @@
             <S100FC:code>GroundedHummock</S100FC:code>
             <S100FC:alias>I_GRHM</S100FC:alias>
             <S100FC:definitionReference>
-				<S100FC:sourceIdentifier>1</S100FC:sourceIdentifier>
-				<S100FC:definitionSource ref="IHOREG" />
-			</S100FC:definitionReference>
+		<S100FC:sourceIdentifier>431</S100FC:sourceIdentifier>
+		<S100FC:definitionSource ref="IHOREG" />
+	    </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
