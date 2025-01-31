@@ -37,6 +37,40 @@
         </S100FC:FC_DefinitionSource>
     </S100FC:S100_FC_DefinitionSources>
     <S100FC:S100_FC_SimpleAttributes>
+        
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Minimum Display Scale</S100FC:name>
+            <S100FC:definition>The smallest intended viewing scale for the data.</S100FC:definition>
+            <S100FC:code>minimumDisplayScale</S100FC:code>
+            <S100FC:definitionReference>
+                <S100FC:sourceIdentifier>1222</S100FC:sourceIdentifier>
+                <S100FC:definitionSource ref="IHOREG" />
+            </S100FC:definitionReference>
+            <S100FC:valueType>integer</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Maximum Display Scale</S100FC:name>
+            <S100FC:definition>The value considered by the Data Producer to be the maximum (largest) scale at which the data is to be displayed before it can be considered to be "grossly overscaled".</S100FC:definition>
+            <S100FC:code>maximumDisplayScale</S100FC:code>
+            <S100FC:alias>CSCALE</S100FC:alias>
+            <S100FC:definitionReference>
+                <S100FC:sourceIdentifier>1237</S100FC:sourceIdentifier>
+                <S100FC:definitionSource ref="IHOREG" />
+            </S100FC:definitionReference>
+            <S100FC:valueType>integer</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>
+        <S100FC:S100_FC_SimpleAttribute>
+            <S100FC:name>Optimum Display Scale</S100FC:name>
+            <S100FC:definition>The largest intended viewing scale for the data.</S100FC:definition>
+            <S100FC:code>optimumDisplayScale</S100FC:code>
+            <S100FC:alias>CSCALE</S100FC:alias>
+            <S100FC:definitionReference>
+                <S100FC:sourceIdentifier>1223</S100FC:sourceIdentifier>
+                <S100FC:definitionSource ref="IHOREG" />
+            </S100FC:definitionReference>
+            <S100FC:valueType>integer</S100FC:valueType>
+        </S100FC:S100_FC_SimpleAttribute>        
+        
         <S100FC:S100_FC_SimpleAttribute>
             <S100FC:name>Total Concentration</S100FC:name>
             <S100FC:definition>ICEACT specifies the total concentration of ice in an area.  It represents the ratio expressed in tenths describing the total area of the water surface covered by ice as a fraction of the whole area.</S100FC:definition>
@@ -4542,6 +4576,43 @@
         </S100FC:S100_FC_ComplexAttribute>
     </S100FC:S100_FC_ComplexAttributes>
     <S100FC:S100_FC_FeatureTypes>
+        
+        <S100FC:S100_FC_FeatureType isAbstract="false">
+            <S100FC:name>Data Coverage</S100FC:name>
+            <S100FC:definition>A geographical area that describes the coverage and extent of spatial objects.</S100FC:definition>
+            <S100FC:code>DataCoverage</S100FC:code>
+            <S100FC:alias>M_COVR</S100FC:alias>
+            <S100FC:alias>M_CSCL</S100FC:alias>
+            <S100FC:definitionReference>
+                <S100FC:sourceIdentifier>661</S100FC:sourceIdentifier>
+                <S100FC:definitionSource ref="IHOREG" />
+            </S100FC:definitionReference>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <S100Base:lower>0</S100Base:lower>
+                    <S100Base:upper>1</S100Base:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="maximumDisplayScale" />
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding sequential="false">
+                <S100FC:multiplicity>
+                    <S100Base:lower>0</S100Base:lower>
+                    <S100Base:upper>1</S100Base:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="minimumDisplayScale" />
+            </S100FC:attributeBinding>
+            <S100FC:attributeBinding>
+                <S100FC:multiplicity>
+                    <S100Base:lower>0</S100Base:lower>
+                    <S100Base:upper>1</S100Base:upper>
+                </S100FC:multiplicity>
+                <S100FC:attribute ref="optimumDisplayScale" />
+            </S100FC:attributeBinding>
+            <S100FC:featureUseType>meta</S100FC:featureUseType>
+            <S100FC:permittedPrimitives>surface</S100FC:permittedPrimitives>
+        </S100FC:S100_FC_FeatureType>
+        
+        
         <S100FC:S100_FC_FeatureType>
             <S100FC:name>Sea Ice</S100FC:name>
             <S100FC:definition>Sea Ice is an area at sea that is covered, in whole or in part, with ice.</S100FC:definition>
