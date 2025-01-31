@@ -9,6 +9,24 @@
     version="1.0.0-20220818">
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schemas.s100dev.net/schemas/S100/5.0.0/S100GML/20220620/S100_gmlProfile.xsd"/>
     <xs:import namespace="http://www.iho.int/s100gml/5.0" schemaLocation="https://schemas.s100dev.net/schemas/S100/5.0.0/S100GML/20220620/s100gmlbase.xsd"/>
+    <xs:simpleType name="minimumDisplayScaleType">
+        <xs:annotation>
+            <xs:documentation>The smallest intended viewing scale for the data.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:simpleType name="maximumDisplayScaleType">
+        <xs:annotation>
+            <xs:documentation>The value considered by the Data Producer to be the maximum (largest) scale at which the data is to be displayed before it can be considered to be "grossly overscaled".</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
+    <xs:simpleType name="optimumDisplayScaleType">
+        <xs:annotation>
+            <xs:documentation>The largest intended viewing scale for the data.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:int"/>
+    </xs:simpleType>
     <xs:complexType name="totalConcentrationType">
         <xs:annotation>
             <xs:documentation>ICEACT specifies the total concentration of ice in an area.  It represents the ratio expressed in tenths describing the total area of the water surface covered by ice as a fraction of the whole area.</xs:documentation>
@@ -1477,7 +1495,7 @@
 <xs:enumeration value="87"><xs:annotation><xs:documentation>Thin First Year Ice (30 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="88"><xs:annotation><xs:documentation>Thin First Year Ice Stage 1 (30 to <50 cm)</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="89"><xs:annotation><xs:documentation>Thin First Year Ice Stage 2 (50 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>Code not currently assigned </xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="90"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="91"><xs:annotation><xs:documentation>Medium First Year Ice  (70 to 120 cm)</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="92"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="93"><xs:annotation><xs:documentation>Thick First Year Ice (>120 cm)</xs:documentation></xs:annotation></xs:enumeration>
@@ -1552,6 +1570,27 @@
         </xs:annotation>
         <xs:sequence>
             <!-- subattributes -->            <xs:element name="floeSizeFF" type="floeSizeFFType" minOccurs="1" maxOccurs="1"/>            <xs:element name="stageOfDevelopmentSS" type="stageOfDevelopmentSSType" minOccurs="1" maxOccurs="1"/>        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="DataCoverageType" abstract="false">
+        <xs:annotation>
+            <xs:documentation>A geographical area that describes the coverage and extent of spatial objects.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="S100:AbstractFeatureType">
+                <xs:sequence>
+                    <!-- attributes -->
+<!--0-->  <xs:element name="maximumDisplayScale" type="maximumDisplayScaleType" minOccurs="0" maxOccurs="1"/>
+<!--1-->  <xs:element name="minimumDisplayScale" type="minimumDisplayScaleType" minOccurs="0" maxOccurs="1"/>
+<!--2-->  <xs:element name="optimumDisplayScale" type="optimumDisplayScaleType" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="geometry" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:choice>
+                                <xs:element ref="S100:surfaceProperty"/>
+                            </xs:choice>
+                        </xs:complexType>
+                    </xs:element>
+ </xs:sequence>
+            </xs:extension>        </xs:complexContent>
     </xs:complexType>
     <xs:complexType name="SeaIceType" abstract="false">
         <xs:annotation>
@@ -2188,6 +2227,7 @@
  </xs:sequence>
             </xs:extension>        </xs:complexContent>
     </xs:complexType>
+    <xs:element name="DataCoverage" type="DataCoverageType"/>
     <xs:element name="SeaIce" type="SeaIceType"/>
     <xs:element name="LakeIce" type="LakeIceType"/>
     <xs:element name="IcebergArea" type="IcebergAreaType"/>
@@ -2221,7 +2261,7 @@
             <xs:documentation>group of informtion, feature and meta objects, all GML members</xs:documentation>
         </xs:annotation>
         <xs:choice>
-<xs:element ref="SeaIce"/><xs:element ref="LakeIce"/><xs:element ref="IcebergArea"/><xs:element ref="IceEdge"/><xs:element ref="IcebergLimit"/><xs:element ref="LimitOfOpenWater"/><xs:element ref="LimitOfAllKnownIce"/><xs:element ref="LineOfIceRidge"/><xs:element ref="LineOfIceLead"/><xs:element ref="LineOfIceFracture"/><xs:element ref="LineOfIceCrack"/><xs:element ref="IceCompacting"/><xs:element ref="IceLead"/><xs:element ref="Iceberg"/><xs:element ref="Floeberg"/><xs:element ref="IceThickness"/><xs:element ref="IceShear"/><xs:element ref="IceDivergence"/><xs:element ref="IceRidgeHummock"/><xs:element ref="IceKeelBummock"/><xs:element ref="IceDrift"/><xs:element ref="IceFracture"/><xs:element ref="IceRafting"/><xs:element ref="JammedBrashBarrier"/><xs:element ref="StageOfMelt"/><xs:element ref="SnowCover"/><xs:element ref="StripsAndPatches"/><xs:element ref="GroundedHummock"/>        </xs:choice>
+<xs:element ref="DataCoverage"/><xs:element ref="SeaIce"/><xs:element ref="LakeIce"/><xs:element ref="IcebergArea"/><xs:element ref="IceEdge"/><xs:element ref="IcebergLimit"/><xs:element ref="LimitOfOpenWater"/><xs:element ref="LimitOfAllKnownIce"/><xs:element ref="LineOfIceRidge"/><xs:element ref="LineOfIceLead"/><xs:element ref="LineOfIceFracture"/><xs:element ref="LineOfIceCrack"/><xs:element ref="IceCompacting"/><xs:element ref="IceLead"/><xs:element ref="Iceberg"/><xs:element ref="Floeberg"/><xs:element ref="IceThickness"/><xs:element ref="IceShear"/><xs:element ref="IceDivergence"/><xs:element ref="IceRidgeHummock"/><xs:element ref="IceKeelBummock"/><xs:element ref="IceDrift"/><xs:element ref="IceFracture"/><xs:element ref="IceRafting"/><xs:element ref="JammedBrashBarrier"/><xs:element ref="StageOfMelt"/><xs:element ref="SnowCover"/><xs:element ref="StripsAndPatches"/><xs:element ref="GroundedHummock"/>        </xs:choice>
     </xs:group>
     <xs:complexType name="ThisDatasetType">
         <xs:complexContent>
