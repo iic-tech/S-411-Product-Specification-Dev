@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<S100FC:S100_FC_FeatureCatalogue xmlns:S100CI="http://www.iho.int/S100CI/5.0" xmlns:S100Base="http://www.iho.int/S100Base/5.0" xmlns:S100CD="http://www.iho.int/S100CD/5.0" xmlns:S100FC="http://www.iho.int/S100FC/5.2">
+<S100FC:S100_FC_FeatureCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:S100Base="http://www.iho.int/S100Base/5.0" xmlns:S100FC="http://www.iho.int/S100FC/5.2"
+ xmlns:S100CD="http://www.iho.int/S100CD/5.0" xmlns:S100CI="http://www.iho.int/S100CI/5.0">
     <S100FC:name>JCOMM S-411 Sea Ice Feature Catalogue</S100FC:name>
     <S100FC:scope>Ice information for navigation in ice covered areas</S100FC:scope>
     <S100FC:fieldOfApplication>Marine Navigation</S100FC:fieldOfApplication>
@@ -15,7 +17,6 @@
                     <S100CI:address>
                         <S100CI:deliveryPoint>7 bis, avenue de la Paix - P.O. Box 2300</S100CI:deliveryPoint>
                         <S100CI:postalCode>CH-1211</S100CI:postalCode>
-                        <S100CI:city>Geneva</S100CI:city>
                         <S100CI:country>Switzerland</S100CI:country>
                         <S100CI:electronicMailAddress>publications@wmo.int</S100CI:electronicMailAddress>
                     </S100CI:address>
@@ -2079,10 +2080,13 @@
                     <S100FC:label>02</S100FC:label>
                     <S100FC:definition>2/10</S100FC:definition>
                     <S100FC:code>2</S100FC:code>
-            	    <S100FC:definitionReference>
+            	    
+                    <S100FC:definitionReference>
 			<S100FC:sourceIdentifier>1772</S100FC:sourceIdentifier>
 			<S100FC:definitionSource ref="IHOREG" />
-	       	    </S100FC:definitionReference>1754
+	       	    </S100FC:definitionReference>
+                    
+                    
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>03</S100FC:label>
@@ -2126,18 +2130,20 @@
                     <S100FC:code>7</S100FC:code>
             	    <S100FC:definitionReference>
 			<S100FC:sourceIdentifier>1764</S100FC:sourceIdentifier>
-			<S100FC:definitionSource ref="IHOREG" />
+			<S100FC:definitionSource ref="IHOREG"/>
 	       	    </S100FC:definitionReference>
                 </S100FC:listedValue>
                 <S100FC:listedValue>
                     <S100FC:label>08</S100FC:label>
                     <S100FC:definition>8/10</S100FC:definition>
                     <S100FC:code>8</S100FC:code>
+                    <S100FC:definitionReference>
+                        <S100FC:sourceIdentifier>1766</S100FC:sourceIdentifier>
+                        <S100FC:definitionSource ref="IHOREG" />
+                    </S100FC:definitionReference>
+                    
                 </S100FC:listedValue>
-            	    <S100FC:definitionReference>
-			<S100FC:sourceIdentifier>1766</S100FC:sourceIdentifier>
-			<S100FC:definitionSource ref="IHOREG" />
-	       	    </S100FC:definitionReference>
+
                 <S100FC:listedValue>
                     <S100FC:label>09</S100FC:label>
                     <S100FC:definition>9/10</S100FC:definition>
@@ -4617,11 +4623,11 @@
             <S100FC:name>Sea Ice</S100FC:name>
             <S100FC:definition>Sea Ice is an area at sea that is covered, in whole or in part, with ice.</S100FC:definition>
             <S100FC:code>SeaIce</S100FC:code>
-            <S100FC:definitionReference>
-		<S100FC:sourceIdentifier>507</S100FC:sourceIdentifier>
-		<S100FC:definitionSource ref="IHOREG" />
-	    </S100FC:definitionReference>
             <S100FC:alias>SEAICE</S100FC:alias>
+            <S100FC:definitionReference>
+                <S100FC:sourceIdentifier>507</S100FC:sourceIdentifier>
+                <S100FC:definitionSource ref="IHOREG" />
+            </S100FC:definitionReference>
             <S100FC:attributeBinding>
                 <S100FC:multiplicity>
                     <S100Base:lower>0</S100Base:lower>
