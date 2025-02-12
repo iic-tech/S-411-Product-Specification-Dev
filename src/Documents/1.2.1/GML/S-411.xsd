@@ -39,37 +39,37 @@
     </xs:complexType>    <xs:simpleType name="totalConcentrationLabel">
         <xs:annotation>
             <xs:documentation>ICEACT specifies the total concentration of ice in an area.  It represents the ratio expressed in tenths describing the total area of the water surface covered by ice as a fraction of the whole area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Ice Free</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Open Water ( < 1/10 ice)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Bergy Water</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/10 to 2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="13"><xs:annotation><xs:documentation>1/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="24"><xs:annotation><xs:documentation>2/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="35"><xs:annotation><xs:documentation>3/10 to 5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation></xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="46"><xs:annotation><xs:documentation>4/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>5/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="57"><xs:annotation><xs:documentation>5/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>6/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="68"><xs:annotation><xs:documentation>6/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>7/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="79"><xs:annotation><xs:documentation>7/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="81"><xs:annotation><xs:documentation>8/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>8/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>9/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Ice Free"><xs:annotation><xs:documentation>Ice Free</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Open Water ( < 1/10 ice)"><xs:annotation><xs:documentation>Open Water ( < 1/10 ice)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bergy Water"><xs:annotation><xs:documentation>Bergy Water</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 ice"><xs:annotation><xs:documentation>1/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 to 2/10 ice"><xs:annotation><xs:documentation>1/10 to 2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 to 3/10 ice"><xs:annotation><xs:documentation>1/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 ice"><xs:annotation><xs:documentation>2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 to 3/10 ice"><xs:annotation><xs:documentation>2/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 to 4/10 ice"><xs:annotation><xs:documentation>2/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 ice"><xs:annotation><xs:documentation>3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 to 4/10 ice"><xs:annotation><xs:documentation>3/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 to 5/10 ice"><xs:annotation><xs:documentation>3/10 to 5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 ice"><xs:annotation><xs:documentation>4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value=""><xs:annotation><xs:documentation></xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 to 6/10 ice"><xs:annotation><xs:documentation>4/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 ice"><xs:annotation><xs:documentation>5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 to 6/10 ice"><xs:annotation><xs:documentation>5/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 to 7/10 ice"><xs:annotation><xs:documentation>5/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 ice"><xs:annotation><xs:documentation>6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 to 7/10 ice"><xs:annotation><xs:documentation>6/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 to 8/10 ice"><xs:annotation><xs:documentation>6/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 ice"><xs:annotation><xs:documentation>7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 to 8/10 ice"><xs:annotation><xs:documentation>7/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 to 9/10 ice"><xs:annotation><xs:documentation>7/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 ice"><xs:annotation><xs:documentation>8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 to 10/10 ice"><xs:annotation><xs:documentation>8/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 to 9/10 ice"><xs:annotation><xs:documentation>8/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 ice"><xs:annotation><xs:documentation>9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 to 10/10 ice"><xs:annotation><xs:documentation>9/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10 ice"><xs:annotation><xs:documentation>10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="totalConcentrationCode">
         <xs:annotation>
@@ -119,37 +119,37 @@
     </xs:complexType>    <xs:simpleType name="partialConcentrationLabel">
         <xs:annotation>
             <xs:documentation>ICEAPC specifies the partial concentrations of ice in an area. (‘Ca, Cband Cc’).</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Ice Free</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Open Water ( < 1/10 ice)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Bergy Water</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/10 to 2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="13"><xs:annotation><xs:documentation>1/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="24"><xs:annotation><xs:documentation>2/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="35"><xs:annotation><xs:documentation>3/10 to 5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation></xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="46"><xs:annotation><xs:documentation>4/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>5/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="57"><xs:annotation><xs:documentation>5/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>6/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="68"><xs:annotation><xs:documentation>6/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>7/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="79"><xs:annotation><xs:documentation>7/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="81"><xs:annotation><xs:documentation>8/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>8/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>9/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Ice Free"><xs:annotation><xs:documentation>Ice Free</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Open Water ( < 1/10 ice)"><xs:annotation><xs:documentation>Open Water ( < 1/10 ice)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bergy Water"><xs:annotation><xs:documentation>Bergy Water</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 ice"><xs:annotation><xs:documentation>1/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 to 2/10 ice"><xs:annotation><xs:documentation>1/10 to 2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 to 3/10 ice"><xs:annotation><xs:documentation>1/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 ice"><xs:annotation><xs:documentation>2/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 to 3/10 ice"><xs:annotation><xs:documentation>2/10 to 3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 to 4/10 ice"><xs:annotation><xs:documentation>2/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 ice"><xs:annotation><xs:documentation>3/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 to 4/10 ice"><xs:annotation><xs:documentation>3/10 to 4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 to 5/10 ice"><xs:annotation><xs:documentation>3/10 to 5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 ice"><xs:annotation><xs:documentation>4/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value=""><xs:annotation><xs:documentation></xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 to 6/10 ice"><xs:annotation><xs:documentation>4/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 ice"><xs:annotation><xs:documentation>5/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 to 6/10 ice"><xs:annotation><xs:documentation>5/10 to 6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 to 7/10 ice"><xs:annotation><xs:documentation>5/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 ice"><xs:annotation><xs:documentation>6/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 to 7/10 ice"><xs:annotation><xs:documentation>6/10 to 7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 to 8/10 ice"><xs:annotation><xs:documentation>6/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 ice"><xs:annotation><xs:documentation>7/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 to 8/10 ice"><xs:annotation><xs:documentation>7/10 to 8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 to 9/10 ice"><xs:annotation><xs:documentation>7/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 ice"><xs:annotation><xs:documentation>8/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 to 10/10 ice"><xs:annotation><xs:documentation>8/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 to 9/10 ice"><xs:annotation><xs:documentation>8/10 to 9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 ice"><xs:annotation><xs:documentation>9/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 to 10/10 ice"><xs:annotation><xs:documentation>9/10 to 10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10 ice"><xs:annotation><xs:documentation>10/10 ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="partialConcentrationCode">
         <xs:annotation>
@@ -199,28 +199,28 @@
     </xs:complexType>    <xs:simpleType name="iceStageofDevelopmentLabel">
         <xs:annotation>
             <xs:documentation>Ice Stage of Development describes the ages and thicknesses of the ice (‘So, Sa, Sb, Sc and Sd’).</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Ice Free</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>Brash Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>No stage of development</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="81"><xs:annotation><xs:documentation>New Ice (<10 cm) </xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="82"><xs:annotation><xs:documentation>Nilas Ice Rind (<10 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="83"><xs:annotation><xs:documentation>Young Ice (10 to <30 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="84"><xs:annotation><xs:documentation>Grey Ice (10 to <15 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="85"><xs:annotation><xs:documentation>Grey – White Ice (15 to <30 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="86"><xs:annotation><xs:documentation>First Year Ice (30 to 200 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="87"><xs:annotation><xs:documentation>Thin First Year Ice (30 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="88"><xs:annotation><xs:documentation>Thin First Year Ice Stage 1 (30 to <50 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>Thin First Year Ice Stage 2 (50 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>Medium First Year Ice (70 to 120 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="93"><xs:annotation><xs:documentation>Thick First Year Ice (>120 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="94"><xs:annotation><xs:documentation>Residual Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="95"><xs:annotation><xs:documentation>Old Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="96"><xs:annotation><xs:documentation>Second Year Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="97"><xs:annotation><xs:documentation>Multi-Year Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>Glacier Ice (Icebergs)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Ice Free"><xs:annotation><xs:documentation>Ice Free</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Brash Ice"><xs:annotation><xs:documentation>Brash Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No stage of development"><xs:annotation><xs:documentation>No stage of development</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="New Ice (<10 cm) "><xs:annotation><xs:documentation>New Ice (<10 cm) </xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Nilas Ice Rind (<10 cm)"><xs:annotation><xs:documentation>Nilas Ice Rind (<10 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Young Ice (10 to <30 cm)"><xs:annotation><xs:documentation>Young Ice (10 to <30 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Grey Ice (10 to <15 cm)"><xs:annotation><xs:documentation>Grey Ice (10 to <15 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Grey – White Ice (15 to <30 cm)"><xs:annotation><xs:documentation>Grey – White Ice (15 to <30 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="First Year Ice (30 to 200 cm)"><xs:annotation><xs:documentation>First Year Ice (30 to 200 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin First Year Ice (30 to <70 cm)"><xs:annotation><xs:documentation>Thin First Year Ice (30 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin First Year Ice Stage 1 (30 to <50 cm)"><xs:annotation><xs:documentation>Thin First Year Ice Stage 1 (30 to <50 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin First Year Ice Stage 2 (50 to <70 cm)"><xs:annotation><xs:documentation>Thin First Year Ice Stage 2 (50 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Code not currently assigned"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium First Year Ice (70 to 120 cm)"><xs:annotation><xs:documentation>Medium First Year Ice (70 to 120 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Code not currently assigned"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thick First Year Ice (>120 cm)"><xs:annotation><xs:documentation>Thick First Year Ice (>120 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Residual Ice"><xs:annotation><xs:documentation>Residual Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Old Ice"><xs:annotation><xs:documentation>Old Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Second Year Ice"><xs:annotation><xs:documentation>Second Year Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Multi-Year Ice"><xs:annotation><xs:documentation>Multi-Year Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Glacier Ice (Icebergs)"><xs:annotation><xs:documentation>Glacier Ice (Icebergs)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceStageofDevelopmentCode">
         <xs:annotation>
@@ -261,13 +261,13 @@
     </xs:complexType>    <xs:simpleType name="lakeIceStageofDevelopmentLabel">
         <xs:annotation>
             <xs:documentation>Lake Ice Stages of Development describe the ages and thicknesses of lake ice. (‘So, Sa, Sb, Sc and Sd’)</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>New Lake Ice (<5cms)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Thin Lake Ice (5-<15cms)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Medium Lake Ice (15-<30cms)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Thick Lake Ice (30-70cms)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Very Thick Lake Ice (>70cms)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>Brash Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="New Lake Ice (<5cms)"><xs:annotation><xs:documentation>New Lake Ice (<5cms)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin Lake Ice (5-<15cms)"><xs:annotation><xs:documentation>Thin Lake Ice (5-<15cms)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium Lake Ice (15-<30cms)"><xs:annotation><xs:documentation>Medium Lake Ice (15-<30cms)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thick Lake Ice (30-70cms)"><xs:annotation><xs:documentation>Thick Lake Ice (30-70cms)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Very Thick Lake Ice (>70cms)"><xs:annotation><xs:documentation>Very Thick Lake Ice (>70cms)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Brash Ice"><xs:annotation><xs:documentation>Brash Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="lakeIceStageofDevelopmentCode">
         <xs:annotation>
@@ -293,18 +293,18 @@
     </xs:complexType>    <xs:simpleType name="floeSizesLabel">
         <xs:annotation>
             <xs:documentation>Floe Sizes describe the predominate forms of ice floe sizes (Fa, Fb and Fc) corresponding to the ice Stages of Development Sa, Sb and Screspectively.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Pancake Ice (30 cm to 3m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Shuga/Small Ice Cake; Brash Ice (<2m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Ice Cake (<20m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Small Floe (20 to <100m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Medium Floe (100 to 500m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Big Floe (500 to <2000m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Vast Floe (2000 to10000m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Giant Floe (>10000m across)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>Fast Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Growlers, Floebergs or Floebits</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="11"><xs:annotation><xs:documentation>Icebergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Pancake Ice (30 cm to 3m across)"><xs:annotation><xs:documentation>Pancake Ice (30 cm to 3m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Shuga/Small Ice Cake; Brash Ice (<2m across)"><xs:annotation><xs:documentation>Shuga/Small Ice Cake; Brash Ice (<2m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Cake (<20m across)"><xs:annotation><xs:documentation>Ice Cake (<20m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small Floe (20 to <100m across)"><xs:annotation><xs:documentation>Small Floe (20 to <100m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium Floe (100 to 500m)"><xs:annotation><xs:documentation>Medium Floe (100 to 500m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Big Floe (500 to <2000m across)"><xs:annotation><xs:documentation>Big Floe (500 to <2000m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Vast Floe (2000 to10000m across)"><xs:annotation><xs:documentation>Vast Floe (2000 to10000m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Giant Floe (>10000m across)"><xs:annotation><xs:documentation>Giant Floe (>10000m across)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fast Ice"><xs:annotation><xs:documentation>Fast Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Growlers, Floebergs or Floebits"><xs:annotation><xs:documentation>Growlers, Floebergs or Floebits</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Icebergs"><xs:annotation><xs:documentation>Icebergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="floeSizesCode">
         <xs:annotation>
@@ -335,17 +335,17 @@
     </xs:complexType>    <xs:simpleType name="meltStageLabel">
         <xs:annotation>
             <xs:documentation>The Stage of Melt describes the stages of the melting ice. Puddle: An accumulation of water on ice, mainly due to the melting of snow, but in some more advanced stages also the melting of ice. Thaw Hole: Vertical holes formed in ice when surface puddles melt through to the underlying water. Dried Ice: Ice surface from which water has disappeared after the formation of cracks and thaw holes. During the process of drying the surface whitens. Rotten Ice:                     Ice which has become honey-combed and is in an advanced state of disintegration. Flooded Ice:                   Ice which has been flooded and is heavily loaded by water or water and wet snow. Frozen Puddle: A puddle which has frozen over.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Few Puddles</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Many Puddles</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Flooded Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Few Thaw Holes</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Many Thaw Holes</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Dried Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Rotten Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Few Frozen Puddles</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>All Puddles Frozen</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>No Melt</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Few Puddles"><xs:annotation><xs:documentation>Few Puddles</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Many Puddles"><xs:annotation><xs:documentation>Many Puddles</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Flooded Ice"><xs:annotation><xs:documentation>Flooded Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Few Thaw Holes"><xs:annotation><xs:documentation>Few Thaw Holes</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Many Thaw Holes"><xs:annotation><xs:documentation>Many Thaw Holes</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dried Ice"><xs:annotation><xs:documentation>Dried Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Rotten Ice"><xs:annotation><xs:documentation>Rotten Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Few Frozen Puddles"><xs:annotation><xs:documentation>Few Frozen Puddles</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="All Puddles Frozen"><xs:annotation><xs:documentation>All Puddles Frozen</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Melt"><xs:annotation><xs:documentation>No Melt</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="meltStageCode">
         <xs:annotation>
@@ -375,17 +375,17 @@
     </xs:complexType>    <xs:simpleType name="concentrationofStripsandPatchesLabel">
         <xs:annotation>
             <xs:documentation>A strip is a long narrow area of floating ice, about 1 kilometre or less in width, usually composed of small fragments detached from the main mass of ice, and run together under the influence of wind, swell or current. If the area of ice becomes more rounded in shape, it is referred to as a patch. ICESPC indicates the concentration in tenths within the area of Strips and Patches.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="11"><xs:annotation><xs:documentation>Strips and Patches (concentrations 1/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>Strips and Patches (concentrations 2/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="13"><xs:annotation><xs:documentation>Strips and Patches (concentrations 3/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="14"><xs:annotation><xs:documentation>Strips and Patches (concentrations 4/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="15"><xs:annotation><xs:documentation>Strips and Patches (concentrations 5/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="16"><xs:annotation><xs:documentation>Strips and Patches (concentrations 6/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="17"><xs:annotation><xs:documentation>Strips and Patches (concentrations 7/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="18"><xs:annotation><xs:documentation>Strips and Patches (concentrations 8/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="19"><xs:annotation><xs:documentation>Strips and Patches (concentrations 9/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>Strips and Patches (concentrations 10/10)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Strips and Patches (concentrations 1/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 1/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 2/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 2/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 3/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 3/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 4/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 4/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 5/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 5/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 6/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 6/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 7/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 7/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 8/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 8/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 9/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 9/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strips and Patches (concentrations 10/10)"><xs:annotation><xs:documentation>Strips and Patches (concentrations 10/10)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="concentrationofStripsandPatchesCode">
         <xs:annotation>
@@ -421,9 +421,9 @@
     </xs:complexType>    <xs:simpleType name="levelIceLabel">
         <xs:annotation>
             <xs:documentation>ICELVL is an indication as to whether or not the ice has been affected by deformation</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Level(undeformed)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Deformed</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Level(undeformed)"><xs:annotation><xs:documentation>Level(undeformed)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Deformed"><xs:annotation><xs:documentation>Deformed</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="levelIceCode">
         <xs:annotation>
@@ -445,14 +445,14 @@
     </xs:complexType>    <xs:simpleType name="compactingStrengthLabel">
         <xs:annotation>
             <xs:documentation>ICECST is an indication of strength of the compacting of the ice.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Little compacting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Slight compacting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>Slight to moderate compacting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>Moderate compacting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>Moderate to strong compacting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>Strong compacting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>Ice divergence</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Little compacting"><xs:annotation><xs:documentation>Little compacting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Slight compacting"><xs:annotation><xs:documentation>Slight compacting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Slight to moderate compacting"><xs:annotation><xs:documentation>Slight to moderate compacting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Moderate compacting"><xs:annotation><xs:documentation>Moderate compacting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Moderate to strong compacting"><xs:annotation><xs:documentation>Moderate to strong compacting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Strong compacting"><xs:annotation><xs:documentation>Strong compacting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice divergence"><xs:annotation><xs:documentation>Ice divergence</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="compactingStrengthCode">
         <xs:annotation>
@@ -479,11 +479,11 @@
     </xs:complexType>    <xs:simpleType name="iceFractureTypeLabel">
         <xs:annotation>
             <xs:documentation>ICEFTY indicates the type of fracture, based upon width.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Crack (0 to 1m wide)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Very Small Fracture (>1m to 50m wide)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Small Fracture (>50m to 200m wide)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Medium Fracture (>200m to 500m wide)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Large Fracture (>500m wide)</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Crack (0 to 1m wide)"><xs:annotation><xs:documentation>Crack (0 to 1m wide)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Very Small Fracture (>1m to 50m wide)"><xs:annotation><xs:documentation>Very Small Fracture (>1m to 50m wide)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small Fracture (>50m to 200m wide)"><xs:annotation><xs:documentation>Small Fracture (>50m to 200m wide)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium Fracture (>200m to 500m wide)"><xs:annotation><xs:documentation>Medium Fracture (>200m to 500m wide)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Large Fracture (>500m wide)"><xs:annotation><xs:documentation>Large Fracture (>500m wide)</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceFractureTypeCode">
         <xs:annotation>
@@ -507,9 +507,9 @@
     </xs:complexType>    <xs:simpleType name="iceLeadStatusLabel">
         <xs:annotation>
             <xs:documentation>The Ice Lead Status indicates the surface nature of the lead.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Open Lead</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Frozen Lead</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Open Lead"><xs:annotation><xs:documentation>Open Lead</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Frozen Lead"><xs:annotation><xs:documentation>Frozen Lead</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceLeadStatusCode">
         <xs:annotation>
@@ -537,17 +537,17 @@
     </xs:complexType>    <xs:simpleType name="orientationofLeadsorFracturesLabel">
         <xs:annotation>
             <xs:documentation>ICELOR indicates the predominant orientation of leads and fractures.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>No Leads or Fractures</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>NE</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>E</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>SE</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>S</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>SW</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>W</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>NW</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>N</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Variable</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="No Leads or Fractures"><xs:annotation><xs:documentation>No Leads or Fractures</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NE"><xs:annotation><xs:documentation>NE</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E"><xs:annotation><xs:documentation>E</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="SE"><xs:annotation><xs:documentation>SE</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="S"><xs:annotation><xs:documentation>S</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="SW"><xs:annotation><xs:documentation>SW</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="W"><xs:annotation><xs:documentation>W</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NW"><xs:annotation><xs:documentation>NW</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="N"><xs:annotation><xs:documentation>N</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Variable"><xs:annotation><xs:documentation>Variable</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="orientationofLeadsorFracturesCode">
         <xs:annotation>
@@ -583,8 +583,8 @@
     </xs:complexType>    <xs:simpleType name="iceLocationInformationLabel">
         <xs:annotation>
             <xs:documentation>ICELOC indicates whether the break is at a specific location, or whether there is a presence in the area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Specific Location</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Presence in Area</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Specific Location"><xs:annotation><xs:documentation>Specific Location</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Presence in Area"><xs:annotation><xs:documentation>Presence in Area</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceLocationInformationCode">
         <xs:annotation>
@@ -605,16 +605,16 @@
     </xs:complexType>    <xs:simpleType name="icebergSizeLabel">
         <xs:annotation>
             <xs:documentation>The "Iceberg Size" categorizes the size of an iceberg.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Growler (<1m asl)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Bergy Bit (1-<5m asl; 5-<15m length)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Small Iceberg (5-15m asl; 15-60m length)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Medium Iceberg (16-45m asl; 61-120m length)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Large Iceberg (46-75m asl; 121-200m length)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Very Large Iceberg (>75m asl; >200m length)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Ice Island Fragment</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Ice Island (in the Northern Hemisphere) or Very Large Tabular Berg (in the Southern Ocean)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>Radar Target</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Growler (<1m asl)"><xs:annotation><xs:documentation>Growler (<1m asl)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Bergy Bit (1-<5m asl; 5-<15m length)"><xs:annotation><xs:documentation>Bergy Bit (1-<5m asl; 5-<15m length)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small Iceberg (5-15m asl; 15-60m length)"><xs:annotation><xs:documentation>Small Iceberg (5-15m asl; 15-60m length)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium Iceberg (16-45m asl; 61-120m length)"><xs:annotation><xs:documentation>Medium Iceberg (16-45m asl; 61-120m length)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Large Iceberg (46-75m asl; 121-200m length)"><xs:annotation><xs:documentation>Large Iceberg (46-75m asl; 121-200m length)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Very Large Iceberg (>75m asl; >200m length)"><xs:annotation><xs:documentation>Very Large Iceberg (>75m asl; >200m length)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Island Fragment"><xs:annotation><xs:documentation>Ice Island Fragment</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Island (in the Northern Hemisphere) or Very Large Tabular Berg (in the Southern Ocean)"><xs:annotation><xs:documentation>Ice Island (in the Northern Hemisphere) or Very Large Tabular Berg (in the Southern Ocean)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Radar Target"><xs:annotation><xs:documentation>Radar Target</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="icebergSizeCode">
         <xs:annotation>
@@ -643,17 +643,17 @@
     </xs:complexType>    <xs:simpleType name="iceDriftDirectionLabel">
         <xs:annotation>
             <xs:documentation>ICEDDR indicates the direction in which an ice mass is drifting.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>No Ice Motion</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Ice Drift to NE</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Ice Drift to E</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Ice Drift to SE</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Ice Drift to S</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Ice Drift to SW</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Ice Drift to W</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Ice Drift to NW</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>Ice Drift to N</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Variable</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="No Ice Motion"><xs:annotation><xs:documentation>No Ice Motion</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to NE"><xs:annotation><xs:documentation>Ice Drift to NE</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to E"><xs:annotation><xs:documentation>Ice Drift to E</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to SE"><xs:annotation><xs:documentation>Ice Drift to SE</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to S"><xs:annotation><xs:documentation>Ice Drift to S</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to SW"><xs:annotation><xs:documentation>Ice Drift to SW</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to W"><xs:annotation><xs:documentation>Ice Drift to W</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to NW"><xs:annotation><xs:documentation>Ice Drift to NW</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Drift to N"><xs:annotation><xs:documentation>Ice Drift to N</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Variable"><xs:annotation><xs:documentation>Variable</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceDriftDirectionCode">
         <xs:annotation>
@@ -707,9 +707,9 @@
     </xs:complexType>    <xs:simpleType name="iceThicknessTypeLabel">
         <xs:annotation>
             <xs:documentation>ICETTY indicated whether the thickness of the ice was measured or estimated. </xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Measured</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Estimated</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Measured"><xs:annotation><xs:documentation>Measured</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Estimated"><xs:annotation><xs:documentation>Estimated</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceThicknessTypeCode">
         <xs:annotation>
@@ -737,19 +737,19 @@
     </xs:complexType>    <xs:simpleType name="snowCoverConcentrationLabel">
         <xs:annotation>
             <xs:documentation>ICESCN indicates the concentration (aerial coverage) of snow in tenths.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="11"><xs:annotation><xs:documentation><1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>No Snow Cover</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="1/10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="<1/10"><xs:annotation><xs:documentation><1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Snow Cover"><xs:annotation><xs:documentation>No Snow Cover</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="snowCoverConcentrationCode">
         <xs:annotation>
@@ -781,17 +781,17 @@
     </xs:complexType>    <xs:simpleType name="directionofSastrugiLabel">
         <xs:annotation>
             <xs:documentation>ICEDOS indicates the bearing of a sastrugi.  Sastrugi are sharp, irregular ridges formed on a snow surface by wind erosion and deposition. On mobile floating ice the ridges are parallel to the direction of the wind at the time they were formed.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>No Sastrugi</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>NE</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>E</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>SE</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>S</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>SW</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>W</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>NW</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>N</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Variable</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="No Sastrugi"><xs:annotation><xs:documentation>No Sastrugi</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NE"><xs:annotation><xs:documentation>NE</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="E"><xs:annotation><xs:documentation>E</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="SE"><xs:annotation><xs:documentation>SE</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="S"><xs:annotation><xs:documentation>S</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="SW"><xs:annotation><xs:documentation>SW</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="W"><xs:annotation><xs:documentation>W</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="NW"><xs:annotation><xs:documentation>NW</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="N"><xs:annotation><xs:documentation>N</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Variable"><xs:annotation><xs:documentation>Variable</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="directionofSastrugiCode">
         <xs:annotation>
@@ -821,28 +821,28 @@
     </xs:complexType>    <xs:simpleType name="iceRidgeConcentrationLabel">
         <xs:annotation>
             <xs:documentation>ICERCN describes the concentration of hummocked ice in an ice area.  Up to three values may be given in the list to correspond to the partial concentrations in ICEAPC.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Ridging</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="0/10 – 1/10"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 – 2/10"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 – 3/10"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 – 4/10"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 – 5/10"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 – 6/10"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 – 7/10"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 – 8/10"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 – 9/10"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 – 10/10"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Ridging"><xs:annotation><xs:documentation>No Ridging</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceRidgeConcentrationCode">
         <xs:annotation>
@@ -883,15 +883,15 @@
     </xs:complexType>    <xs:simpleType name="iceRidgeClassificationLabel">
         <xs:annotation>
             <xs:documentation>ICERDV describes the predominant type of ice ridge(s) present.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>New Ridge</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Weathered Ridge</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Very Weathered Ridge</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Aged Ridge</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Consolidated Ridge</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Ridge</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Ridged Ice Zone</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Ridge Barrier</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="New Ridge"><xs:annotation><xs:documentation>New Ridge</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Weathered Ridge"><xs:annotation><xs:documentation>Weathered Ridge</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Very Weathered Ridge"><xs:annotation><xs:documentation>Very Weathered Ridge</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Aged Ridge"><xs:annotation><xs:documentation>Aged Ridge</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Consolidated Ridge"><xs:annotation><xs:documentation>Consolidated Ridge</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ridge"><xs:annotation><xs:documentation>Ridge</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ridged Ice Zone"><xs:annotation><xs:documentation>Ridged Ice Zone</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ridge Barrier"><xs:annotation><xs:documentation>Ridge Barrier</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceRidgeClassificationCode">
         <xs:annotation>
@@ -937,28 +937,28 @@
     </xs:complexType>    <xs:simpleType name="iceKeelConcentrationLabel">
         <xs:annotation>
             <xs:documentation>ICEKCN describes the concentration of ice keels beneath an ice area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Keels</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="0/10 – 1/10"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 – 2/10"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 – 3/10"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 – 4/10"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 – 5/10"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 – 6/10"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 – 7/10"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 – 8/10"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 – 9/10"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 – 10/10"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Keels"><xs:annotation><xs:documentation>No Keels</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceKeelConcentrationCode">
         <xs:annotation>
@@ -1017,28 +1017,28 @@
     </xs:complexType>    <xs:simpleType name="iceRaftingConcentrationLabel">
         <xs:annotation>
             <xs:documentation>ICEFCN describes the concentration of ice rafting in an ice area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Rafting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="0/10 – 1/10"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 – 2/10"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 – 3/10"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 – 4/10"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 – 5/10"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 – 6/10"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 – 7/10"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 – 8/10"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 – 9/10"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 – 10/10"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Rafting"><xs:annotation><xs:documentation>No Rafting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="iceRaftingConcentrationCode">
         <xs:annotation>
@@ -1079,14 +1079,14 @@
     </xs:complexType>    <xs:simpleType name="snowcoverLabel">
         <xs:annotation>
             <xs:documentation>Snow cover describes the degree of snow cover in an ice area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Little snow cover</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Thin snow cover (<5 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>< 20 cm</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>Medium snow cover (5-20 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>> 5 cm</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>Thick snow cover (> 20 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No snow cover</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Little snow cover"><xs:annotation><xs:documentation>Little snow cover</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin snow cover (<5 cm)"><xs:annotation><xs:documentation>Thin snow cover (<5 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="< 20 cm"><xs:annotation><xs:documentation>< 20 cm</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium snow cover (5-20 cm)"><xs:annotation><xs:documentation>Medium snow cover (5-20 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="> 5 cm"><xs:annotation><xs:documentation>> 5 cm</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thick snow cover (> 20 cm)"><xs:annotation><xs:documentation>Thick snow cover (> 20 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No snow cover"><xs:annotation><xs:documentation>No snow cover</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="snowcoverCode">
         <xs:annotation>
@@ -1113,18 +1113,18 @@
     </xs:complexType>    <xs:simpleType name="stageofMeltingLabel">
         <xs:annotation>
             <xs:documentation>IA_MLT describes the stage of melting according to the 5-point Russian national scale</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>0/5 - 1/5 or 0/3 - 1/3</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/5 or 1/3</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/5 - 2/5 or 1/3 - 2/3</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/5 or 2/3</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/5 – 3/5 or 2/3 – 3/3</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/5 or 3/3</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/5 – 4/5</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/5</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation>4/5 – 5/5</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/5</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Melting</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="0/5 - 1/5 or 0/3 - 1/3"><xs:annotation><xs:documentation>0/5 - 1/5 or 0/3 - 1/3</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/5 or 1/3"><xs:annotation><xs:documentation>1/5 or 1/3</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/5 - 2/5 or 1/3 - 2/3"><xs:annotation><xs:documentation>1/5 - 2/5 or 1/3 - 2/3</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/5 or 2/3"><xs:annotation><xs:documentation>2/5 or 2/3</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/5 – 3/5 or 2/3 – 3/3"><xs:annotation><xs:documentation>2/5 – 3/5 or 2/3 – 3/3</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/5 or 3/3"><xs:annotation><xs:documentation>3/5 or 3/3</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/5 – 4/5"><xs:annotation><xs:documentation>3/5 – 4/5</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/5"><xs:annotation><xs:documentation>4/5</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/5 – 5/5"><xs:annotation><xs:documentation>4/5 – 5/5</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/5"><xs:annotation><xs:documentation>5/5</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Melting"><xs:annotation><xs:documentation>No Melting</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="stageofMeltingCode">
         <xs:annotation>
@@ -1155,14 +1155,14 @@
     </xs:complexType>    <xs:simpleType name="contaminationLabel">
         <xs:annotation>
             <xs:documentation>IA_PLG describes the degree of contamination (aerial coverage) in thirds based on the Russian national 3-point scale.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>No or insignificant Contamination</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation><1/3 of area</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation><2/3 of area</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>1/3 – 2/3 of area</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>>1/3 area</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>>2/3 area</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Contamination</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="No or insignificant Contamination"><xs:annotation><xs:documentation>No or insignificant Contamination</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="<1/3 of area"><xs:annotation><xs:documentation><1/3 of area</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="<2/3 of area"><xs:annotation><xs:documentation><2/3 of area</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/3 – 2/3 of area"><xs:annotation><xs:documentation>1/3 – 2/3 of area</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value=">1/3 area"><xs:annotation><xs:documentation>>1/3 area</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value=">2/3 area"><xs:annotation><xs:documentation>>2/3 area</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Contamination"><xs:annotation><xs:documentation>No Contamination</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="contaminationCode">
         <xs:annotation>
@@ -1189,14 +1189,14 @@
     </xs:complexType>    <xs:simpleType name="hillsConcentrationLabel">
         <xs:annotation>
             <xs:documentation>IA_HLG describes the degree of hilling in an ice area (usually multi-year ice).</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Few hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>Slight concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>Slight to moderate concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>Moderate concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>Moderate to heavy concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>Heavy concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No hills</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Few hills"><xs:annotation><xs:documentation>Few hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Slight concentration of hills"><xs:annotation><xs:documentation>Slight concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Slight to moderate concentration of hills"><xs:annotation><xs:documentation>Slight to moderate concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Moderate concentration of hills"><xs:annotation><xs:documentation>Moderate concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Moderate to heavy concentration of hills"><xs:annotation><xs:documentation>Moderate to heavy concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Heavy concentration of hills"><xs:annotation><xs:documentation>Heavy concentration of hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No hills"><xs:annotation><xs:documentation>No hills</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="hillsConcentrationCode">
         <xs:annotation>
@@ -1223,18 +1223,18 @@
     </xs:complexType>    <xs:simpleType name="fracturesConcentrationLabel">
         <xs:annotation>
             <xs:documentation>IA_DUG describes the degree of disunity in an ice area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="10"><xs:annotation><xs:documentation>Frequency of Cracks and Leads seldom in 10 km on Route</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>Frequency of Cracks and Leads in 5 – 10 km on Route</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>Frequency of Cracks and Leads in 3 – 5 km on Route </xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>Frequency of Cracks and Leads in 2 – 3 km on Route</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>Frequency of Cracks and Leads often in 2 km on Route</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>Small and Medium Floes – 1/10-3/10; Big Floes – 7/10-10/10 Conc.</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>Small and Medium Floes – 4/10-6/10; Big Floes – 4/10-6/10 Conc.</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>Small and Medium Floes – 7/10-10/10; Big Floes – 1/10-3/10 Conc.</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>Small and Medium Floes Only </xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>Small Floes Only</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Fractures</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Frequency of Cracks and Leads seldom in 10 km on Route"><xs:annotation><xs:documentation>Frequency of Cracks and Leads seldom in 10 km on Route</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Frequency of Cracks and Leads in 5 – 10 km on Route"><xs:annotation><xs:documentation>Frequency of Cracks and Leads in 5 – 10 km on Route</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Frequency of Cracks and Leads in 3 – 5 km on Route "><xs:annotation><xs:documentation>Frequency of Cracks and Leads in 3 – 5 km on Route </xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Frequency of Cracks and Leads in 2 – 3 km on Route"><xs:annotation><xs:documentation>Frequency of Cracks and Leads in 2 – 3 km on Route</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Frequency of Cracks and Leads often in 2 km on Route"><xs:annotation><xs:documentation>Frequency of Cracks and Leads often in 2 km on Route</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small and Medium Floes – 1/10-3/10; Big Floes – 7/10-10/10 Conc."><xs:annotation><xs:documentation>Small and Medium Floes – 1/10-3/10; Big Floes – 7/10-10/10 Conc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small and Medium Floes – 4/10-6/10; Big Floes – 4/10-6/10 Conc."><xs:annotation><xs:documentation>Small and Medium Floes – 4/10-6/10; Big Floes – 4/10-6/10 Conc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small and Medium Floes – 7/10-10/10; Big Floes – 1/10-3/10 Conc."><xs:annotation><xs:documentation>Small and Medium Floes – 7/10-10/10; Big Floes – 1/10-3/10 Conc.</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small and Medium Floes Only "><xs:annotation><xs:documentation>Small and Medium Floes Only </xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small Floes Only"><xs:annotation><xs:documentation>Small Floes Only</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Fractures"><xs:annotation><xs:documentation>No Fractures</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="fracturesConcentrationCode">
         <xs:annotation>
@@ -1265,25 +1265,25 @@
     </xs:complexType>    <xs:simpleType name="icebergConcentrationLabel">
         <xs:annotation>
             <xs:documentation>IA_BCN specifies the total concentration of icebergs in an area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="10"><xs:annotation><xs:documentation>>45 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>>15 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>15 - 44 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>10 - 44 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>10 - 14 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>7 - 14 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>7 - 10 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation>5 - 10 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5 - 6 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>3 - 6 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>3 - 4 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>1 - 4 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>1 - 2 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>0.5 - 2.0 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>0.5 - 1.0 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation><1.0 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation><0.5 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Icebergs</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value=">45 nm between bergs"><xs:annotation><xs:documentation>>45 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value=">15 nm between bergs"><xs:annotation><xs:documentation>>15 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="15 - 44 nm between bergs"><xs:annotation><xs:documentation>15 - 44 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10 - 44 nm between bergs"><xs:annotation><xs:documentation>10 - 44 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10 - 14 nm between bergs"><xs:annotation><xs:documentation>10 - 14 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7 - 14 nm between bergs"><xs:annotation><xs:documentation>7 - 14 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7 - 10 nm between bergs"><xs:annotation><xs:documentation>7 - 10 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5 - 10 nm between bergs"><xs:annotation><xs:documentation>5 - 10 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5 - 6 nm between bergs"><xs:annotation><xs:documentation>5 - 6 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3 - 6 nm between bergs"><xs:annotation><xs:documentation>3 - 6 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3 - 4 nm between bergs"><xs:annotation><xs:documentation>3 - 4 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1 - 4 nm between bergs"><xs:annotation><xs:documentation>1 - 4 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1 - 2 nm between bergs"><xs:annotation><xs:documentation>1 - 2 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="0.5 - 2.0 nm between bergs"><xs:annotation><xs:documentation>0.5 - 2.0 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="0.5 - 1.0 nm between bergs"><xs:annotation><xs:documentation>0.5 - 1.0 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="<1.0 nm between bergs"><xs:annotation><xs:documentation><1.0 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="<0.5 nm between bergs"><xs:annotation><xs:documentation><0.5 nm between bergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Icebergs"><xs:annotation><xs:documentation>No Icebergs</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="icebergConcentrationCode">
         <xs:annotation>
@@ -1321,15 +1321,15 @@
     </xs:complexType>    <xs:simpleType name="prevailingIcebergFormLabel">
         <xs:annotation>
             <xs:documentation>IA_BFM specifies the prevailing form of icebergs in an area.</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Domed</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Tabular</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Sloping</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Pinnacled</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Dry-dock</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Glacier (irregular)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Blocky</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Weathered</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Domed"><xs:annotation><xs:documentation>Domed</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Tabular"><xs:annotation><xs:documentation>Tabular</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Sloping"><xs:annotation><xs:documentation>Sloping</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Pinnacled"><xs:annotation><xs:documentation>Pinnacled</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Dry-dock"><xs:annotation><xs:documentation>Dry-dock</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Glacier (irregular)"><xs:annotation><xs:documentation>Glacier (irregular)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Blocky"><xs:annotation><xs:documentation>Blocky</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Weathered"><xs:annotation><xs:documentation>Weathered</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="prevailingIcebergFormCode">
         <xs:annotation>
@@ -1387,28 +1387,28 @@
     </xs:complexType>    <xs:simpleType name="brashIceLabel">
         <xs:annotation>
             <xs:documentation>ICEBRS specifies the concentrations of very thick brash (“AV”), thick brash (“AK”), medium brash (“AM”) and thin brash ice (“AT”).</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="12"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="20"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="23"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="30"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="34"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="40"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="45"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="50"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="56"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="60"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="67"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="70"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="78"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="80"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="98"><xs:annotation><xs:documentation>No Brash ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="0/10 – 1/10"><xs:annotation><xs:documentation>0/10 – 1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10"><xs:annotation><xs:documentation>1/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="1/10 – 2/10"><xs:annotation><xs:documentation>1/10 – 2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10"><xs:annotation><xs:documentation>2/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="2/10 – 3/10"><xs:annotation><xs:documentation>2/10 – 3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10"><xs:annotation><xs:documentation>3/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="3/10 – 4/10"><xs:annotation><xs:documentation>3/10 – 4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10"><xs:annotation><xs:documentation>4/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="4/10 – 5/10"><xs:annotation><xs:documentation>4/10 – 5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10"><xs:annotation><xs:documentation>5/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="5/10 – 6/10"><xs:annotation><xs:documentation>5/10 – 6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10"><xs:annotation><xs:documentation>6/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="6/10 – 7/10"><xs:annotation><xs:documentation>6/10 – 7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10"><xs:annotation><xs:documentation>7/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="7/10 – 8/10"><xs:annotation><xs:documentation>7/10 – 8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10"><xs:annotation><xs:documentation>8/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="8/10 – 9/10"><xs:annotation><xs:documentation>8/10 – 9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10"><xs:annotation><xs:documentation>9/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="9/10 – 10/10"><xs:annotation><xs:documentation>9/10 – 10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="10/10"><xs:annotation><xs:documentation>10/10</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="No Brash ice"><xs:annotation><xs:documentation>No Brash ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="brashIceCode">
         <xs:annotation>
@@ -1449,15 +1449,15 @@
     </xs:complexType>    <xs:simpleType name="floeSizeFFLabel">
         <xs:annotation>
             <xs:documentation>Size of ice floes (ff) for ia_sfa, ia_sfb, ia_sfc, ia_ffa, ia_ffb, ia_ffc complex attributes</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="01"><xs:annotation><xs:documentation>Pancake Ice (30 cm – 3 m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="02"><xs:annotation><xs:documentation>Shuga/Small Ice Cake; Brash Ice (<2 m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="03"><xs:annotation><xs:documentation>Ice Cake (<20 m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="04"><xs:annotation><xs:documentation>Small Floe (20 – 100 m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="05"><xs:annotation><xs:documentation>Medium Floe (100-500 m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="06"><xs:annotation><xs:documentation>Big Floe (500 – 2000 m)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="07"><xs:annotation><xs:documentation>Vast Floe (2 – 10 km)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="08"><xs:annotation><xs:documentation>Giant Floe (>10 km)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="09"><xs:annotation><xs:documentation>Fast Ice</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="Pancake Ice (30 cm – 3 m)"><xs:annotation><xs:documentation>Pancake Ice (30 cm – 3 m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Shuga/Small Ice Cake; Brash Ice (<2 m)"><xs:annotation><xs:documentation>Shuga/Small Ice Cake; Brash Ice (<2 m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Ice Cake (<20 m)"><xs:annotation><xs:documentation>Ice Cake (<20 m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Small Floe (20 – 100 m)"><xs:annotation><xs:documentation>Small Floe (20 – 100 m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium Floe (100-500 m)"><xs:annotation><xs:documentation>Medium Floe (100-500 m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Big Floe (500 – 2000 m)"><xs:annotation><xs:documentation>Big Floe (500 – 2000 m)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Vast Floe (2 – 10 km)"><xs:annotation><xs:documentation>Vast Floe (2 – 10 km)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Giant Floe (>10 km)"><xs:annotation><xs:documentation>Giant Floe (>10 km)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Fast Ice"><xs:annotation><xs:documentation>Fast Ice</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="floeSizeFFCode">
         <xs:annotation>
@@ -1485,25 +1485,25 @@
     </xs:complexType>    <xs:simpleType name="stageOfDevelopmentSSLabel">
         <xs:annotation>
             <xs:documentation>Stage of develpment (ss) for ia_sfa, ia_sfb, ia_sfc, ia_ffa, ia_ffb, ia_ffc complex attributes</xs:documentation>
-        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="80"><xs:annotation><xs:documentation>No stage of development</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="81"><xs:annotation><xs:documentation>New Ice  (<5 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="82"><xs:annotation><xs:documentation>Nilas Ice  (<10 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="83"><xs:annotation><xs:documentation>Young Ice  (10 to <30 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="84"><xs:annotation><xs:documentation>Grey Ice (10 to <15 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="85"><xs:annotation><xs:documentation>Grey – White Ice  (15 to <30 cm) </xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="86"><xs:annotation><xs:documentation>First Year Ice  (30 to 200 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="87"><xs:annotation><xs:documentation>Thin First Year Ice (30 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="88"><xs:annotation><xs:documentation>Thin First Year Ice Stage 1 (30 to <50 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="89"><xs:annotation><xs:documentation>Thin First Year Ice Stage 2 (50 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="90"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="91"><xs:annotation><xs:documentation>Medium First Year Ice  (70 to 120 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="92"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="93"><xs:annotation><xs:documentation>Thick First Year Ice (>120 cm)</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="94"><xs:annotation><xs:documentation>Residual Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="95"><xs:annotation><xs:documentation>Old Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="96"><xs:annotation><xs:documentation>Second Year Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="97"><xs:annotation><xs:documentation>Multi-Year Ice</xs:documentation></xs:annotation></xs:enumeration>
-<xs:enumeration value="99"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
+        </xs:annotation>        <xs:restriction base="xs:string"><xs:enumeration value="No stage of development"><xs:annotation><xs:documentation>No stage of development</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="New Ice  (<5 cm)"><xs:annotation><xs:documentation>New Ice  (<5 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Nilas Ice  (<10 cm)"><xs:annotation><xs:documentation>Nilas Ice  (<10 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Young Ice  (10 to <30 cm)"><xs:annotation><xs:documentation>Young Ice  (10 to <30 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Grey Ice (10 to <15 cm)"><xs:annotation><xs:documentation>Grey Ice (10 to <15 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Grey – White Ice  (15 to <30 cm) "><xs:annotation><xs:documentation>Grey – White Ice  (15 to <30 cm) </xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="First Year Ice  (30 to 200 cm)"><xs:annotation><xs:documentation>First Year Ice  (30 to 200 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin First Year Ice (30 to <70 cm)"><xs:annotation><xs:documentation>Thin First Year Ice (30 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin First Year Ice Stage 1 (30 to <50 cm)"><xs:annotation><xs:documentation>Thin First Year Ice Stage 1 (30 to <50 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thin First Year Ice Stage 2 (50 to <70 cm)"><xs:annotation><xs:documentation>Thin First Year Ice Stage 2 (50 to <70 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Code not currently assigned"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Medium First Year Ice  (70 to 120 cm)"><xs:annotation><xs:documentation>Medium First Year Ice  (70 to 120 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Code not currently assigned"><xs:annotation><xs:documentation>Code not currently assigned</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Thick First Year Ice (>120 cm)"><xs:annotation><xs:documentation>Thick First Year Ice (>120 cm)</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Residual Ice"><xs:annotation><xs:documentation>Residual Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Old Ice"><xs:annotation><xs:documentation>Old Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Second Year Ice"><xs:annotation><xs:documentation>Second Year Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Multi-Year Ice"><xs:annotation><xs:documentation>Multi-Year Ice</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="Undetermined/Unknown"><xs:annotation><xs:documentation>Undetermined/Unknown</xs:documentation></xs:annotation></xs:enumeration>
         </xs:restriction>
     </xs:simpleType>    <xs:simpleType name="stageOfDevelopmentSSCode">
         <xs:annotation>
