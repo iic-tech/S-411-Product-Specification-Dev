@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="SVGStyle.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" xml:space="preserve" style="shape-rendering:geometricPrecision; fill-rule:evenodd;" width="4.5mm" height="2.19mm" viewBox="-2.22 -1.2 4.5 2.19">
+  <title>IceThickness</title>
+  <desc>Ice Thickness unknown.</desc>
+  <metadata>
+    <iho:S100SVG xmlns:iho="http://www.iho.int/SVGMetadata">
+      <iho:Description publisher="" creationDate="" source="" format="" version="" />
+    </iho:S100SVG>
+  </metadata>
+  <circle class="pivotPoint layout" fill="none" cx="0" cy="0" r="0.4" />
+  <rect class="symbolBox layout" fill="none" x="-2.22" y="0.99" height="2.19" width="4.5" />
+  <rect class="svgBox layout" fill="none" x="-2.22" y="-1.2" height="2.19" width="4.5" />
+  <path d=" M -2.22,-0.2 L -1.12,-0.6 L 1.08,-0.6 L 2.28,-1.2" class="sl f0 sCHBLK" style="stroke-width:0.32;stroke-opacity:1;" />
+  <path d=" M -2.22,0.99 L -1.12,0.59 L 1.08,0.59 L 2.28,-0.01" class="sl f0 sCHBLK" style="stroke-width:0.32;stroke-opacity:1;" />
+</svg>

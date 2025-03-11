@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<?S100lineage source="S52Preslib4.0" format="S100Ed2" version="0.1" creationDate="2015 - 03 - 13"?>
+<?S100Meta name="brglne" exposition="boundary of a ice berg area"?>
+<lineStyle offset="0">
+  <intervalLength>45.988</intervalLength>
+  <pen width="0.32">
+    <color>TESTH</color>
+  </pen>
+    <symbol reference="brgare">
+    <position>8</position>
+  </symbol>
+  <symbol reference="brgare">
+    <position>28</position>
+  </symbol>
+</lineStyle>

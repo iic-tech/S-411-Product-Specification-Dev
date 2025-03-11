@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:output method="xml" encoding="UTF-8" indent="yes"/>
+  <xsl:template match="SeaIce[@primitive='Surface']" priority="1">
+    <lineInstruction>
+      <featureReference>
+        <xsl:value-of select="@id"/>
+      </featureReference>
+      <viewingGroup>12710</viewingGroup>
+      <displayPlane>OVERRADAR</displayPlane>
+      <drawingPriority>15</drawingPriority>
+      <lineStyle>
+        <capStyle/>
+        <joinStyle/>
+        <intervalLength>3.18</intervalLength>
+        <offset/>
+        <pen width="0.32">
+          <color>TESTH</color>
+        </pen>
+        <dash>
+          <start>0.0</start>
+          <length>1.76</length>
+        </dash>
+		<symbol>
+        <reference>brgare</reference>
+        <size>1.5</size>
+        <rotation>0</rotation>
+        <spacing>3.18</spacing>
+    </symbol>
+      </lineStyle>
+    </lineInstruction>
+	
+    <areaInstruction>
+      <featureReference>
+        <xsl:value-of select="@id"/>
+      </featureReference>
+      <viewingGroup>12710</viewingGroup>
+      <displayPlane>OVERRADAR</displayPlane>
+      <drawingPriority>15</drawingPriority>
+      <colorFill>
+        <color transparency="0.50">TESTH</color>
+      </colorFill>
+    </areaInstruction>
+  </xsl:template>  
+</xsl:transform>
