@@ -4,7 +4,7 @@
 
 === Introduction
 
-This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 is used as per S-100 Part 10b.
+This clause describes encoding rules for S-100 base ice datasets. For the encoding of ice datasets GML 3.2.1 is used as per <<iho-s100,part=10b>>.
 
 === Encoding Rules
 
@@ -15,65 +15,61 @@ This clause describes encoding rules for S-100 base ice datasets. For the encodi
 
 === Encoding Examples
 
-Below there are three examples of the encoding of various ice features using different geometric
-primitives, the encoding of other ice objects can be done in a similar way.
+Below are three examples of the encoding of various ice features using different geometric
+primitives, the encoding of other ice objects can be done in a similar way. Encoding is defined by the S-411 GML Schema.
 
 ==== Polygon Feature
 [source,xml]
 ----
-<ice:IceFeatureMember>
-    <ice:brgare gml:id="brgare.1">
-        <ice:icebnm/>
-        <ice:icebsz/>
-        <ice:ia_bcn/>
-        <ice:ia_bfm/>
-        <ice:ia_buh/>
-        <gml:Polygon srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
-            <gml:exterior>
-                <gml:LinearRing>
-                    <gml:posList>
-                                22.546 62.391 25.033 62.404 24.995 60.182 22.483 60.169 22.546 62.391
-                    </gml:posList>
-                </gml:LinearRing>
-            </gml:exterior>
-            <gml:interior>
-                <gml:LinearRing>
-                    <gml:posList>
-                                23.227 61.811 23.467 61.306 24.023 61.621 24.035 61.621 23.227 61.811
-                    </gml:posList>
-                </gml:LinearRing>
-            </gml:interior>
-        </gml:Polygon>
-    </ice:brgare>
-</ice:IceFeatureMember>
+        <SeaIce gml:id="ID1">
+            <snowDepth>10</snowDepth>
+            <geometry>
+                <S100:surfaceProperty>
+                    <S100:Surface gml:id="SID1">
+                        <gml:patches>
+                            <gml:PolygonPatch>
+                                <gml:exterior>
+                                    <gml:LinearRing>
+                                        <gml:posList>-40.13354268036668 69.92359353498672 -39.69638964635833 69.92155176448463 -39.723154117828216 69.82433805372922 -40.148411831183296 69.82638929895934 -40.13354268036668 69.92359353498672</gml:posList>
+                                    </gml:LinearRing>
+                                </gml:exterior>
+                            </gml:PolygonPatch>
+                        </gml:patches>
+                    </S100:Surface>
+                </S100:surfaceProperty>
+            </geometry>
+        </SeaIce>
 ----
 
 ==== LineString Feature
 [source,xml]
 ----
-<ice:IceFeatureMember>
-    <ice:i_fral gml:id="i_fral.1">
-        <ice:icesod>83</ice:icesod>
-        <ice:ia_obn>50</ice:ia_obn>
-        <ice:icedvw>30</ice:icedvw>
-        <ice:ia_dmw>25</ice:ia_dmw>
-        <ice:ia_dxw>35</ice:ia_dxw>
-        <gml:LineString srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
-            <gml:posList>-73.991 40.736 -73.991 40.736</gml:posList>
-        </gml:LineString>
-    </ice:i_fral>
-</ice:IceFeatureMember>
+        <IcebergLimit gml:id="ID8">
+            <geometry>
+                <S100:curveProperty>
+                    <S100:Curve gml:id="CID8">
+                        <gml:segments>
+                            <gml:LineStringSegment>
+                                <gml:posList>-40.118673529550065 69.50813272244953 -39.19381234875688 69.50813272244953</gml:posList>
+                            </gml:LineStringSegment>
+                        </gml:segments>
+                    </S100:Curve>
+                </S100:curveProperty>
+            </geometry>
+        </IcebergLimit>
 ----
 
 ==== Point Feature
 [source,xml]
 ----
-<ice:IceFeatureMember>
-    <ice:icecom gml:id="icecom.1">
-        <ice:icecst/>
-        <gml:Point srsDimension="2" srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
-            <gml:pos>147.291 -42.851</gml:pos>
-        </gml:Point>
-    </ice:icecom>
-</ice:IceFeatureMember>
+        <IceThickness gml:id="ID5">
+            <iceAverageThickness>10</iceAverageThickness>
+            <geometry>
+                <S100:pointProperty>
+                    <S100:Point gml:id="PID5">
+                        <gml:pos>-39.84661453570196 69.7617050074188</gml:pos>
+                    </S100:Point>
+                </S100:pointProperty>
+            </geometry>
+        </IceThickness>
 ----

@@ -61,12 +61,12 @@ Dataset naming must follow a standard pattern to give implementers greater predi
 411::: the first 3 characters identify the dataset as an S-411 dataset (mandatory).
 YYYY::: the fourth to seventh characters identify the producer code according to the Producer Code Register.
 ØØØØ::: the eighth to the maximum nineteenth characters are optional and may be used in any way by the producer to provide the unique file name. The following characters are allowed in the dataset name: A to Z, 0 to 9 and the special character _ (underscore).
-GML::: denotes a GML file (according to S-100 PArt 10b).
+GML::: denotes a GML file (according to <<iho-s100,part=10b>>).
 
 === Exchange Set
 The structure of an S-411 Exchange Set must be according to the structure described below, which is based on <<iho-s100,part=17,clause=4.2>>.
 
-. An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files, support files, and Catalogue files.
+. An S-411 Exchange Set must contain an Exchange Set Catalogue, CATALOG.XML, its digital signature CATALOG.SIGN, and may contain any number of S-411 conformant dataset files and Catalogue files.
 
 . All content must be placed inside a top root folder named S100_ROOT. This is the only top level root folder in an Exchange Set containing only S-100 products.
 
@@ -77,16 +77,13 @@ The structure of an S-411 Exchange Set must be according to the structure descri
 . The required Exchange Set Catalogue XML document instance must be named CATALOG.XML and placed in the S100_ROOT folder, together with its digital signature (CATALOG.SIGN) file. All other digital signatures are included within their corresponding resource metadata records in the CATALOG.XML.
 
 === Support Files
-
-==== Support File Naming
-
-Support file naming must conform to the requirements stated in S-100 Part 17. All support files referenced by features must be included in the exchange set.
+No support files are included in any of the S-411 features currently. If they are supported in the future then their specification and delivery will be added to this section.
 
 === Exchange Catalogue
 The Exchange Catalogue acts as the table of contents for the Exchange Set. The Catalogue file of the Exchange Set must be named CATALOG.XML. No other file in the Exchange Set may be named CATALOG.XML. The contents of the Exchange Catalogue are described in <<sec-metadata>>.
 
 === Data integrity and encryption
-<<iho-s100,part=15>> defines the algorithms for compressing, encrypting and digitally signing datasets based on the S-100 Data Model. Use of encryption is optional.
+<<iho-s100,part=15>> defines the algorithms for compression, encrypting and digitally signing datasets based on the S-100 Data Model. Use of encryption is optional. Digital Signatures are mandatory for all datasets.
 
 ==== Use of compression
 The data producer decides if compression will be used on the S-411 product files (GML). It is expected that a hydrographic office will make a policy decision and that all the S-411 datasets from the producer will be either compressed or uncompressed.
@@ -96,4 +93,4 @@ It is recommended to compress all the dataset files. The ZIP compression method 
 ==== Use of digital signatures
 Digital signatures must be used on all files included in a S-411 compliant Exchange Set to meet the requirements of IMO resolution MSC.428(98) to reduce cyber security risks among users, especially when used in navigations systems at sea. The recommended signature method is defined in <<iho-s100,part=15>>.
 
-The digital signature information is encoded in the corresponding discovery block in the exchange catalogue for each file included in the Exchange Set as defined in S-100 Part 17.
+The digital signature information is encoded in the corresponding discovery block in the exchange catalogue for each file included in the Exchange Set as defined in <<iho-s100,part=17>>.

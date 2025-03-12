@@ -15,9 +15,6 @@ The S100 metadata are for describing the structure of Exchange Catalogue
 
 For the description of ice data following metadata are necessary:
 
-[[fig-metedata-structure-S411]]
-.Meta Data Structure of S-411
-image::../images/figure-metedata-structure-S411.png[Diagram depicting the S-411 Metadata Structure]
 
 [cols="a,a,a",options="header"]
 |===
@@ -568,43 +565,19 @@ codeListValue="utf8">UTF 8</gmd:MD_CharacterSetCode>
 
 The language used in metadata must be English. Other languages are optional and only as addition to the English version.
 
-Metadata used for the discovery, identification, and use of S-411 datasets in S-100-based navigations systems (specifically, an S-100-capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to S-100 Part 17, with product-specific restrictions added.
+Metadata used for the discovery, identification, and use of S-411 datasets in S-100-based navigation systems (specifically, an S-100 capable ECDIS) is encoded in the exchange catalogue. This metadata conforms to <<iho-s100,part=17>>, with any product-specific restrictions noted in this section.
 
 [[subsec-exchange-set-metadata]]
 === Exchange Set metadata
 For information exchange, there are several categories of metadata required: metadata about the overall Exchange Catalogue, metadata about each of the datasets contained in the Catalogue.
 
-<<fig-components-and-associated-metadata-for-the-s411-exchange-set>> depicts the relationships of exchange set elements (datasets and feature/portrayal catalogues) and exchange set metadata. This figure is derived from <<iho-s100,part=17,figure=2>> with relationships not applicable to S-411 omitted.
-
-<<fig-relationship-between-exchange-catalogue-discovery-metadata-and-dataset>> depicts the structure of the exchange catalogue and its component discovery metadata blocks. The structure is the same as in <<iho-s100,part=17>>.
-
-More detailed information about the various classes is shown in <<fig-s411-exchange-set-class-details>> with further description in <<tab-s100-datasetDiscoveryMetadata-params;to!sec-pt-locale>>. In the cases in which classes are used without modification, refer to <<iho-s100,part=17>> for their descriptions.
-
 The discovery metadata classes have numerous attributes which enable important information about the datasets to be examined without the need to process the data (e.g., decryption, decompression, loading). Other Catalogues can be included in the Exchange Set in support of the datasets such as Feature and Portrayal.
-
-[[fig-components-and-associated-metadata-for-the-s411-exchange-set]]
-.Components and associated metadata for the S-411 exchange set (<<iho-s100,part=17,figure=2>> with items not used by S-411 omitted)
-
-[[fig-relationship-between-exchange-catalogue-discovery-metadata-and-dataset]]
-.Relationship between exchange catalogue, discovery metadata, and dataset (<<iho-s100,part=17,figure=6>> with items not used by S-411 omitted)
-
-[%landscape]
-<<<
-[[fig-s411-exchange-set-class-details]]
-.S-411 Exchange Set Class Details (<<iho-s100,part=17,figure=7>> with items not used by S-411 omitted)
-
-[%portrait]
-<<<
 
 The following clauses define the mandatory and optional metadata needed for S-411. In some cases, the metadata may be repeated in a national language. If this is the case it is noted in the Remarks column.
 
 The XML schemas for S-411 exchange catalogues will be available from the IHO Geospatial Information (GI) Registry and/or the S-100 GitHub site (https://github.com/IHO-S100WG).
 
 The S-411 exchange catalogue uses the S-100 exchange catalogue schemas which are available from the S-100 schema server at https://schemas.s100dev.net (downloadable archives are also available on the site for offline use). Implementation of the S-411-specific constraints described in following clauses below is left to developer decision as it can be done in various ways depending on implementation frameworks and the requirements of production or application software.
-
-
-
-Character strings must be encoded using the character set defined in <<iso-10646-1>>, in Unicode Transformation Format-8 (UTF-8). A BOM (byte order mark) must not be used.
 
 [%landscape]
 <<<
@@ -615,7 +588,6 @@ Character strings must be encoded using the character set defined in <<iso-10646
 Each Exchange Set has a single S100_ExchangeCatalogue which contains meta information for the data in the Exchange Set.
 
 S-411 uses S100_ExchangeCatalogue without modification. 
-
 
 ==== S100_ExchangeCatalogueIdentifier
 S-411 uses S100_ExchangeCatalogueIdentifier without modification.
@@ -830,7 +802,7 @@ S-411 uses S100_DataCoverage without modification, but with additional remarks a
 |Attribute
 |optimumDisplayScale
 |The scale at which the data is optimally displayed
-|0..1
+|1
 |Integer
 |Example: A scale of 1:25000 is encoded as 25000
 
@@ -905,8 +877,8 @@ S-411 uses S100_EncodingFormat with a restriction on the allowed values to permi
 |*The only value allowed in S-411 is "`GML`".*
 
 |Value
-|HDF5
-|The HDF5 data format as defined in <<iho-s100,part=10c>>
+|GML
+|The GML data format as defined in <<iho-s100,part=10b>>
 |3
 |-
 |===
@@ -933,7 +905,7 @@ S-411 uses S100_ProductSpecification without modification, but with additional r
 |*1*
 |CharacterString
 |The name in the GI Registry should be used for this field. +
-*For S-411, this name is "Bathymetric Surface" (as of 25 June 2024).*
+*For S-411, this name is "Ice Information" (as of 25 June 2024).*
 
 |Attribute
 |version
@@ -941,7 +913,7 @@ S-411 uses S100_ProductSpecification without modification, but with additional r
 |*1*
 |CharacterString
 |TR 2/2007 specifies versioning of Product Specifications +
-*Example: 3.0.0 for S-411 Edition 3.0.0*
+*Example: 1.2.1 for S-411 Edition 1.2.1*
 
 |Attribute
 |date
@@ -964,66 +936,19 @@ S-411 uses S100_ProductSpecification without modification, but with additional r
 |1
 |Integer
 |For IHO Product Specifications, these numbers should be taken from the IHO Product Specification Register in the IHO GI Registry. +
-*The corresponding Idx-number of the IHO Registry for S-411 is numbered 199.*
-
-|Attribute
-|compliancyCategory
-|The level of compliance of the Product Specification to S-100
-|0..1
-|S100_CompliancyCategory
-|See <<iho-s100,part=4a,clause=4a-5.5>> *and <<subsec-s100-compliancy-category>> below.*
-|===
-
-[[subsec-s100-compliancy-category]]
-==== S100_CompliancyCategory
-S-411 exchange sets conforming to this edition of S-411 and using a CRS from the EPSG registry may be encoded as category 3 or 4 when the _compliancyCategory_ metadata attribute is populated. Because S-98 interoperability assumes _category4_ datasets, _category4_ may be used for test purposes, though the absence of test datasets and of a published IHO interoperability catalogue mean this edition of S-411 does not yet qualify for _category4_. *Given the uncertainty about interoperability testing requirements and availability of test datasets, the S-100 WG chair and S-411 PT chair should be consulted for up-to-date guidance.*
-
-[[tab-s100-compliancyCategory]]
-.S100_CompliancyCategory
-[cols="a,a,a,^a,a",options="header"]
-|===
-|Role Name |Name |Description |Code |Remarks
-
-
-|Enumeration
-|S100_CompliancyCategory
-|-
-|-
-|*S-411 should use _category3_ or _category4_, subject to the guidance provided in <<subsec-s100-compliancy-category>>.*
-
-|Value
-|category3
-|IHO S-100 compliant with standard encoding
-|3
-|*Qualifies as _category2_; plus "The Product Specification uses only an encoding method defined in <<iho-s100,part=10;and!part=4a,clause=5.5.3>>"*
-
-|Value
-|category4
-|IHO S-100 and IMO harmonized display compliant
-|4
-|*Qualifies as _category3_; plus additional requirements, including a portrayal catalogue, cybersecurity (digital signatures and encryption), test material, use of a CRS from the EPSG Registry, and compliance with the IHO S-98 interoperability catalogue. <<iho-s100,part=4a,clause=5.5.4>>*
+*The corresponding Idx-number of the IHO Registry for S-411 is numbered _xxx_.*
 
 |===
+
 
 ==== S100_ProtectionScheme
 S-411 uses S100_ProtectionScheme without modification.
 
-
-=== MD_MaintenanceInformation
-S-411 uses MD_MaintenanceInformation without modification.
-
-
-=== MD_MaintenanceFrequencyCode
-S-411 uses MD_MaintenanceFrequencyCode without modification.
-
-
 === S100_CatalogueDiscoveryMetadata
 S-411 uses S100_CatalogueDiscoveryMetadata without modification.
 
-
 ==== S100_CatalogueScope
 S-411 uses S100_CatalogueScope without modification.
-
 
 [[sec-pt-locale]]
 ==== PT_Locale

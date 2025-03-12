@@ -1,10 +1,13 @@
 
 [[sec-data-quality]]
 == Data Quality
-As ice charts are done for different purposes (from weekly overview to tactical charts and further to model forecasts) data quality can differ. #*Differences can also be found between ice charts of the same region and same nominal date resulting from different issuing agencies or also from different forecasts models.*# Further information can be found in the WMO publication 574.
+As ice charts are done for different purposes (from weekly overview to tactical charts and further to model forecasts) data quality can differ.
 
-#*Need to be clarified: overlappings/scales/Spatial accuracy, etc.*#
+Differences can also be found between ice charts of the same region and same nominal date resulting from different issuing agencies or also from different forecasts models.
 
+Further information can be found in the WMO publication 574.
+
+A fuller review of data quality requirements for S-411 may be carried out in the future. The headings within this section reflect those within other IHO product specifications and, following such a review, will either be populated or deleted as appropriate.
 === Completeness
 
 ==== Commission

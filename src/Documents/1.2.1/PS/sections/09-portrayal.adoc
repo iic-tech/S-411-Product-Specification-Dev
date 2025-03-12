@@ -5,9 +5,6 @@
 === Rules
 
 [[fig-portrayal-rules]]
-.*: Portrayal Rules*
-image::../images/figure-portrayal-rules.png[UML diagram depicting the Portrayal Rules]
-
 
 `main.xsl` includes all the rules for single feature types. It manages the selection of the right rule, depending on current feature type in `dataset and parameters in `iceDisplayParameters.xml`.
 

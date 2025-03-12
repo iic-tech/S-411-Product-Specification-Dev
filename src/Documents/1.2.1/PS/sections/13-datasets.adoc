@@ -30,7 +30,6 @@ A scale range of a dataset is used to indicate a range of scales between which a
 
 When the system’s viewing scale is smaller than the value indicated by *minimum display scale*, features within the *Data Coverage* feature are not displayed.
 
-
 == Geometry
 
 === S-411 Geometry
