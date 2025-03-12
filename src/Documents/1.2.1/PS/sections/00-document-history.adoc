@@ -20,8 +20,13 @@ Changes to this Specification are coordinated by WMO/IOC Joint Technical Commiss
 |Clarifications based on ETSI Meeting 2014 and new color for 10/10.
 
 |1.2.0
-|xx January 2025
-|
-|
+|01 January 2025
+|IIC technologies
+|Initial version created using metanorma
+
+|1.2.1
+|13 March 2025
+|IIC Technologies
+|Updated following reviews with WMO
 
 |===

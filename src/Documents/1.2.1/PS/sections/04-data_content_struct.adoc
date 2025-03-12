@@ -6,7 +6,7 @@
 
 The S-411 product is based on the S-100 General Feature Model (GFM), and is a feature-based vector product. Figure 4.1 shows how the S-411 application schema is realised from the S-100 GFM. All S-411 feature classes are derived from the abstract class FeatureType defined in the S-411 application schema, which realize the GFM meta-classes S100_GF_FeatureType.
 
-The application schema of Ice Information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.3) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe full schema in suitable form in this specification. The full schema can be found as XML Schema File in Annex B – Data Product format (encoding).
+The application schema of Ice Information product contains 28 feature types with their attributes, enumerations etc. It is based on the ice objects catalogue (Version 5.3) and can also be found in the ICE domain of the IHO Registry. Because of this it is not possible to describe the full schema in suitable form in this specification. More information can be found as XML Schema File in Annex B – Data Product format (encoding).
 
 === Application Schema
 
@@ -27,7 +27,7 @@ The following conventions are used in the UML diagrams depicting the application
 
 
 ==== Domain model
-The S-411 domain model has one base class (‘root class’) from which all the domain-specific geographic features type classes are derived. The base class is shown in the figure below. The base class for geographic features is FeatureType which has a set of attributes which are therefore inherited by all domain-specific features. The approximate area features in S-411 are also derived from the geographic feature root class. Base classes are abstract classes and do not have direct instances in S-411 data – instead, S-411 feature type data objects are instantiations of all non-abstract class.
+The S-411 domain model has one base class (‘root class’) from which all the domain-specific geographic features type classes are derived. The base class is shown in the figure below. The base class for geographic features is FeatureType which has a set of attributes which are therefore inherited by all domain-specific features. The approximate area features in S-411 are also derived from the geographic feature root class. Base classes are abstract classes and do not have direct instances in S-411 data – instead, S-411 feature type data objects are instantiations of all non-abstract classes.
 
 S-411 meta-features are also derived from the base class – S-411 incorporates meta-feature definitions originally prepared for S-101 in the interests of harmonization and interoperability with other S-100-based data products, especially S-101 ENCs.
 
@@ -102,7 +102,7 @@ Complex attributes are aggregations of other attributes that are either simple o
 
 The S-411 Feature Catalogue describes the feature types, attributes and attribute values which may be used in an S-411 product.
 
-The S-411 Feature Catalogue is available in an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website (https://registry.iho.int/). S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue along with information on how features should be encoded.
+The S-411 Feature Catalogue is available as an XML document which conforms to the S-100 XML Feature Catalogue Schema and can be downloaded from the IHO website (https://registry.iho.int/). S-411 Annex A – Data Classification and Encoding Guide, constitutes a human readable interpretation of the Feature Catalogue along with information on how features should be encoded.
 
 The feature Catalogue for Ice Information contains only geographic and meta features. The ice features which can be used in ECDIS are defined within the ICE domain of the IHO Registry.
 
@@ -112,7 +112,7 @@ Feature types contain descriptive attributes that characterize real-world entiti
 
 ==== Geographic
 
-Geographic (geo) feature types carry the descriptive characteristics of a real-world entity (a location or place on the surface of the Earth). In the context of Ice Information products, this includes the ...
+Geographic (geo) feature types carry the descriptive characteristics of a real-world entity (a location or place on the surface of the Earth). In the context of Ice Information products, this comprises most of the features (with the exception of DataCoverage) and represents those features with a real-world existence.
 
 ==== Meta
 
@@ -124,7 +124,7 @@ image::../../model/HTML/EARoot/EA8.png[DataCoverage]
 
 ==== Attributes
 
-S-411 defines attributes as either simple or complex.
+S-411 defines attributes as either simple or complex in line with the S-100 GFM.
 
 ===== Simple attributes
 
@@ -145,24 +145,20 @@ S-411 uses three types of simple attributes; they are listed in the following Ta
 
 |===
 
-==== Application Schema implementation classes
+==== Application Schema implementation
 
-===== Implementation classes description
+===== Implementation description
 
-===== IceDataSet / Types
+===== Ice DataSets
 
-====== IceDataSetType
-
-_IceDataSetType_ is a type of root Element of an ice information data set.
-
-Ice Data Set contains an unlimited number of Ice Feature Members, each Ice Feature Member contains one Ice Feature (seaice, lacice, iceberg, etc.).
+Ice Data Sets contains an unlimited number of Ice Features, for example (SeaIce, LakeIce, Iceberg, etc.).
 
 ==== Feature Types Summary
 
 . Summary of Types in the WMO Ice Domain Register
 [width=50%,cols="1,1,5",options="headers"]
 |===
-|Index |Alpha code |Name
+|Index |Alias |Name
 
 |Feature
 |SEAICE

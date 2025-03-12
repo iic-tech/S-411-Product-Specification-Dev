@@ -23,7 +23,7 @@ h|EPSG Code h|Coordinate Reference System
 
 *Horizontal Coordinate Reference System*:: EPSG: 4326
 *Projection*:: NONE (tbc) - #_Consider use of projected and/or UTM data_#
-*Temporal reference system*:: Gregorian Calendar #_TBC_#
+*Temporal reference system*:: Gregorian Calendar
 *Coordinate Reference System registry*:: link:https://epsg.org/[EPSG Geodetic Parameter Dataset]
 *Date type (according to <<iso-19115-1>>)*:: 002 - publication #_TBC_#
 *Responsible party*:: Technical Commission for Oceanography and Marine Meteorology (JCOMM)

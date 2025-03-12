@@ -4,7 +4,7 @@
 :doctype: standard
 :edition: 1.2.0
 :language: en
-:published-date: 2025-01-01-31
+:published-date: 2025-03-01-31
 :copyright-year: 2025
 :committee: WMO- JCOMM
 :workgroup: ETSI
