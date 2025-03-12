@@ -8,6 +8,7 @@ Differences can also be found between ice charts of the same region and same nom
 Further information can be found in the WMO publication 574.
 
 A fuller review of data quality requirements for S-411 may be carried out in the future. The headings within this section reflect those within other IHO product specifications and, following such a review, will either be populated or deleted as appropriate.
+
 === Completeness
 
 ==== Commission
