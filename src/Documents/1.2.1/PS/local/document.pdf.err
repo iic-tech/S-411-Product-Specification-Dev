@@ -1,7 +1,7 @@
 Page 19: Unresolved ID reference "annex-data-classification-and-encoding-guide" found.
 1 link target could not be fully resolved and now point to the top of the page or is dysfunctional.
 PDF isn't valid PDF/UA-1:
-ValidationResult [flavour=ua1, totalAssertions=412052, assertions=[
+ValidationResult [flavour=ua1, totalAssertions=412037, assertions=[
 TestAssertion [ruleId=RuleId [specification=ISO 14289-1:2014, clause=7.18.5, testNumber=1], status=failed,
 message=Links shall be tagged according to ISO 32000-1:2008, 14.8.4.4.2, Link Element,
 location=Location [level=CosDocument, context=root/document[0]/pages[24](1488 0 obj PDPage)/annots[2](1492 0 obj PDLinkAnnot)], locationContext=null, errorMessage=null], 
