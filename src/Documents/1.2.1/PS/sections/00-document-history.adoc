@@ -22,7 +22,7 @@ Changes to this Specification are coordinated by WMO/IOC Joint Technical Commiss
 |1.2.0
 |01 January 2025
 |IIC technologies
-|Initial version created using metanorma
+|Initial version created 
 
 |1.2.1
 |13 March 2025
