@@ -1,0 +1,3 @@
+This are python script to convert Sigrid-3 files into S411 files.
+There were developed to convert exostent Sigrid-3 files with the actiual uces fields, so not all possibilities of sigrid-3/S411 are implemented. 
+Development started using Python-2, the script were later updated, so they also work in Python 3. But with only neccesary updates there are old code snippets interwinded with new code snippets. 
